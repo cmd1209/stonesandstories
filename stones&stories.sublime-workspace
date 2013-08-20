@@ -1,0 +1,1144 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"me",
+				"menufontsize"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"lo",
+				"lowercase"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"slid",
+				"slideshow"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"part",
+				"partyshow"
+			],
+			[
+				"slide",
+				"slideshow"
+			],
+			[
+				"party",
+				"partybutton"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"p",
+				"padding	padding: T R B L"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"rg",
+				"rgba"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"rox",
+				"roxyfilm"
+			],
+			[
+				"righ",
+				"rightnav"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 2398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "start.php",
+			"settings":
+			{
+				"buffer_size": 997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "single.php",
+			"settings":
+			{
+				"buffer_size": 433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sidebar.php",
+			"settings":
+			{
+				"buffer_size": 352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page.php",
+			"settings":
+			{
+				"buffer_size": 433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 10001,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/typo.scss",
+			"settings":
+			{
+				"buffer_size": 3070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/print.scss",
+			"settings":
+			{
+				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Channel"
+			],
+			[
+				"Snippet: en	",
+				"Snippet: <?php echo htmlentities(…) ?>"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/404.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/archive.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/searchform.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/header.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/sass/style.scss",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/diaspora.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/DAH.sublime-workspace",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kindermuseum.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/poetry.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/presse.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/accord.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/service.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/besucherinfo.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kultur.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/site.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kontakt.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/events.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/films.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/programm.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/news.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Inglisch.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/veranstaltungen.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/muttertag.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jquery.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/english.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.australien.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/australien.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.sammlung.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sonderausstellungen.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sammlung.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/includes/footer.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/includes/topnav.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/familienrecherche.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/papiere.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/accordion.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/.htaccess",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/form.js",
+		"/Users/chad/Dropbox/Work/EHM/starkers-master/style.css",
+		"/Users/chad/Downloads/colour-schemes-master/Userscape.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/TronLight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/TronLegacy.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Tron.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Stark.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Spearmint.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Sourlick.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/SnappyLight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Snappy.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Slime.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Revelation.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/README.md",
+		"/Users/chad/Downloads/colour-schemes-master/Potpourri.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Peacock.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Patriot.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/NaturalContrast.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Mellow.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Lavender.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/LastNight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/LaravelDarker.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Laravel.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Iceberg.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Grunge.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Goldfish.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Glowfish.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Gloom.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Github.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Frontier.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/FreshCut.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/EarthsongLight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Earthsong.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Darkside.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/CarbonightBlue.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Carbonight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/BoxUK.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Yule.tmTheme",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/ferien.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/walz.php",
+		"/Users/chad/Dropbox/Work/EHM Opening 2015/style.css",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/DAH.sublime-project",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/FrauenHandel.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kinderwettbewerb.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/process.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/js/date.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/valentinstag.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/ui/jquery.ui.datepicker.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/js/jquery.dp_calendar-de.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/js/jquery.dp_calendar.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/js/jquery.dp_calendar.min.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/js/jquery.dp_calendar-es.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu3.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu2.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/tour.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Rundgang.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/css/dp_calendar.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.besucherinfo.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/shop.php",
+		"/Users/chad/Dropbox/Work/Test-Website/Index.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/slideshow.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index-test.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/backup/08.05.2012/movieplayer",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/slideshow",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/party.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/presse.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/restaurant.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/besucherinfo.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kontakt.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/english.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/impressum.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/links.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu2.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu3.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/programm.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sammlung.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/service.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/tour.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/veranstaltungen.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/museum.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bottom",
+			"no-repeat",
+			"4",
+			"5",
+			"250",
+			"h25",
+			"module",
+			"grey",
+			"10",
+			"500px",
+			"700px",
+			"5",
+			"black",
+			"sideBmod",
+			"font-size",
+			"pagenav",
+			"all",
+			"ease-in",
+			"0",
+			"blue",
+			"iconfont",
+			"1",
+			"€",
+			"250",
+			"300",
+			"450",
+			"€",
+			"<div><img src=\"art/slideshow/dah05.jpg\" alt=\"Slideshow Image 5\" /></div>",
+			"20px",
+			"300",
+			"300px",
+			"300",
+			"style=\"margin-bottom: 20px;\"",
+			"EUR",
+			"€",
+			">\n",
+			"span",
+			"€",
+			"EUR",
+			"06",
+			"05",
+			"0501",
+			"04",
+			"germantown",
+			"06",
+			"0701",
+			"06",
+			"span",
+			"<span class=\"date\">Sonntag, 21. Juli 2013, 15.00 Uhr im Deutschen Auswandererhaus Bremerhaven</span>",
+			"Mai",
+			"05",
+			"fitkau",
+			"    ",
+			"   ",
+			"  ",
+			"20px",
+			"100px",
+			"31.",
+			"28.",
+			"000000",
+			"€",
+			"<div id=\"rightnav\" > \n    <ul>\n      <li><a id=\"veranstaltungen\" href=\"veranstaltungen.html\">Veranstaltungen</a></li>\n      <li><a id=\"Familienrecherche\" href=\"familienrecherche.html\">Familienrecherche</a></li>\n      <li><a id=\"Bildung\" href=\"bildung.html\">Bildung</a></li>\n      <li><a id=\"Service\" href=\"service.html\">Service</a></li>\n      <li><a id=\"presse\" href=\"presse.html\">Presse</a></li>\n     <!--<li>\n        <form method=\"get\" action=\"/search\" id=\"search\">\n         <input name=\"q\" type=\"text\" size=\"40\" placeholder=\"Suchen...\" />\n        </form>\n      </li>-->\n    </ul>\n  </div>",
+			"CDA869",
+			"9B703F",
+			"background",
+			"dp_calendar_wrapper",
+			"dp_calendar",
+			"articlecontainer",
+			"leftnav",
+			"1180",
+			"1140"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$grey",
+			"EUR",
+			"Euro",
+			"EUR",
+			"fittkau",
+			"d1942d",
+			"ba6f1a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 2398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1988,
+								1988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "start.php",
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "single.php",
+					"settings":
+					{
+						"buffer_size": 433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sidebar.php",
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "page.php",
+					"settings":
+					{
+						"buffer_size": 433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 10001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6751,
+								6751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6602.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/typo.scss",
+					"settings":
+					{
+						"buffer_size": 3070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1724,
+								1745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "sass/print.scss",
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.582830207766,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pag",
+				"page.php"
+			],
+			[
+				"",
+				"template-demo.php"
+			],
+			[
+				"sid",
+				"sidebar.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"sea",
+				"searchform.php"
+			],
+			[
+				"ar",
+				"archive.php"
+			],
+			[
+				"pa",
+				"page.php"
+			],
+			[
+				"ca",
+				"category.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			],
+			[
+				"museu",
+				"museum.php"
+			],
+			[
+				"pro",
+				"process.php"
+			],
+			[
+				"for",
+				"form.js"
+			],
+			[
+				"form",
+				"form.css"
+			],
+			[
+				"besu",
+				"besucherinfo.php"
+			],
+			[
+				"top",
+				"includes/topnav.php"
+			],
+			[
+				"f",
+				"ferien.php"
+			],
+			[
+				"kind",
+				"kindermuseum.php"
+			],
+			[
+				"neu",
+				"neu.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"si",
+				"site.css"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"indes",
+				"kindermuseum.php"
+			],
+			[
+				"ver",
+				"veranstaltungen.php"
+			],
+			[
+				"pe",
+				"poetry.php"
+			],
+			[
+				"pre",
+				"presse.php"
+			],
+			[
+				"acc",
+				"accord.js"
+			],
+			[
+				"ser",
+				"service.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"sit",
+				"site.css"
+			],
+			[
+				"info",
+				"besucherinfo.php"
+			],
+			[
+				"mu",
+				"muttertag.php"
+			],
+			[
+				"mutt",
+				"muttertag.php"
+			],
+			[
+				"ne",
+				"neu.php"
+			],
+			[
+				"kont",
+				"kontakt.php"
+			],
+			[
+				"even",
+				"events.js"
+			],
+			[
+				"j",
+				"jquery.js"
+			],
+			[
+				"fil",
+				"films.php"
+			],
+			[
+				"ev",
+				"events.js"
+			],
+			[
+				"progra",
+				"programm.php"
+			],
+			[
+				"news",
+				"news.php"
+			],
+			[
+				"en",
+				"english.php"
+			],
+			[
+				"aust",
+				"en.australien.php"
+			],
+			[
+				"aus",
+				"australien.php"
+			],
+			[
+				"ensa",
+				"en.sammlung.php"
+			],
+			[
+				"son",
+				"sonderausstellungen.php"
+			],
+			[
+				"samm",
+				"sammlung.php"
+			],
+			[
+				"servic",
+				"service.php"
+			],
+			[
+				"topn",
+				"includes/topnav.php"
+			],
+			[
+				"site",
+				"Publish/site.css"
+			],
+			[
+				"wal",
+				"Publish/walz.php"
+			],
+			[
+				"fer",
+				"Publish/ferien.php"
+			],
+			[
+				"fa",
+				"Publish/familienrecherche.php"
+			],
+			[
+				"bes",
+				"Publish/besucherinfo.php"
+			],
+			[
+				"proce",
+				"Publish/process.php"
+			],
+			[
+				"gelb",
+				"Publish/Gelbe_Schein.php"
+			],
+			[
+				"dat",
+				"Publish/jcalendar/js/date.js"
+			],
+			[
+				"va",
+				"Publish/valentinstag.php"
+			],
+			[
+				"sond",
+				"Publish/sonderausstellungen.php"
+			],
+			[
+				"sonder",
+				"sonderausstellungen.php"
+			],
+			[
+				"n",
+				"neu.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"tour",
+				"tour.php"
+			],
+			[
+				"run",
+				"Rundgang.html"
+			],
+			[
+				"s",
+				"site.css"
+			],
+			[
+				"besucher",
+				"en.besucherinfo.php"
+			],
+			[
+				"shop",
+				"shop.php"
+			],
+			[
+				"servi",
+				"service.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/DAH.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true
+}
