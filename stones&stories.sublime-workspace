@@ -4,16 +4,120 @@
 		"selected_items":
 		[
 			[
-				"background",
-				"background-size"
+				"bord",
+				"border-radius"
 			],
 			[
-				"back",
-				"background"
+				"mar",
+				"margin"
+			],
+			[
+				"rgb",
+				"rgba()"
 			],
 			[
 				"ba",
-				"background"
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"gallery-colum",
+				"gallery-columns-2"
+			],
+			[
+				"gallery",
+				"gallery-columns-3"
+			],
+			[
+				"galler",
+				"gallery-item"
+			],
+			[
+				"webkit-mar",
+				"webkit-margin-before"
+			],
+			[
+				"al",
+				"alpha"
+			],
+			[
+				"line",
+				"linear"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"wp-",
+				"wp-caption-text"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"whit",
+				"white-space"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"background",
+				"background-size"
 			],
 			[
 				"font",
@@ -28,20 +132,12 @@
 				"min-width"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"me",
 				"menufontsize"
 			],
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"line",
-				"line-height"
 			],
 			[
 				"text",
@@ -104,10 +200,6 @@
 				"html	html"
 			],
 			[
-				"h",
-				"href"
-			],
-			[
 				"p",
 				"padding	padding: T R B L"
 			],
@@ -128,10 +220,6 @@
 				"rgba"
 			],
 			[
-				"font-s",
-				"font-size"
-			],
-			[
 				"rox",
 				"roxyfilm"
 			],
@@ -147,15 +235,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2398,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "start.php",
-			"settings":
-			{
-				"buffer_size": 997,
+				"buffer_size": 2335,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +251,7 @@
 			"file": "single.php",
 			"settings":
 			{
-				"buffer_size": 433,
+				"buffer_size": 600,
 				"line_ending": "Unix"
 			}
 		},
@@ -179,7 +259,7 @@
 			"file": "sidebar.php",
 			"settings":
 			{
-				"buffer_size": 352,
+				"buffer_size": 746,
 				"line_ending": "Unix"
 			}
 		},
@@ -192,10 +272,42 @@
 			}
 		},
 		{
+			"file": "category.php",
+			"settings":
+			{
+				"buffer_size": 1094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "archive.php",
+			"settings":
+			{
+				"buffer_size": 1205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "search.php",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "start.php",
+			"settings":
+			{
+				"buffer_size": 4521,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 10001,
+				"buffer_size": 15538,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,11 +343,11 @@
 		"selected_items":
 		[
 			[
-				"insta",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -251,11 +363,17 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"cd packages/",
+			"cd Packages/",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
 	},
 	"distraction_free":
 	{
@@ -268,13 +386,17 @@
 	},
 	"file_history":
 	[
+		"/Users/chad/Library/Caches/Cleanup At Startup/Transmit/E9156EF3-1D73-49C5-BEE3-07BAEC0F5A43/swipebox.css",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/loop.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/404.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/archive.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/searchform.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
 		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/header.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
@@ -391,11 +513,7 @@
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu2.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu3.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/programm.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sammlung.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/service.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/tour.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/veranstaltungen.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/museum.html"
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sammlung.html"
 	],
 	"find":
 	{
@@ -414,6 +532,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"10",
+			"medium",
+			"1sec",
+			"figure",
+			"&tag=architektur",
+			"endif",
+			"&category_name=architektur",
 			"bottom",
 			"no-repeat",
 			"4",
@@ -509,23 +634,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "header.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2398,
+						"buffer_size": 2335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1988,
-								1988
+								1803,
+								1803
 							]
 						],
 						"settings":
@@ -542,35 +668,8 @@
 				},
 				{
 					"buffer": 1,
-					"file": "start.php",
-					"settings":
-					{
-						"buffer_size": 997,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								822,
-								822
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "footer.php",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1100,
@@ -580,8 +679,8 @@
 						"selection":
 						[
 							[
-								692,
-								692
+								725,
+								725
 							]
 						],
 						"settings":
@@ -596,19 +695,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "single.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 433,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								371,
-								371
+								514,
+								514
 							]
 						],
 						"settings":
@@ -624,19 +724,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "sidebar.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 352,
+						"buffer_size": 746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								155
+								0,
+								0
 							]
 						],
 						"settings":
@@ -651,8 +752,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "page.php",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 433,
@@ -677,6 +779,119 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "archive.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1147,
+								1147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "search.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1178,
+								1178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "start.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4071,
+								4071
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 906.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -685,35 +900,38 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "sass/style.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10001,
+						"buffer_size": 15538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6751,
-								6751
+								513,
+								513
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6602.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "js/scripts.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 692,
@@ -723,8 +941,8 @@
 						"selection":
 						[
 							[
-								692,
-								692
+								381,
+								381
 							]
 						],
 						"settings":
@@ -739,8 +957,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "sass/typo.scss",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 3070,
@@ -767,8 +986,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 12,
 					"file": "sass/print.scss",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 786,
@@ -824,7 +1044,7 @@
 		"cols":
 		[
 			0.0,
-			0.582830207766,
+			0.595610664308,
 			1.0
 		],
 		"rows":
@@ -834,6 +1054,7 @@
 		]
 	},
 	"menu_visible": true,
+	"project": "stones&stories.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -844,6 +1065,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sta",
+				"start-bk.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"fuc",
+				"functions.php"
+			],
+			[
+				"s",
+				"search.php"
+			],
+			[
+				"ar",
+				"archive.php"
+			],
+			[
+				"loo",
+				"loop.php"
+			],
 			[
 				"pag",
 				"page.php"
@@ -861,16 +1110,8 @@
 				"footer.php"
 			],
 			[
-				"fu",
-				"functions.php"
-			],
-			[
 				"sea",
 				"searchform.php"
-			],
-			[
-				"ar",
-				"archive.php"
 			],
 			[
 				"pa",
@@ -1105,10 +1346,6 @@
 				"Rundgang.html"
 			],
 			[
-				"s",
-				"site.css"
-			],
-			[
 				"besucher",
 				"en.besucherinfo.php"
 			],
@@ -1135,10 +1372,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 300.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
