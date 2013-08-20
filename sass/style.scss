@@ -170,10 +170,11 @@ input:focus {
 }
 .triangle{
 	position: absolute;
-	top: 175px;
-	border-right:30rem solid transparent;
-  	border-left: 50rem solid transparent;
-  	border-top: 70px solid black;
+	top: 200px;
+	border-right:20rem solid transparent;
+  	border-left: 80rem solid transparent;
+  	border-top: 60px solid black;
+  	z-index: 10;
 }
 .wmenu{
 	width: 100%;
