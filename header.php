@@ -50,13 +50,5 @@
         <div class="wmenu outline" role="navigation">
           <?php wp_nav_menu( array('menu' => 'White' )); ?>
         </div>
-        
-        <div class="supermenu">
-          <div class="col col33 searcharea">
-            <?php get_template_part('searchform'); ?>
-          </div>
-          <div class="calendar">
-            <a href="<?php echo get_month_link('', ''); ?>"><?php echo date("F");?> &#187;</a>
-          </div>
-        </div>
+
       </header>
