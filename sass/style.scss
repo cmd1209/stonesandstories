@@ -174,7 +174,9 @@ input:focus {
 	border-right:80rem solid transparent;
   	border-left: 20rem solid transparent;
   	border-top: 60px solid black;
-  	z-index: 10;
+  	z-index: 2;
+  	pointer-event: none;
+
 }
 .wmenu{
 	z-index: 20;
