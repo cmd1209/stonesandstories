@@ -36,6 +36,7 @@ body {
 }
 
 header{
+	position: relative;
 	padding: 5px 0 0 0;
 }
 
@@ -169,7 +170,8 @@ input:focus {
 }
 .triangle{
 	position: absolute;
-	border-bottom: 50px solid black;
+	top: 175px;
+	border-top: 70px solid black;
 	border-left: 80rem transparent;
 	border-right: 20rem transparent;
 }
