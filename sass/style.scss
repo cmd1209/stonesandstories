@@ -174,12 +174,14 @@ input:focus {
 	border-right:80rem solid transparent;
   	border-left: 20rem solid transparent;
   	border-top: 60px solid black;
+  	z-index: 2;
 }
 .wmenu{
-	position: relative;
+	position: absolute;
 	z-index: 20;
 	width: 100%;
-	margin: 0 0 5px 0;
+	top: 195px;
+	z-index: 3;
 	ul{
 		text-align: left;
 	}
