@@ -165,7 +165,6 @@ input:focus {
 		transition: all 0.2s;  
 	}
 	a:hover{
-		background-color: black;
 		color: $yellow;
 		transition: all 0.2s;  
 	}
@@ -216,6 +215,7 @@ input:focus {
 		color: $yellow;
 	}
 	a:hover{
+		background-color: black;
 		color: $yellow;
 	}
 }
