@@ -175,7 +175,7 @@ input:focus {
 	width: 100%;
 	ul{
 		text-align: center;
-		margin-left: -75px;
+		margin-left: -90px;
 	}
 	li{	padding: 5px 12% 3px 5px;
 		list-style: none;
@@ -183,6 +183,7 @@ input:focus {
 		position: relative;
 		ul{
 			display: none;
+			background: url(img/subshard.svg) no-repeat bottom left;
 			left: 0;
 			text-align: left;
 			position: absolute;
@@ -194,7 +195,6 @@ input:focus {
 		li{	
 			display: block;
 			z-index: 25;
-			background-color: rgba(0,0,0,0.8);
 			cursor: pointer;
 			margin: 4px 0 0 0;
 		}
