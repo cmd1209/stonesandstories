@@ -182,11 +182,10 @@ input:focus {
 		position: relative;
 		ul{
 			display: none;
-			background-color: black;
 			left: 0;
 			text-align: left;
 			position: absolute;
-			margin: 0 0 0 -20px;
+			margin: 0 0 0 -40px;
 			z-index: 20;			
 		}
 		li{	
@@ -196,6 +195,7 @@ input:focus {
 			margin: 4px 0 0 0;
 		}
 		a{	
+			background-color:black;
 			font: $menufontsize;
 			padding: 0 0 0 5px;
 		}
