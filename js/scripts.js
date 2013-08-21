@@ -19,10 +19,12 @@ $(function() {
 	var overlay = $("#overlay");
     var filmbutton = $(".filmbutton");
     var filmplayer = $(".filmplayer");
+    var wrapper = $(".wrapper");
 
     filmbutton.click(function(){
 		overlay.fadeIn(200);
     	filmplayer.fadeIn(300);
+    	wrapper.toggleClass("blureffect");
     });
     overlay.click(function(){
     overlay.fadeOut(200);
