@@ -23,7 +23,7 @@ $(function() {
     filmbutton.click(function(){
 		overlay.fadeIn(200);
     	filmplayer.fadeIn(300);
-    	$(".wrapper").toggleClass("blureffect");
+    	$("section").toggleClass("blureffect");
     });
     overlay.click(function(){
     overlay.fadeOut(200);
