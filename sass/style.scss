@@ -3,7 +3,7 @@
 */
 
 @import "typo.scss";
-$yellow: #CCC8C4; // original yellow #e2f000
+$yellow: #e2f000;
 $grey: #CCC8C4;
 $darkgrey: #B2AEAA;
 $menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
@@ -579,7 +579,7 @@ nav.pps-slider-nav{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: rgba(226,240,0,0.85);
+	background-color: rgba(150,150,150,0.8); // originally rgba(226,240,0,0.85)
 }
 
 
