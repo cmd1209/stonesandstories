@@ -36,7 +36,10 @@ body {
 }
 
 header{
-	padding: 20px 0 0 0;
+	height: 250px;
+	border-bottom: 1px solid red;
+	background: url(images/shard.svg) no-repeat bottom left;
+	overflow: hidden;
 }
 
 .clear:after {
