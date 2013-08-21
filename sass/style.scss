@@ -38,7 +38,7 @@ body {
 header{
 	height: 250px;
 	border-bottom: 1px solid red;
-	background: url(images/shard.svg) no-repeat bottom left;
+	background: url(img/shard.svg) no-repeat bottom left;
 	overflow: hidden;
 }
 
@@ -144,9 +144,7 @@ input:focus {
 }
 .bmenu{
 	width: 100%;
-	background-color: black;
 	color: white;
-	margin: 0 0 5px 0;
 	padding: 1px 0;
 	ul{
 		text-align: center;
@@ -173,8 +171,6 @@ input:focus {
 
 .wmenu{
 	width: 100%;
-	margin: 5px 0 5px 0;
-	background-color: white;
 	ul{
 		text-align: center;
 	}
@@ -208,7 +204,7 @@ input:focus {
 	a{	
 		font: $menufontsize;
 		display: inline;
-		color: black;
+		color: white;
 		text-transform: uppercase;
 		margin-right: -4px;
 	}
