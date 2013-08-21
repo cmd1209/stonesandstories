@@ -47,9 +47,9 @@
         <div class="bmenu" role="navigation">
           <?php wp_nav_menu( array('menu' => 'Black' )); ?>
         </div>
+        <div class="triangle"></div>
         <div class="wmenu" role="navigation">
           <?php wp_nav_menu( array('menu' => 'White' )); ?>
         </div>
 
-        <div class="triangle"></div>
       </header>
