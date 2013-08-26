@@ -4,18 +4,6 @@
 		"selected_items":
 		[
 			[
-				"back",
-				"background-color"
-			],
-			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"tran",
-				"transparent"
-			],
-			[
 				"bord",
 				"border-radius"
 			],
@@ -120,6 +108,10 @@
 				"position"
 			],
 			[
+				"back",
+				"background-color"
+			],
+			[
 				"a",
 				"absolute"
 			],
@@ -166,6 +158,10 @@
 			[
 				"padding",
 				"padding-right"
+			],
+			[
+				"border",
+				"border-top"
 			],
 			[
 				"slid",
@@ -239,7 +235,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2036,
+				"buffer_size": 2335,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,7 +307,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 15689,
+				"buffer_size": 15538,
 				"line_ending": "Unix"
 			}
 		},
@@ -638,7 +634,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -647,15 +643,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2036,
+						"buffer_size": 2335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1425,
-								1425
+								1803,
+								1803
 							]
 						],
 						"settings":
@@ -711,8 +707,8 @@
 						"selection":
 						[
 							[
-								525,
-								525
+								514,
+								514
 							]
 						],
 						"settings":
@@ -881,21 +877,18 @@
 						"selection":
 						[
 							[
-								4519,
-								4521
+								4071,
+								4071
 							]
 						],
 						"settings":
 						{
-							"rulers":
-							[
-							],
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 906.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -912,15 +905,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15689,
+						"buffer_size": 15538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1290,
-								1290
+								513,
+								513
 							]
 						],
 						"settings":
@@ -930,7 +923,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 924.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -948,8 +941,8 @@
 						"selection":
 						[
 							[
-								590,
-								590
+								381,
+								381
 							]
 						],
 						"settings":
@@ -1051,7 +1044,7 @@
 		"cols":
 		[
 			0.0,
-			0.662476203859,
+			0.595610664308,
 			1.0
 		],
 		"rows":
@@ -1072,14 +1065,6 @@
 		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"js/scripts.js"
-			],
-			[
-				"head",
-				"header.php"
-			],
 			[
 				"sta",
 				"start-bk.php"
@@ -1111,6 +1096,10 @@
 			[
 				"pag",
 				"page.php"
+			],
+			[
+				"",
+				"template-demo.php"
 			],
 			[
 				"sid",
@@ -1394,12 +1383,12 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 300.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}
