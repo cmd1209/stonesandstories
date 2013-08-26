@@ -195,7 +195,7 @@ input:focus {
 			margin: 4px 0 0 0;
 		}
 		a{	
-			background-color:black;
+			background-color: $grey;
 			font: $menufontsize;
 			padding: 0 0 0 5px;
 		}
@@ -214,7 +214,7 @@ input:focus {
 		color: $yellow;
 	}
 	a:hover{
-		background-color: black;
+		background-color: $grey;
 		color: $yellow;
 	}
 }
