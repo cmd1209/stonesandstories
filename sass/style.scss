@@ -757,7 +757,8 @@ figure{
 figcaption{
 	position: absolute;
 	bottom: -100%;
-	width: 50%;
+	width: 75%;
+	padding: 10px !important;
 	background-color: $yellow;
 	display: block;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -781,8 +782,7 @@ figure.alignright{
 	margin: 5px 0 20px 20px;
 }
 
-.wp-caption .wp-caption-text, figcaption,
-.gallery-caption {
+.wp-caption .wp-caption-text, .gallery-caption {
 	width: 100%; 
 	font-size:11px;
 	line-height:17px;
