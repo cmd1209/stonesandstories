@@ -756,7 +756,7 @@ figure{
 figcaption{
 	position: absolute;
 	bottom: -100%;
-	width: 75%;
+	width: 50%;
 	line-height:17px;
 	font-size:11px;
 	padding: 10px !important;
@@ -803,8 +803,8 @@ figure.alignright{
 .gallery-item{
 	overflow: hidden;
 	img{
-		width: 101%;
-		height: auto;
+		height: 101%;
+		width: auto;
 	}
 	dd{
 		width: 75%;
