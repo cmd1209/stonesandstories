@@ -752,7 +752,7 @@ figure{
 	width: 100%;
 	position: relative;
 	line-height: 0;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 }
 figcaption{
 	position: absolute;
@@ -783,6 +783,7 @@ figure.alignright{
 
 .wp-caption .wp-caption-text, figcaption,
 .gallery-caption {
+	width: 100%; 
 	font-size:11px;
 	line-height:17px;
 	margin:0;
