@@ -825,7 +825,13 @@ figure.alignright{
 	}
 }
 .gallery-columns-3 dl:nth-child(1){
-	padding: 20px;
+	padding: 0 10px 0 0;
+}
+.gallery-columns-3 dl:nth-child(2){
+	padding: 0 5px 0 5px;
+}
+.gallery-columns-3 dl:nth-child(3){
+	padding: 0 0 0 10px;
 }
 
 
