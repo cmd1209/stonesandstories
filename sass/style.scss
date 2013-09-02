@@ -824,12 +824,12 @@ figure.alignright{
 		width: 33.333%;}
 }
 .gallery-columns-3:nth-child(0){
-		border-right:10px solid white;}
+		padding-right:10px !important;}
 .gallery-columns-3:nth-child(1){
-		border-right:5px solid white;
-		border-left: 5px solid white;}
+		padding-right:5px !important;
+		padding-left: 5px !important;}
 .gallery-columns-3:nth-child(2){
-		border-left:10px solid white;}
+		padding-left:10px !important;}
 
 .gallery-columns-4{
 	.gallery-item{
