@@ -741,15 +741,15 @@ a img.aligncenter {
 }
 .wp-caption img, figure img {
 	border:0 none;
-	height:auto;
+	height: 101%;
 	margin:0;
-	max-width:101%;
+	max-height:101%;
 	padding:0;
 	width:auto;
 }
 figure{
 	overflow: hidden;
-	height: 100%;
+	width: 100%;
 	position: relative;
 	margin: 0 0 10px 0;
 }
