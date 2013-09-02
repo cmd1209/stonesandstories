@@ -758,6 +758,7 @@ figcaption{
 	bottom: -100%;
 	width: 75%;
 	line-height:17px;
+	font-size:11px;
 	padding: 10px !important;
 	background-color: $yellow;
 	display: block;
@@ -783,13 +784,12 @@ figure.alignright{
 }
 
 .wp-caption .wp-caption-text, .gallery-caption {
-	width: 100%; 
 	font-size:11px;
 	line-height:17px;
 	margin:0;
-	padding:0 4px 5px;
 	text-align: left;
 }
+
 .gallery {
 	padding: 0px;
     margin: 0px;
