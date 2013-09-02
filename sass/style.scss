@@ -513,6 +513,9 @@ section{
 	}
 	.textwrap{
 		padding: 10px;
+		p{
+			width: 75%;
+		}
 	}
 	li{
 		display: inline-block !important;
