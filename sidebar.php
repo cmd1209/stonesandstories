@@ -10,7 +10,11 @@
 	    	</div>
 	    	<div class="sidemodule">
 	    		<div class="box">
-	    			<img src="http://andreas-heller.de/2013/wp-content/uploads/2013/06/loremen.jpg" alt="">
+	    			<a href="http://http://dah-bremerhaven.de/australien.php">
+	    				<figure>
+	    					<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/09/australian-poster.jpg" alt="">
+	    				</figure>
+	    			</a>
 	    		</div>
 	    	</div>
 	    	<div class="sidemodule">
@@ -19,3 +23,4 @@
 	    		</div>
 	    	</div>
 <!-- /sidebar -->
+
