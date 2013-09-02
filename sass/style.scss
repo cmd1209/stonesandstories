@@ -821,19 +821,15 @@ figure.alignright{
 .gallery-columns-3{
 	.gallery-item{
 		width: 33.333%;}
-}
-
-.gallery-columns-3:nth-child(1){
-		padding-right:10px;
-}
-.gallery-columns-3:nth-child(2){
+	.gallery-item:nth-child(1){
+		padding-right:10px;}
+	.gallery-item:nth-child(2){
 		padding-right:5px;
-		padding-left: 5px;
-}
-.gallery-columns-3:nth-child(3){
+		padding-left: 5px;}
+	.galler-item:nth-child(3){
 		padding-left:10px;
+	}
 }
-
 .gallery-columns-4{
 	.gallery-item{
 		width: 25%;}
