@@ -751,13 +751,13 @@ figure{
 	overflow: hidden;
 	width: 100%;
 	position: relative;
-	line-height: 0;
 	margin: 0 0 10px 0;
 }
 figcaption{
 	position: absolute;
 	bottom: -100%;
 	width: 75%;
+	line-height:17px;
 	padding: 10px !important;
 	background-color: $yellow;
 	display: block;
