@@ -823,12 +823,11 @@ figure.alignright{
 	.gallery-item{
 		width: 33.333%;
 	}
+	dl{
+		padding: 10px;
+	}
 }
 
-.gallery:first-child{
-		padding-right:10px !important;}
-.gallery:last-child{
-		padding-left:10px !important;}
 
 .gallery-columns-4{
 	.gallery-item{
