@@ -748,7 +748,6 @@ a img.aligncenter {
 	width:auto;
 }
 figure{
-	overflow: hidden;
 	width: 100%;
 	position: relative;
 	line-height: 0;
@@ -756,9 +755,6 @@ figure{
 figcaption{
 	width: 50%;
 	background-color: $yellow;
-	position: absolute;
-	bottom: 0px;
-	right: 0px; 
 	display: block;}
 
 figure.alignright{
