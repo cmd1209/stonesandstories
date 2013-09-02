@@ -739,7 +739,7 @@ a img.aligncenter {
 .wp-caption.alignright {
 	margin:5px 0 20px 20px;
 }
-.wp-caption img, figure img {
+.wp-caption img{
 	border:0 none;
 	height:auto;
 	margin:0;
@@ -752,6 +752,10 @@ figure{
 	width: 100%;
 	position: relative;
 	margin: 0 0 10px 0;
+	img{
+		height: 101%;
+		width: auto;
+	}
 	p{
 		display: none;
 	}
