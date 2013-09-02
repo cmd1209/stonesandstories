@@ -821,7 +821,8 @@ figure.alignright{
 }
 .gallery-columns-3{
 	.gallery-item{
-		width: 33.333%;}
+		width: 33.333%;
+		padding: 20px!important;}
 }
 .gallery-columns-3:nth-child(0){
 		padding-right:10px !important;}
