@@ -8,9 +8,7 @@
               				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             			</a>
 					<?php get_template_part('searchform'); ?>
-					<p class="copyright">
-						&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?>
-					</p>
+					
 				</div>
 				<div class="col col60">
 					<div class="links">
@@ -19,6 +17,9 @@
 					<p class="clear"></p>
 				</div>
 				</div>
+				<p class="copyright">
+					&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?>
+				</p>
 			</footer>
 
 		
