@@ -32,6 +32,9 @@
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
         </div>
+        <div class="bmenu" role="navigation">
+          <?php wp_nav_menu( array('menu' => 'Black' )); ?>
+        </div>
 
     <div class="wrapper">
       <div id="overlay"></div>
@@ -45,9 +48,6 @@
               <a href="#" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
           </div> -->
 
-        <div class="bmenu" role="navigation">
-          <?php wp_nav_menu( array('menu' => 'Black' )); ?>
-        </div>
         <div class="wmenu" role="navigation">
           <?php wp_nav_menu( array('menu' => 'White' )); ?>
         </div>
