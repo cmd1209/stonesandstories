@@ -755,8 +755,12 @@ figure{
 	overflow: hidden;
 	width: 100%;
 	position: relative;
-	padding: 0!important;
+	padding: 0 !important;
 	margin: 0 0 10px 0;
+	img{
+		width: 100% !important;
+		height: auto;
+	}
 	p{
 		display: none;
 	}
