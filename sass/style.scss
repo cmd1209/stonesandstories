@@ -184,16 +184,16 @@ input:focus {
 			position: absolute;
 			height: auto;
 			z-index: 20;
-			background-color: $lightgrey;
-			margin: 0 0 0 -40px;			
+			background-color: $lightgrey;			
 		}
 		li{	
+			width: 100%;
 			display: block;
 			z-index: 25;
 			cursor: pointer;
 		}
 		a{	
-			display: block;
+			width: 100%;
 			font: $menufontsize;
 			padding: 5px;
 		}
