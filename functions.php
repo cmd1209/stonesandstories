@@ -496,27 +496,5 @@ add_filter('gallery_style',
 //////////////////////////////////////// Remove default gallery styling
 add_filter( 'use_default_gallery_style', '__return_false' );
 
-if (function_exists('add_image_size')) {
-   add_image_size( 'dummy-1', 940, 450, true );
-   add_image_size( 'dummy-2', 480, 0 );
-}
- 
-global $_wp_additional_image_sizes;
-foreach ( $_wp_additional_image_sizes as $name =&gt; $image_size ){
-    update_option( $name."_size_w", $image_size['width'] );
-    update_option( $name."_size_h", $image_size['height'] );
-    update_option( $name."_crop", $image_size['crop'] );
-}
- 
-add_filter( 'intermediate_image_sizes', 'regenerate_custom_image_sizes' );
-function regenerate_custom_image_sizes( $sizes ){
-    global $_wp_additional_image_sizes;
-    foreach ( $_wp_additional_image_sizes as $name =&gt; $size ){
-        $sizes[] = $name;
-    }
-    return $sizes;
-}
-
-
 
 ?>
