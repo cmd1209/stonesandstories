@@ -156,7 +156,7 @@ input:focus {
 		font-weight: 700;
 		display: inline-block;
 		color: white;
-		padding:10px 20px;
+		padding:20px 10%;
 		text-transform: lowercase;
 		transition: all 0.2s;  
 	}
@@ -387,7 +387,7 @@ section{
 }
 .copyright{
 	font-size: 1.15em;
-	text-align: left;
+	text-align: center;
 	color: $yellow;
 	position: absolute;
 	bottom: 20px;

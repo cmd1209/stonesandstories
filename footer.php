@@ -16,10 +16,10 @@
 					</div>
 					<p class="clear"></p>
 				</div>
-				</div>
 				<p class="copyright">
 					&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?>
 				</p>
+				</div>
 			</footer>
 
 		
