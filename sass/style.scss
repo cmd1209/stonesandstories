@@ -78,7 +78,6 @@ input:focus {
 	width:95%;
 	margin:0 auto;
 	position:relative;
-	background-color: white;
 }
 
 .masthead{
@@ -307,6 +306,7 @@ section{
 	overflow: hidden;
 	font-size: 1.25em;
 	position: relative;
+	background-color: black;
 }
 
 .startcontent{
@@ -332,6 +332,7 @@ section{
 .sidebar {
 	width: 15%;
 	padding: 0 0 0 5px;
+	background-color: $grey;
 		@media only screen and (max-width:1023px) {
 		display: none;
 	}
@@ -503,6 +504,7 @@ section{
 .module{
 	position: relative;
 	border: 1px solid $grey;
+	background-color: white;
 	height: 100%;
 	overflow: hidden;
 	padding: 0 0 10px 0;
