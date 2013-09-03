@@ -5,6 +5,7 @@
 @import "typo.scss";
 $yellow: #e2f000;
 $grey: #CCC8C4;
+$lightgrey: #ecece6;
 $darkgrey: #B2AEAA;
 $menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 
@@ -23,10 +24,10 @@ $menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,S
 /* html element 62.5% font-size for REM use */
 html {
 	font-size:75%;
+	background-color: $lightgrey;
 }
 body {
 	font:300 0.9em/1.4 "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
-	background-color: black;
 }
 
 /* clear */
@@ -87,6 +88,7 @@ input:focus {
 	padding: 10px 0 0 0;
 	position: relative;
 	text-align: left;
+	background-color: black;
 	img{
 		height: 100%;
 		@media only screen and (max-width:779px) {
@@ -157,7 +159,7 @@ input:focus {
 		font-weight: 700;
 		display: inline-block;
 		color: white;
-		padding:0 10% 0 5px;
+		padding:5px 10% 5px 5px;
 		text-transform: lowercase;
 		margin-right: -4px;
 		transition: all 0.2s;  
@@ -171,7 +173,6 @@ input:focus {
 .wmenu{
 	width: 100%;
 	margin: 5px 0 5px 0;
-	background-color: white;
 	ul{
 		text-align: center;
 	}
@@ -306,7 +307,7 @@ section{
 	overflow: hidden;
 	font-size: 1.25em;
 	position: relative;
-	background-color: black;
+	background-color: $lightgrey;
 }
 
 .startcontent{
@@ -332,7 +333,15 @@ section{
 .sidebar {
 	width: 15%;
 	padding: 0 0 0 5px;
-	background-color: $grey;
+	figure{
+		width: 100%;
+		overflow: hidden;
+		height: auto;
+		img{
+			height: 100%;
+			width: auto;
+		}
+	}
 		@media only screen and (max-width:1023px) {
 		display: none;
 	}
