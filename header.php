@@ -28,11 +28,9 @@
   <body <?php body_class(); ?>>
   
         <div class="masthead">
-        <div class="wrapper">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
-        </div>
         </div>
 
     <div class="wrapper">
@@ -43,9 +41,9 @@
       <header class="header clear" role="banner">
         
         
-          <div class="atmosphere">
+<!--           <div class="atmosphere">
               <a href="#" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
-          </div>
+          </div> -->
 
         <div class="bmenu" role="navigation">
           <?php wp_nav_menu( array('menu' => 'Black' )); ?>
