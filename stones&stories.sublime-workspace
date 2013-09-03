@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"galler-colum",
+				"gallery-columns-3"
+			],
+			[
+				"gallery-colum",
+				"gallery-columns-3"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -58,10 +70,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"gallery-colum",
-				"gallery-columns-2"
 			],
 			[
 				"gallery",
@@ -263,7 +271,7 @@
 			"file": "sidebar.php",
 			"settings":
 			{
-				"buffer_size": 746,
+				"buffer_size": 817,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,7 +319,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 15689,
+				"buffer_size": 16450,
 				"line_ending": "Unix"
 			}
 		},
@@ -390,10 +398,10 @@
 	},
 	"file_history":
 	[
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Library/Caches/Cleanup At Startup/Transmit/E9156EF3-1D73-49C5-BEE3-07BAEC0F5A43/swipebox.css",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/loop.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
@@ -536,6 +544,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"border",
+			".gallery-item",
 			"10",
 			"medium",
 			"1sec",
@@ -638,7 +648,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -733,15 +743,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 746,
+						"buffer_size": 817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								457,
+								457
 							]
 						],
 						"settings":
@@ -881,8 +891,8 @@
 						"selection":
 						[
 							[
-								4519,
-								4521
+								3831,
+								3831
 							]
 						],
 						"settings":
@@ -894,8 +904,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 64.0,
+						"translation.y": 886.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -903,7 +913,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -912,15 +922,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15689,
+						"buffer_size": 16450,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2931,
-								2931
+								10481,
+								10481
 							]
 						],
 						"settings":
@@ -930,7 +940,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3080.0,
+						"translation.y": 9853.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1051,7 +1061,7 @@
 		"cols":
 		[
 			0.0,
-			0.492859169545,
+			0.499064919056,
 			1.0
 		],
 		"rows":
@@ -1072,6 +1082,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"f",
+				"functions.php"
+			],
 			[
 				"",
 				"js/scripts.js"
@@ -1163,10 +1177,6 @@
 			[
 				"top",
 				"includes/topnav.php"
-			],
-			[
-				"f",
-				"ferien.php"
 			],
 			[
 				"kind",
