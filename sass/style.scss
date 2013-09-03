@@ -141,6 +141,7 @@ input:focus {
 }
 .bmenu{
 	width: 100%;
+	overflow: hidden;
 	background-color: $darkgrey;
 	color: white;
 	ul{
