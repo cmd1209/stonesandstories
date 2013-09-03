@@ -507,6 +507,9 @@ section{
 	a{
 		color: black;
 	}
+	a[title]:hover:after {
+  	content: attr(title);
+	color: pink;}
 	a img { margin: -6px 0; }
 	a:hover{
 		background-color: $yellow;
