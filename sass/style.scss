@@ -507,8 +507,7 @@ section{
 	a{
 		color: black;
 	}
-	a[title]:hover{
-  	content: attr(title);
+	a[title]{
 	display: none;}
 	a img { margin: -6px 0; }
 	a:hover{
