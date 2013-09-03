@@ -185,13 +185,14 @@ input:focus {
 			height: auto;
 			z-index: 20;
 			background-color: $lightgrey;
-			margin: 0 0 0 -40px;			
+			padding: 0;		
 		}
 		li{	
 			width: 100%;
 			display: block;
 			z-index: 25;
 			cursor: pointer;
+			margin: 0 0 0 -40px;
 		}
 		a{	
 			width: 100%;
