@@ -16,9 +16,9 @@
 					</div>
 					<p class="clear"></p>
 				</div>
-				<p class="copyright">
-					&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?>
-				</p>
+				<div class="copyright">
+					<p>&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?></p>
+				</div>
 				</div>
 			</footer>
 
