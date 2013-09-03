@@ -184,7 +184,8 @@ input:focus {
 			position: absolute;
 			height: auto;
 			z-index: 20;
-			background-color: $lightgrey;			
+			background-color: $lightgrey;
+			margin: 0 0 0 -40px;			
 		}
 		li{	
 			width: 100%;
