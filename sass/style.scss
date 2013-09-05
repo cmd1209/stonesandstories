@@ -146,7 +146,7 @@ input:focus {
 	z-index: 19;}
 
 .bmenu{
-	background-color: $lightgrey;
+	background-color: black;
 	width: 100%;
 	overflow: hidden;
 	color: white;
@@ -204,6 +204,7 @@ input:focus {
 		a{	
 			width: 100%;
 			font: $helveticacopy;
+			font-size: 85%;
 			letter-spacing: 0.2em;
 			padding: 5px;
 		}
