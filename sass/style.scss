@@ -112,7 +112,7 @@ input:focus {
   right: 0;
   bottom: 0;
   z-index: 24;
-  foreground-blend-mode: overlay;
+  foreground-blend-mode: multiply;
   img{
   	position: absolute;
   	top: 0;
