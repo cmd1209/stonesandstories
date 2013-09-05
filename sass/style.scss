@@ -365,7 +365,10 @@ section{
 }
 
 .sidebar {
-	background-color: $lightgrey;
+	.greybox{
+		background-color: $lightgrey;
+		height: 100%;
+	}
 	line-height: 0;
 	width: 15%;
 	padding: 0 0 0 5px;
