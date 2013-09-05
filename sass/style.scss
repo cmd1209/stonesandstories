@@ -145,6 +145,7 @@ input:focus {
 	width: 100%;
 	z-index: 19;
 	padding: 5px 0;
+	background-color:  white;
 }
 
 
@@ -153,15 +154,16 @@ input:focus {
 	width: 100%;
 	overflow: hidden;
 	color: white;
+	margin: 0 0 5px 0;
 	ul{
 		text-align: center;
 	}
 	li{
+		padding: 4px;
 		list-style: none;
 		display: inline;
 	}
 	a{	
-		padding: 5px;
 		margin: 0 2%;
 		text-align: center;
 		font: $menufontsize;
@@ -186,10 +188,11 @@ input:focus {
 		text-align: center;
 	}
 	li{	
+		padding: 4px;
 		list-style: none;
 		display: inline;
 		position: relative;
-				
+
 		ul{
 			display: none;
 			width: 100%;
@@ -206,7 +209,7 @@ input:focus {
 				display: block;
 				z-index: 25;	
 				cursor: pointer;
-				padding: 5px;
+				padding: 4px;
 				margin: 0 0 2px 0;
 				
 				a{	
@@ -218,7 +221,6 @@ input:focus {
 		}
 	}
 	a{	
-		
 		letter-spacing: 0.2em;
 		display: inline;
 		color: black;
