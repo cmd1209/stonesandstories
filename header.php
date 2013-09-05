@@ -39,7 +39,7 @@
             </div>
           </div>
           <div class="bmenu" role="navigation">
-            <div class="wrapper">
+            <div class="wrapper black">
               <?php wp_nav_menu( array('menu' => 'White' )); ?>
             </div>
           </div>
