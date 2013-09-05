@@ -112,6 +112,7 @@ input:focus {
   right: 0;
   bottom: 0;
   z-index: 24;
+  background-color: rgba(255,255,255,0.1);
   -webkit-filter: blur(2px) grayscale (.5) opacity(0.8);
   img{
   	position: absolute;
