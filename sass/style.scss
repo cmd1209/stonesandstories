@@ -171,7 +171,6 @@ input:focus {
 .wmenu{
 	background-color: $darkgrey;
 	width: 100%;
-	overflow: hidden;
 	ul{
 		text-align: center;
 	}
@@ -186,7 +185,7 @@ input:focus {
 			position: absolute;
 			height: auto;
 			z-index: 20;
-			background-color: $lightgrey;
+			background-color: $darkgrey;
 			padding: 0;		
 		}
 		li{	
