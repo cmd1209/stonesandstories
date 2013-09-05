@@ -34,13 +34,17 @@
         </div>
         <div class="navigation">
           <div class="wmenu" role="navigation">
-            <?php wp_nav_menu( array('menu' => 'Black' )); ?>
+            <div class="wrapper outline">
+              <?php wp_nav_menu( array('menu' => 'Black' )); ?>
+            </div>
           </div>
           <div class="bmenu" role="navigation">
-            <?php wp_nav_menu( array('menu' => 'White' )); ?>
+            <div class="wrapper">
+              <?php wp_nav_menu( array('menu' => 'White' )); ?>
+            </div>
           </div>
         </div>
-        
+
     <div class="wrapper">
       <div id="overlay"></div>
 <!--       <iframe class="filmplayer" width="800" height="450" src="//www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe> -->
