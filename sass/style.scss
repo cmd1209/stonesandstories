@@ -342,6 +342,7 @@ section{
 	overflow: hidden;
 	font-size: 1.25em;
 	position: relative;
+	padding: 0 0 50px 0;
 }
 
 .startcontent{
@@ -355,7 +356,7 @@ section{
 
 .maincontent{
 	width: 85%;
-	padding: 0 5px 50px 0;
+	padding: 0 5px 0 0;
 	overflow: hidden;
 	min-height: 800px;
 	@media only screen and (max-width:1023px) {
@@ -374,7 +375,7 @@ section{
 	}
 	line-height: 0;
 	width: 15%;
-	padding: 0 0 50px 5px;
+	padding: 0 0 0 5px;
 	figure{
 		position: relative;
 		border: 1px solid $grey;
