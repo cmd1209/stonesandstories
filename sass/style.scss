@@ -204,6 +204,7 @@ input:focus {
 				cursor: pointer;
 				padding: 5px;
 				margin: 0 0 2px 0;
+				
 				a{	
 					font-size: 0.75em/1em;
 					width: 100%;
@@ -219,7 +220,7 @@ input:focus {
 		color: black;
 		text-transform: uppercase;
 		margin: 0 2%;
-		font-size: 1.3em/1em;
+		font-size: 1.3em/1em!important;
 
 	}
 	li:hover > ul{
