@@ -142,7 +142,7 @@ input:focus {
 .bmenu{
 	width: 100%;
 	overflow: hidden;
-	background-color: $darkgrey;
+
 	color: white;
 	ul{
 		text-align: center;
@@ -169,7 +169,9 @@ input:focus {
 }
 
 .wmenu{
+	background-color: $darkgrey;
 	width: 100%;
+	overflow: hidden;
 	ul{
 		text-align: center;
 	}
