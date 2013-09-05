@@ -144,6 +144,7 @@ input:focus {
 .navigation{
 	width: 100%;
 	z-index: 19;
+	padding: 5px 0;
 }
 
 
@@ -179,7 +180,6 @@ input:focus {
 .wmenu{
 	background-color: white;
 	width: 100%;
-	padding: 4px 0; 
 	ul{
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-weight: 300;
@@ -189,8 +189,7 @@ input:focus {
 		list-style: none;
 		display: inline;
 		position: relative;
-		padding: 5px;
-		
+				
 		ul{
 			display: none;
 			width: 100%;
