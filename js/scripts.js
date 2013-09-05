@@ -32,13 +32,13 @@ $(function() {
 
 
 $(function(){
-        var stickynavtop = $('.navigationarea').offset().top;
+        var stickynavtop = $('.navigation').offset().top;
           
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
-                        $('.navigationarea').css({position: 'fixed', top: '0px'});
+                        $('.navigation').css({position: 'fixed', top: '0px'});
                 } else {
-                        $('.navigationarea').css({position: 'static', top: '0px'});
+                        $('.navigation').css({position: 'static', top: '0px'});
                 }
         });
 });
