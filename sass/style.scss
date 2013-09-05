@@ -8,8 +8,6 @@ $grey: #CCC8C4;
 $lightgrey: #ecece6;
 $darkgrey: #B2AEAA;
 $menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
-$helveticacopy: 300 1.2em/1em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
 
 /* global box-sizing */
 *,
@@ -178,6 +176,8 @@ input:focus {
 	width: 100%;
 	padding: 4px 0; 
 	ul{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
 		text-align: center;
 	}
 	li{	
@@ -205,17 +205,19 @@ input:focus {
 			margin: 0 0 2px 0;
 		}
 		a{	
+			font-size: 0.75em/1em;
 			width: 100%;
 			letter-spacing: 0.2em;	
 		}
 	}
 	a{	
-		font: $helveticacopy;
+		
 		letter-spacing: 0.2em;
 		display: inline;
 		color: black;
 		text-transform: uppercase;
 		margin: 0 2%;
+		font-size: 1.3em/1em;
 
 	}
 	li:hover > ul{
