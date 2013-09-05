@@ -36,7 +36,7 @@
           <div class="wmenu wrapper outline" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
           </div>
-          <div class="bmenu wrapper black" role="navigation">
+          <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'White' )); ?>
           </div>
         </div>
