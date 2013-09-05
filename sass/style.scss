@@ -198,11 +198,13 @@ input:focus {
 		a{	
 			width: 100%;
 			font: $helveticacopy;
+			letter-spacing: 0.2em;
 			padding: 5px;
 		}
 	}
 	a{	
 		font: $helveticacopy;
+		letter-spacing: 0.2em;
 		display: inline;
 		color: black;
 		text-transform: uppercase;
