@@ -222,10 +222,10 @@ input:focus {
 	li:hover > ul{
 		display: block;
 	}
-	li ul li:hover a{
+	li ul li:hover{
 		background-color: $yellow;
 	}
-	a:hover{
+	li:hover{
 		background-color: $yellow;
 	}
 }
