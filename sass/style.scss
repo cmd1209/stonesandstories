@@ -8,7 +8,7 @@ $grey: #CCC8C4;
 $lightgrey: #ecece6;
 $darkgrey: #B2AEAA;
 $menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
-$helveticacopy: 300 1.2em/1em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$helveticacopy: 300 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 
 /* global box-sizing */
@@ -204,20 +204,20 @@ input:focus {
 		a{	
 			width: 100%;
 			font: $helveticacopy;
-			font-size: 85%;
 			letter-spacing: 0.2em;
 			padding: 5px;
+			font-size: 1em/1em;
 		}
 	}
 	a{	
 		font: $helveticacopy;
 		letter-spacing: 0.2em;
-		font-size: 100%;
 		display: inline;
 		color: black;
 		text-transform: uppercase;
 		padding: 5px;
 		margin: 0 2%;
+		font-size: 1.2em/1em;
 
 	}
 	li:hover > ul{
