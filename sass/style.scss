@@ -143,11 +143,10 @@ input:focus {
 
 .navigation{
 	width: 100%;
-	position: fixed;
-	top: 130px;
 	z-index: 19;}
 
 .bmenu{
+	background-color: $lightgrey;
 	width: 100%;
 	overflow: hidden;
 	color: white;

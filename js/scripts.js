@@ -29,3 +29,16 @@ $(function() {
     filmplayer.fadeOut(300);
 	});
 });
+
+
+$(function(){
+        var stickynavtop = $('.navigationarea').offset().top;
+          
+        $(window).scroll(function(){
+                if( $(window).scrollTop() > stickynavtop ) {
+                        $('.navigationarea').css({position: 'fixed', top: '0px'});
+                } else {
+                        $('.navigationarea').css({position: 'static', top: '0px'});
+                }
+        });
+});
