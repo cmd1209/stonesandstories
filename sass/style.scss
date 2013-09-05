@@ -186,16 +186,6 @@ input:focus {
 		display: inline;
 		position: relative;
 		padding: 5px;
-	}
-	a{	
-		font: 300 1.2em/1em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
-		letter-spacing: 0.2em;
-		display: inline;
-		color: black;
-		text-transform: uppercase;
-		margin: 0 2%;
-	}
-	li{
 		ul{
 			display: none;
 			width: 100%;
@@ -204,7 +194,7 @@ input:focus {
 			height: auto;
 			z-index: 20;
 			background-color: white;
-			padding: 0;
+			padding: 10px 0 0 0;
 			margin: -1px 0 0 0;		
 		}
 		li{	
@@ -213,16 +203,22 @@ input:focus {
 			z-index: 25;
 			cursor: pointer;
 			padding: 5px;
-			margin: 0 0 5px 0;
+			margin: 0 0 2px 0;
 		}
 		a{	
 			width: 100%;
-			font: 300 0.95em/1em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 			letter-spacing: 0.2em;	
 		}
 	}
+	a{	
+		font: $helveticacopy;
+		letter-spacing: 0.2em;
+		display: inline;
+		color: black;
+		text-transform: uppercase;
+		margin: 0 2%;
 
-
+	}
 	li:hover > ul{
 		display: block;
 	}
