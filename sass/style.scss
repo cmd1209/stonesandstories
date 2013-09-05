@@ -365,10 +365,10 @@ section{
 }
 
 .sidebar {
-	padding-bottom: 100000px;
- 	margin-bottom:  -100000px;
-  	overflow: hidden;
 	.greybox{
+		padding-bottom: 100000px;
+ 		margin-bottom:  -100000px;
+  		overflow: hidden;
 		background-color: $lightgrey;
 		height: 100%;
 	}
