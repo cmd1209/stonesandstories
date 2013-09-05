@@ -33,15 +33,11 @@
             </a> 
         </div>
         <div class="navigation">
-          <div class="wmenu" role="navigation">
-            <div class="wrapper outline">
+          <div class="wmenu wrapper outline" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
-            </div>
           </div>
-          <div class="bmenu" role="navigation">
-            <div class="wrapper black">
+          <div class="bmenu wrapper black" role="navigation">
               <?php wp_nav_menu( array('menu' => 'White' )); ?>
-            </div>
           </div>
         </div>
 
