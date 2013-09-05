@@ -8,7 +8,7 @@ $grey: #CCC8C4;
 $lightgrey: #ecece6;
 $darkgrey: #B2AEAA;
 $menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
-$helveticacopy: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$helveticacopy: 300 1.2em/1em "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 
 /* global box-sizing */
@@ -185,6 +185,7 @@ input:focus {
 		list-style: none;
 		display: inline;
 		position: relative;
+		padding: 5px;
 		ul{
 			display: none;
 			width: 100%;
@@ -200,24 +201,23 @@ input:focus {
 			display: block;
 			z-index: 25;
 			cursor: pointer;
+			padding: 5px;
+			margin: 0 0 10px 0;
 		}
 		a{	
 			width: 100%;
-			font-family: $helveticacopy;
+			font: $helveticacopy;
 			letter-spacing: 0.2em;
-			padding: 5px;
-			font-size: 1em/1em;
+			
 		}
 	}
 	a{	
-		font-family: $helveticacopy;
+		font: $helveticacopy;
 		letter-spacing: 0.2em;
 		display: inline;
 		color: black;
 		text-transform: uppercase;
-		padding: 5px;
 		margin: 0 2%;
-		font-size: 1.2em/1em;
 
 	}
 	li:hover > ul{
