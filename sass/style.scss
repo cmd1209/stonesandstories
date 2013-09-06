@@ -701,14 +701,16 @@ nav.pps-slider-nav{
 
 .post-categories{
 	float: right;
-	a{	
+	li{
 		overflow: hidden;
 		height: 40px;
 		width: 40px;
+		background-color: $lightgrey;
+	}
+	a{	
 		font-size: 0.9em;
 		font-weight: 300;
 		text-transform: uppercase;
-		background-color: $lightgrey;
 		padding: 5px;
 	}
 }
