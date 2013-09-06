@@ -177,11 +177,15 @@ input:focus {
 		list-style: none;
 		display: inline;
 	}
+	li:nth-child(3){
+		-webkit-transform: rotate(15deg);
+	}
+
 	a{	
 		padding: 4px;
 		margin: 0 2%;
 		text-align: center;
-		font: 300 1.4em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+		font: 300 1.6em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 		display: inline-block;
 		color: white;
 		text-transform: lowercase;
