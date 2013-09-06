@@ -37,10 +37,10 @@ $(function(){
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
                         $('.navigation').css({position: 'fixed', top: '0px'});
-                        stickylogo.fadeIn(200);
+                        stickylogo.slideDown(200);
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
-                        stickylogo.fadeout();
+                        stickylogo.css({display: 'none'});
                 }
         });
 });
