@@ -5,7 +5,7 @@
       
         <div class="col col100">
           <div class="module">
-            <div class="textwrap">
+            <div class="textwrap categorysingle">
                 <?php the_category(); ?>              
                 <h2><?php the_title(); ?></h2>
               <?php the_content(); ?>
