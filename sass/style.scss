@@ -477,6 +477,10 @@ section{
 }
 
 .double{
+	position: relative;
+	.post-categories{
+		bottom: 20px;
+	}
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
@@ -551,7 +555,10 @@ section{
 		background-color: $yellow;
 	}
 	.textwrap{
+		position: relative;
 		padding: 10px;
+		.post-categories{
+			top: 20px;}
 		p{
 			width: 75%;
 		}
@@ -699,14 +706,15 @@ nav.pps-slider-nav{
     WORDPRESS CORE
 \*------------------------------------*/
 
+
+
 .post-categories{
 	position: absolute;
-	top: 20px;
 	right: 10px;
 	width: 250px;
 	li{
 		float: right;
-		margin: 2px;
+		margin: 5px 2px 5px 2px;
 	}
 	a{	
 		background-color: $lightgrey;
