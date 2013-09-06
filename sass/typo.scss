@@ -83,3 +83,15 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'forumregular';
+    src: url('fonts/testfont-webfont.eot');
+    src: url('fonts/testfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/testfont-webfont.woff') format('woff'),
+         url('fonts/testfont-webfont.ttf') format('truetype'),
+         url('fonts/testfont-webfont.svg#forumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
