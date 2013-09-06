@@ -37,10 +37,11 @@ body {
 .stickylogo{
 	z-index: 30;
 	position: fixed;
-	width: 400px;
+	width: 450px;
 	height: 35px;
 	overflow: hidden;
-	top: 100;
+	top: 100px;
+	left: 35%;
 	background-color: white;
 	img{
 		width: 75%;
