@@ -700,9 +700,13 @@ nav.pps-slider-nav{
 \*------------------------------------*/
 
 .post-categories{
-	width: 25%;
-	padding: 0 0 0 10px;
-	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	li{
+		float: right;
+		margin: 5px;
+	}
 	a{	
 		background-color: $lightgrey;
 		font-size: 0.9em;
