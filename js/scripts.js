@@ -33,10 +33,11 @@ $(function() {
 
 $(function(){
         var stickynavtop = $('.navigation').offset().top;
-          
+        var stickylogo = $('.stickylogo');          
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
                         $('.navigation').css({position: 'fixed', top: '0px'});
+                        stickylogo.fadeIn();
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                 }
