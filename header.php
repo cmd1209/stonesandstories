@@ -30,9 +30,7 @@
 <!--   <div class="glass">
     <img src="<?php echo get_template_directory_uri(); ?>/img/brokenglass.png" alt="glass">
   </div> -->
-  <div class="stickylogo">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-  </div>
+
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
@@ -40,6 +38,9 @@
         </div>
         <div class="navigation">
           <div class="wmenu wrapper outline" role="navigation">
+                <div class="stickylogo">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+                </div>
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
           </div>
           <div class="bmenu wrapper" role="navigation">
