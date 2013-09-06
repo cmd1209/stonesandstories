@@ -1,8 +1,6 @@
-		</div>
-		<!-- /wrapper -->
+
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-			<div class="wrapper">
 				<div class="col col40">
            				<a href="<?php echo home_url(); ?>" style="border: none; width: 75%; margin: 0 0 40px 12px;">
               				<img src="<?php echo get_template_directory_uri(); ?>/img/logo-neg.svg" alt="Logo" class="logo-img">
@@ -19,10 +17,8 @@
 				<div class="copyright">
 					<p>&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?></p>
 				</div>
-				</div>
 			</footer>
-
-		
+		</div> <!-- end wrapper -->
 
 		<?php wp_footer(); ?>
 		

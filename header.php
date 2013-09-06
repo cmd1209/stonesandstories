@@ -26,7 +26,7 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
-  
+
 <!--   <div class="glass">
     <img src="<?php echo get_template_directory_uri(); ?>/img/brokenglass.png" alt="glass">
   </div> -->
@@ -48,15 +48,9 @@
     <div class="wrapper">
       <div id="overlay"></div>
 <!--       <iframe class="filmplayer" width="800" height="450" src="//www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe> -->
-
-
-      <header class="header clear" role="banner">
-        
-        
+  
+      
 <!--           <div class="atmosphere">
               <a href="#" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
           </div> -->
 
-
-        
-      </header>
