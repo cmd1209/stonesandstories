@@ -702,10 +702,11 @@ nav.pps-slider-nav{
 .post-categories{
 	position: absolute;
 	top: 20px;
-	right: 20px;
+	right: 10px;
+	width: 250px;
 	li{
 		float: right;
-		margin: 5px;
+		margin: 2px;
 	}
 	a{	
 		background-color: $lightgrey;
