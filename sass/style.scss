@@ -589,6 +589,8 @@ section{
 }
 
 nav.pps-slider-nav{
+	margin: 20px 0 0 0;
+	float: right;
 	position: relative;
 	a{	
 		font-size: 1em;
@@ -698,11 +700,13 @@ nav.pps-slider-nav{
 \*------------------------------------*/
 
 .post-categories{
-	margin: 20px 0 0 -40px;
+	float: right;
+	-webkit-column-count: 2;
 	a{	
-		font-size: 1em;
+		font-size: 0.9em;
 		font-weight: 300;
-		background-color: $grey;
+		text-transform: uppercase;
+		background-color: $lightgrey;
 		padding: 5px;
 	}
 }
