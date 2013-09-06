@@ -66,6 +66,13 @@ h1, h2, h3{
 	font-weight: 300;
 }
 
+p{
+	a{
+		text-decoration: none;
+		background-color: $lightgrey;
+	}
+}
+
 input:focus {
 	outline:0;
 	border:1px solid #e2f000;
@@ -717,7 +724,7 @@ nav.pps-slider-nav{
 	.post-categories{
 		position: absolute;
 		top: 20px;
-		right: 20px;
+		right: 10px;
 	}
 }
 
