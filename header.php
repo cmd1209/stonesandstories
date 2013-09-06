@@ -25,8 +25,9 @@
     }()
     </script>
   </head>
-  <body <?php body_class(); ?>
-<!-- <div class="glass">
+  <body <?php body_class(); ?>>
+  
+<!--   <div class="glass">
     <img src="<?php echo get_template_directory_uri(); ?>/img/brokenglass.png" alt="glass">
   </div> -->
   
