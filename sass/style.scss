@@ -7,7 +7,7 @@ $yellow: #e2f000;
 $grey: #CCC8C4;
 $lightgrey: #ecece6;
 $darkgrey: #B2AEAA;
-$menufontsize: 300 1.2em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+$menufontsize: 300 1.3em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 
 /* global box-sizing */
 *,
@@ -183,7 +183,7 @@ input:focus {
 		margin: 0 2%;
 		text-align: center;
 		font: $menufontsize;
-		font-weight: 700;
+		font-weight: 300;
 		display: inline-block;
 		color: white;
 		text-transform: lowercase;
@@ -411,10 +411,10 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "Courier New", Courier, monospace;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
 		color: $darkgrey;
 		font-size: 1em;
-		font-weight: 600;
 		border-left: 1px solid $darkgrey;
 		padding: 0 5px;
 		transition: all 0.2s;  

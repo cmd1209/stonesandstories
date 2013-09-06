@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"bo",
+				"bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
 				"galler-colum",
 				"gallery-columns-3"
 			],
@@ -136,10 +148,6 @@
 				"background-size"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"over",
 				"overflow"
 			],
@@ -247,7 +255,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2036,
+				"buffer_size": 2276,
 				"line_ending": "Unix"
 			}
 		},
@@ -255,7 +263,7 @@
 			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 1100,
+				"buffer_size": 1141,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +279,7 @@
 			"file": "sidebar.php",
 			"settings":
 			{
-				"buffer_size": 817,
+				"buffer_size": 655,
 				"line_ending": "Unix"
 			}
 		},
@@ -316,10 +324,18 @@
 			}
 		},
 		{
+			"file": "/Users/chad/Desktop/stonesandstories/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 15513,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 16450,
+				"buffer_size": 17341,
 				"line_ending": "Unix"
 			}
 		},
@@ -327,7 +343,7 @@
 			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 692,
+				"buffer_size": 1093,
 				"line_ending": "Unix"
 			}
 		},
@@ -544,6 +560,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"8",
+			"			",
+			"li",
+			"$ligh",
+			"navigationarea",
+			"floatingHeader",
 			"border",
 			".gallery-item",
 			"10",
@@ -648,7 +670,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -657,22 +679,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2036,
+						"buffer_size": 2276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1425,
-								1425
+								1206,
+								1206
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -686,15 +709,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1100,
+						"buffer_size": 1141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								725,
-								725
+								749,
+								749
 							]
 						],
 						"settings":
@@ -743,15 +766,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 817,
+						"buffer_size": 655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								457,
-								457
+								655,
+								655
 							]
 						],
 						"settings":
@@ -904,8 +927,36 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 64.0,
-						"translation.y": 886.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/chad/Desktop/stonesandstories/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1095
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 267.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -913,24 +964,24 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "sass/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16450,
+						"buffer_size": 17341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10481,
-								10481
+								8675,
+								8675
 							]
 						],
 						"settings":
@@ -940,26 +991,34 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9853.0,
+						"translation.y": 6380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 692,
+						"buffer_size": 1093,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								590,
-								590
+								750,
+								750
+							],
+							[
+								914,
+								914
+							],
+							[
+								1018,
+								1018
 							]
 						],
 						"settings":
@@ -974,7 +1033,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "sass/typo.scss",
 					"semi_transient": false,
 					"settings":
@@ -1003,7 +1062,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "sass/print.scss",
 					"semi_transient": false,
 					"settings":
@@ -1061,7 +1120,7 @@
 		"cols":
 		[
 			0.0,
-			0.499064919056,
+			0.634501930775,
 			1.0
 		],
 		"rows":
