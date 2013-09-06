@@ -12,8 +12,8 @@
 					<div class="links">
 						<?php wp_nav_menu( array('menu' => 'Footer' )); ?>
 					</div>
-					<p class="clear"></p>
 				</div>
+					<p class="clear"></p>
 				<div class="copyright">
 					<p>&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?></p>
 				</div>
