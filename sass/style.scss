@@ -177,9 +177,6 @@ input:focus {
 		list-style: none;
 		display: inline;
 	}
-	#menu-item-132{
-		-webkit-transform: rotate(15deg);
-	}
 
 	a{	
 		padding: 4px;
@@ -196,6 +193,9 @@ input:focus {
 		transition: all 0.2s;  
 	}
 }
+	#menu-item-132 > a{
+		-webkit-transform:rotate(15deg);
+	}
 
 .wmenu{
 	background-color: white;
