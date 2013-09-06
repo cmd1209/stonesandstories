@@ -69,14 +69,14 @@ h1, h2, h3{
 p{
 	a{
 		text-decoration: none !important;
-		font-weight: 600;
+		font:300 0.9em/1.4 "LinuxBiolinumOBold","Times New Roman",Georgia,Serif;
 	}
 }
 
 input:focus {
 	outline:0;
 	border:1px solid #e2f000;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 }
 .outline{
 	border: 1px solid $grey;
@@ -179,7 +179,7 @@ input:focus {
 		padding: 4px;
 		margin: 0 2%;
 		text-align: center;
-		font: 300 1.6em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+		font: 300 1.7em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 		display: inline-block;
 		color: white;
 		text-transform: lowercase;
