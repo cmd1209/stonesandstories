@@ -699,39 +699,25 @@ nav.pps-slider-nav{
     WORDPRESS CORE
 \*------------------------------------*/
 
+.post-categories{
+	li{
+		float: right;
+		margin: 2px;
+	}
+	a{
+		background-color: $lightgrey;
+		font-size: 0.9em;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding: 5px;
+	}
+}
+
 .categorysingle{
 	.post-categories{
 		position: absolute;
 		top: 20px;
 		right: 20px;
-			li{
-				float: right;
-				margin: 5px;
-			}
-		a{	
-			background-color: $lightgrey;
-			font-size: 0.9em;
-			font-weight: 300;
-			text-transform: uppercase;
-			padding: 5px;
-		}
-	}
-
-}
-
-.categorylist{
-	.post-categories{
-			li{
-				float: right;
-				margin: 5px;
-			}
-		a{	
-			background-color: $lightgrey;
-			font-size: 0.9em;
-			font-weight: 300;
-			text-transform: uppercase;
-			padding: 5px;
-		}
 	}
 }
 
