@@ -95,3 +95,30 @@
     font-style: normal;
 
 }
+
+a {
+    color:#444;
+    text-decoration:none !important;
+}
+a:hover {
+    color:#444;
+}
+a:focus {
+    outline:0;
+}
+a:hover,
+a:active {
+    outline:0;
+}
+
+h1, h2, h3{
+    font:300 1.5em "forumregular","Times New Roman",Georgia,Serif;
+}
+
+p{
+    font:300 1em "Times New Roman",Georgia,Serif;
+    a{
+        text-decoration: none !important;
+        font-weight: 600;
+    }
+}
