@@ -368,13 +368,10 @@ section{
 }
 
 .footer {
-	position: relative;
-	z-index: 30;
 	width: 100%;
 	background-color: black;
 	color: white;
 	padding: 40px 20px 20px 10px;
-	overflow: hidden;
 	img {
 		max-width:100%;
 		vertical-align:bottom;
@@ -384,7 +381,6 @@ section{
 		margin: 0;
 	}
 	li{	
-		padding: 0;
 		margin: 0;
 		list-style: none;
 		padding: 5px 10px;
