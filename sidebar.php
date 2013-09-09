@@ -16,7 +16,6 @@
 					<figure>
 	    					<img src="http://andreas-heller.de/2013/wp-content/uploads/2013/06/green.jpg" alt="">
 	    			</figure>
-	    	</div>	
-
+	    	</div>
 <!-- /sidebar -->
 
