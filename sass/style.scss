@@ -813,27 +813,17 @@ figure{
 	}
 }
 figcaption{
-	position: absolute;
-	bottom: -100%;
+	position: relative;
 	width: 75%;
 	line-height:17px;
 	font-size:11px;
 	padding: 10px !important;
-	background-color: $yellow;
 	display: block;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
-}
-figure:hover > figcaption{
-	bottom: 0;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;	
 }
 
 figure.alignright{
@@ -865,7 +855,7 @@ figure.alignright{
 		height: auto;
 	}
 	dd{
-		width: 75%;
+		width: 90%;
 		padding: 10px;
 	}
 }
@@ -904,7 +894,6 @@ figure.alignright{
 }
 
 .gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption{
-	background-color: $yellow;
 	position: relative;
 	display: block;
 	-webkit-transition: all 0.5s ease-in-out;
