@@ -35,6 +35,7 @@
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
+            <?php get_template_part('searchform'); ?>
         </div>
         <div class="navigation">
           <div class="wmenu wrapper outline" role="navigation">
@@ -45,7 +46,6 @@
           </div>
           <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'White' )); ?>
-             <div class="search_container"> <?php get_template_part('searchform'); ?></div>
           </div>
         </div>
 
