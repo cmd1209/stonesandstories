@@ -45,7 +45,7 @@
           </div>
           <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'White' )); ?>
-              <?php get_template_part('searchform'); ?>
+             <div class="search_container"> <?php get_template_part('searchform'); ?></div>
           </div>
         </div>
 
