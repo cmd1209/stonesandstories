@@ -590,11 +590,14 @@ nav.pps-slider-nav{
 	margin: 20px 0 0 0;
 	float: right;
 	position: relative;
+	p{
+		font-size: 0.85em;
+	}
 	a{	
 		font-size: 0.85em;
 		font-weight: 300;
 		background-color: $grey;
-		padding: 2px;
+		padding: 4px;
 		margin: 0 2px;
 	}
 	a:hover{
