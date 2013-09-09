@@ -292,7 +292,7 @@ input:focus {
     border: 1px solid $grey;
     font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
   	background-color: $lightgrey;
-  	position: static;
+  	position: relative;
 }
 
 ::-webkit-input-placeholder{
