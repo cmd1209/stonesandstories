@@ -272,13 +272,13 @@ input:focus {
 	}
 }
 
-.navigation form{
+.navigation > form{
   position: absolute;
   top: -35px;
   right: 0;
 }
 
-.footer form{
+.footer > form{
   position: relative;
   margin: 0 0 0 20px;
 }
