@@ -35,9 +35,9 @@
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
-            <?php get_template_part('searchform'); ?>
         </div>
         <div class="navigation">
+            <?php get_template_part('searchform'); ?>
           <div class="wmenu wrapper outline" role="navigation">
                 <div class="stickylogo">
                   <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">

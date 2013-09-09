@@ -272,12 +272,18 @@ input:focus {
 	}
 }
 
-form{
-  width: 300px;
+.navigation form{
+  width: 225px;
   height: 20px;
   position: absolute;
-  top: 85px;
+  top: -30px;
   right: 10px;
+}
+
+.footer form{
+  width: 225px;
+  height: 20px;
+  position: relative;
 }
 
 .search-input{
