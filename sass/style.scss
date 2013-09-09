@@ -24,6 +24,7 @@ html {
 	font-size:75%;
 }
 body {
+	font:300 0.9em/1.4 "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 }
 
 /* clear */
@@ -291,6 +292,7 @@ form{
     outline: 0px;
     color: black;
     border: 1px solid transparent;
+    font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
   	background-color: $lightgrey;
 }
 
@@ -308,7 +310,7 @@ form{
     height: 20px;
     font-size: 1em;
     width: 20px;
-    font:300 0.9em/1.4 "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+    font-family: 'fontello', Arial, Helvetica, sans-serif;
     color: black;
   }
 .search-submit:hover{
