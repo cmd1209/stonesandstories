@@ -166,7 +166,7 @@ input:focus {
 	}
 }
 
-.navigation{
+.wmenu{
 	width: 100%;
 	z-index: 19;
 	padding: 5px 0;
@@ -281,9 +281,10 @@ input:focus {
 }
 
 .footer form{
-  width: 225px;
+  width: 300px;
   height: 20px;
   position: relative;
+  float: right;
 }
 
 .search-input{
@@ -304,8 +305,8 @@ input:focus {
 	background-color: white;
     text-align: center;
     position: absolute;
-    top: 1px;
-    right: 1px;
+    top: 0;
+    right: 0;
     border: none;
     height: 20px;
     font-size: 1em;
