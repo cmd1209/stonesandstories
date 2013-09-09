@@ -8,7 +8,7 @@
 		
 
 	    				<figure>
-	    					<a href="http://http://dah-bremerhaven.de/australien.php">
+	    					<a href="http://www.dah-bremerhaven.de/australien.php">
 	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/09/australian-poster.jpg" alt="">
 	    					</a>
 	    				</figure>
