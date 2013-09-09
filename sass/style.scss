@@ -591,7 +591,7 @@ section{
 nav.pps-slider-nav{
 	width: 100%;
 	margin: 20px 0 0 0;
-	float: right;
+	text-align: right;
 	position: relative;
 	font-size: 0.85em;
 	a{	
@@ -866,7 +866,7 @@ figure.alignright{
 
 .gallery .gallery-item {
     float: left;
-    margin: 0px auto;
+    margin: 0px auto 40px auto;
     text-align: center;
     position: relative;
 
