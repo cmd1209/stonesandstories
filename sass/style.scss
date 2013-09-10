@@ -272,10 +272,10 @@ input:focus {
 	}
 	li:hover > ul{
 		display: block;
+		border: 1px solid $grey;
 	}
 	li ul li:hover{
 		background-color: $yellow;
-		border: 1px solid $grey;
 	}
 	li:hover{
 		background-color: $yellow;
