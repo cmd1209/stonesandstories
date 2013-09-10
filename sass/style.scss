@@ -236,7 +236,8 @@ input:focus {
 		border: 1px solid white;
 		ul{
 			display: none;
-			width: 100%;
+			min-width: 100%;
+			white-space: nowrap;
 			text-align: center;
 			position: absolute;
 			left: 0;
@@ -281,8 +282,9 @@ input:focus {
 		background-color: $yellow;
 	}
 	#menu-item-149:hover, #menu-item-154:hover, #menu-item-172:hover{
-		outline:1px solid $grey;
-		outline-offset:-1px;
+		border-top: 1px solid $grey;
+		border-left: 1px solid $grey;
+		border-right: 1px solid $grey;
 	}
 
 }
