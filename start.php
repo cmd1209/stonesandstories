@@ -12,7 +12,7 @@
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
-                    <h2><?php the_field('subheadline'); ?></h2>
+                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(60); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -36,7 +36,7 @@
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
-                    <h2><?php the_field('subheadline'); ?></h2>
+                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -63,7 +63,7 @@
                 <div class="textwrap">
                   <h2 style="margin-top:5px;"><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
-                    <h2><?php the_field('subheadline'); ?></h2>
+                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(15); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -80,7 +80,7 @@
               <div class="textwrap yellow col60">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
-                    <h2><?php the_field('subheadline'); ?></h2>
+                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -100,7 +100,7 @@
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
-                    <h2><?php the_field('subheadline'); ?></h2>
+                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -119,7 +119,7 @@
                   <div class="textwrap yellow col100">
                   <h2 style="margin-top:5px;"><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
-                    <h2><?php the_field('subheadline'); ?></h2>
+                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
