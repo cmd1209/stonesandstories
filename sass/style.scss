@@ -275,6 +275,7 @@ input:focus {
 		border-bottom: 1px solid $grey;
 		border-left: 1px solid $grey;
 		border-right: 1px solid $grey;
+		box-shadow: 0 20px 20px $grey;
 	}
 	li:hover{
 		background-color: $yellow;
