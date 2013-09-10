@@ -61,7 +61,7 @@
              <?php query_posts('orderby=rand&showposts=1&tag=t3'); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
-                  <h2><?php the_title(); ?></h2>
+                  <h2 style="margin-top:10px;"><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
                     <h2><?php the_field('subheadline'); ?></h2>
                   <?php endif; ?>
@@ -117,7 +117,7 @@
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>
                   <div class="textwrap yellow col100">
-                  <h2><?php the_title(); ?></h2>
+                  <h2 style="margin-top:10px;"><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
                     <h2><?php the_field('subheadline'); ?></h2>
                   <?php endif; ?>
