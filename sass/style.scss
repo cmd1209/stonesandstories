@@ -252,6 +252,9 @@ input:focus {
 				cursor: pointer;
 				padding: 4px;
 				margin: 0 0 2px 0;
+				border-bottom: 1px solid $grey;
+				border-left: 1px solid $grey;
+				border-right: 1px solid $grey;
 				
 				a{	
 					font-size: 0.9em !important;
@@ -272,13 +275,14 @@ input:focus {
 	}
 	li:hover > ul{
 		display: block;
-		border-bottom: 1px solid $grey;
-		border-left: 1px solid $grey;
-		border-right: 1px solid $grey;
-		box-shadow: 0 5px 20px black;
 	}
 	li:hover{
 		background-color: $yellow;
+	}
+	ul > li:hover{
+		border-bottom: 1px solid $grey;
+		border-left: 1px solid $grey;
+		border-right: 1px solid $grey;
 	}
 }
 
