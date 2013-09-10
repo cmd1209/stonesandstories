@@ -47,9 +47,17 @@
      
         <div class="col col50 L">
 
-        <div class="col col100 S H200">
+        <div class="col col50 L H200">
           <div class="module">
-            <div class="col col60">
+             <?php query_posts('orderby=rand&showposts=1&tag=t3'); ?>
+              <?php while (have_posts()) : the_post(); ?>
+              <div class="imagecontainer H200"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
+            <?php endwhile; ?>
+          </div>
+        </div>
+
+        <div class="col col50 R H200">
+          <div class="module">
              <?php query_posts('orderby=rand&showposts=1&tag=t3'); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
@@ -59,11 +67,7 @@
                   <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-                </div>              
-            </div>
-            <div class="col col40">
-              <div class="imagecontainer H200"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
-            </div>
+                </div>
             <?php endwhile; ?>
           </div>
         </div>
