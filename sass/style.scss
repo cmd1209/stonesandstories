@@ -233,6 +233,7 @@ input:focus {
 		list-style: none;
 		display: inline;
 		position: relative;
+		border: 1px solid white;
 		ul{
 			display: none;
 			width: 100%;
@@ -244,6 +245,9 @@ input:focus {
 			background-color: white;
 			padding: 10px 0 0 0;
 			margin: -1px 0 0 0;	
+			border-bottom: 1px solid $grey;
+			border-left: 1px solid $grey;
+			border-right: 1px solid $grey;
 			
 			li{	
 				width: 100%;
@@ -252,9 +256,6 @@ input:focus {
 				cursor: pointer;
 				padding: 4px;
 				margin: 0 0 2px 0;
-				border-bottom: 1px solid $grey;
-				border-left: 1px solid $grey;
-				border-right: 1px solid $grey;
 				
 				a{	
 					font-size: 0.9em !important;
@@ -279,14 +280,7 @@ input:focus {
 	li:hover{
 		background-color: $yellow;
 	}
-	ul li:hover{
-		border-top: 1px solid $grey;
-		border-left: 1px solid $grey;
-		border-right: 1px solid $grey;
-	}
-	ul li ul li:hover{
-		border: none;
-	}
+
 }
 
 .wmenu form{
