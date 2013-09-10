@@ -281,9 +281,8 @@ input:focus {
 		background-color: $yellow;
 	}
 	#menu-item-149:hover, #menu-item-154:hover, #menu-item-172:hover{
-		border-top: 1px solid $grey;
-		border-left: 1px solid $grey;
-		border-right: 1px solid $grey;
+		outline:1px solid $grey;
+		outline-offset:-1px;
 	}
 
 }
