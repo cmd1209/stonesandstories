@@ -280,6 +280,11 @@ input:focus {
 	li:hover{
 		background-color: $yellow;
 	}
+	#menu-item-149:hover{
+		border-top: 1px solid $grey;
+		border-left: 1px solid $grey;
+		border-right: 1px solid $grey;
+	}
 
 }
 
