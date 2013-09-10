@@ -236,7 +236,7 @@ input:focus {
 		border: 1px solid white;
 		ul{
 			display: none;
-			width: calc(100% + 1px);
+			width: calc(100% + 2px);
 			text-align: center;
 			position: absolute;
 			left: 0;
@@ -244,7 +244,7 @@ input:focus {
 			z-index: 20;
 			background-color: white;
 			padding: 10px 0 0 0;
-			margin: -1px 0 0 0;	
+			margin: -1px 0 0 -2px;	
 			border-bottom: 1px solid $grey;
 			border-left: 1px solid $grey;
 			border-right: 1px solid $grey;
