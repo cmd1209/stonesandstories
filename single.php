@@ -8,7 +8,9 @@
             <div class="textwrap categorysingle">
                 <?php the_category(); ?>              
                 <h2><?php the_title(); ?></h2>
-                <h3><?php the_field('subheadline'); ?></h3>
+                <?php if( get_field('subheadline') ): ?>
+                    <h3>My field value: <?php the_field('subheadline'); ?></h3>
+                  <?php endif; ?>
               <?php the_content(); ?>
             </div>
           </div>

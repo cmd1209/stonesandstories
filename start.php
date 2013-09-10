@@ -11,7 +11,9 @@
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
-                  <h3><?php the_field('subheadline'); ?></h3>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h2>My field value: <?php the_field('subheadline'); ?></h2>
+                  <?php endif; ?>
                   <?php echo excerpt(60); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
@@ -33,7 +35,9 @@
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
-                  <h3><?php the_field('subheadline'); ?></h3>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h2>My field value: <?php the_field('subheadline'); ?></h2>
+                  <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
@@ -50,7 +54,9 @@
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
-                  <h3><?php the_field('subheadline'); ?></h3>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h2>My field value: <?php the_field('subheadline'); ?></h2>
+                  <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
@@ -69,7 +75,9 @@
                <div class="imagecontainer H300"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="textwrap yellow col60">
                   <h2><?php the_title(); ?></h2>
-                  <h3><?php the_field('subheadline'); ?></h3>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h2>My field value: <?php the_field('subheadline'); ?></h2>
+                  <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
               </div>
@@ -87,7 +95,9 @@
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
-                  <h3><?php the_field('subheadline'); ?></h3>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h2>My field value: <?php the_field('subheadline'); ?></h2>
+                  <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
@@ -97,14 +107,16 @@
 
         <div class="col col50 R H500">
           <div class="module">
-            <?php query_posts('orderby=rand&showposts=1&category_name=news'); ?>
+            <?php query_posts('orderby=rand&showposts=1&tag=t6'); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="imagecontainer H500">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>
                   <div class="textwrap yellow col100">
                   <h2><?php the_title(); ?></h2>
-                  <h3><?php the_field('subheadline'); ?></h3>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h2>My field value: <?php the_field('subheadline'); ?></h2>
+                  <?php endif; ?>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
