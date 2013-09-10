@@ -49,7 +49,7 @@
 
         <div class="col col50 L H200">
           <div class="module">
-             <?php query_posts('orderby=rand&showposts=1&tag=t3'); ?>
+             <?php query_posts('orderby=rand&showposts=1&tag=b3'); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="imagecontainer H200"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
             <?php endwhile; ?>
