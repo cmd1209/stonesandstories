@@ -580,10 +580,9 @@ section{
 	position: relative;
 	border: 1px solid $grey;
 	background-color: white;
-	width: 100%;
-	margin: 0 0 10px 0;
+	height: 100%;
 	overflow: hidden;
-	padding: 10px;
+	padding: 0 0 10px 0;
 	img{
 		width: 100%;
 		height: auto;
