@@ -3,6 +3,7 @@
   <section role="main">
     <div class="col startcontent">
       <div class="col col75">
+
         <div class="module">
           <?php query_posts('orderby=rand&showposts=1&tag=t1'); ?>
           <?php while (have_posts()) : the_post(); ?>
@@ -58,6 +59,8 @@
 
 
       </div>
+
+      
       <div class="col col25">
         <div class="module">
             <?php query_posts('orderby=rand&showposts=1&tag=t2'); ?>
