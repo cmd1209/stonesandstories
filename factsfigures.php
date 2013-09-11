@@ -6,16 +6,13 @@
       
         <div class="col col100">
           <div class="module">
-             <?php query_posts('orderby=rand'); ?>
+             <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-
                   <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
-                  <?php endif; ?>
+                  <?php the_category(); ?>   
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-
             <?php endwhile; ?>
+            <?php wp_reset_query(); ?>
           </div>
         </div>
 
