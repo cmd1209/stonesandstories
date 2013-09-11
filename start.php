@@ -3,7 +3,7 @@
   <section role="main">
     <div class="col startcontent">
 
-      <div class="col col75">
+      <div class="col col100 S">
         <div class="module">
           <?php query_posts('orderby=rand&showposts=1&tag=t1'); ?>
         <?php while (have_posts()) : the_post(); ?>
@@ -16,6 +16,9 @@
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
             <?php endwhile; ?>
         </div>
+      </div>
+
+      <div class="col col75 L">
 
         <div class="module">
           <?php query_posts('orderby=rand&showposts=1&tag=t2'); ?>
