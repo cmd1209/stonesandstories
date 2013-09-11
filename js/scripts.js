@@ -39,10 +39,11 @@ $(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
                         $('.navigation').css({position: 'fixed', top: '0px'});
                         stickylogo.slideDown(200);
-                        searchform.css({top: '20px'});
+                        searchform.css({top: '2px'});
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});
+                        searchform.css({top: '-35px'});
                 }
         });
 });
