@@ -45,7 +45,7 @@
           </div>
         </div>
      
-        <div class="col col50 L">
+        <div class="col col50 L" style="padding-bottom:0;">
 
         <div class="col col50 L H200">
           <div class="module">
@@ -91,7 +91,7 @@
        
         </div>
         
-        <div class="col col50 R">
+        <div class="col col50 R" style="padding-bottom:0;" >
         <div class="col col50 L H500">
           <div class="module">
             <?php query_posts('orderby=rand&showposts=1&tag=t5'); ?>
