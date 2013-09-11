@@ -34,7 +34,7 @@ $(function() {
 $(function(){
         var stickynavtop = $('.navigation').offset().top;
         var stickylogo = $('.stickylogo');
-        var searchform = $('.wmenu').find('.search-submit');          
+        var searchform = $('.wmenu').find('.search');          
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
                         $('.navigation').css({position: 'fixed', top: '0px'});
