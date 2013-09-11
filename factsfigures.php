@@ -10,7 +10,7 @@
               <?php while (have_posts()) : the_post(); ?>
 
                   <h3><?php the_title(); ?></h3>
-                  <p><?php the_date(); ?></p>
+                  <?php the_date('Y', '<p>', '</p>'); ?>
                   <?php the_category(); ?>   
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
             <?php endwhile; ?>
