@@ -480,6 +480,11 @@ section{
 	width: 20%;
 }
 
+.col20, .col25, .col33, .col40, .col50, .col60, .col75, .col80{
+		@media only screen and (max-width:767px) {
+		width: 100%;
+	}
+}
 
 .H500{
 	height: 500px;
@@ -496,6 +501,13 @@ section{
 .H100{
 	height: 100px;
 }
+
+.H100, .H200, .H300, .H400, .H500{
+		@media only screen and (max-width:767px) {
+		height: auto;
+	}
+}
+
 
 .double{
 	-webkit-column-count: 2;
