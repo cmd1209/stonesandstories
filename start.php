@@ -5,8 +5,8 @@
 
       <div class="col col75">
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=t1'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
@@ -18,8 +18,8 @@
         </div>
 
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=t2'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
@@ -31,8 +31,8 @@
         </div>
 
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=t3'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
@@ -44,8 +44,8 @@
         </div>
 
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=t4'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
@@ -61,8 +61,8 @@
 
       <div class="col col25">
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=t5'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
@@ -74,8 +74,8 @@
         </div>
 
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=t6'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
@@ -87,8 +87,8 @@
         </div>
 
         <div class="module">
-        <?php while (have_posts()) : the_post(); ?>
           <?php query_posts('orderby=rand&showposts=1&tag=b3'); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <h2><?php the_title(); ?></h2>
             <?php if( get_field('subheadline') ): ?>
               <h3><?php the_field('subheadline'); ?></h3>
