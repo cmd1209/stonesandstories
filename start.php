@@ -72,7 +72,7 @@
           </div>
         </div>
           
-        <div class="col col100 S H200">
+        <div class="col col100 S H300">
           <div class="module">
              <?php query_posts('orderby=rand&showposts=1&tag=t4'); ?>
               <?php while (have_posts()) : the_post(); ?>
