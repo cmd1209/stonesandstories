@@ -43,7 +43,7 @@ $(function(){
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});
-                        searchform.css({top: '-35px'});
+                        searchform.css({top: '-35px', right: '0px'});
                 }
         });
 });
