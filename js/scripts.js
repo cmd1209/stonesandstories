@@ -39,7 +39,7 @@ $(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
                         $('.navigation').css({position: 'fixed', top: '0px'});
                         stickylogo.slideDown(200);
-                        searchform.css({top: '8px'});
+                        searchform.css({top: '7px', right: '7px'});
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});

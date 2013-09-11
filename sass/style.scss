@@ -47,6 +47,9 @@ body {
 		width: 75%;
 		height: auto;
 	}
+	  @media only screen and (max-width:767px) {
+		margin: -500px 0 0 0;
+	}
 }
 
 .clear:after {
@@ -295,6 +298,10 @@ input:focus {
   position: absolute;
   top: -35px;
   right: 0;
+
+  @media only screen and (max-width:767px) {
+		margin: -500px 0 0 0;
+	}
 }
 
 .footer form{
