@@ -8,14 +8,16 @@
           <?php query_posts( array( 'category__in' => array(2,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
-            <div class="col col40" style="padding-right: 20px;">
+            <div class="col col50" style="padding-right: 20px;">
               <a href="#" class="trigger"><?php the_title(); ?></a>
             </div>
-            <div class="col col5">
+            <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
-            <div class="col col25">
-              <?php the_category(); ?>
+            <div class="col col10">
+               <?php if( get_field('location') ): ?>
+                    <?php the_field('location'); ?>
+                <?php endif; ?>
             </div>
             <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
