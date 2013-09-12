@@ -32,7 +32,7 @@ $(function() {
 
 
 $(function() {
-    $('#trigger').click(function(){
+    $('.trigger').click(function(){
       $(this).next().slideToggle("fast");
       return false;
     });

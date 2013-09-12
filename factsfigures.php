@@ -21,7 +21,7 @@
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
             <div class="col accordion">
-              <a href="#" id="trigger">Details</a>
+              <a href="#"class="trigger">mehr lesen</a>
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
