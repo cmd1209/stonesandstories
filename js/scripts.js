@@ -32,8 +32,8 @@ $(function() {
 
 
 $(function(){
-        var togglecontainer = $('.togglecontainer');
-        var factbox = $('.togglecontainer').find('.factbox');
+        var factbox = $('.factbox');
+        var togglecontainer = factbox.find('.togglecontainer');
         
         factbox.hover(
             function () {
