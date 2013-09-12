@@ -19,6 +19,9 @@
             </div>
             <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
+            </div>
+            <div class="col col100 togglecontainer">
+              bla bla bla
             </div>     
           </div>
           <?php endwhile; ?>

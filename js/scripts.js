@@ -32,6 +32,21 @@ $(function() {
 
 
 $(function(){
+        var togglecontainer = $('.togglecontainer');
+        var factbox = $('.factbox');
+        
+        factbox.hover(
+            function () {
+                togglecontainer.css({display: 'block'});
+  },
+            function () {
+                togglecontainer.css({display: 'none'});
+  }
+);
+
+});
+
+$(function(){
         var stickynavtop = $('.navigation').offset().top;
         var stickylogo = $('.stickylogo');
         var searchform = $('.wmenu').find('.search');          
