@@ -32,12 +32,19 @@ $(function() {
 
 
 $(function() {
-    $('.trigger').click(function(){ 
-      $(this).closest('.factbox').css('background-color:', '#f9f9f9');  
+    $('.trigger').click(function(){  
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
 });
+
+$(function() {
+    $('.trigger').hover(function(){  
+      $(this).closest('.factbox').css('background-color:', '#f9f9f9');
+      return false;
+    });
+});
+
 
 
 $(function(){
