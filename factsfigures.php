@@ -20,7 +20,7 @@
             <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
-            <div class="accordion">
+            <div class="col accordion">
               <a href="#" id="trigger">Facts & Figures anschauen</a>
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
