@@ -11,10 +11,10 @@
             <div class="col col40">
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
-            <div class="col col10">
+            <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
-            <div class="col col20">
+            <div class="col col25">
               <?php the_category(); ?>
             </div>
             <div class="col col30">

@@ -489,8 +489,11 @@ section{
 .col10{
 	width: 10%;
 }
+.col5{
+	width: 5%;
+}
 
-.col20, .col25, .col33, .col40, .col50, .col60, .col75, .col80{
+.col20, .col25, .col33, .col40, .col50, .col60, .col75, .col80, .col10, .col5{
 		@media only screen and (max-width:767px) {
 		width: 100%;
 	}
@@ -652,7 +655,7 @@ section{
 	.accordion{
 		border-left: 1px solid $grey;
 		width:100%;
-		padding: 0 0 0 40%;
+		padding: 0 60% 0 0;
 	}
 	.trigger{
 		font-size: 0.85em;
