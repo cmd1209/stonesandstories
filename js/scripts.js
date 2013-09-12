@@ -35,7 +35,7 @@ $(function() {
 
 
     $('#trigger').click(function(){
-      $(this).find('.togglecontainer').slideToggle("fast");
+      $('.togglecontainer').slideToggle("fast");
       return false;
     });
     });
