@@ -477,6 +477,9 @@ section{
 .col40{
 	width: 40%;
 }
+.col30{
+	width: 30%;
+}
 .col25{
 	width: 25%;
 }
@@ -631,13 +634,7 @@ section{
 
 .factbox{
 	width: 100%;
-	padding: 5px 20px 5px 20px;
-	tr{
-		border-bottom: 1px solid $grey;
-	}
-	td{
-		padding: 5px;
-	}
+	border-bottom: 1px solid $grey;
 }
 
 

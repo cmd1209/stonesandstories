@@ -22,6 +22,9 @@
                 <a href="<?php echo get_permalink(); ?>"> mehr...</a>
               </div>
             </div>
+            <div class="col col30">
+              
+            </div>
         </div>
         <?php endwhile; ?>
         <?php wp_reset_query(); ?>   
