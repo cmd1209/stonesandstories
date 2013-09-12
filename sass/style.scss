@@ -650,13 +650,14 @@ section{
 		margin: 2px 2px 2px 0;
 	}
 	.accordion{
+		border-left: 1px solid $grey;
 		width:100%;
-		padding: 0 0 0 20%;
+		padding: 0 0 0 40%;
 	}
 	.trigger{
-		font-size: 1em;
+		font-size: 0.85em;
 		font-weight: 300;
-		background-color: $grey;
+		background-color: $lightgrey;
 		padding: 5px; 
 	}
 	.toggle{
