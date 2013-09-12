@@ -9,7 +9,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col40" style="padding-right: 20px;">
-              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a href="#" class="trigger"><?php the_title(); ?></a>
             </div>
             <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -20,16 +20,11 @@
             <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
-            <div class="col accordion">
-              <a href="#"class="trigger post-categories">Details</a>
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
               </div>     
-            </div>
-
-   
           </div>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     

@@ -32,8 +32,8 @@ $(function() {
 
 
 $(function() {
-    $('.trigger').click(function(){
-      $(this).next().slideToggle("fast");
+    $('.trigger').click(function(){ 
+      $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
 });
