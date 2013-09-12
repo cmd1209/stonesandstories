@@ -33,10 +33,10 @@ $(function() {
 
 $(function() {
     $('#trigger').click(function(){
-      $(this).next().slideToggle("slow");
+      $(this).next().slideToggle("fast");
       return false;
     });
-    });
+});
 
 
 $(function(){
