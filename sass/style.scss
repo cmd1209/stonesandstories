@@ -639,6 +639,7 @@ section{
 	width: 100%;
 	overflow: hidden;
 	padding: 5px;
+	border-bottom: 1px solid $grey;
 	.col{
 		padding: 0 5px 0 0;
 	}
@@ -651,15 +652,11 @@ section{
 		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
-	.accordion{
-
-		width:100%;
-		padding: 0 30% 0 0;
-	}
 	.trigger{
 	}
 	.toggle{
 		width: 100%;
+		padding: 0 0 0 30%;
 		display: none;
 	}
 }
