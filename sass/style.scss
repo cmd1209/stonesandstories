@@ -626,6 +626,18 @@ section{
 	}
 }
 
+table.factbox{
+	width: 100%;
+	padding: 5px 20px 5px 20px;
+	tr{
+		border-bottom: 1px solid $grey;
+	}
+	td{
+		padding: 5px;
+	}
+}
+
+
 nav.pps-slider-nav{
 	width: 100%;
 	height: 30px;

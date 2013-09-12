@@ -5,16 +5,26 @@
     <div class="col maincontent">
       
         <div class="col col100">
+            <table class="factbox">
+              <tr>
              <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-              <?php while (have_posts()) : the_post(); ?>      
-          <div class="module">
-                  <a href="<?php echo get_permalink(); ?>"> <?php the_title(); ?></a>
+              <?php while (have_posts()) : the_post(); ?>
+                <td>
+                  <a href="#"> <?php the_title(); ?></a>
+                </td>
+                <td>
                   <?php the_date('Y', '<p>', '</p>'); ?>
-                  <?php the_category(); ?>   
+                </td>
+                <td>
+                  <?php the_category(); ?>
+                </td>
+                <td>   
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+                </td>
             <?php endwhile; ?>
-            <?php wp_reset_query(); ?>
-          </div>
+            <?php wp_reset_query(); ?>              
+                </tr>     
+            </table>
         </div>
 
     </div>
