@@ -18,7 +18,7 @@
               <?php the_category(); ?>
             </div>
             <div class="col col30">
-              <?php the_tag(); ?>
+              <?php the_tags(); ?>
             </div>     
           </div>
           <?php endwhile; ?>
