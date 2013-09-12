@@ -9,7 +9,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col40">
-              <a href="#"> <?php the_title(); ?></a>
+              <a href="<?php echo get_permalink(); ?>"> <?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -17,11 +17,8 @@
             <div class="col col20">
               <?php the_category(); ?>
             </div>
-            <div class="col col10">
-              <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-            </div>
-            <div class="col col20">
-              
+            <div class="col col30">
+              <?php the_keywords(); ?>
             </div>     
           </div>
           <?php endwhile; ?>
