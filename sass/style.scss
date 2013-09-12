@@ -634,7 +634,6 @@ section{
 
 .factbox{
 	width: 100%;
-	overflow: hidden;
 	padding: 5px;
 	border-bottom: 1px solid $grey;
 	.col{
@@ -646,7 +645,7 @@ section{
 	ul{
 		margin: 0 0 0 0; }
 	a, li{
-		line-height: calc(1.4em + 2px);
+		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
 }
