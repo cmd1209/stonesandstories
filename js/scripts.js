@@ -35,11 +35,11 @@ $(function(){
         var factbox = $('.factbox');
 
         factbox.hover(
-            function () {
-                $this().find('.togglecontainer').slideDown();  },
+            function(){
+                $this().find('.togglecontainer').slideDown();
+            },
             function () {
                 $this().find('.togglecontainer').slideUp();  });
-
 });
 
 $(function(){
