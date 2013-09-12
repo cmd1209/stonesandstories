@@ -31,9 +31,9 @@ $(function() {
 });
 
 
-    $(function($) {
+$(function() {
     $('#trigger').click(function(){
-      $(this).next('.toggle').slideToggle("slow");
+      $(this).next()('.toggle').slideToggle("slow");
       return false;
     });
     });
