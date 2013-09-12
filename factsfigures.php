@@ -5,27 +5,27 @@
     <div class="col maincontent">
       
         <div class="col col100">
-            <table class="factbox">
-             <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
-              <tr>
-                <td>
+          <div class="module">
+            <div class="factbox">
+              <div class="col col25">
+                <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
+                <?php while (have_posts()) : the_post(); ?>
                   <a href="#"> <?php the_title(); ?></a>
-                </td>
-                <td>
+              </div>
+              <div class="col col10">
                   <?php the_date('Y', '<p>', '</p>'); ?>
-                </td>
-                <td>
-                  <?php the_category(); ?>
-                </td>
-                <td>   
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-                </td>
-                </tr>     
-            <?php endwhile; ?>
-            <?php wp_reset_query(); ?>              
-            </table>
+              </div>
+              <div class="col col25">
+                <?php the_category(); ?>
+              </div>
+              <div class="col col10">
+                <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+              </div>
+            </div>
         </div>
+        <?php endwhile; ?>
+        <?php wp_reset_query(); ?>   
+
 
     </div>
     <div class="col sidebar">

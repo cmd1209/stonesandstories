@@ -483,6 +483,9 @@ section{
 .col20{
 	width: 20%;
 }
+.col10{
+	width: 10%;
+}
 
 .col20, .col25, .col33, .col40, .col50, .col60, .col75, .col80{
 		@media only screen and (max-width:767px) {
@@ -626,7 +629,7 @@ section{
 	}
 }
 
-table.factbox{
+.factbox{
 	width: 100%;
 	padding: 5px 20px 5px 20px;
 	tr{
