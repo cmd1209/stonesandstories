@@ -18,7 +18,6 @@
                <?php if( get_field('location') ): ?>
                     <?php the_field('location'); ?>
                 <?php endif; ?>
-                <p></p>
             </div>
             <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
