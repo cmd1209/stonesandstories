@@ -31,16 +31,16 @@ $(function() {
 });
 
 
-$(function(){
-        var factbox = $('.factbox');
+    $(function($) {
 
-        factbox.hover(
-            function(){
-                $this().find('.togglecontainer').slideDown();
-            },
-            function () {
-                $this().find('.togglecontainer').slideUp();  });
-});
+
+    $('.factbox').hover(function(){
+      $(this).next().slideToggle("fast");
+      return false;
+    });
+    });
+
+
 
 $(function(){
         var stickynavtop = $('.navigation').offset().top;
