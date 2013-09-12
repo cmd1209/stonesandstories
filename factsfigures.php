@@ -5,11 +5,10 @@
     <div class="col maincontent">
       
         <div class="col col100">
-          <div class="module">
              <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
-
-                  <h3><?php the_title(); ?></h3>
+              <?php while (have_posts()) : the_post(); ?>      
+          <div class="module">
+                  <a href="<?php echo get_permalink(); ?>"> <?php the_title(); ?></a>
                   <?php the_date('Y', '<p>', '</p>'); ?>
                   <?php the_category(); ?>   
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
