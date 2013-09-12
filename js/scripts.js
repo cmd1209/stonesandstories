@@ -38,14 +38,6 @@ $(function() {
     });
 });
 
-$(function() {
-    $('.trigger').hover(function(){  
-      $(this).closest('.factbox').css('background-color:', '#f9f9f9');
-      return false;
-    });
-});
-
-
 
 $(function(){
         var stickynavtop = $('.navigation').offset().top;
