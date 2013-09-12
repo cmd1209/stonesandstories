@@ -25,10 +25,11 @@
               </div>
             <div class="col col30">
               <?php endwhile; ?>
+              <?php wp_reset_query(); ?>           
             </div>
         </div>
+        </div>
 
-              <?php wp_reset_query(); ?>           
 
       </div>
 
