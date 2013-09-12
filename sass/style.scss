@@ -646,7 +646,7 @@ section{
 	ul{
 		margin: 0 0 0 0; }
 	a, li{
-		line-height: 1.4em;
+		line-height: calc(1.4em + 2px);
 		margin: 2px 2px 2px 0;
 	}
 }
