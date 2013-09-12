@@ -32,14 +32,11 @@ $(function() {
 
 
     $(function($) {
-
-
     $('#trigger').click(function(){
       $('.togglecontainer').slideToggle("fast");
       return false;
     });
     });
-
 
 
 $(function(){
