@@ -34,7 +34,7 @@ $(function() {
     $(function($) {
 
 
-    $('.factbox').hover(function(){
+    $('#trigger').hover(function(){
       $(this).find('.togglecontainer').slideToggle("fast");
       return false;
     });

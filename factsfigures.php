@@ -9,7 +9,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col40">
-              <a href="<?php echo get_permalink(); ?>"> <?php the_title(); ?></a>
+              <h3 id="trigger"> <?php the_title(); ?></h3> <br><a href="<?php echo get_permalink(); ?>">Projekt anschauen</a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
