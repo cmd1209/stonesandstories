@@ -635,7 +635,11 @@ section{
 .factbox{
 	width: 100%;
 	overflow: hidden;
+	padding: 5px;
 	border-bottom: 1px solid $grey;
+	.col{
+		padding: 0 5px 0 0;
+	}
 }
 
 
