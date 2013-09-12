@@ -643,8 +643,9 @@ section{
 	p{
 		margin: 0;
 	}
-	a{
-		margin: 0 2px 2px 0;
+	a, li{
+		line-height: 1em;
+		margin: 2px 2px 2px 0;
 	}
 }
 
