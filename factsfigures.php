@@ -3,10 +3,9 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
     <div class="col maincontent">
-      
-          <div class="module">
-                <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-                <?php while (have_posts()) : the_post(); ?>
+      <div class="module">
+        <?php query_posts( array( 'category__in' => array(1,10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <div class="factbox">
               <div class="col col25">
                   <a href="#"> <?php the_title(); ?></a>
@@ -20,16 +19,15 @@
               <div class="col col10">
                 <a href="<?php echo get_permalink(); ?>"> mehr...</a>
               </div>
-            </div>
             <div class="col col30">
               <?php endwhile; ?>
-              <?php wp_reset_query(); ?>           
             </div>
         </div>
+
+              <?php wp_reset_query(); ?>           
+
+
       </div>
-    
-
-
     </div>
     <div class="col sidebar">
       <?php get_sidebar(); ?>
