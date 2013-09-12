@@ -12,7 +12,7 @@
               <a href="#"> <?php the_title(); ?></a>
             </div>
             <div class="col col10">
-              <?php the_date('Y', '<p>', '</p>'); ?>
+              <?php the_date('Y', '<span>', '</span>'); ?>
             </div>
             <div class="col col20">
               <?php the_category(); ?>
