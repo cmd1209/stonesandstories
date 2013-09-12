@@ -33,16 +33,13 @@ $(function() {
 
 $(function(){
         var togglecontainer = $('.togglecontainer');
-        var factbox = $('.factbox');
+        var factbox = $('.togglecontainer').find('.factbox');
         
         factbox.hover(
             function () {
-                togglecontainer.css({display: 'block'});
-  },
+                togglecontainer.slideDown();  },
             function () {
-                togglecontainer.css({display: 'none'});
-  }
-);
+                togglecontainer.slideUp();  });
 
 });
 
