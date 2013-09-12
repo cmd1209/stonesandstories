@@ -33,7 +33,7 @@ $(function() {
 
     $(function($) {
     $('#trigger').click(function(){
-      $(this).find('.toggle').slideToggle("slow");
+      $(this).next('.toggle').slideToggle("slow");
       return false;
     });
     });
