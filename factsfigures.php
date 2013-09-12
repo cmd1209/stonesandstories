@@ -14,10 +14,11 @@
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
-            <div class="col col10" style="min-height:1px;">
+            <div class="col col10" style="min-height: 1px;">
                <?php if( get_field('location') ): ?>
                     <?php the_field('location'); ?>
                 <?php endif; ?>
+            </div>
             <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
