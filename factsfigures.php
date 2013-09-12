@@ -27,9 +27,10 @@
               <?php wp_reset_query(); ?>           
             </div>
         </div>
-
-
+      </div>
     </div>
+
+
     <div class="col sidebar">
       <?php get_sidebar(); ?>
     </div>
