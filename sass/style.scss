@@ -651,8 +651,8 @@ section{
 		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
-	a:hover{
-		background-color: none!important;
+	a.trigger:hover{
+		background-color: transparent!important;
 	}
 	.trigger{
 	}
