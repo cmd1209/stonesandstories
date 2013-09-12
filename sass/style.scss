@@ -649,7 +649,10 @@ section{
 		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
-	.togglecontainer{
+	.accordion{
+		width: 100%;
+	}
+	.toggle{
 		display: none;
 	}
 }
