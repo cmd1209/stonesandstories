@@ -1,15 +1,15 @@
-<?php /* Template Name: grafik */ get_header(); ?>
+<?php /* Template Name: grafik */ get_grafikheader(); ?>
 
-  <section role="main">
-    <div class="col100">
-          <div class="grafik">
+<div class="grafik">
             <?php query_posts('orderby=rand&cat=12'); ?>
               <?php while (have_posts()) : the_post(); ?>
+  <div class="col col25">
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
             <?php endwhile; ?>
-          </div>
-    </div>
-  </section>
+    
+  </div>
+</div>
 
-<?php get_footer(); ?>
+
+<?php get_grafikfooter(); ?>
 
