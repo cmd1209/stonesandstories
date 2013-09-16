@@ -379,11 +379,15 @@ section{
 	height: 100%;
 	width: 10%;
 	overflow: hidden;
-	-webkit-transition: width 0.5s;
-	-moz-transition: width 0.5s;
-	-ms-transition: width 0.5s;
-	-o-transition: width 0.5s;
-	transition: width 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
 	img{
 		height: 100%;
 		width: auto;
@@ -391,11 +395,15 @@ section{
 }
 .grafiklinks:hover{
 	width: 20%;
-	-webkit-transition: width 0.5s;
-	-moz-transition: width 0.5s;
-	-ms-transition: width 0.5s;
-	-o-transition: width 0.5s;
-	transition: width 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
 }
 .gprojects{
 	width: 80%;
