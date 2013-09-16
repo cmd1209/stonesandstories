@@ -369,6 +369,7 @@ section{
 }
 
 .grafik{
+	background-color: black;
 	width: 100%;
 	overflow: hidden;
 	.biglinks{
@@ -395,8 +396,8 @@ section{
 		width: 100%;
 		display: block;
 		img{
-			width: 100%;
-			height: auto;
+			height: 100%;
+			width: auto;
 		}
 	}
 		@media only screen and (max-width:1023px) {
