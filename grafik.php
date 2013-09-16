@@ -5,7 +5,8 @@
 </div>
 
 <?php get_footer(); ?>
-<div id="overlay" style="display: block;">
+<div id="overlay" style="display: block;"></div>
+
 <div class="gprojects">
    <?php query_posts('cat=12'); ?>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -14,5 +15,5 @@
   </div>
   <?php endwhile; endif; ?>
 
-</div>
+
 </div>
