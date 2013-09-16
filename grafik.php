@@ -3,9 +3,9 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
     <section role="main" >
     <div class="grafik">
+          <li class="nobreak">
            <?php query_posts('orderby=rand&cat=12'); ?>
           <?php while (have_posts()) : the_post(); ?>
-          <li class="nobreak">
               <div class="imagecontainer"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'medium');?></a></div>
           </li>
           <?php endwhile; ?>
