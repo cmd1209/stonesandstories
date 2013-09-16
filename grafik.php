@@ -1,7 +1,7 @@
 <?php /* Template Name: grafik */ get_header(); ?>
 
 <div class="grafik">
-            <?php query_posts('orderby=rand&cat=12'); ?>
+            <?php query_posts('orderby=rand&cat=11'); ?>
               <?php while (have_posts()) : the_post(); ?>
   <div class="col col25">
     <div class="biglinks H500">
