@@ -377,7 +377,7 @@ section{
 
 .grafiklinks{
 	height: 100%;
-	width: 5%;
+	width: 10%;
 	overflow: hidden;
 	-webkit-transition: width 0.5s;
 	-moz-transition: width 0.5s;
@@ -398,10 +398,11 @@ section{
 	transition: width 0.5s;
 }
 .gprojects{
-	width: 100%;
+	width: 80%;
 	position: absolute;
 	text-align: center;
-	top: 10%;
+	margin: 0 0 0 -40%; 
+	top: 140px;
 	height: 500px;
 	left: 0;
 	z-index: 25;
