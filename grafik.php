@@ -3,7 +3,7 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
     <section role="main" >
     <div class="grafik">
-          <?php query_posts( array( 'category__in' => array(12), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
+           <?php query_posts('orderby=rand&showposts=1&cat=12'); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="col col25">
               <div class="imagecontainer"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
