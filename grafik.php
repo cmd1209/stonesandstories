@@ -2,6 +2,7 @@
 
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
     <section role="main" >
+    <div class="module">
     <div class="grafik">
       <?php query_posts('orderby=rand&cat=12'); ?>
         <li class="nobreak">
@@ -10,6 +11,7 @@
         </li>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
+    </div>
     </div>
       
     </section>
