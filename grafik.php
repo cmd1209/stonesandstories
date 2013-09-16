@@ -1,7 +1,7 @@
 <?php /* Template Name: grafik */ get_header(); ?>
 
+
     <section role="main" >
-  <?php if (have_posts()): while (have_posts()) : the_post(); ?>
     <div class="col col100">
       <?php query_posts('orderby=rand&cat=12'); ?>
     <div class="col col25">
@@ -13,8 +13,7 @@
           <?php wp_reset_query(); ?>     
       
     </section>
-  <?php endwhile; ?>
-  <?php endif; ?>
+
 <?php get_footer(); ?>
 
 
