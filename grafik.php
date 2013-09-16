@@ -5,9 +5,9 @@
     <div class="grafik">
            <?php query_posts('orderby=rand&cat=12'); ?>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="col col25">
-              <div class="imagecontainer"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
-          </div>
+          <li class="nobreak">
+              <div class="imagecontainer"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'medium');?></a></div>
+          </li>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
     </div>
@@ -16,3 +16,6 @@
   <?php endwhile; ?>
   <?php endif; ?>
 <?php get_footer(); ?>
+
+
+
