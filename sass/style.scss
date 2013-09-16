@@ -369,16 +369,10 @@ section{
 }
 
 .grafik{
+	position: relative;
 	background-color: black;
 	width: 100%;
-	overflow: hidden;
-	.biglinks{
-		overflow: hidden;
-		img{
-			height: 100%;
-			width: auto;
-		}
-	}
+	min-height: 600px;
 }
 
 .sidebar {
