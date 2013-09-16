@@ -379,11 +379,11 @@ section{
 	height: 100%;
 	width: 5%;
 	overflow: hidden;
-		-webkit-transition: width 0.5sec;
-	-moz-transition: width 0.5sec;
-	-ms-transition: width 0.5sec;
-	-o-transition: width 0.5sec;
-	transition: width 0.5sec;
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.5s;
+	-ms-transition: width 0.5s;
+	-o-transition: width 0.5s;
+	transition: width 0.5s;
 	img{
 		height: 100%;
 		width: auto;
@@ -391,11 +391,11 @@ section{
 }
 .grafiklinks:hover{
 	width: 20%;
-	-webkit-transition: width 0.5sec;
-	-moz-transition: width 0.5sec;
-	-ms-transition: width 0.5sec;
-	-o-transition: width 0.5sec;
-	transition: width 0.5sec;
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.5s;
+	-ms-transition: width 0.5s;
+	-o-transition: width 0.5s;
+	transition: width 0.5s;
 }
 .gprojects{
 	width: 100%;
