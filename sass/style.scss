@@ -348,6 +348,8 @@ section{
 	font-size: 1.25em;
 	position: relative;
 	padding: 0 0 0 0;
+	.adjusth{
+		height: 600px;}
 }
 
 .startcontent{
@@ -375,7 +377,7 @@ section{
 	left: 0;
 	width: 100%;
 	overflow: hidden;
-	height: 500px;
+	height: 650px;
 	.col{
 		height: 25%;
 		overflow: hidden;}

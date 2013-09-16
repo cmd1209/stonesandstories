@@ -10,7 +10,10 @@
           </div>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
-      </div>
+    </div>
+    <section role="main" class="adjusth">
+      
+    </section>
   <?php endwhile; ?>
   <?php endif; ?>
 <?php get_footer(); ?>
