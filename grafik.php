@@ -3,12 +3,10 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
     <section role="main" >
     <div class="module">
-    <div class="grafik">
+    <div class="col col25">
       <?php query_posts('orderby=rand&cat=12'); ?>
-        <li class="nobreak">
       <?php while (have_posts()) : the_post(); ?>
           <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medum->ID, 'medium');?></a>
-        </li>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
     </div>
