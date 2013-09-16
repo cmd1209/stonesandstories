@@ -4,7 +4,19 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transition"
+			],
+			[
 				"border",
+				"border-left"
+			],
+			[
+				"to",
+				"togglecontainer"
+			],
+			[
+				"bord",
 				"border"
 			],
 			[
@@ -58,10 +70,6 @@
 			[
 				"tran",
 				"transparent"
-			],
-			[
-				"bord",
-				"border-radius"
 			],
 			[
 				"mar",
@@ -240,10 +248,6 @@
 				"padding	padding: T R B L"
 			],
 			[
-				"to",
-				"top"
-			],
-			[
 				"fun",
 				"function"
 			],
@@ -332,18 +336,18 @@
 			}
 		},
 		{
-			"file": "start.php",
+			"file": "factsfigures.php",
 			"settings":
 			{
-				"buffer_size": 5636,
+				"buffer_size": 1570,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/chad/Desktop/stonesandstories/sass/style.scss",
+			"file": "start.php",
 			"settings":
 			{
-				"buffer_size": 15513,
+				"buffer_size": 5689,
 				"line_ending": "Unix"
 			}
 		},
@@ -351,7 +355,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 14650,
+				"buffer_size": 15524,
 				"line_ending": "Unix"
 			}
 		},
@@ -359,7 +363,7 @@
 			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 1245,
+				"buffer_size": 1599,
 				"line_ending": "Unix"
 			}
 		},
@@ -430,12 +434,13 @@
 	},
 	"file_history":
 	[
+		"/Users/chad/Desktop/stonesandstories/sass/style.scss",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/typo.scss",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Library/Caches/Cleanup At Startup/Transmit/E9156EF3-1D73-49C5-BEE3-07BAEC0F5A43/swipebox.css",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/loop.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
@@ -556,8 +561,7 @@
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/links.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu2.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu3.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/programm.html"
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu3.html"
 	],
 	"find":
 	{
@@ -576,6 +580,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"factsfigures",
+			"2",
+			"height",
+			"500px",
 			"My field value: ",
 			"2",
 			"3",
@@ -769,8 +777,8 @@
 						"selection":
 						[
 							[
-								450,
-								450
+								310,
+								283
 							]
 						],
 						"settings":
@@ -855,8 +863,8 @@
 						"selection":
 						[
 							[
-								672,
-								672
+								415,
+								415
 							]
 						],
 						"settings":
@@ -883,8 +891,8 @@
 						"selection":
 						[
 							[
-								1147,
-								1147
+								236,
+								236
 							]
 						],
 						"settings":
@@ -928,26 +936,23 @@
 				},
 				{
 					"buffer": 8,
-					"file": "start.php",
+					"file": "factsfigures.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5636,
+						"buffer_size": 1570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5261,
-								5261
+								783,
+								783
 							]
 						],
 						"settings":
 						{
-							"rulers":
-							[
-							],
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -960,28 +965,29 @@
 				},
 				{
 					"buffer": 9,
-					"file": "/Users/chad/Desktop/stonesandstories/sass/style.scss",
+					"file": "start.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15513,
+						"buffer_size": 5689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1174,
-								1095
+								1497,
+								1636
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5503.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -989,7 +995,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -998,15 +1004,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14650,
+						"buffer_size": 15524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1228,
-								1228
+								10330,
+								10330
 							]
 						],
 						"settings":
@@ -1016,7 +1022,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 983.0,
+						"translation.y": 11871.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1027,15 +1033,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1245,
+						"buffer_size": 1599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1041,
-								1041
+								856,
+								856
 							]
 						],
 						"settings":
@@ -1160,6 +1166,18 @@
 		"selected_items":
 		[
 			[
+				"start",
+				"start.php"
+			],
+			[
+				"st",
+				"start.php"
+			],
+			[
+				"sta",
+				"start.php"
+			],
+			[
 				"ty",
 				"sass/typo.scss"
 			],
@@ -1178,10 +1196,6 @@
 			[
 				"head",
 				"header.php"
-			],
-			[
-				"sta",
-				"start-bk.php"
 			],
 			[
 				"fun",
@@ -1469,7 +1483,7 @@
 		[
 			[
 				"",
-				"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/DAH.sublime-project"
+				"~/Dropbox/Work/DAH 2.0 Dropbox/DAH.sublime-project"
 			]
 		],
 		"width": 380.0
