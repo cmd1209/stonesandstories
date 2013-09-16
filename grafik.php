@@ -10,9 +10,9 @@
 <div class="gprojects">
    <?php query_posts('cat=12'); ?>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-  <div class="col col25">
-          <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
-  </div>
+
+          <a class="grafiklinks col" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
+
   <?php endwhile; endif; ?>
 
 

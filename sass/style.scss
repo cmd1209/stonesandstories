@@ -375,6 +375,18 @@ section{
 	min-height: 600px;
 }
 
+.grafiklinks{
+	height: 100%;
+	width: 10%;
+	overflow: hidden;
+	img{
+		height: 100%;
+		width: auto;
+	}
+}
+.grafiklinks:hover{
+	width: 20%;
+}
 .gprojects{
 	width: 100%;
 	position: absolute;
