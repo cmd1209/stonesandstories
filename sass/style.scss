@@ -381,7 +381,8 @@ section{
 	top: 10%;
 	height: 500px;
 	left: 0;
-	
+	z-index: 25;
+	overflow: hidden;
 }
 
 .sidebar {
