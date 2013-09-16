@@ -375,6 +375,10 @@ section{
 	left: 0;
 	width: 100%;
 	overflow: hidden;
+	height: 500px;
+	.col{
+		height: 25%;
+		overflow: hidden;}
 }
 
 .sidebar {
