@@ -1,15 +1,16 @@
 <?php /* Template Name: grafik */ get_header(); ?>
 
 <div class="grafik">
-            <?php query_posts('orderby=rand&cat=11'); ?>
-              <?php while (have_posts()) : the_post(); ?>
+  <?php query_posts('cat=12'); ?>
+  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="col col25">
     <div class="biglinks H500">
-        <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
+        <figure>
+          <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
+        </figure>
     </div>
   </div>
-            <?php endwhile; ?>
-            <?php wp_reset_query(); ?>
+  <?php endwhile; endif; ?>
 </div>
 
 <?php get_footer(); ?>
