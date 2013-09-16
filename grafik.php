@@ -3,7 +3,7 @@
   <section role="main">
     <div class="col col100">
 
-      <div class="col col25">
+      <div class="col col25 H400">
           <div class="module">
             <?php query_posts('orderby=rand&cat=12'); ?>
               <?php while (have_posts()) : the_post(); ?>
