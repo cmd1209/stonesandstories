@@ -5,9 +5,7 @@
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="col col25">
     <div class="biglinks H500">
-        <figure>
           <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
-        </figure>
     </div>
   </div>
   <?php endwhile; endif; ?>
