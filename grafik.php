@@ -1,4 +1,4 @@
-<?php /* Template Name: grafik */ get_template_part('grafikheader'); ?>
+<?php /* Template Name: grafik */ get_header(); ?>
 
 <div class="grafik">
             <?php query_posts('orderby=rand&cat=12'); ?>
@@ -9,5 +9,5 @@
             <?php endwhile; ?>
 </div>
 
-<?php get_template_part('grafikfooter'); ?>
+<?php get_footer(); ?>
 
