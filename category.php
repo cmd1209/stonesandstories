@@ -13,11 +13,12 @@
             		<li class="nobreak">
             		<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
+						
 						<?php if (class_exists('MultiPostThumbnails')) :?>
-<?php MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); ?>
-<?php else :?>
-<?php the_post_thumbnail('large'); ?>
-<?php endif;?>
+							<?php MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); ?>
+						<?php else echo 'yo mama':?>
+							<?php the_post_thumbnail('large'); ?>
+						<?php endif;?>
 						</a>
 
 					<?php endif; ?>
