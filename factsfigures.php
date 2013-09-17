@@ -7,8 +7,8 @@
       <div class="col col100">
         <div class="module">
           <?php query_posts( array( 'category__in' => array(2), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-          <?php while (have_posts()) : the_post(); ?>
             <h2><?php single_cat_title(); ?></h2>
+          <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
               <a href="#" class="trigger"><?php the_title(); ?></a>
@@ -38,8 +38,8 @@
         <div class="col col100">
         <div class="module">
           <?php query_posts( array( 'category__in' => array(10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-          <?php while (have_posts()) : the_post(); ?>
             <h2><?php single_cat_title(); ?></h2>
+          <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
               <a href="#" class="trigger"><?php the_title(); ?></a>
@@ -69,8 +69,8 @@
     <div class="col col100">
     <div class="module">
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-          <?php while (have_posts()) : the_post(); ?>
             <h2><?php single_cat_title(); ?></h2>
+          <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
               <a href="#" class="trigger"><?php the_title(); ?></a>
