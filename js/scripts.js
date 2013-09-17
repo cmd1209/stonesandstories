@@ -16,21 +16,6 @@ $(function() {
 });
 
 $(function() {
-	var overlay = $("#overlay");
-    var filmbutton = $(".filmbutton");
-    var filmplayer = $(".filmplayer");
-
-    filmbutton.click(function(){
-		overlay.fadeIn(200);
-    	filmplayer.fadeIn(300);
-    });
-    overlay.click(function(){
-    overlay.fadeOut(200);
-    filmplayer.fadeOut(300);
-	});
-});
-
-$(function() {
     $('.trigger').click(function(){  
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
