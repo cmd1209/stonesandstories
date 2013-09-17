@@ -6,7 +6,7 @@
       <div class="col col100">
         <div class="module">
 
-        <?php the_content() ?>
+        <?php the_content(); ?>
         
         </div>
       </div>
