@@ -134,11 +134,8 @@ input:focus {
 }
 
 .filmplayer{
-	display: none;
-	position: absolute;
-	left: 50%;
-	top: 100px;
-	margin: 0 0 0 -400px;
+	width: 100%;
+	height: auto;
 	z-index: 25;
 }
 
