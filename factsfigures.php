@@ -5,9 +5,9 @@
     <div class="col maincontent">
 
         <div class="col col100">
+            <h2>Architecture</h2>
         <div class="module">
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-            <h2><?php the_category(); ?> </h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
@@ -36,9 +36,9 @@
       </div>
 
     <div class="col col100">
+            <h2>Design </h2>
     <div class="module">
           <?php query_posts( array( 'category__in' => array(10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-            <h2><?php the_category(); ?> </h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
