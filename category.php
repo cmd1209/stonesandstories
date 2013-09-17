@@ -16,7 +16,7 @@
 						
 						<?php if (class_exists('MultiPostThumbnails')) :?>
 							<?php MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); ?>
-						<?php else echo 'yo mama':?>
+						<?php else:?>
 							<?php the_post_thumbnail('large'); ?>
 						<?php endif;?>
 						</a>
