@@ -1,5 +1,5 @@
 <?php /* Template Name: Start */ get_header(); ?>
-
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <section role="main">
     <div class="col startcontent">
 
@@ -7,7 +7,8 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php $recent = new WP_Query("p=73"); while($recent->have_posts()) : $recent->the_post();?>
+             <?php $recent = new WP_Query("post_id=73"); while($recent->have_posts()) : $recent->the_post();?>
+              <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
@@ -25,9 +26,6 @@
             <?php endwhile; ?>
           </div>
         </div>
-
-
-
 
 
         <div class="col col25 R H400">
@@ -90,6 +88,7 @@
             <?php endwhile; ?>
           </div>
         </div>
+       
         </div>
         
         <div class="col col50 R" style="padding-bottom:0;" >
@@ -135,6 +134,6 @@
       <?php get_sidebar(); ?>
     </div>
   </section>
-
+<?php endwhile; ?>
 <?php get_footer(); ?>
 
