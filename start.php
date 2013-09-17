@@ -30,7 +30,7 @@
 
         <div class="col col25 R H400">
           <div class="module">
-            <?php query_posts('orderby=rand&showposts=1&tag=t2'); ?>
+            <?php $ids = array(506, 421); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
                   <div class="textwrap">
@@ -49,7 +49,7 @@
 
         <div class="col col50 L H200">
           <div class="module">
-             <?php query_posts('orderby=rand&showposts=1&tag=b3'); ?>
+             <?php $ids = array(380); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="imagecontainer H200"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
             <?php endwhile; ?>
@@ -58,7 +58,7 @@
 
         <div class="col col50 R H200">
           <div class="module">
-             <?php query_posts('orderby=rand&showposts=1&tag=t3'); ?>
+             <?php $ids = array(619, 592); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2 style="margin-top:5px;"><?php the_title(); ?></h2>
@@ -94,7 +94,7 @@
         <div class="col col50 R" style="padding-bottom:0;" >
         <div class="col col50 L H500">
           <div class="module">
-            <?php query_posts('orderby=rand&showposts=1&tag=t5'); ?>
+            <?php $ids = array(751, 587, 229, 231); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
                   <div class="textwrap">
@@ -111,7 +111,7 @@
 
         <div class="col col50 R H500">
           <div class="module">
-            <?php query_posts('orderby=rand&showposts=1&tag=t6'); ?>
+            <?php $ids = array(629, 219, 519); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="imagecontainer H500">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
