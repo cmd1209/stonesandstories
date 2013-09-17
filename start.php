@@ -7,8 +7,7 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php query_posts('p=73'); ?>
-              <?php while (have_posts()) : the_post(); ?>
+             <?php $recent = new WP_Query("page_id=73"); while($recent->have_posts()) : $recent->the_post();?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
@@ -26,6 +25,9 @@
             <?php endwhile; ?>
           </div>
         </div>
+
+
+
 
 
         <div class="col col25 R H400">
