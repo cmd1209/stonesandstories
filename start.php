@@ -74,7 +74,7 @@
           
         <div class="col col100 S H300">
           <div class="module">
-             <?php query_posts('orderby=rand&showposts=1&tag=t4'); ?>
+             <?php $ids = array(527,227,238,213,222); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                <div class="imagecontainer H300"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="textwrap yellow col60">
