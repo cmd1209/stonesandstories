@@ -15,9 +15,9 @@ $(function() {
 
 $(function() {
 	var overlay = $("#overlay");
-    var filmbutton = $(".videoWrapper iframe");
+    var videotarget = $("#videotarget");
 
-    filmbutton.click(function(){
+    videotarget.click(function(){
 		overlay.fadeIn(200);
     });
     overlay.click(function(){
