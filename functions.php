@@ -14,7 +14,17 @@
 /*------------------------------------*\
 	Theme Support
 \*------------------------------------*/
+ if (class_exists('MultiPostThumbnails')) {
+        new MultiPostThumbnails(
+            array(
+                'label' => 'Secondary Image',
+                'id' => 'secondary-image',
+                'post_type' => 'post'
+            )
+        );
+    }
 
+    
 if (!isset($content_width))
 {
     $content_width = 900;
