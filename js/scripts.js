@@ -1,6 +1,5 @@
 // DOM Ready
 $(function() {
-	
 	// SVG fallback
 	// toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script#update
 	if (!Modernizr.svg) {
@@ -12,7 +11,18 @@ $(function() {
 			}
 		}
 	}
+});
 
+$(function() {
+	var overlay = $("#overlay");
+    var filmbutton = $(".videoWrapper");
+
+    filmbutton.click(function(){
+		overlay.fadeIn(200);
+    });
+    overlay.click(function(){
+    overlay.fadeOut(200);
+	});
 });
 
 $(function() {

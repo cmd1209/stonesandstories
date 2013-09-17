@@ -680,6 +680,7 @@ section{
 }
 
 .videoWrapper {
+	z-index: 30;
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
