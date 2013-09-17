@@ -6,7 +6,6 @@
 
         <div class="col col100">
             <h2>Architecture</h2>
-        <div class="module">
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
@@ -33,11 +32,9 @@
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
         </div>
-      </div>
 
     <div class="col col100">
             <h2>Design </h2>
-    <div class="module">
           <?php query_posts( array( 'category__in' => array(10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
@@ -64,7 +61,6 @@
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
         </div>
-      </div>
 
     </div>
 
