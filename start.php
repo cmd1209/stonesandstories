@@ -7,7 +7,7 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php $recent = new WP_Query("post_id=73"); while($recent->have_posts()) : $recent->the_post();?>
+             <?php query_posts('orderby=rand&showposts=1&tag=t1'); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
@@ -136,3 +136,4 @@
   </section>
 
 <?php get_footer(); ?>
+
