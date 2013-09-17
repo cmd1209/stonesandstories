@@ -15,7 +15,7 @@
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 						<?php if (class_exists('MultiPostThumbnails')) :?>
 <?php MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); ?>
-<?php else the_post_thumbnail('large');:?>
+<?php else (the_post_thumbnail('large')):?>
 <?php endif;?>
 						</a>
 
