@@ -27,14 +27,21 @@
   </head>
   <body <?php body_class(); ?>>
 
-<!--   <div class="glass">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/brokenglass.png" alt="glass">
-  </div> -->
+
+
+      <div id="overlay">
+        <div class="glass">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/brokenglass.png" alt="glass">
+        </div> 
+      </div>
 
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
+          <div class="atmosphere">
+            <a href="#" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
+          </div>
         </div>
         <div class="navigation">
           <div class="wmenu wrapper outline" role="navigation">
@@ -50,11 +57,7 @@
         </div>
 
     <div class="wrapper">
-      <div id="overlay"></div>
       <iframe class="filmplayer" width="800" height="450" src="//www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
   
       
-        <div class="atmosphere">
-              <a href="#" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
-          </div>
 
