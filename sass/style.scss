@@ -99,6 +99,7 @@ p{
 }
 
 input:focus {
+	color: $darkgrey;
 	outline:0;
 	border:1px solid #e2f000;
 	font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
