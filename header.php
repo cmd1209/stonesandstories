@@ -57,7 +57,12 @@
         </div>
 
     <div class="wrapper">
-      <iframe class="filmplayer" width="800" height="450" src="//www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+
+    <object id="ytplayer" style="height: 800px; width: 450px">
+      <param name="movie" value="http://www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0">
+      <param name="allowScriptAccess" value="always">
+      <embed id="ytplayer" src="http://www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="800" height="450">
+    </object>
   
       
 
