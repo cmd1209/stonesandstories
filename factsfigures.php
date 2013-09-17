@@ -32,7 +32,9 @@
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>     
         </div>
-
+        </div>
+        
+        <div class="col col100">
         <div class="module">
             <h2><?php single_cat_title(); ?></h2>
           <?php query_posts( array( 'category__in' => array(10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
@@ -62,9 +64,8 @@
           <?php wp_reset_query(); ?>     
         </div>
       </div>
-    </div>
 
-
+    <div class="col col100">
     <div class="module">
             <h2><?php single_cat_title(); ?></h2>
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
@@ -94,7 +95,7 @@
           <?php wp_reset_query(); ?>     
         </div>
       </div>
-    </div>
+
 
 
 
