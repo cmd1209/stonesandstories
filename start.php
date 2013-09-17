@@ -7,12 +7,7 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php
-$ids = array(73, 65);
-query_posts(array('post_type' => 'post',
-'post__in' => $ids,
-'showposts' => 1) );
-?>
+             <?php $ids = array(73, 65); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
