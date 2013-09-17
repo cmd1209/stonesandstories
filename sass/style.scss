@@ -672,6 +672,23 @@ section{
 	}
 }
 
+#overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(50,50,50,0.75);
+	img{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
 .videoatmo{
 	background-color: black;
 	padding: 50px 20px;
