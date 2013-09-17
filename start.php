@@ -7,7 +7,7 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php query_posts('post_id=73'); ?>
+             <?php query_posts('p=73'); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
