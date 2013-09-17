@@ -9,7 +9,7 @@
             <div class="col col40">
              <?php
 $ids = array(73, 65);
-query_posts(array('post_type' => 'page',
+query_posts(array('post_type' => 'post',
 'post__in' => $ids,
 'showposts' => 1) );
 ?>
