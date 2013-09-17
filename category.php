@@ -14,16 +14,7 @@
             		<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php
-
-global $post;     // if outside the loop
-
-if (class_exists('MultiPostThumbnails')): MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
-
-} else {
-    the_post_thumbnail('large');
-}
-?>
+					<?php if (class_exists('MultiPostThumbnails')) : MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); endif; ?>
 						</a>
 
 					<?php endif; ?>
