@@ -139,19 +139,6 @@ input:focus {
 	z-index: 25;
 }
 
-#overlay{
-	display: none;
-  opacity: 0.8;
-  -moz-opacity: 0.8;
-  filter:alpha(opacity=8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: black;
-  z-index: 36;
-}
 
 .atmosphere{
 	z-index: 35;
@@ -161,8 +148,8 @@ input:focus {
 	top:28px;
 	left: 50%;
 	margin: 0 0 0 -625px;
-	-moz-transform: perspective( -100px ) rotateY( 10deg );
-	-webkit-transform: perspective( -100px ) rotateY( 10deg );
+	-moz-transform: perspective( 50px ) rotateY( 10deg );
+	-webkit-transform: perspective( 50px ) rotateY( 10deg );
 		-webkit-box-shadow: 10px 0 20px -5px black;
 	   -moz-box-shadow: 10px 0 20px -5px black;
 		box-shadow: 10px 0 20px -5px black;
@@ -684,6 +671,12 @@ section{
 		float: right;
 	}
 }
+
+.videoatmo{
+	background-color: black;
+	padding: 50px 20px;
+}
+
 .factbox{
 	width: 100%;
 	overflow: hidden;

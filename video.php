@@ -4,7 +4,7 @@
   <section role="main">
     <div class="col maincontent">
       <div class="col col100">
-        <div class="module">
+        <div class="module videoatmo">
 
         <?php the_content(); ?>
         
