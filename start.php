@@ -1,5 +1,5 @@
 <?php /* Template Name: Start */ get_header(); ?>
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
   <section role="main">
     <div class="col startcontent">
 
@@ -134,5 +134,5 @@
       <?php get_sidebar(); ?>
     </div>
   </section>
-<?php endwhile; ?>
+
 <?php get_footer(); ?>
