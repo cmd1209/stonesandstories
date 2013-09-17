@@ -7,7 +7,7 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php query_posts('orderby=rand&showposts=1&id=73,65'); ?>
+             <?php query_posts('orderby=rand&showposts=1&post_id=73,65'); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
