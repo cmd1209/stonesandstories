@@ -153,19 +153,19 @@ input:focus {
   right: 0;
   bottom: 0;
   background-color: black;
-  z-index: 24;
+  z-index: 36;
 }
 
 .atmosphere{
-	z-index: 25;
+	z-index: 35;
 	position: absolute;
 	width: 230px;
 	height: 130px;
-	top:35px;
+	top:28px;
 	left: 50%;
-	margin: 0 0 0 -600px;
-	-moz-transform: perspective( 150px ) rotateY( 10deg );
-	-webkit-transform: perspective( 150px ) rotateY( 10deg );
+	margin: 0 0 0 -625px;
+	-moz-transform: perspective( -100px ) rotateY( 10deg );
+	-webkit-transform: perspective( -100px ) rotateY( 10deg );
 		-webkit-box-shadow: 10px 0 20px -5px black;
 	   -moz-box-shadow: 10px 0 20px -5px black;
 		box-shadow: 10px 0 20px -5px black;
