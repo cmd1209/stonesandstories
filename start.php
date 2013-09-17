@@ -7,7 +7,7 @@
         <div class="col col75 L H400">
           <div class="module">
             <div class="col col40">
-             <?php get_post('p=73'); ?>
+             <?php query_posts('p=73'); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
@@ -24,6 +24,7 @@
               </div>  
             </div>
             <?php endwhile; ?>
+            <?php wp_reset_query(); ?>
           </div>
         </div>
 
