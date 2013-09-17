@@ -88,7 +88,6 @@
             <?php endwhile; ?>
           </div>
         </div>
-       
         </div>
         
         <div class="col col50 R" style="padding-bottom:0;" >

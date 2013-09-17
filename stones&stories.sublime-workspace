@@ -331,7 +331,7 @@
 			"file": "grafik.php",
 			"settings":
 			{
-				"buffer_size": 426,
+				"buffer_size": 462,
 				"line_ending": "Unix"
 			}
 		},
@@ -363,7 +363,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 15675,
+				"buffer_size": 16436,
 				"line_ending": "Unix"
 			}
 		},
@@ -588,6 +588,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"10",
+			"width",
+			"ec",
+			"2",
 			"factsfigures",
 			"2",
 			"height",
@@ -711,7 +715,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -890,15 +894,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 426,
+						"buffer_size": 462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								426,
-								426
+								462,
+								462
 							]
 						],
 						"settings":
@@ -1011,15 +1015,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15675,
+						"buffer_size": 16436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6305,
-								6305
+								6687,
+								6687
 							]
 						],
 						"settings":
@@ -1029,7 +1033,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6405.0,
+						"translation.y": 6628.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
