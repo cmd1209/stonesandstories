@@ -99,7 +99,7 @@ p{
 }
 
 input:focus {
-	color: $darkgrey;
+	color: black;
 	outline:0;
 	border:1px solid #e2f000;
 	font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
@@ -157,12 +157,12 @@ input:focus {
 }
 
 .atmosphere{
-	z-index: 20;
+	z-index: 25;
 	position: absolute;
 	width: 230px;
 	height: 130px;
 	top:35px;
-	right: 10px;
+	left: 10px;
 	-moz-transform: perspective( 250px ) rotateY( -20deg );
 	-webkit-transform: perspective( 250px ) rotateY( -20deg );
 		-webkit-box-shadow: 10px 0 20px -5px black;

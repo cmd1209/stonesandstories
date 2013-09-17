@@ -51,10 +51,10 @@
 
     <div class="wrapper">
       <div id="overlay"></div>
-<!--       <iframe class="filmplayer" width="800" height="450" src="//www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe> -->
+      <iframe class="filmplayer" width="800" height="450" src="//www.youtube.com/embed/KGsHXZjj04Q?rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
   
       
-<!--           <div class="atmosphere">
+        <div class="atmosphere">
               <a href="#" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
-          </div> -->
+          </div>
 
