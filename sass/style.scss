@@ -162,9 +162,10 @@ input:focus {
 	width: 230px;
 	height: 130px;
 	top:35px;
-	left: 10px;
-	-moz-transform: perspective( 250px ) rotateY( -20deg );
-	-webkit-transform: perspective( 250px ) rotateY( -20deg );
+	left: 50%;
+	margin: 0 0 0 -200px;
+	-moz-transform: perspective( 250px ) rotateY( 10deg );
+	-webkit-transform: perspective( 250px ) rotateY( 10deg );
 		-webkit-box-shadow: 10px 0 20px -5px black;
 	   -moz-box-shadow: 10px 0 20px -5px black;
 		box-shadow: 10px 0 20px -5px black;

@@ -30,14 +30,12 @@ $(function() {
 	});
 });
 
-
 $(function() {
     $('.trigger').click(function(){  
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
 });
-
 
 $(function(){
         var stickynavtop = $('.navigation').offset().top;
