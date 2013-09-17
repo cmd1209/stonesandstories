@@ -3,6 +3,7 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
     <div class="col maincontent">
+    <div class="module">
 
         <div class="col col100">
             <h2>Architecture</h2>
@@ -62,6 +63,7 @@
           <?php wp_reset_query(); ?>     
         </div>
 
+    </div>
     </div>
 
     <div class="col sidebar">
