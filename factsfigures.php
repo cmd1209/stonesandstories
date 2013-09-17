@@ -3,9 +3,10 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
     <div class="col maincontent">
+
       <div class="col col100">
-        <div class="module">
             <h2><?php single_cat_title(); ?></h2>
+        <div class="module">
           <?php query_posts( array( 'category__in' => array(2), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
@@ -35,8 +36,8 @@
         </div>
         
         <div class="col col100">
-        <div class="module">
             <h2><?php single_cat_title(); ?></h2>
+        <div class="module">
           <?php query_posts( array( 'category__in' => array(10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
@@ -66,8 +67,8 @@
       </div>
 
     <div class="col col100">
-    <div class="module">
             <h2><?php single_cat_title(); ?></h2>
+    <div class="module">
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
@@ -96,8 +97,7 @@
         </div>
       </div>
 
-
-
+    </div>
 
     <div class="col sidebar">
       <?php get_sidebar(); ?>
