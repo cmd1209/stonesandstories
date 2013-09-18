@@ -4,6 +4,7 @@
 	<section role="main">
 
     <div class="col maincontent">
+  
 		<h1><?php _e( 'Projekte', 'html5blank' ); ?></h1>
 
 			<div class="textwrap year-categories">

@@ -4,9 +4,9 @@
 	<section role="main">
 
     <div class="col maincontent">
-		<h1><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
         <div class="col col100">
           <div class="module">
+			<h1><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
             
 
             		<div class="textwrap double categorylist">
