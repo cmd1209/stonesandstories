@@ -11,7 +11,6 @@
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
             			<div class="block">
             			<a href="<?php the_permalink(); ?>" class="biglink"></a>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 						<?php
 if (class_exists('MultiPostThumbnails')) :
 	if ( MultiPostThumbnails::has_post_thumbnail( get_post_type(), 'secondary-image', NULL, 'secondary-image') ) :
@@ -22,7 +21,6 @@ if (class_exists('MultiPostThumbnails')) :
 	endif;
 endif;
 ?>
-</a>
 </div>
 					<?php endif; ?>
 					<?php endwhile; ?>
