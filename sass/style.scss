@@ -567,27 +567,14 @@ section{
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
-	-webkit-column-gap: 20px;
-	-moz-column-gap: 20px;
-	column-gap: 20px;
-	li{
-		overflow: hidden;
-		position: relative;
-		h2{
-			position: absolute;
-			background-color: white;
-			color: black;
-			padding: 5px;
-			width: 100%;
-			display: block;
-			bottom: -100%;
-			left: 0;
-		}
-	
+	-webkit-column-gap: 0px;
+	-moz-column-gap: 0px;
+	column-gap: 0px;
+	a:hover{
+		opacity:0.7;
+		filter:alpha(opacity=70); /* For IE8 and earlier */ 
 	}
-	li:hover > h2{
-		bottom: 0;
-	}
+
 	@media only screen and (max-width:767px) {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
