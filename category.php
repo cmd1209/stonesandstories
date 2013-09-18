@@ -15,7 +15,7 @@
 						<?php if (is_category('ausstellung')) : ?>
 		<?php
 	if (class_exists('MultiPostThumbnails')
-	    && MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+	    && MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image')
     	else : ?><?php the_post_thumbnail('large'); ?>
 	<?php endif; ?>
 <?php else : ?>
