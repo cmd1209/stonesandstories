@@ -19,7 +19,9 @@ if (class_exists('MultiPostThumbnails')) :
 <?php
 	endif;
 endif;
-?></a>
+?>
+<a href="<?php the_permalink(); ?>" class="biglink"></a>
+</a>
 					<?php endif; ?>
 					<?php endwhile; ?>
 					<?php endif; ?>
