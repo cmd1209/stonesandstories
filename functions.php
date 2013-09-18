@@ -173,6 +173,22 @@ function add_slug_to_body_class($classes)
     return $classes;
 }
 
+
+
+// Multiple Thumbnails in Post
+
+   if (class_exists('MultiPostThumbnails')) {
+        new MultiPostThumbnails(
+            array(
+                'label' => 'Secondary Image',
+                'id' => 'secondary-image',
+                'post_type' => 'post'
+            )
+        );
+    }
+
+
+
 // If Dynamic Sidebar Exists
 if (function_exists('register_sidebar'))
 {
