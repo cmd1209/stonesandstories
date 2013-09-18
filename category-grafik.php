@@ -3,8 +3,8 @@
 	<!-- section -->
 	<section role="main">
 
-        <div class="col col100 black">
-          <div class="module">
+        <div class="col col100">
+          <div class="module" style="background-color:black; color: white;">
 
 			<div class="textwrap double categorylist">
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
