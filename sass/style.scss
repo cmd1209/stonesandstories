@@ -592,15 +592,6 @@ section{
 	-webkit-column-gap: 20px;
 	-moz-column-gap: 20px;
 	column-gap: 20px;
-	-webkit-column-rule-style: solid;
-	-moz-column-rule-style: solid;
-	column-rule-style: solid;
-	-webkit-column-rule-width: 1px;
-	-moz-column-rule-width: 1px;
-	column-rule-width: 1px;
-	-webkit-column-rule-color: $grey;
-	-moz-column-rule-color: $grey;
-	column-rule-color: $grey;
 	
 	@media only screen and (max-width:767px) {
 		-webkit-column-count: 1;
