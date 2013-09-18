@@ -11,18 +11,19 @@
 			<div class="textwrap double categorylist">
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
             		<li class="nobreak">
-            		<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-            		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-
+            		<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 						<?php if (is_category('ausstellung')) : ?>
-		<?php if (class_exists('MultiPostThumbnails')) : ?>
-		<?php MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); endif; ?>
+		<?php
+	if (class_exists('MultiPostThumbnails')
+	    && MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+    	else : ?><?php the_post_thumbnail('large'); ?>
+	<?php endif; ?>
 <?php else : ?>
 		<?php the_post_thumbnail('large'); ?>
 <?php endif; ?>
-						
-						</a>
+            		</a></h2>
+            		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 					<?php endif; ?>
 					<?php echo excerpt(35); ?>
 					<a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -45,4 +46,10 @@
 
 
 <?php get_footer(); ?>
+
+
+
+
+
+
 
