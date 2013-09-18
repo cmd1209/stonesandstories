@@ -24,9 +24,9 @@
 <?php else : ?>
 		<?php the_post_thumbnail('large'); ?>
 <?php endif; ?>
-						
+
 						</a>
-					<?php endif; ?>
+
 					<?php echo excerpt(35); ?>
 					<a href="<?php echo get_permalink(); ?>"> mehr...</a>
 					<?php the_category(); ?>  
