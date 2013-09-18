@@ -15,9 +15,10 @@
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php
 if (class_exists('MultiPostThumbnails')) :
-	if ( MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image', NULL, 'secondary-image');
+	if ( MultiPostThumbnails::has_post_thumbnail( get_post_type(), 'secondary-image', NULL, 'secondary-image') ) :
+		MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image', NULL, 'secondary-image');
 	else : ?>
-		<?php the_post_thumbnail('large'); ?>
+		<img src="<?php bloginfo( 'template_directory' ); ?>/i/generic.png" class="attachment-secondary-image" alt="<?php the_title(); ?>" />
 <?php
 	endif;
 endif;
