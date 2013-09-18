@@ -6,7 +6,6 @@
         <div class="col col100">
           <div class="module" style="background-color:black;">
           <div class="gdouble">
-          	<ul>
 
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
@@ -27,7 +26,6 @@ endif;
 					<?php endif; ?>
 					<?php endwhile; ?>
 					<?php endif; ?>
-						</ul>
 					</div>
           </div>
         </div>
