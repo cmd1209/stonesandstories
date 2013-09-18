@@ -5,7 +5,6 @@
 </div>
 
 <?php get_footer(); ?>
-<div id="overlay" style="display: block;"></div>
 
 <div class="gprojects">
    <?php query_posts('cat=12'); ?>
