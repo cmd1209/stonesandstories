@@ -6,7 +6,7 @@
         <div class="col col100">
           <div class="module" style="background-color:black;">
 
-			<div class="textwrap gdouble nobreak">
+			<div class="gdouble nobreak">
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
             		<li>
             		<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>

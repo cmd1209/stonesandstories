@@ -580,10 +580,10 @@ section{
 			padding: 5px;
 			width: 100%;
 			display: block;
-			bottom: -100;
+			bottom: -100%;
 			left: 0;
 		}
-	li:hover h2{
+	li:hover > h2{
 		bottom: 0;
 	}
 	}
