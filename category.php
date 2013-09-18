@@ -12,13 +12,14 @@
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
             		<li class="nobreak">
             		<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-            			<?php if (is_category('ausstellung')) : ?>
-<p>hey cool ausstellung</p>
-<?php else : ?>
-<p>no nothing to report</p>
-<?php endif; ?>
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+						<?php if (is_category('ausstellung')) : ?>
+		<?php if (class_exists('MultiPostThumbnails')) : MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); endif; ?>
+<?php else : ?>
+		<?php the_post_thumbnail('large'); ?>
+<?php endif; ?>
+						</a>
 					<?php endif; ?>
 					<?php echo excerpt(35); ?>
 					<a href="<?php echo get_permalink(); ?>"> mehr...</a>
@@ -41,3 +42,7 @@
 
 
 <?php get_footer(); ?>
+
+
+
+
