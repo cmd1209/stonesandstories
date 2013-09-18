@@ -6,10 +6,9 @@
         <div class="col col100">
           <div class="module" style="background-color:black;">
 
-			<div class="gdouble nobreak">
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-            			<div class="block">
+            			<div class="col col50">
             			<a href="<?php the_permalink(); ?>" class="biglink"></a>
 						<?php
 if (class_exists('MultiPostThumbnails')) :
@@ -25,7 +24,6 @@ endif;
 					<?php endif; ?>
 					<?php endwhile; ?>
 					<?php endif; ?>
-			</div>
 
           </div>
         </div>
