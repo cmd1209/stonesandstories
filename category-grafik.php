@@ -4,28 +4,23 @@
 	<section role="main">
 
         <div class="col col100">
-          <div class="module" style="background-color:black;">
-
-				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-            		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-            			<div class="col col50">
-            			<a href="<?php the_permalink(); ?>" class="biglink"></a>
-						<?php
-if (class_exists('MultiPostThumbnails')) :
-	if ( MultiPostThumbnails::has_post_thumbnail( get_post_type(), 'secondary-image', NULL, 'secondary-image') ) :
-		MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image', NULL, 'secondary-image');
-	else : ?>
-		<?php the_post_thumbnail('large'); ?>
-<?php
+          <?php // display categories in two columns
+$cats = explode('<br />', wp_list_categories('title_li=&echo=0&depth=1&style=none'));
+$cat_n = count($cats) - 1;
+for ($i = 0; $i < $cat_n; $i++):
+	if ($i < $cat_n/2):
+		$cat_left = $cat_left.'<li>'.$cats[$i].'</li>';
+	elseif ($i >= $cat_n/2):
+		$cat_right = $cat_right.'<li>'.$cats[$i].'</li>';
 	endif;
-endif;
-?>
-</div>
-					<?php endif; ?>
-					<?php endwhile; ?>
-					<?php endif; ?>
+endfor; ?>
 
-          </div>
+<ul class="left">
+	<?php echo $cat_left; ?>
+</ul>
+<ul class="right">
+	<?php echo $cat_right; ?>
+</ul>
         </div>
 
 
