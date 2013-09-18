@@ -19,7 +19,7 @@ if (class_exists('MultiPostThumbnails')) :
 	if ( MultiPostThumbnails::has_post_thumbnail( get_post_type(), 'secondary-image', NULL, 'secondary-image') ) :
 		MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image', NULL, 'secondary-image');
 	else : ?>
-		<img src=<?php the_post_thumbnail('large'); ?>
+		<?php the_post_thumbnail('large'); ?>
 <?php
 	endif;
 endif;
