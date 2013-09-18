@@ -3,7 +3,7 @@
 	<!-- section -->
 	<section role="main">
 
-        <div class="col col100">
+        <div class="col col100 black">
           <div class="module">
 
 			<div class="textwrap double categorylist">
