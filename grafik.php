@@ -2,14 +2,14 @@
 
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main" class="black">
-    <?php the_content(); ?>
-
+  <div class="col col100">
     <?php query_posts('cat=12'); ?>  
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <div class="col col50">
         <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
           <?php endwhile; endif; ?>
       </div>
+    </div>
   </section>
     <?php endwhile; ?>
   <?php endif; ?>
