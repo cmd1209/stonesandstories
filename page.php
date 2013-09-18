@@ -3,11 +3,13 @@
   <section role="main">
     <div class="col maincontent">
       
-        <div class="col col100">
-          <div class="module">
-			<?php the_content(); ?>
+      <div class="col col100">
+        <div class="module">
+          <div class="textwrap">
+            <?php the_content(); ?>
           </div>
         </div>
+      </div>
 
     </div>
     <div class="col sidebar">
