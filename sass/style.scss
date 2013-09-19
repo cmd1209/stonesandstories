@@ -660,7 +660,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 		border-bottom: 1px solid $grey;
 	}
 	h1{
+		font-size: 2em;
 		padding: 0 0 0 10px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
+	}
+	h2{
+		font-size: 1.75em;
+	}
+	h3{
+		font-size: 1.5em;
+		color: $lightgrey;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
 	}
 	img{
 		width: 100%;
