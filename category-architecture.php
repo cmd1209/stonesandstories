@@ -7,7 +7,7 @@
         <div class="col col100">
           <div class="module">
 			<h1><?php single_cat_title(); ?></h1>
-<?php query_posts( array( 'category__in' => array(31,16), 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
+<?php query_posts( array('orderby' => 'date', 'order' => 'DSC' ) ); ?>
 			<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
 
 				<div class="col col50 textwrap underline">
