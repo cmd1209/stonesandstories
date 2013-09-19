@@ -6,7 +6,7 @@
     <div class="col maincontent">
         <div class="col col100">
           <div class="module">
-		h1><span><?php single_cat_title(); ?></span></h1>
+		<h1><span><?php single_cat_title(); ?></span></h1>
 
 <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
