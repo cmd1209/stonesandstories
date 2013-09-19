@@ -6,7 +6,7 @@
 	<div class="col maincontent">
 		<div class="col col100">
 			<div class="module">
-				<div class="col col100"><h1 style="float:left; padding-right: 10px;margin: 10px 10px 0 0;border-right: 1px solid grey;"><?php single_cat_title(); ?></h1><h3><?php echo category_description(); ?></h3></div>
+				<h1><?php single_cat_title(); ?></h1>
 				<div class="col col50">
 
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
