@@ -662,10 +662,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	h1{
 		text-transform: uppercase;
 		color: $darkgrey;
-		letter-spacing: 0.2em;
+		letter-spacing: 0.1em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-weight: 300;
-		padding: 0 0 0 10px;
+		padding: 10px;
+		span{
+			text-transform: lowercase; 
+			letter-spacing: -0.1em; 
+			color: #e2f000; 
+			background-color: black;
+		}
 	}
 	img{
 		width: 100%;
