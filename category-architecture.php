@@ -15,6 +15,7 @@
 					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 					<?php echo excerpt(35); ?>
 					<a href="<?php echo get_permalink(); ?>"> mehr...</a>
+					<?php the_date('Y', '<p>', '</p>'); ?>
 					<?php the_category(); ?>  
 				</div>
 
@@ -31,6 +32,7 @@
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 				<?php echo excerpt(35); ?>
 				<a href="<?php echo get_permalink(); ?>"> mehr...</a>
+				<?php the_date('Y', '<p>', '</p>'); ?>
 				<?php the_category(); ?>  
 			</div>
 
