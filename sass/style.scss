@@ -410,8 +410,9 @@ section{
 		filter:alpha(opacity=75); /* For IE8 and earlier */
 	}
 	.greybox{
-		padding: 10px 10px 5000px 10px;
+		padding: 0px 0px 5000px 0px;
 		border: 1px solid $grey;
+		background-color: black;
 		height: 100%;
 		margin-bottom: -5000px; 
 	}
@@ -647,7 +648,7 @@ section{
 	background-color: white;
 	height: 100%;
 	overflow: hidden;
-	padding: 10px 10px 20px 10px;
+	padding: 0 0 20px 0;
 	h1{
 		padding: 0 0 0 10px;
 	}
@@ -663,7 +664,7 @@ section{
 		background-color: $yellow;
 	}
 	.textwrap{
-
+		padding: 10px;
 	}
 	li{
 		display: inline-block !important;
