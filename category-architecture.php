@@ -12,10 +12,10 @@
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
 
 						<div class="textwrap underline">
-							<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-							<?php if( get_field('subheadline') ): ?>
+							<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a> | <span>							<?php if( get_field('subheadline') ): ?>
                     			<h3><?php the_field('subheadline'); ?></h3>
-                 			 <?php endif; ?>
+                 			 <?php endif; ?></span></h2>
+
 							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							<?php echo excerpt(35); ?>
 							<a href="<?php echo get_permalink(); ?>"> mehr...</a>
