@@ -778,13 +778,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 .archives{
 	background-color: $lightgrey;
 	padding: 10px;
-	li{
-		width: 100%;
-		padding: 5px;
-		border-bottom: 1px dotted white;		
+	li{	
 	}
 	a{
-		
+		display: block;
+		padding: 5px;
+		border-bottom: 1px dotted white;	
 	}
 	a:hover{
 		background-color: white;
