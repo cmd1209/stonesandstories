@@ -47,7 +47,7 @@ $(function(){
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});
                         searchform.css({top: '-35px', right: '0px'});
-                        stage.css({"padding-top":"110px"});
+                        stage.css({"padding-top":"0px"});
                 }
         });
 });
