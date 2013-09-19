@@ -19,7 +19,7 @@
                 </div>              
             </div>
             <div class="col col60">
-              <div class="imagecontainer H400">
+              <div class="imagecontainer H4450">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
@@ -28,7 +28,7 @@
         </div>
 
 
-        <div class="col col25 R H400">
+        <div class="col col25 R H450">
           <div class="module">
             <?php $ids = array(106,231,506,751,486,71,424); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
