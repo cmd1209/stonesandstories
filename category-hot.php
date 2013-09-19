@@ -34,7 +34,7 @@
         </div>
         </div>
 
-        <div class="col col50 L">
+        <div class="col col50 R">
         	<div class="textwrap">
         <?php
             $count++;
