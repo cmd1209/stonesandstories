@@ -781,8 +781,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	li{	
 		display: block;
 		width: 100%;
-		border-top: 1px dashed $darkgrey;
-		border-bottom: 1px dashed white;	
+		border-bottom: 1px solid white;	
 	}
 	a{
 		display: block;
