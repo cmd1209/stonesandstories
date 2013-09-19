@@ -775,6 +775,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	background-color: #f9f9f9; 
 }
 
+.archives{
+	background-color: $lightgrey;
+	padding: 10px;
+	li{
+		width: 100%;		
+	}
+	a{
+		padding: 2px;
+	}
+	a:hover{
+		background-color: white;
+	}
+
+
+}
 
 nav.pps-slider-nav{
 	width: 100%;
