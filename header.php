@@ -48,7 +48,7 @@
           </div>
         </div>
 
-    <div class="wrapper">
+    <div class="wrapper" id="stage">
   
       
 
