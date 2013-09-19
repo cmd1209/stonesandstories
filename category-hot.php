@@ -10,7 +10,7 @@
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div class="textwrap col col50">
+<div class="textwrap col col50 underline">
 <h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
             		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
@@ -25,7 +25,16 @@
 <?php endif; ?>
 
 
-
+<div class="textwrap col col100">
+<h2>Archives</h2>
+<?php query_posts( array( 'category__in' => array(16), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
+<?php while (have_posts()) : the_post(); ?>
+<div class="textwrap col col100 underline">
+<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+</div>
+<?php endwhile; ?>
+<?php wp_reset_query(); ?>  
+</div>
 
 
           </div>

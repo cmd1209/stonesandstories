@@ -655,6 +655,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	height: 100%;
 	overflow: hidden;
 	padding: 0 0 20px 0;
+	.underline{
+		border-bottom: 1px solid $grey;
+	}
 	h1{
 		padding: 0 0 0 10px;
 	}
