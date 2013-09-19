@@ -27,9 +27,9 @@
 
 <div class="textwrap col col50">
 <h2>Archives</h2>
-<?php query_posts( array( 'category__in' => array(16), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
+<?php query_posts( array( 'category__in' => array(16), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php while (have_posts()) : the_post(); ?>
-<div class="textwrap col col100 underline">
+<div class="factbox">
 <h3> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
 </div>
 <?php endwhile; ?>
