@@ -662,9 +662,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	h1{
 		font-size: 2.25em;
 		padding: 0 0 0 10px;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: Arial, "Lucida Grande", sans-serif;
 		font-weight: 300;
 		line-height: 2em;
+		text-transform: uppercase;
 	}
 	h2{
 		font-size: 1.75em;
@@ -673,9 +674,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	h3{
 		font-size: 1.25em;
 		line-height: 1em;
-		color: $darkgrey;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: Arial, "Lucida Grande", sans-serif;
 		font-weight: 500;
+		padding: 5px;
+		color: black;
+		background-color: $grey;
 	}
 	img{
 		width: 100%;
