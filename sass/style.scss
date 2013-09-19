@@ -660,7 +660,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 		border-bottom: 1px solid $grey;
 	}
 	h1{
-		text-transform: uppercase;
+		text-transform: lowercase; 
 		color: $darkgrey;
 		letter-spacing: 0.1em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -670,7 +670,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 		border-bottom: 1px solid $grey;
 		span{
 			padding: 10px;
-			text-transform: lowercase; 
+			text-transform: uppercase;
 			letter-spacing: 0em; 
 			color: white; 
 			background-color: black;
