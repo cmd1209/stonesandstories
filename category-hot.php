@@ -8,7 +8,8 @@
           <div class="module">
 		<h1><?php single_cat_title(); ?></h1>
 
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' = 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 <div class="textwrap col col50 underline">
 <h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
@@ -23,11 +24,11 @@
 
 <?php endwhile; else: ?>
 <?php endif; ?>
-
+<?php wp_reset_query(); ?>  
 
 <div class="textwrap col col50">
 <h2>Archives</h2>
-<?php query_posts( array( 'category__in' => array(16), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
+<?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php while (have_posts()) : the_post(); ?>
 <div class="factbox">
 <h3> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
