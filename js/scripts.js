@@ -42,12 +42,12 @@ $(function(){
                         $('.navigation').css({position: 'fixed', top: '0px'});
                         stickylogo.slideDown(200);
                         searchform.css({top: '7px', right: '7px'});
-                        stage.css({"padding-top":"stickynavtop"});
+                        stage.css({"padding-top":"110px"});
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});
                         searchform.css({top: '-35px', right: '0px'});
-                        stage.css({"padding-top":"stickynavtop"});
+                        stage.css({"padding-top":"110px"});
                 }
         });
 });
