@@ -654,13 +654,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	background-color: white;
 	height: 100%;
 	overflow: hidden;
+	line-height: 0.9em;
 	padding: 0 0 20px 0;
 	.underline{
 		margin: 0 0 40px 0;
 		border-bottom: 1px solid $grey;
 	}
 	h1{
-		font-size: 2em;
+		font-size: 2.25em;
 		padding: 0 0 0 10px;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-weight: 300;
@@ -669,10 +670,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 		font-size: 1.75em;
 	}
 	h3{
-		font-size: 1.5em;
-		color: $lightgrey;
+		font-size: 1.3em;
+		color: $darkgrey;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		font-weight: 300;
+		font-weight: 500;
 	}
 	img{
 		width: 100%;
