@@ -781,8 +781,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	li{	
 		display: block;
 		width: 100%;
-		border-top: 1px dotted $darkgrey;
-		border-bottom: 1px dotted white;	
+		border-top: 1px dashed $darkgrey;
+		border-bottom: 1px dashed white;	
 	}
 	a{
 		display: block;
@@ -791,7 +791,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	}
 	a:hover{
 		background-color: white;
-		padding: 7px 5px 7px 5px;
 	}
 
 
