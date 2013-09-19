@@ -410,10 +410,10 @@ section{
 		filter:alpha(opacity=75); /* For IE8 and earlier */
 	}
 	.greybox{
-		background-color: $lightgrey;
+		padding: 5px 5px 5000px 5px;
+		border: 1px solid $grey;
 		height: 100%;
 		margin-bottom: -5000px; 
-  		padding-bottom: 5000px; 
 	}
 	line-height: 0;
 	width: 15%;
