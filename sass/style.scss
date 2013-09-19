@@ -674,6 +674,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 	}
 	.textwrap{
 		padding: 10px;
+		overflow: hidden;
 	}
 	li{
 		display: inline-block !important;
