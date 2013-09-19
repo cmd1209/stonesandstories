@@ -405,6 +405,7 @@ section{
 }
 
 .sidebar {
+	height: 100%;
 	a:hover{
 		opacity:0.75;
 		filter:alpha(opacity=75); /* For IE8 and earlier */
