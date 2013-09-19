@@ -411,8 +411,15 @@ section{
 	}
 	.greybox{
 		padding: 0px 0px 5000px 0px;
-		border: 1px solid $grey;
-		background-color: black;
+		background: #ecece6; /* Old browsers */
+background: -moz-linear-gradient(top,  #ecece6 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ecece6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ecece6 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ecece6 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ecece6 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ecece6 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 		height: 100%;
 		margin-bottom: -5000px; 
 	}
@@ -421,8 +428,7 @@ section{
 	padding-left: 5px;
 	figure{
 		position: relative;
-		border: 1px solid $grey;
-		margin: 0 0 20px 0;
+		margin: 0 0 10px 0;
 		width: 100%;
 		display: block;
 		img{
