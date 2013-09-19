@@ -667,12 +667,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecece6', end
 		font-weight: 300;
 		padding: 10px;
 		display: block;
-		border: 1px solid $grey;
+		border-bottom: 1px solid $grey;
 		span{
 			padding: 10px;
 			text-transform: lowercase; 
 			letter-spacing: 0em; 
-			color: #e2f000; 
+			color: white; 
 			background-color: black;
 		}
 	}
