@@ -30,7 +30,7 @@
 <h2>Archives</h2>
 <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 3, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php while (have_posts()) : the_post(); ?>
-<li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
+<li><?php the_date(); ?><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
 <?php endwhile; ?>
 <?php wp_reset_query(); ?>  
 </div>
