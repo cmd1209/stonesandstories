@@ -10,16 +10,14 @@
 
 <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
 <div class="textwrap col col50 underline">
-<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-            		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-					<?php endif; ?>
-					<?php echo excerpt(35); ?>
-					<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-					<?php the_category(); ?>
-
+<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
+<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+<?php endif; ?>
+<?php echo excerpt(35); ?>
+<a href="<?php echo get_permalink(); ?>"> mehr...</a>
+<?php the_category(); ?>
 </div>
 
 <?php endwhile; else: ?>
