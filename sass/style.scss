@@ -77,6 +77,11 @@ a:active {
 	outline:0;
 }
 
+a:hover > img{
+	opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
 h1, h2, h3{
 	font-family: "FanwoodRegular","Times New Roman",Georgia,Serif;
 	font-weight: 300;
@@ -97,6 +102,8 @@ p{
 		font-family: "LinuxBiolinumOBold","Times New Roman",Georgia,Serif;
 	}
 }
+
+
 
 input:focus {
 	color: black;
