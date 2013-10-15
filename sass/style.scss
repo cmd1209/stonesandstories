@@ -78,8 +78,7 @@ a:active {
 }
 
 a:hover > img{
-	opacity:0.4;
-filter:alpha(opacity=40); /* For IE8 and earlier */
+	-webkit-filter: sepia(100%);  
 }
 
 h1, h2, h3{
@@ -848,10 +847,6 @@ nav.pps-slider-nav{
 	img{
 		height: 105%!important;
 		width: auto!important;
-	}
-	a:hover{
-		opacity:0.65;
-		filter:alpha(opacity=65); /* For IE8 and earlier */
 	}
 }
 .yellow{
