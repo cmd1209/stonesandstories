@@ -842,6 +842,10 @@ nav.pps-slider-nav{
 		height: 105%!important;
 		width: auto!important;
 	}
+	a:hover{
+		opacity:0.65;
+		filter:alpha(opacity=65); /* For IE8 and earlier */
+	}
 }
 .yellow{
 	position: absolute;
@@ -1076,7 +1080,8 @@ figure.alignright{
 
 .gallery-item{
 	a:hover{
-		opacity: 0.75!important;
+		opacity:0.65;
+		filter:alpha(opacity=65); /* For IE8 and earlier */
 	}
 	img{
 		width: 101%;
