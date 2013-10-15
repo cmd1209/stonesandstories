@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"opaci",
+				"apple-opacity"
+			],
+			[
+				"W",
+				"width"
+			],
+			[
 				"wid",
 				"width"
 			],
@@ -14,10 +46,6 @@
 			[
 				"trans",
 				"transition"
-			],
-			[
-				"border",
-				"border-left"
 			],
 			[
 				"to",
@@ -40,20 +68,12 @@
 				"stickylogo"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"u",
 				"uppercase"
 			],
 			[
 				"bo",
 				"bottom"
-			],
-			[
-				"bor",
-				"border"
 			],
 			[
 				"font",
@@ -134,10 +154,6 @@
 			[
 				"al",
 				"alpha"
-			],
-			[
-				"line",
-				"linear"
 			],
 			[
 				"tr",
@@ -291,7 +307,7 @@
 			"file": "sidebar.php",
 			"settings":
 			{
-				"buffer_size": 695,
+				"buffer_size": 780,
 				"line_ending": "Unix"
 			}
 		},
@@ -299,15 +315,15 @@
 			"file": "page.php",
 			"settings":
 			{
-				"buffer_size": 433,
+				"buffer_size": 484,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "category.php",
+			"file": "category-grafik.php",
 			"settings":
 			{
-				"buffer_size": 1062,
+				"buffer_size": 969,
 				"line_ending": "Unix"
 			}
 		},
@@ -315,7 +331,7 @@
 			"file": "archive.php",
 			"settings":
 			{
-				"buffer_size": 1205,
+				"buffer_size": 1208,
 				"line_ending": "Unix"
 			}
 		},
@@ -323,23 +339,7 @@
 			"file": "search.php",
 			"settings":
 			{
-				"buffer_size": 1178,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "grafik.php",
-			"settings":
-			{
-				"buffer_size": 462,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "start.php",
-			"settings":
-			{
-				"buffer_size": 5689,
+				"buffer_size": 1199,
 				"line_ending": "Unix"
 			}
 		},
@@ -352,10 +352,58 @@
 			}
 		},
 		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 2111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "start.php",
+			"settings":
+			{
+				"buffer_size": 6304,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "factsfigures.php",
 			"settings":
 			{
-				"buffer_size": 1573,
+				"buffer_size": 2881,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "category-kultur.php",
+			"settings":
+			{
+				"buffer_size": 1996,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "category-hot.php",
+			"settings":
+			{
+				"buffer_size": 1534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "category.php",
+			"settings":
+			{
+				"buffer_size": 2807,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "category-architecture.php",
+			"settings":
+			{
+				"buffer_size": 1996,
 				"line_ending": "Unix"
 			}
 		},
@@ -363,7 +411,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 16436,
+				"buffer_size": 18374,
 				"line_ending": "Unix"
 			}
 		},
@@ -371,7 +419,7 @@
 			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 1599,
+				"buffer_size": 1651,
 				"line_ending": "Unix"
 			}
 		},
@@ -443,11 +491,14 @@
 	"file_history":
 	[
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-architecture.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/video.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafik.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafikfooter.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafikheader.php",
 		"/Users/chad/Desktop/stonesandstories/sass/style.scss",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/typo.scss",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
 		"/Users/chad/Library/Caches/Cleanup At Startup/Transmit/E9156EF3-1D73-49C5-BEE3-07BAEC0F5A43/swipebox.css",
@@ -566,10 +617,7 @@
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/restaurant.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/besucherinfo.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kontakt.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/english.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/impressum.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/links.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu.html"
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/english.html"
 	],
 	"find":
 	{
@@ -588,6 +636,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"id",
+			"5",
+			"0",
+			"3",
+			"2",
+			"0",
+			"gdouble",
+			"20px",
+			"50",
+			"150",
+			"250",
 			"10",
 			"width",
 			"ec",
@@ -715,7 +774,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 11,
 			"sheets":
 			[
 				{
@@ -731,8 +790,8 @@
 						"selection":
 						[
 							[
-								770,
-								770
+								489,
+								489
 							]
 						],
 						"settings":
@@ -753,15 +812,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 695,
+						"buffer_size": 780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								695,
-								695
+								780,
+								780
 							]
 						],
 						"settings":
@@ -781,15 +840,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 433,
+						"buffer_size": 484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								298,
+								298
 							]
 						],
 						"settings":
@@ -806,19 +865,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "category.php",
+					"file": "category-grafik.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1062,
+						"buffer_size": 969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								173
+								770,
+								770
 							]
 						],
 						"settings":
@@ -838,15 +897,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1205,
+						"buffer_size": 1208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								103,
+								103
 							]
 						],
 						"settings":
@@ -866,15 +925,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1178,
+						"buffer_size": 1199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1178,
-								1156
+								166,
+								166
 							]
 						],
 						"settings":
@@ -890,64 +949,6 @@
 				},
 				{
 					"buffer": 6,
-					"file": "grafik.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								462,
-								462
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "start.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5689,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								217,
-								217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "footer.php",
 					"semi_transient": false,
 					"settings":
@@ -975,20 +976,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "factsfigures.php",
+					"buffer": 7,
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1573,
+						"buffer_size": 2111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								883,
+								883
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "start.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
 							]
 						],
 						"settings":
@@ -996,6 +1027,145 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1304.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "factsfigures.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "category-kultur.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "category-hot.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "category-architecture.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1010,20 +1180,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 10,
+					"buffer": 14,
 					"file": "sass/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16436,
+						"buffer_size": 18374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6687,
-								6687
+								3123,
+								3123
 							]
 						],
 						"settings":
@@ -1033,26 +1203,26 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6628.0,
+						"translation.y": 3251.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 15,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1599,
+						"buffer_size": 1651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								856,
-								856
+								1613,
+								1613
 							]
 						],
 						"settings":
@@ -1068,7 +1238,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 16,
 					"file": "sass/print.scss",
 					"semi_transient": false,
 					"settings":
@@ -1096,7 +1266,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 17,
 					"file": "sass/typo.scss",
 					"semi_transient": false,
 					"settings":
@@ -1155,7 +1325,7 @@
 		"cols":
 		[
 			0.0,
-			0.641554543079,
+			0.662791725696,
 			1.0
 		],
 		"rows":
@@ -1177,23 +1347,55 @@
 		"selected_items":
 		[
 			[
-				"fa",
-				"factsfigures.php"
+				"",
+				"category-hot.php"
 			],
 			[
-				"foo",
-				"footer.php"
+				"fu",
+				"functions.php"
+			],
+			[
+				"cat",
+				"category-architecture.php"
+			],
+			[
+				"c",
+				"category.php"
+			],
+			[
+				"ca",
+				"category-architecture.php"
+			],
+			[
+				"cate",
+				"category.php"
 			],
 			[
 				"fun",
 				"functions.php"
 			],
 			[
-				"start",
-				"start.php"
+				"vid",
+				"video.php"
+			],
+			[
+				"fa",
+				"factsfigures.php"
 			],
 			[
 				"st",
+				"start.php"
+			],
+			[
+				"star",
+				"start.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"start",
 				"start.php"
 			],
 			[
@@ -1213,16 +1415,8 @@
 				"functions.php"
 			],
 			[
-				"",
-				"js/scripts.js"
-			],
-			[
 				"head",
 				"header.php"
-			],
-			[
-				"fu",
-				"functions.php"
 			],
 			[
 				"fuc",
@@ -1255,10 +1449,6 @@
 			[
 				"pa",
 				"page.php"
-			],
-			[
-				"ca",
-				"category.php"
 			],
 			[
 				"hea",
