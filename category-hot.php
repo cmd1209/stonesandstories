@@ -17,7 +17,7 @@
 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 <?php endif; ?>  
 </div>
-<div class="col col50" style="line-height:0;">
+<div class="col col50">
 <?php echo excerpt(35); ?>
 <a href="<?php echo get_permalink(); ?>"> mehr...</a>
 <?php the_category(); ?>  
