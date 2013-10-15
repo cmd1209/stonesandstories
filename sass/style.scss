@@ -1075,6 +1075,9 @@ figure.alignright{
 }
 
 .gallery-item{
+	a:hover{
+		opacity: 75%;
+	}
 	img{
 		width: 101%;
 		height: auto;
