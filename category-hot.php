@@ -13,7 +13,7 @@
 <div class="textwrap col col50 underline">
 <h2 style="font-size: 45px;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 <?php if( get_field('subheadline') ): ?>
-  <h3><?php the_field('subheadline'); ?></h3>
+  <h2><?php the_field('subheadline'); ?></h2>
 <?php endif; ?>
 <div class="col col50" style="padding-right: 5px;">
 <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
