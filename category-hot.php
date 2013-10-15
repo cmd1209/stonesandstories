@@ -11,13 +11,13 @@
 <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div class="textwrap col col50 underline">
-<h2 style="font-size: 40px;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+<h2 style="font-size: 45px;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 <div class="col col50" style="padding-right: 5px;">
 <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 <?php endif; ?>  
 </div>
-<div class="col col50" style="padding: 0;">
+<div class="col col50" style="line-height:0;">
 <?php echo excerpt(35); ?>
 <a href="<?php echo get_permalink(); ?>"> mehr...</a>
 <?php the_category(); ?>  
