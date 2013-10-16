@@ -416,9 +416,11 @@ section{
 		filter:alpha(opacity=75); /* For IE8 and earlier */
 	}
 	position:relative;
-	background-color: black;
 	.greybox{
-		position: relative;
+		background-color: black;
+		position: absolute;
+		top: 0;
+		right: -15px;
 		padding: 5px;
 		height: 100%;
 		margin-left: 10px;
