@@ -948,6 +948,8 @@ nav.pps-slider-nav{
 	z-index: 1;
 	background-color: $yellow;
 	line-height: 1em;
+	border-left: 10px solid $yellow;
+	border-bottom: 10px solid transparent;
 	h3{
 		text-transform: uppercase;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -957,14 +959,6 @@ nav.pps-slider-nav{
 		line-height: 1em;
 		margin: 0!important;
 	}
-}
-.category:before{
-	content: '';
-    position: absolute;
-    top: 0; right: 0;
-    border-top: 80px solid $yellow;
-    border-left: 80px solid red;
-    width: 0;
 }
 
 .post-categories{
