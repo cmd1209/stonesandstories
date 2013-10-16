@@ -948,7 +948,10 @@ nav.pps-slider-nav{
 	z-index: 1;
 	background-color: $yellow;
 	h3{
-		text-transform: uppercase; 
+		text-transform: uppercase;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
+		font-size: 1em;
 	}
 }
 
