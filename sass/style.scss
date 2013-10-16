@@ -958,6 +958,14 @@ nav.pps-slider-nav{
 		margin: 0!important;
 	}
 }
+.category:before{
+	content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid $yellow;
+    border-left: 80px solid red;
+    width: 0;
+}
 
 .post-categories{
 	li{
