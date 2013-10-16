@@ -18,7 +18,7 @@
                 </div>              
             </div>
             <div class="col col60">
-              <div class="imagecontainer H400">
+              <div class="hero H400">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
@@ -26,25 +26,8 @@
           </div>
         </div>
 
-        <div class="col col50 L">
-        <div class="col col100 S H500">
-          <div class="module">
-            <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
-              <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
-                  <div class="textwrap">
-                  <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
-                  <?php endif; ?>
-                  <?php echo excerpt(20); ?>
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-                </div>
-            <?php endwhile; ?>
-         </div>
-        </div>
      
-        <div class="col col50 R">
+        <div class="col col50 L">
         <div class="col col100 H200 S">
           <div class="module">
              <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -53,7 +36,6 @@
             <?php endwhile; ?>
           </div>
         </div>
-                </div>
 
           
         <div class="col col100 S H300">
@@ -73,17 +55,14 @@
           </div>
         </div>
        
-
+        </div>
         
-<<<<<<< HEAD
-       
-=======
         <div class="col col50 R">
         <div class="col col100 S H500">
           <div class="module">
             <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
+              <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
@@ -95,7 +74,6 @@
             <?php endwhile; ?>
           </div>
         </div>
->>>>>>> parent of c042ec3... hero introduction
 
   
         </div>
