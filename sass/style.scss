@@ -942,15 +942,15 @@ nav.pps-slider-nav{
 
 .labels{
 	position: absolute;
-	top: 5px;
+	top: -5px;
 	right: -5px;
 	padding: 5px;
 	display: block;
 	z-index: 1;
 	background-color: $lightgrey;
 	line-height: 1em;
-	border-left: 5px solid $grey;
-	border-bottom: 5px solid $darkgrey;
+	border-right: 5px solid $grey;
+	border-top: 5px solid $darkgrey;
 	h3{
 		text-transform: uppercase;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -963,8 +963,8 @@ nav.pps-slider-nav{
 }
 .labels:hover{
 	background-color: $yellow;
-	border-left: 5px solid $yellow-darker;
-	border-bottom: 5px solid black;
+	border-right: 5px solid $yellow-darker;
+	border-top: 5px solid black;
 }
 
 .post-categories{
