@@ -28,7 +28,7 @@
 
      
         <div class="col col50 L">
-        <div class="col col100 H200">
+        <div class="col col100 H200 S">
           <div class="module">
              <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
