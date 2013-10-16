@@ -30,7 +30,7 @@
         <div class="col col50 L">
         <div class="col col100 H300 S">
           <div class="module">
-             <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+             <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="imagecontainer H200"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
             <?php endwhile; ?>
@@ -40,7 +40,7 @@
           
         <div class="col col100 S H300">
           <div class="module">
-             <?php $ids = array(527,227,238,213,222); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+             <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                <div class="imagecontainer H300"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="textwrap yellow col60">
@@ -68,7 +68,7 @@
                   <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
-                  <?php echo excerpt(20); ?>
+                  <?php echo excerpt(50); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
             <?php endwhile; ?>
