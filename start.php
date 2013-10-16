@@ -30,6 +30,7 @@
      
         <div class="col col50 L">
         <div class="col col100 H300 S">
+        <div class="category"><h3>Grafik Design</h3></div>
           <div class="module">
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -42,6 +43,7 @@
 
           
         <div class="col col100 S H300">
+        <div class="category"><h3>Hot</h3></div>
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -62,6 +64,7 @@
         
         <div class="col col50 R">
         <div class="col col100 S H600">
+        <div class="category"><h3>Architektur</h3></div>
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
