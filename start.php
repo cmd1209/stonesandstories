@@ -6,7 +6,7 @@
 
         <div class="col col100 H400 S">
           <div class="module">
-            <div class="col col25">
+            <div class="col col40">
              <?php $ids = array(73,69,65,102); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
@@ -18,7 +18,7 @@
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
             </div>
-            <div class="col col75">
+            <div class="col col60">
               <div class="imagecontainer H400">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
@@ -26,15 +26,20 @@
             <?php endwhile; ?>
           </div>
         </div>
+
+     
         <div class="col col50 L">
-          <div class="col col100 H200 S">
+        <div class="col col100 H200">
           <div class="module">
              <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="imagecontainer H200"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
             <?php endwhile; ?>
           </div>
-          <div class="col col100 S H300">
+        </div>
+
+          
+        <div class="col col100 S H300">
           <div class="module">
              <?php $ids = array(527,227,238,213,222); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -50,8 +55,11 @@
             <?php endwhile; ?>
           </div>
         </div>
+       
+        </div>
+        
         <div class="col col50 R">
-          <div class="col col100 S H500">
+        <div class="col col100 S H500">
           <div class="module">
             <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
