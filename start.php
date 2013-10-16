@@ -6,7 +6,7 @@
         <div class="col col100 H400 S">
           <div class="module">
             <div class="col col40">
-             <?php $ids = array(73,69,65,102); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+             <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
@@ -28,7 +28,7 @@
 
      
         <div class="col col50 L">
-        <div class="col col100 H200 S">
+        <div class="col col100 H300 S">
           <div class="module">
              <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -58,9 +58,9 @@
         </div>
         
         <div class="col col50 R">
-        <div class="col col100 S H500">
+        <div class="col col100 S H600">
           <div class="module">
-            <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+            <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
                   <div class="textwrap">
