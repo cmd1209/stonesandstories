@@ -951,6 +951,8 @@ nav.pps-slider-nav{
 	line-height: 1em;
 	border-right: 5px solid $grey;
 	border-top: 5px solid $darkgrey;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid transparent;
 	h3{
 		text-transform: uppercase;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -965,6 +967,8 @@ nav.pps-slider-nav{
 	background-color: $yellow;
 	border-right: 5px solid $yellow-darker;
 	border-top: 5px solid black;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid transparent;
 }
 
 .post-categories{
