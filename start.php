@@ -28,8 +28,7 @@
         </div>
 
      
-        <div class="col col50 L" style="padding-bottom:0;">
-
+        <div class="col col50 L">
         <div class="col col100 H200">
           <div class="module">
              <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -59,7 +58,7 @@
        
         </div>
         
-        <div class="col col50 R" style="padding-bottom:0;" >
+        <div class="col col50 R">
         <div class="col col50 L H500">
           <div class="module">
             <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
