@@ -4,7 +4,7 @@
     <div class="col startcontent">
 
 
-        <div class="col col100 L H500">
+        <div class="col col100 H500">
           <div class="module">
             <div class="col col40">
              <?php $ids = array(73,69,65,102); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -14,7 +14,7 @@
                   <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
-                  <?php echo excerpt(60); ?>
+                  <?php echo excerpt(80); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
             </div>
