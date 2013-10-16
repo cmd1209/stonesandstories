@@ -8,6 +8,7 @@
             <div class="col col40">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
+                <?php the_category(); ?> 
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
@@ -32,6 +33,7 @@
           <div class="module">
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
+                <?php the_category(); ?> 
               <div class="heroimage H300 shift">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>
@@ -44,6 +46,7 @@
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
+                <?php the_category(); ?> 
                <div class="heroimage H300 shift"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="textwrap yellow col60">
                   <h2><?php the_title(); ?></h2>
@@ -64,6 +67,7 @@
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
+                <?php the_category(); ?> 
               <div class="heroimage"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
