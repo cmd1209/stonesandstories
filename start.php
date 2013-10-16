@@ -19,7 +19,7 @@
                 </div>              
             </div>
             <div class="col col60">
-              <div class="imagecontainer H4450">
+              <div class="imagecontainer H500">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
