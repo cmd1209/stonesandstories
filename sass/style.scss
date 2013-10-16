@@ -942,9 +942,14 @@ nav.pps-slider-nav{
 .category{
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
+	padding: 5px;
 	display: block;
-	z-index: 50;
+	z-index: 1;
+	background-color: $yellow;
+	h3{
+		text-transform: uppercase; 
+	}
 }
 
 .post-categories{
