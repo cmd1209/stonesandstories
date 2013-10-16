@@ -833,6 +833,14 @@ nav.pps-slider-nav{
 /*------------------------------------*\
     Frontpage Image Container Stuff
 \*------------------------------------*/
+.heroimage{
+	width:100%;
+	overflow: hidden;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
 
 .imagecontainer{
 	width: 100%;

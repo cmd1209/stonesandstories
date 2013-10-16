@@ -18,7 +18,7 @@
                 </div>              
             </div>
             <div class="col col60">
-              <div class="imagecontainer H400">
+              <div class="heroimage H400">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
@@ -62,7 +62,7 @@
           <div class="module">
             <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
+              <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
