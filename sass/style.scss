@@ -500,6 +500,7 @@ section{
 
 .col{
 	float: left;
+	position: relative;
 }
 .col33{
 	width: 33.33%;
@@ -937,6 +938,12 @@ nav.pps-slider-nav{
 /*------------------------------------*\
     WORDPRESS CORE
 \*------------------------------------*/
+
+.category{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 .post-categories{
 	li{
