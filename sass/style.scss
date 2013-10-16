@@ -415,17 +415,15 @@ section{
 		opacity:0.75;
 		filter:alpha(opacity=75); /* For IE8 and earlier */
 	}
+	background-color: black;
 	.greybox{
-		padding: 0px 0px 2000px 0px;
-		background-color: black;
 		padding: 5px;
 		height: 100%;
-		margin-bottom: -2000px; 
+		margin-left: 10px;
 	}
 	line-height: 0;
 	width: 15%;
 	padding-left: 15px;
-	margin-left: 10px;
 	figure{
 		position: relative;
 		margin: 0 0 10px 0;

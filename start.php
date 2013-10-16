@@ -81,7 +81,7 @@
         </div>
 
     </div>
-    <div class="col sidebar shadow">
+    <div class="col sidebar">
       <?php get_sidebar(); ?>
     </div>
   </section>
