@@ -411,23 +411,16 @@ section{
 }
 
 .sidebar {
-	a:hover{
-		opacity:0.75;
-		filter:alpha(opacity=75); /* For IE8 and earlier */
-	}
-	position:relative;
+	line-height: 0;
+	width: 15%;
+	padding-left: 15px;
+	height: 100%;
 	.greybox{
 		background-color: black;
-		position: absolute;
-		top: 0;
-		right: -15px;
 		padding: 5px;
 		height: 100%;
 		margin-left: 10px;
 	}
-	line-height: 0;
-	width: 15%;
-	padding-left: 15px;
 	figure{
 		position: relative;
 		margin: 0 0 10px 0;
