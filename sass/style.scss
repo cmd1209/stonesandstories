@@ -411,11 +411,11 @@ section{
 }
 
 .sidebar {
-	background-color: red;
 	a:hover{
 		opacity:0.75;
 		filter:alpha(opacity=75); /* For IE8 and earlier */
 	}
+	overflow: hidden;
 	.greybox{
 		padding: 0px 0px 2000px 0px;
 		background-color: black;
