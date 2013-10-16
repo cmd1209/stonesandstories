@@ -26,7 +26,7 @@
           </div>
         </div>
 
-         <div class="col col50 L">
+        <div class="col col50 L">
         <div class="col col100 S H500">
           <div class="module">
             <?php $ids = array(592,631); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -41,7 +41,7 @@
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
             <?php endwhile; ?>
-          </div>
+         </div>
         </div>
      
         <div class="col col50 R">
@@ -53,6 +53,7 @@
             <?php endwhile; ?>
           </div>
         </div>
+                </div>
 
           
         <div class="col col100 S H300">
@@ -72,7 +73,7 @@
           </div>
         </div>
        
-        </div>
+
         
        
 
