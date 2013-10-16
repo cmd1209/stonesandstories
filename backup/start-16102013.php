@@ -4,7 +4,7 @@
     <div class="col startcontent">
 
 
-        <div class="col col100 L H500">
+        <div class="col col75 L H450">
           <div class="module">
             <div class="col col40">
              <?php $ids = array(73,69,65,102); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -27,10 +27,27 @@
           </div>
         </div>
 
+
+        <div class="col col25 R H450">
+          <div class="module">
+            <?php $ids = array(106,231,506,751,486,71,424); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+              <?php while (have_posts()) : the_post(); ?>
+              <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($medium->ID, 'medium');?></a>
+                  <div class="textwrap">
+                  <h2><?php the_title(); ?></h2>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h3><?php the_field('subheadline'); ?></h3>
+                  <?php endif; ?>
+                  <?php echo excerpt(20); ?>
+                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+                </div>
+            <?php endwhile; ?>
+          </div>
+        </div>
      
         <div class="col col50 L" style="padding-bottom:0;">
 
-        <div class="col col100 H200">
+        <div class="col col50 L H200">
           <div class="module">
              <?php $ids = array(380,318); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -39,6 +56,21 @@
           </div>
         </div>
 
+        <div class="col col50 R H200">
+          <div class="module">
+             <?php $ids = array(619,592,566,307,229,527,225,633); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+              <?php while (have_posts()) : the_post(); ?>
+                <div class="textwrap">
+                  <h2 style="margin-top:5px;"><?php the_title(); ?></h2>
+                  <?php if( get_field('subheadline') ): ?>
+                    <h3><?php the_field('subheadline'); ?></h3>
+                  <?php endif; ?>
+                  <?php echo excerpt(15); ?>
+                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+                </div>
+            <?php endwhile; ?>
+          </div>
+        </div>
           
         <div class="col col100 S H300">
           <div class="module">
