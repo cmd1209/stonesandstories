@@ -4,7 +4,7 @@
     <div class="col startcontent">
 
 
-        <div class="col col100 H500 S">
+        <div class="col col100 H400 S">
           <div class="module">
             <div class="col col40">
              <?php $ids = array(73,69,65,102); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -19,7 +19,7 @@
                 </div>              
             </div>
             <div class="col col60">
-              <div class="imagecontainer H500">
+              <div class="imagecontainer H400">
                 <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
