@@ -4,7 +4,7 @@
     <div class="col startcontent">
 
         <div class="col col100 H400 S">
-          <div class="triangle"><a href="<?php echo home_url(); ?>/category/architecture/"><h3>Architecture</h3></a></div>
+          <div class="triangle"><a href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a></div>
 <!--           <div class="labels"><a href="<?php echo home_url(); ?>/category/architecture/"><h3>Architecture</h3></a></div> -->
           <div class="module">
             <div class="col col40">
