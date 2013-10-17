@@ -4,7 +4,7 @@
     <div class="col startcontent">
 
         <div class="col col100 H400 S">
-          <a class="triangle" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
+          <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <div class="col col40">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -30,7 +30,7 @@
      
         <div class="col col50 L">
         <div class="col col100 H300 S">
-        <div class="labels"><a href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik Design</h3></a></div>
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik Design</h3></a>
           <div class="module">
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -43,7 +43,7 @@
 
           
         <div class="col col100 S H300">
-        <div class="labels"><a href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a></div>
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
@@ -64,7 +64,7 @@
         
         <div class="col col50 R">
         <div class="col col100 S H600">
-        <div class="labels"><a href="<?php echo home_url(); ?>/category/architecture/"><h3>Architecture</h3></a></div>
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Architecture</h3></a>
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
