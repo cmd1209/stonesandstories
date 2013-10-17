@@ -416,7 +416,11 @@ section{
 	width: 15%;
 	padding-left: 10px;
 	height: 100%;
-
+	h2{
+		
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		text-align: center!important;
+	}
 	.greybox{
 		position: relative;
 		background-color: $grey;
