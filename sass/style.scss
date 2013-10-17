@@ -967,10 +967,9 @@ nav.pps-slider-nav{
 
 .triangle{
 	position: absolute;
-	text-align: center;
 	top: 0;
 	right: -25px;
-	padding: 10px 50px 10px 50px;
+	padding: 10px 10px 10px 60px;
 	display: block;
 	z-index: 1;
 	-webkit-transform: rotate(45deg);
@@ -982,7 +981,6 @@ nav.pps-slider-nav{
 		font-weight: 300;
 		font-size: 0.75em;
 		margin: 0!important;
-		text-align: center;
 	}
 }
 
