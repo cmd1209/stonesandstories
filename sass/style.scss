@@ -965,10 +965,13 @@ nav.pps-slider-nav{
     WORDPRESS CORE
 \*------------------------------------*/
 
-.triangle{
+a.triangle{
+	-webkit-box-shadow: 5px 5px 5px black;
+	-moz-box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
 	position: absolute;
 	top: 0;
-	right: 25px;
+	right: 0px;
 	padding: 10px 10px 10px 60px;
 	display: block;
 	z-index: 1;
@@ -983,6 +986,9 @@ nav.pps-slider-nav{
 		font-size: 0.75em;
 		margin: 0!important;
 	}
+}
+a.triangle:hover{
+	padding: 10px 10px 10px 75px;
 }
 
 

@@ -64,7 +64,7 @@
         
         <div class="col col50 R">
         <div class="col col100 S H600">
-        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Architecture</h3></a>
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
