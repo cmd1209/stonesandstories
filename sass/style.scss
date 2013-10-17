@@ -977,7 +977,7 @@ a.triangle{
 	z-index: 1;
 	-webkit-transform: rotate(45deg);
 	-moz-trasform: rotate(45deg);
-	background-color: $yellow;
+	background-color: $lightgrey;
 	h3{
 		text-align: right;
 		text-transform: uppercase;
@@ -989,6 +989,7 @@ a.triangle{
 }
 a.triangle:hover{
 	padding: 10px 10px 10px 75px;
+	background-color: $yellow;
 }
 
 
