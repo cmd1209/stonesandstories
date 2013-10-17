@@ -418,13 +418,23 @@ section{
 	height: 100%;
 
 	.greybox{
+		position: relative;
 		background-color: $grey;
 		border-left: 10px solid $darkgrey;
-		border-right: 10px solid white;
 		border-bottom: 10px solid black;
 		padding: 5px;
 		height: 100%;
 		margin-left: 10px;
+	}
+	.greybox:after{
+		content: "";
+		width: 0;
+		height: 0;
+		border-left: 10px solid white;
+		border-bottom: 10px solid black;
+		position: absolute;
+		bottom: 0;
+		right: 0;
 	}
 	figure{
 		position: relative;
