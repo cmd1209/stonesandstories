@@ -431,7 +431,7 @@ section{
 		width: 0;
 		height: 0;
 		border-left: 10px solid white;
-		border-bottom: 10px solid black;
+		border-bottom: 10px solid $darkgrey;
 		position: absolute;
 		top: 0;
 		left: -10px;
@@ -858,7 +858,7 @@ nav.pps-slider-nav{
     Frontpage Image Container Stuff
 \*------------------------------------*/
 .heroimage{
-	width:100%;
+	width:101%!important;
 	overflow: hidden;
 	img{
 		width: 100%;

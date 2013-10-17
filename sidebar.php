@@ -1,5 +1,6 @@
 <!-- sidebar -->
 			<div class="greybox">
+			<h2>Side Notes</h2>
 	    				<figure>
 	    					<a href="http://www.humboldt-forum.de/humboldt-lab-dahlem/" target="blank">
 	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/09/humbold-k.jpg" alt="" >
