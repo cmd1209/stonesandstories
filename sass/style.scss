@@ -978,6 +978,11 @@ a.triangle{
 	-webkit-transform: rotate(45deg);
 	-moz-trasform: rotate(45deg);
 	background-color: $lightgrey;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 	h3{
 		text-align: right;
 		text-transform: uppercase;
@@ -990,6 +995,11 @@ a.triangle{
 a.triangle:hover{
 	padding: 10px 10px 10px 75px;
 	background-color: $yellow;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 
