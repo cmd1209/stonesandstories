@@ -1000,6 +1000,7 @@ nav.pps-slider-nav{
 	display: block;
 	z-index: 1;
 	-webkit-transform: rotate(45deg);
+	-moz-trasform: rotate(45deg);
 	background-color: $yellow;
 	h3{
 		text-transform: uppercase;

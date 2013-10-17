@@ -4,8 +4,7 @@
     <div class="col startcontent">
 
         <div class="col col100 H400 S">
-          <div class="triangle"><a href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a></div>
-<!--           <div class="labels"><a href="<?php echo home_url(); ?>/category/architecture/"><h3>Architecture</h3></a></div> -->
+          <a class="triangle" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <div class="col col40">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
