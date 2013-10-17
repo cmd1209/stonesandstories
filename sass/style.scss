@@ -842,7 +842,7 @@ nav.pps-slider-nav{
 	text-align: right;
 	position: absolute;
 	top:0;
-	right:0;
+	right:15px;
 	font-size: 0.85em;
 	a{	
 		font-size: 0.85em;
@@ -1025,9 +1025,8 @@ a.triangle:hover{
 		width: 75%;
 	}
 	.post-categories{
-		position: absolute;
-		top: 20px;
-		right: 10px;
+		position: relative;
+
 	}
 }
 
