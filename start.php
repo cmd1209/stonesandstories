@@ -30,7 +30,7 @@
      
         <div class="col col50 L">
         <div class="col col100 H300 S">
-        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik Design</h3></a>
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik</h3></a>
           <div class="module">
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>

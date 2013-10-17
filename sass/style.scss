@@ -526,6 +526,7 @@ section{
 .col{
 	float: left;
 	position: relative;
+	overflow: hidden;
 }
 .col33{
 	width: 33.33%;
@@ -971,7 +972,7 @@ nav.pps-slider-nav{
 	right: -25px;
 	padding: 10px 50px 10px 50px;
 	display: block;
-	z-index: 0;
+	z-index: 1;
 	-webkit-transform: rotate(45deg);
 	-moz-trasform: rotate(45deg);
 	background-color: $yellow;
