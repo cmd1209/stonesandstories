@@ -418,7 +418,7 @@ section{
 	height: 100%;
 	h2{
 		color: $grey;
-		text-shadow: -2px 2px 2px $darkgrey; 
+		text-shadow: -2px 2px 0px $darkgrey, 2px -2px 0px white; 
 		text-transform: uppercase;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		text-align: center!important;
