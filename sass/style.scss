@@ -991,6 +991,25 @@ nav.pps-slider-nav{
 	border-top: 5px solid black;
 }
 
+.triangle{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	padding: 20px;
+	display: block;
+	-webkit-transform: rotate(45deg);
+	background-color: $yellow;
+	h3{
+		text-transform: uppercase;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		font-size: 0.85em;
+		margin: 0!important;
+	}
+}
+
+
 .post-categories{
 	li{
 		float: right;
