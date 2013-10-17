@@ -432,7 +432,6 @@ section{
 		padding: 5px;
 		height: 100%;
 		margin-left: 10px;
-			-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(white));
 	}
 	.greybox:before{
 		content: "";
@@ -975,9 +974,9 @@ nav.pps-slider-nav{
 \*------------------------------------*/
 
 a.triangle{
-	-webkit-box-shadow: 5px 25px 50px black;
-	-moz-box-shadow: 5px 25px 50px black;
-	box-shadow: 5px 25px 50px black;
+	-webkit-box-shadow: 5px 25px 50px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 25px 50px rgba(0,0,0,0.5);
+	box-shadow: 5px 25px 50px rgba(0,0,0,0.5);
 	position: absolute;
 	top: 0;
 	right: 0px;
