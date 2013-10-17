@@ -430,10 +430,10 @@ section{
 		content: "";
 		width: 0;
 		height: 0;
-		border-left: 10px solid white;
-		border-bottom: 10px solid black;
+		border-left: 10px solid black;
+		border-bottom: 10px solid white;
 		position: absolute;
-		bottom: 0;
+		bottom: -10px;
 		right: 0;
 	}
 	figure{
