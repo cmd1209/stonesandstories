@@ -416,8 +416,10 @@ section{
 	width: 15%;
 	padding-left: 15px;
 	height: 100%;
+	border-left: 10px solid $darkgrey;
+	border-bottom: 10px solid black;
 	.greybox{
-		background-color: black;
+		background-color: $grey;
 		padding: 5px;
 		height: 100%;
 		margin-left: 10px;

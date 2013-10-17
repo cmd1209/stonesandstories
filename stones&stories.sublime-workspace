@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"tr",
+				"transparent"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"da",
+				"yellow-darker"
+			],
+			[
+				"yell",
+				"yellow-darker"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"opaci",
+				"opacity"
+			],
+			[
 				"le",
 				"letter-spacing"
 			],
@@ -26,10 +54,6 @@
 			[
 				"border",
 				"border"
-			],
-			[
-				"opaci",
-				"apple-opacity"
 			],
 			[
 				"W",
@@ -156,10 +180,6 @@
 				"alpha"
 			],
 			[
-				"tr",
-				"transition"
-			],
-			[
 				"wp-",
 				"wp-caption-text"
 			],
@@ -210,10 +230,6 @@
 			[
 				"me",
 				"menufontsize"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"lo",
@@ -296,58 +312,10 @@
 	"buffers":
 	[
 		{
-			"file": "single.php",
+			"file": "start.php",
 			"settings":
 			{
-				"buffer_size": 770,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sidebar.php",
-			"settings":
-			{
-				"buffer_size": 780,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "page.php",
-			"settings":
-			{
-				"buffer_size": 484,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "category-grafik.php",
-			"settings":
-			{
-				"buffer_size": 969,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "archive.php",
-			"settings":
-			{
-				"buffer_size": 1208,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "search.php",
-			"settings":
-			{
-				"buffer_size": 1199,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1100,
+				"buffer_size": 4136,
 				"line_ending": "Unix"
 			}
 		},
@@ -360,58 +328,10 @@
 			}
 		},
 		{
-			"file": "start.php",
-			"settings":
-			{
-				"buffer_size": 6304,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "factsfigures.php",
-			"settings":
-			{
-				"buffer_size": 2881,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "category-kultur.php",
-			"settings":
-			{
-				"buffer_size": 1996,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "category-hot.php",
-			"settings":
-			{
-				"buffer_size": 1534,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "category.php",
-			"settings":
-			{
-				"buffer_size": 2807,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "category-architecture.php",
-			"settings":
-			{
-				"buffer_size": 1996,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 18374,
+				"buffer_size": 18576,
 				"line_ending": "Unix"
 			}
 		},
@@ -490,8 +410,20 @@
 	},
 	"file_history":
 	[
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/single.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/page.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-grafik.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/archive.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/search.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/footer.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/factsfigures.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-kultur.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-hot.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-architecture.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/video.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafik.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
@@ -506,12 +438,9 @@
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/404.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/archive.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/searchform.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
 		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/header.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
 		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/sass/style.scss",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/diaspora.php",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/DAH.sublime-workspace",
@@ -608,16 +537,7 @@
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/shop.php",
 		"/Users/chad/Dropbox/Work/Test-Website/Index.html",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/slideshow.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index-test.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/backup/08.05.2012/movieplayer",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/slideshow",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/party.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/presse.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/restaurant.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/besucherinfo.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kontakt.html",
-		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/english.html"
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index-test.html"
 	],
 	"find":
 	{
@@ -636,6 +556,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Architektur",
+			"category",
 			"id",
 			"5",
 			"0",
@@ -774,24 +696,24 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "single.php",
+					"file": "start.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 770,
+						"buffer_size": 4136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								489,
-								489
+								3168,
+								3168
 							]
 						],
 						"settings":
@@ -801,182 +723,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 449.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sidebar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								780,
-								780
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								298,
-								298
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "category-grafik.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 969,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								770,
-								770
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "archive.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1208,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								103
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "search.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1100,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "header.php",
 					"semi_transient": false,
 					"settings":
@@ -988,38 +741,8 @@
 						"selection":
 						[
 							[
-								883,
-								883
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "start.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6304,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								111,
-								111
+								1177,
+								1208
 							]
 						],
 						"settings":
@@ -1027,145 +750,6 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1304.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "factsfigures.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								781,
-								743
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "category-kultur.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "category-hot.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								825,
-								772
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "category.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2807,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								145,
-								145
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "category-architecture.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1180,20 +764,24 @@
 			"sheets":
 			[
 				{
-					"buffer": 14,
+					"buffer": 2,
 					"file": "sass/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18374,
+						"buffer_size": 18576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3123,
-								3123
+								14860,
+								14860
+							],
+							[
+								15246,
+								15246
 							]
 						],
 						"settings":
@@ -1203,13 +791,13 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3251.0,
+						"translation.y": 17630.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 3,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -1238,7 +826,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 4,
 					"file": "sass/print.scss",
 					"semi_transient": false,
 					"settings":
@@ -1266,7 +854,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 5,
 					"file": "sass/typo.scss",
 					"semi_transient": false,
 					"settings":
@@ -1325,7 +913,7 @@
 		"cols":
 		[
 			0.0,
-			0.662791725696,
+			0.683549782337,
 			1.0
 		],
 		"rows":
@@ -1347,6 +935,14 @@
 		"selected_items":
 		[
 			[
+				"h",
+				"header.php"
+			],
+			[
+				"c",
+				"category.php"
+			],
+			[
 				"",
 				"category-hot.php"
 			],
@@ -1357,10 +953,6 @@
 			[
 				"cat",
 				"category-architecture.php"
-			],
-			[
-				"c",
-				"category.php"
 			],
 			[
 				"ca",
