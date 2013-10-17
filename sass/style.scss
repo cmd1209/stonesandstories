@@ -993,10 +993,11 @@ nav.pps-slider-nav{
 
 .triangle{
 	position: absolute;
-	top: 0px;
+	top: 0;
 	right: 0;
 	padding: 20px;
 	display: block;
+	z-index: 1;
 	-webkit-transform: rotate(45deg);
 	background-color: $yellow;
 	h3{
