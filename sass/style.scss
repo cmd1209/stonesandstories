@@ -412,6 +412,7 @@ section{
 }
 
 .sidebar {
+	float: left;
 	line-height: 0;
 	width: 15%;
 	padding-left: 10px;
@@ -455,6 +456,7 @@ section{
 		text-align: center!important;
 	}
 	.greybox{
+
 		position: relative;
 		background-color: $grey;
 		border-left: 10px solid $darkgrey;
