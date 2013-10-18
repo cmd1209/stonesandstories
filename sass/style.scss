@@ -483,9 +483,6 @@ section{
 		margin: 0 0 10px 0;
 		width: 100%;
 		display: block;
-		a:hover{
-			margin: 10px 0 0 -10px;
-		}
 		img{
 			width: 100%;
 			height: auto;
@@ -493,7 +490,7 @@ section{
 	}
 	figure:hover{
 		border-right: 10px solid $darkgrey;
-			border-top: 10px solid black;
+		border-top: 10px solid black;
 	}
 		@media only screen and (max-width:1023px) {
 		display: none;
