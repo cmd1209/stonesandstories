@@ -485,13 +485,15 @@ section{
 		display: block;
 		a:hover{
 			margin: 10px 0 0 -10px;
-			border-right: 10px solid $darkgrey;
-			border-top: 10px solid black;
 		}
 		img{
 			width: 100%;
 			height: auto;
 		}
+	}
+	figure:hover{
+		border-right: 10px solid $darkgrey;
+			border-top: 10px solid black;
 	}
 		@media only screen and (max-width:1023px) {
 		display: none;
