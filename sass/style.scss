@@ -79,7 +79,7 @@ a:active {
 	outline:0;
 }
 
-.wp-post-image:hover > img{
+a:hover > img.wp-post-image{
 	opacity: 0.75;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
  }
