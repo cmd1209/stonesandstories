@@ -1,6 +1,6 @@
 <!-- sidebar -->
 			<div class="greybox">
-			<h2><span style="text-transform: uppercase; background-color:black; color:white;">Side</span>Notes</h2>
+			<h2><span style="text-transform: uppercase; background-color:black; color:white;letter-spacing:0.2em;padding:3px;">Side</span>Notes</h2>
 	    				<figure>
 	    					<a href="http://www.humboldt-forum.de/humboldt-lab-dahlem/" target="blank">
 	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/09/humbold-k.jpg" alt="" >
