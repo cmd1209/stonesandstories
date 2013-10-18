@@ -417,14 +417,6 @@ section{
 	width: 15%;
 	padding-left: 10px;
 	height: 100%;
-	a{
-		
-	}
-	a:hover{
-		margin: 10px 0 0 -10px;
-		border-right: 10px solid $darkgrey;
-		border-top: 10px solid black;
-	}
 	span{
 		position: relative;
 		margin: 0 2px 0 0;
@@ -491,6 +483,11 @@ section{
 		margin: 0 0 10px 0;
 		width: 100%;
 		display: block;
+		a:hover{
+			margin: 10px 0 0 -10px;
+			border-right: 10px solid $darkgrey;
+			border-top: 10px solid black;
+		}
 		img{
 			width: 100%;
 			height: auto;
