@@ -14,7 +14,7 @@
                   <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
-                  <?php echo excerpt(20); ?>
+                  <?php echo excerpt(200); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
             </div>
@@ -74,7 +74,7 @@
                   <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
-                  <?php echo excerpt(62); ?>
+                  <?php echo excerpt(55); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
             <?php endwhile; ?>
