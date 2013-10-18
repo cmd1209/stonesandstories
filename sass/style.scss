@@ -907,10 +907,6 @@ nav.pps-slider-nav{
 	background-color: $yellow;
 	width:101%!important;
 	overflow: hidden;
-	a:hover{
-		opacity: 0.75;
-		filter:alpha(opacity=75); /* For IE8 and earlier */
-	}
 	img{
 		width: 100%;
 		height: auto;
