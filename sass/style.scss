@@ -79,10 +79,11 @@ a:active {
 	outline:0;
 }
 
-a:hover > img.wp-post-image{
+a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 	opacity: 0.75;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
  }
+
 
 h1, h2, h3{
 	font-family: "FanwoodRegular","Times New Roman",Georgia,Serif;
