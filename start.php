@@ -85,7 +85,7 @@
         </div>
 
     </div>
-    <div class="sidebar">
+    <div class="col sidebar">
       <?php get_sidebar(); ?>
     </div>
   </section>

@@ -412,17 +412,18 @@ section{
 }
 
 .sidebar {
-	overflow: visible;
 	float: left;
 	line-height: 0;
 	width: 15%;
 	padding-left: 10px;
 	height: 100%;
 	a{
-		z-index: 1;
+		
 	}
 	a:hover{
-		margin: 0 0 0 -25px;
+		margin: 0 0 -10px -10px;
+		border-right: 10px solid $darkgrey;
+		border-top: 10px solid black;
 	}
 	span{
 		position: relative;
@@ -457,7 +458,6 @@ section{
 		text-align: center!important;
 	}
 	.greybox{
-
 		position: relative;
 		background-color: $grey;
 		border-left: 10px solid $darkgrey;
