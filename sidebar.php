@@ -20,4 +20,7 @@
 	    					</a>
 	    				</figure>
 	    	</div>
+	    	<div class="expand">
+	    		<p></p>
+	    	</div>
 <!-- /sidebar -->

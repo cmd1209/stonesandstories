@@ -462,12 +462,10 @@ section{
 		height: 100%;
 		margin-left: 10px;
 	}
-	.greybox:after{
-		width: 100%;
-		content: "";
-		height: 1000px;
-		min-height: 1000px;
+	.expand{
 		background-color: black;
+		width: 100%;
+		height: 1000px;
 	}
 	// .greybox:before{
 	// 	content: "";
