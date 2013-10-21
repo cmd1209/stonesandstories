@@ -99,13 +99,7 @@ h3{
 }
 
 p{
-	a{
-		text-decoration: none !important;
-		font-family: "LinuxBiolinumOBold","Times New Roman",Georgia,Serif;
-	}
-	a:hover{
-		background-color: $yellow;
-	}
+
 }
 
 
@@ -751,6 +745,11 @@ section{
 	img{
 		width: 100%;
 		height: auto;
+	}
+	a:hover{
+		background-color: $yellow;
+		text-decoration: none !important;
+		font-family: "LinuxBiolinumOBold","Times New Roman",Georgia,Serif;
 	}
 	a{
 		color: black;
