@@ -68,6 +68,7 @@ a {
 }
 a:hover {
 	color:#444;
+	background-color: $yellow;
 }
 a:focus {
 	outline:0;
@@ -752,9 +753,6 @@ section{
 		color: black;
 	}
 	a img { margin: -6px 0; }
-	// a:hover{
-	// 	background-color: $yellow;
-	// }
 	.textwrap{
 		padding: 10px;
 		overflow: hidden;
