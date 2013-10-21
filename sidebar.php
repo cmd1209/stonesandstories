@@ -19,8 +19,9 @@
 	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/09/News_Talks-and-Events_IBA-Logo.jpg" alt="" >
 	    					</a>
 	    				</figure>
+						<div class="expand">
+							<p></p>
+						</div>
 	    	</div>
-	    	<div class="expand">
-	    		<p></p>
-	    	</div>
+
 <!-- /sidebar -->
