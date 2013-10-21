@@ -68,7 +68,6 @@ a {
 }
 a:hover {
 	color:#444;
-	background-color: $yellow;
 }
 a:focus {
 	outline:0;
@@ -79,6 +78,7 @@ a:active {
 }
 
 a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
+	background-color: $yellow;
 	opacity: 0.90;
 	filter:alpha(opacity=90); /* For IE8 and earlier */
  }
