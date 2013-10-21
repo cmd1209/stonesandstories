@@ -3,7 +3,7 @@
 			<div class="greybox">
 	    				<figure>
 	    					<a href="http://www.humboldt-forum.de/humboldt-lab-dahlem/" target="blank">
-	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/Probebuehne3.jpg" alt="" >
+	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/Probebühne3.jpg" alt="" >
 	    					</a>
 	    				</figure>
 		
