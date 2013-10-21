@@ -80,8 +80,8 @@ a:active {
 }
 
 a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
-	opacity: 0.75;
-	filter:alpha(opacity=75); /* For IE8 and earlier */
+	opacity: 0.90;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
  }
 
 
@@ -419,8 +419,8 @@ section{
 
 	}
 	a:hover{
-		opacity: 0.75;
-		filter:alpha(opacity=75); /* For IE8 and earlier */
+		opacity: 0.85;
+		filter:alpha(opacity=85); /* For IE8 and earlier */
 	}
 	float: left;
 	line-height: 0;
