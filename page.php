@@ -7,6 +7,9 @@
         <div class="module">
           <div class="textwrap">
             <?php the_content(); ?>
+             <?php if( get_field('custom-links') ): ?>
+                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
+                  <?php endif; ?>
           </div>
         </div>
       </div>
