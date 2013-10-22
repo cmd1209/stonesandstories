@@ -130,7 +130,7 @@
         </div>
 
     </div>
-    <div class="col sidebar">
+    <div class="sidebar">
       <?php get_sidebar(); ?>
     </div>
   </section>
