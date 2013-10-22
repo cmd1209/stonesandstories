@@ -29,17 +29,6 @@
 
      
         <div class="col col50 L">
-        <div class="col col100 H300 S">
-        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik</h3></a>
-          <div class="module">
-             <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
-              <div class="heroimage H300 shift">
-                <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
-              </div>
-            <?php endwhile; ?>
-          </div>
-        </div>
 
           
         <div class="col col100 S H300">
@@ -60,6 +49,17 @@
           </div>
         </div>
        
+        <div class="col col100 H300 S">
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik</h3></a>
+          <div class="module">
+             <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+              <?php while (have_posts()) : the_post(); ?>
+              <div class="heroimage H300 shift">
+                <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
+              </div>
+            <?php endwhile; ?>
+          </div>
+        </div>
         </div>
         
         <div class="col col50 R">
