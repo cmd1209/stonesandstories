@@ -404,7 +404,7 @@ section{
 	width: 80%;
 	position: absolute;
 	text-align: center;
-	margin: 0 0 0 -25%; 
+	margin: s 0 0 -25%; 
 	top: 140px;
 	height: 500px;
 	left: 50%;
@@ -422,6 +422,7 @@ section{
 	width: 15%;
 	padding: 5px;
 	height: 100%;
+	clear: both;
 	border-left: 10px solid white;
 	background-color: black;
 	span{
