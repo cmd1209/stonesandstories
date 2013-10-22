@@ -970,11 +970,11 @@ a.triangle{
 	-webkit-transform: rotate(45deg);
 	-moz-trasform: rotate(45deg);
 	background-color: $lightgrey;
-		-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 	h3{
 		text-align: right;
 		text-transform: uppercase;
@@ -985,18 +985,15 @@ a.triangle{
 	}
 }
 a.triangle:hover{
-	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 	top: 5px;
 	right: 20px;
 	padding: 10px 10px 10px 70px;
 	background-color: $yellow;
-	-webkit-transition: all 0.25s;
-	-moz-transition: all 0.25s;
-	-ms-transition: all 0.25s;
-	-o-transition: all 0.25s;
-	transition: all 0.25s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 
