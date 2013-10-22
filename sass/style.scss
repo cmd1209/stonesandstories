@@ -231,7 +231,6 @@ input:focus {
 		list-style: none;
 		display: inline;
 		position: relative;
-		border: 1px solid white;
 		ul{
 			display: none;
 			min-width: 100%;
@@ -244,11 +243,7 @@ input:focus {
 			z-index: 20;
 			background-color: white;
 			padding: 10px 0 0 0;
-			margin: 0 0 0 -1px;	
-			border-bottom: 1px solid $grey;
-			border-left: 1px solid $grey;
-			border-right: 1px solid $grey;
-			
+			margin: 0 0 0 -1px;				
 			li{	
 				width: 100%;
 				display: block;
