@@ -412,8 +412,11 @@ section{
 }
 .sidebar {
 	float: left;
-	position: relative;
+	position: absolute;
 	line-height: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
 	width: 15%;
 	padding: 5px;
 	height: 100%;
