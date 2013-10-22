@@ -961,9 +961,6 @@ nav.pps-slider-nav{
 \*------------------------------------*/
 
 a.triangle{
-	-webkit-box-shadow: 5px 25px 50px rgba(0,0,0,0.5);
-	-moz-box-shadow: 5px 25px 50px rgba(0,0,0,0.5);
-	box-shadow: 5px 25px 50px rgba(0,0,0,0.5);
 	position: absolute;
 	top: 0;
 	right: 0px;
@@ -988,10 +985,10 @@ a.triangle{
 	}
 }
 a.triangle:hover{
-	-webkit-box-shadow: 2px 2px 0px black;
-	-moz-box-shadow: 2px 2px 0px black;
-	box-shadow: 2px 2px 0px black;
-	padding: 10px 10px 10px 75px;
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	padding: 25px 10px 10px 75px;
 	background-color: $yellow;
 	-webkit-transition: all 0.25s;
 	-moz-transition: all 0.25s;
