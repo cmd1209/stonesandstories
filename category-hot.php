@@ -17,7 +17,7 @@
 <?php endif; ?>
 <div class="col col50" style="padding-right: 5px;">
 <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 <?php endif; ?>  
 </div>
 <div class="col col50">
