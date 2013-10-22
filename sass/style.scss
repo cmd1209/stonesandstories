@@ -411,6 +411,14 @@ section{
 	z-index: 25;
 	overflow: hidden;
 }
+.sidebar:after{
+	content:"";
+	background-color: red;
+	width: 15%;
+	height: 100%;
+	float: left;
+	border-left: 10px solid white;
+}
 .sidebar {
 	a:hover{
 		opacity: 0.85;
