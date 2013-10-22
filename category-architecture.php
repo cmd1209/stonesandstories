@@ -16,7 +16,7 @@
 							<?php if( get_field('subheadline') ): ?>
                     			<h3><?php the_field('subheadline'); ?></h3>
                  			 <?php endif; ?>
-							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							<?php echo excerpt(35); ?>
 							<a href="<?php echo get_permalink(); ?>"> mehr...</a>
 							<?php the_category(); ?>  
@@ -35,7 +35,7 @@
 						<?php if( get_field('subheadline') ): ?>
                     		<h3><?php the_field('subheadline'); ?></h3>
                   		<?php endif; ?>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 						<?php echo excerpt(35); ?>
 						<a href="<?php echo get_permalink(); ?>"> mehr...</a>
 						<?php the_category(); ?>  
