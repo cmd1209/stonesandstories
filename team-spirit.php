@@ -27,16 +27,10 @@ if ( $parent->have_posts() ) : ?>
     <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
         <div class="col col50" id="post-<?php the_ID(); ?>">
-
-      <h3><?php the_title(); ?></h3>
-
-      <?php
-      global $more;
-      $more = 0;
-      ?>
-
-            <div class="text-wrap" id="<?php echo $page->post_name; ?>">
+        <h2><?php the_title(); ?></h2>
+        <div class="textwrap" id="<?php echo $page->post_name; ?>">
             <?php echo excerpt(150); ?>
+            <a href="<?php echo get_permalink(); ?>"> mehr...</a>
             </div>
 
         </div>
