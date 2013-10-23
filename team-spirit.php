@@ -25,7 +25,7 @@ $parent = new WP_Query( $args );
 if ( $parent->have_posts() ) : ?>
 
     <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
-        <div class="module">
+        <div class="textwrap">
         <div class="col col50" id="post-<?php the_ID(); ?>">
         <h2><?php the_title(); ?></h2>
         <div class="textwrap" id="<?php echo $page->post_name; ?>">
