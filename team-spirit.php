@@ -10,16 +10,19 @@
         </div>
       </div>
       <div class="col col100">
-        <?php $ids = array(168); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
-                <div class="textwrap">
-                  <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
-                  <?php endif; ?>
-                  <?php echo excerpt(200); ?>
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-                <?php endwhile; ?>
+<?php $thePostIdArray = array("168","1460", "162", "41", "8", "35"); ?>
+<?php $limit = 4 ?>
+<?php if (have_posts()) : ?>
+<?php while (have_posts()) : the_post(); $counter++; ?>
+<?php if ( $counter < $limit + 1 ): ?>
+<div class="post" id="post-<?php the_ID(); ?>">
+<?php $post_id = $thePostIdArray[$counter-1]; ?>
+<?php $queried_post = get_post($post_id); ?>
+<h2><?php echo $queried_post->post_title; ?></h2>
+</div>
+<?php endif; ?>
+<?php endwhile; ?>
+<?php endif; ?>
       </div>
 
 
