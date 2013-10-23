@@ -8,7 +8,7 @@
           <div class="module">
 		<h1><span><?php single_cat_title(); ?></span></h1>
 
-<?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
+<?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div class="textwrap col col50 underline">
 <h2 style="font-size: 45px;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
