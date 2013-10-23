@@ -20,7 +20,7 @@
             </div>
             <div class="col60">
               <div class="heroimage H400">
-                <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
+                <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
             <?php endwhile; ?>
@@ -43,7 +43,7 @@
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(20); ?>
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+                  <a class="thumbnail" href="<?php echo get_permalink(); ?>"> mehr...</a>
               </div>
             <?php endwhile; ?>
           </div>
@@ -55,7 +55,7 @@
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
               <div class="heroimage H300 shift">
-                <a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
+                <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>
             <?php endwhile; ?>
           </div>
@@ -75,7 +75,7 @@
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(55); ?>
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+                  <a class="thumbnail" href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
             <?php endwhile; ?>
           </div>
