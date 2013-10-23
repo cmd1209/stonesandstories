@@ -38,7 +38,7 @@ if ( $parent->have_posts() ) : ?>
       ?>
 
             <div class="front-page entry-content" id="<?php echo $page->post_name; ?>">
-            <?php the_content('<p style="text-align:right">> read more</p>'); ?></p>
+            <?php echo excerpt(150); ?>
             </div>
 
         </article>
