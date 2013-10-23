@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="col col50">
-             <?php $ids = array(168,1460,162,41,8,35); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 6) ); ?>
+             <?php $ids = array(168,1460,162,41,8,35); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                 <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
