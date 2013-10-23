@@ -10,19 +10,17 @@
         </div>
       </div>
       <div class="col col100">
-<?php get_page_children( $page_id=145, $pages )?>
-
-<ul>
-<?php while (have_posts()) : the_post(); ?>
-
-<li>
-<span class="headline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
-
-<?php echo excerpt(20); ?>
-
-</li>
-  <?php endwhile; ?>
-</ul>
+        <?php
+$pageChildren = get_pages('sort_column=menu_order&hierarchical=0&child_of='.$post->ID);
+if ( $pageChildren ) {
+  foreach ( $pageChildren as $pageChild ) {
+    echo '<p>And the title is: '. $pageChild->post_title.'</p>';
+    if (!empty($pageChild->post_excerpt)){
+echo '<p><a href="' . get_permalink($pageChild->ID) . '">' . $pageChild->post_excerpt.'</a> </p> ';
+}
+  }
+}
+?>
       </div>
 
 
