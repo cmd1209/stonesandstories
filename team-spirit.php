@@ -9,21 +9,6 @@
           </div>
         </div>
       </div>
-      <div class="col col50">
-             <?php $ids = array(168,1460,162,41,8,35); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
-                <div class="textwrap">
-                  <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
-                  <?php endif; ?>
-                  <?php echo excerpt(200); ?>
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-                </div>              
-      </div>
-     
-
-            <?php endwhile; ?>
 
 
 
