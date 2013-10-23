@@ -15,7 +15,7 @@ $pageChildren = get_pages('child_of=145');
 if ( $pageChildren ) {
   foreach ( $pageChildren as $pageChild ) {
     echo '<a class="post-categories" href="' . get_permalink($pageChild->ID) . '">'. $pageChild->post_title.'</a>';
-    echo ''.$pageChild->excerpt(20).' ';
+    echo ''.$pageChild->excerpt.' ';
   }
 }
 ?>
