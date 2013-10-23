@@ -242,13 +242,14 @@ input:focus {
 			height: auto;
 			z-index: 20;
 			background-color: rgba(255,255,255,0.93);
-			padding: 10px 0 0 0;			
+			padding: 10px 0 0 0;
+			margin: 0 0 0 -16px;				
 			li{	
 				width: 100%;
 				display: block;
 				z-index: 25;	
 				cursor: pointer;
-				padding: 4px;
+				padding: 4px 4px 4px 2px;
 				margin: 0 0 2px 0;
 				
 				a{	
