@@ -26,22 +26,20 @@ if ( $parent->have_posts() ) : ?>
 
     <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
-        <article id="post-<?php the_ID(); ?>" <?php post_class($column); ?>>
+        <div id="post-<?php the_ID(); ?>" <?php post_class($module); ?>>
 
-    <header class="entry-header">
-      <h4 class="entry-title"><?php the_title(); ?></h4>
-    </header><!-- .entry-header -->
+      <h3><?php the_title(); ?></h3>
 
       <?php
       global $more;
       $more = 0;
       ?>
 
-            <div class="front-page entry-content" id="<?php echo $page->post_name; ?>">
+            <div class="text-wrap" id="<?php echo $page->post_name; ?>">
             <?php echo excerpt(150); ?>
             </div>
 
-        </article>
+        </div>
 
     <?php endwhile; ?>
 
