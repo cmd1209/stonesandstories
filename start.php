@@ -26,10 +26,8 @@
             <?php endwhile; ?>
           </div>
         </div>
-
      
         <div class="col col50 L">
-
           
         <div class="col col100 S H300">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
@@ -68,19 +66,18 @@
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <div class="heroimage"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
+              <div class="heroimage"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
                   <div class="textwrap">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(55); ?>
-                  <a class="thumbnail" href="<?php echo get_permalink(); ?>"> mehr...</a>
+                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
             <?php endwhile; ?>
           </div>
         </div>
-
   
         </div>
 
