@@ -11,16 +11,15 @@
       </div>
       <div class="col col100">
         <?php
-$pageChildren = get_pages('sort_column=menu_order&hierarchical=0&child_of='.$post->ID);
+$pageChildren = get_pages('child_of=145');
 if ( $pageChildren ) {
   foreach ( $pageChildren as $pageChild ) {
-    echo '<p>And the title is: '. $pageChild->post_title.'</p>';
-    if (!empty($pageChild->post_excerpt)){
-echo '<p><a href="' . get_permalink($pageChild->ID) . '">' . $pageChild->post_excerpt.'</a> </p> ';
-}
+    echo '<a class="post-categories" href="' . get_permalink($pageChild->ID) . '">'. $pageChild->post_title.'</a>';
+    echo ''.$pageChild->excerpt(20).' ';
   }
 }
 ?>
+
       </div>
 
 
