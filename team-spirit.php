@@ -10,19 +10,20 @@
         </div>
       </div>
       <div class="col col100">
-<?php $thePostIdArray = array("168","1460", "162", "41", "8", "35"); ?>
-<?php $limit = 4 ?>
-<?php if (have_posts()) : ?>
-<?php while (have_posts()) : the_post(); $counter++; ?>
-<?php if ( $counter < $limit + 1 ): ?>
-<div class="post" id="post-<?php the_ID(); ?>">
-<?php $post_id = $thePostIdArray[$counter-1]; ?>
-<?php $queried_post = get_post($post_id); ?>
-<h2><?php echo $queried_post->post_title; ?></h2>
-</div>
-<?php endif; ?>
-<?php endwhile; ?>
-<?php endif; ?>
+        <?php
+$pageChildren = get_pages('child_of=145');
+if ( $pageChildren ) {
+  foreach ( $pageChildren as $pageChild ) {
+    echo '<h2><a href="' . get_permalink($pageChild->ID) . '">'. $pageChild->post_title.'</a></h2>
+';
+    if ($pageChild->post_excerpt){
+      echo ''.$pageChild->post_excerpt.'
+
+';
+    }
+  }
+}
+?>
       </div>
 
 
