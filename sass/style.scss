@@ -253,6 +253,7 @@ input:focus {
 				margin: 0 0 2px 0;
 				
 				a{	
+					display: block;
 					font-size: 0.9em !important;
 					width: 100%;
 					letter-spacing: 0.2em;
@@ -262,7 +263,7 @@ input:focus {
 	}
 	a{	
 		letter-spacing: 0.2em;
-		display: inline;
+		display: inline-block;
 		color: black;
 		text-transform: uppercase;
 		margin: 0 2%;
