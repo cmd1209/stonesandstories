@@ -26,7 +26,7 @@ if ( $parent->have_posts() ) : ?>
 
     <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
-        <div id="post-<?php the_ID(); ?>" <?php post_class($col50); ?>>
+        <div class="col col50" id="post-<?php the_ID(); ?>">
 
       <h3><?php the_title(); ?></h3>
 
