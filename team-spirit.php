@@ -18,7 +18,7 @@
 <li>
 <span class="headline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
 
-<?php the_excerpt(); ?>
+<?php echo excerpt(20); ?>
 
 </li>
   <?php endwhile; ?>
