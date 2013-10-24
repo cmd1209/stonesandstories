@@ -27,7 +27,7 @@ $(function() {
 
 $(function() {
     $('.trigger').click(function(){ 
-    $('.factbox').children('.toggle').slideUp("fast"); 
+    $('.factbox').children('.toggle').hide(); 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
