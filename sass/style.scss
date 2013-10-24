@@ -809,9 +809,8 @@ a.thumbnail{
    		width: 0;
    		border: 8px solid transparent;
    		border-top-color: $grey;
-   		position: absolute;
-   		top: 5px;
-   		left: 2px;
+   		float: left;
+   		margin: 5px 20px 50px 5px;
 	}
 	.toggle{
 		width: 100%;
@@ -819,7 +818,7 @@ a.thumbnail{
 		display: none;
 	}
 	.factbox-title{
-		padding-left: 25px;
+		margin-left: 25px;
 	}
 }
 // .factbox:hover{
