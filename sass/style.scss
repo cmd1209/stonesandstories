@@ -803,13 +803,14 @@ a.thumbnail{
 	a.trigger:hover{
 		background-color: transparent!important;
 	}
-	.trigger{
+	a.trigger{
 		font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
 		background-color: $lightgrey;
 		font-size: 0.85em;
 		font-weight: 300;
 		padding: 5px;
 		margin: 0 10px auto 0;
+		display: block;
 	}
 	.toggle{
 		width: 100%;
