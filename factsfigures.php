@@ -12,7 +12,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
-              <a class="trigger" href="#">U+25BE</a><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a class="trigger" href="#"></a><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -41,7 +41,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
-              <a class="trigger" href="#">U+25BE</a><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a class="trigger" href="#"></a><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -71,7 +71,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
-              <a class="trigger" href="#">U+25BE</a><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a class="trigger" href="#"></a><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>

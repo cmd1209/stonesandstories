@@ -804,12 +804,10 @@ a.thumbnail{
 		background-color: transparent!important;
 	}
 	a.trigger{
-		font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
-		background-color: $lightgrey;
-		font-size: 0.85em;
-		font-weight: 300;
-		padding: 5px;
-		margin: 0 10px auto 0;
+		height: 0;
+   		width: 0;
+   		border: 4px solid transparent;
+   		border-top-color: #000;
 	}
 	.toggle{
 		width: 100%;
