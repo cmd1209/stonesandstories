@@ -969,13 +969,11 @@ nav.pps-slider-nav{
 a.triangle{
 	position: absolute;
 	top: 10;
-	right:15px;
-	padding: 10px 10px 10px 60px;
+	right:-5px;
+	padding: 10px 10px 10px 50px;
 	display: block;
 	z-index: 1;
-	// -webkit-transform: rotate(45deg);
-	// -moz-trasform: rotate(45deg);
-	background-color: $lightgrey;
+	background-color: rgba(225,220,215,0.85);
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
