@@ -812,6 +812,14 @@ a.thumbnail{
    		float: left;
    		margin: 5px 10px 0px 5px;
 	}
+	a.triggerup{
+		height: 0;
+   		width: 0;
+   		border: 8px solid transparent;
+   		border-bottom-color: $grey;
+   		float: left;
+   		margin: 5px 10px 0px 5px;
+	}
 	.toggle{
 		width: 100%;
 		padding: 0 0 5px 20px;
