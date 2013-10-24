@@ -30,7 +30,6 @@ $(function() {
     $('.trigger').click(function(){ 
       closepanel.slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).text('U+25BE'); 
       return false;
     });
 });
