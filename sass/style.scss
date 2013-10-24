@@ -788,6 +788,7 @@ a.thumbnail{
 	overflow: hidden;
 	padding: 5px;
 	border-bottom: 1px solid $grey;
+	position: relative;
 	.col{
 		padding: 0 5px 0 0;
 	}
@@ -806,9 +807,11 @@ a.thumbnail{
 	a.trigger{
 		height: 0;
    		width: 0;
-   		border: 10px solid transparent;
-   		border-bottom-color: $grey;
-   		padding: 5px;
+   		border: 8px solid transparent;
+   		border-top-color: $grey;
+   		position: absolute;
+   		top: 5px;
+   		left: 2px;
 	}
 	.toggle{
 		width: 100%;
