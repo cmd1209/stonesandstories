@@ -27,7 +27,7 @@ $(function() {
 
 $(function() {
     var closepanel = $('.factbox').children('.toggle').hide();
-    $('.trigger').mouseOver(function(){ 
+    $('.trigger').mouseover(function(){ 
       closepanel.slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
