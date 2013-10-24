@@ -809,6 +809,9 @@ a.thumbnail{
    		border: 20px solid transparent;
    		border-top-color: $grey;
    		margin: 10px 0 0 0;
+   		position: absolute;
+   		top: 5px;
+   		left: 0;
 	}
 	.toggle{
 		width: 100%;
