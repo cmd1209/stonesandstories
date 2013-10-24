@@ -30,7 +30,7 @@ $(function() {
     $('.trigger').click(function(){ 
       closepanel.slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      return false;
+      return true;
     });
 });
 
