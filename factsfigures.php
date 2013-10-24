@@ -72,6 +72,7 @@
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
               <a href="#" class="trigger"><?php the_title(); ?></a>
+              <a href="<?php echo get_permalink(); ?>">Zum Projekt???</a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
