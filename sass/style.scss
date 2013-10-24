@@ -973,8 +973,8 @@ a.triangle{
 	padding: 10px 10px 10px 60px;
 	display: block;
 	z-index: 1;
-	-webkit-transform: rotate(45deg);
-	-moz-trasform: rotate(45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-trasform: rotate(-45deg);
 	background-color: $lightgrey;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
