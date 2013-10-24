@@ -26,7 +26,8 @@ $(function() {
 });
 
 $(function() {
-    $('.trigger').mouseover(function(){  
+    $('.trigger').click(function(){ 
+    $('.factbox').children('.toggle').slideToggle("fast"); 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
