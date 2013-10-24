@@ -36,8 +36,8 @@
           </div>   
 
           <div class="textwrap">
-          <?php query_posts( array( 'category__in' => array(10), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
-            <h2>Design </h2>
+          <?php query_posts( array( 'category__in' => array(11), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
+            <h2>Ausstellungsdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
