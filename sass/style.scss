@@ -804,20 +804,17 @@ a.thumbnail{
 	a.trigger:hover{
 		background-color: transparent!important;
 	}
-	a.triggerup{
+	a.trigger{
 		height: 0;
    		width: 0;
    		border: 8px solid transparent;
    		float: left;
    		margin: 5px 10px 0px 5px;
-   		border-top-color: $grey;
 	}
-	a.triggerdown{
-		height: 0;
-   		width: 0;
-   		border: 8px solid transparent;
-   		float: left;
-   		margin: 5px 10px 0px 5px;
+	a.up{
+		border-top-color: $grey;
+	}
+	a.down{
    		border-bottom-color: $grey;
 	}
 	.toggle{

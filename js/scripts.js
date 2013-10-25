@@ -27,10 +27,10 @@ $(function() {
 
 $(function() {
     var closepanel = $('.factbox').children('.toggle').hide();
-    $('.triggerdown').click(function(){ 
+    $('.trigger').click(function(){ 
       closepanel.slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).toggleClass("triggerup");
+      $(this).removeClass( "down" ).addClass( "up" );
       return false;
     });
 });
