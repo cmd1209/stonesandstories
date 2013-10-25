@@ -60,8 +60,7 @@ $(function(){
 
 
 $(function(){
-    var stage = $('#stage');
-        if(window.location.hash) {
+    if(window.location.hash) {
       stage.css({"padding-top":"550px"});
   } else {
       stage.css({"padding-top":"0px"});
