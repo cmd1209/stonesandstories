@@ -1091,10 +1091,17 @@ a img.aligncenter {
 	margin-right:auto;
 }
 
+// Tabelpress
+
 .tablepress .odd td {
 	background-color: #ecece6!important;
 }
-
+.tablepress .even td {
+	background-color: #f4f4f4!important;
+}
+.tablepress .row-hover tr:hover td {
+	background-color: #ccc8c4!important;
+}
 .wp-caption, figure{
 	background:#FFF;
 	max-width:100%;
