@@ -49,15 +49,14 @@ $(function(){
                         stickylogo.slideDown(200);
                         searchform.css({top: '7px', right: '7px'});
                         stage.css({"padding-top":"110px"});
+                        
                         $(function(){
-    var stage = $('#stage'); 
-    if(window.location.hash) {
-      stage.css({"padding-top":"550px"});
-  } else {
-      stage.css({"padding-top":"0px"});
-  }
-
-});
+                            if(window.location.hash) {
+                                stage.css({"padding-top":"550px"});
+                            } else {
+                            stage.css({"padding-top":"0px"});
+                        }
+                    });
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});
