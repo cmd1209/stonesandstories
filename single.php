@@ -11,6 +11,7 @@
                     <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
               <?php the_content(); ?>
+                <a href="<?php echo home_url(); ?>/facts-and-figures/#<?php the_title(); ?>"></a>
                 <?php the_category(); ?>              
             </div>
           </div>
