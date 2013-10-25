@@ -1090,7 +1090,11 @@ a img.aligncenter {
 	margin-left:auto;
 	margin-right:auto;
 }
-
+.tablepress{
+	tr.odd{
+		background-color: #ecece6!important;
+	}
+}
 .wp-caption, figure{
 	background:#FFF;
 	max-width:100%;
