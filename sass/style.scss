@@ -801,9 +801,6 @@ a.thumbnail{
 		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
-	a.trigger:hover{
-		border-bottom-color: black;
-	}
 	a.trigger{
 		height: 0;
    		width: 0;
@@ -814,8 +811,14 @@ a.thumbnail{
 	a.up{
 		border-top-color: $grey;
 	}
+	a.up:hover{
+		border-top-color: black;
+	}
 	a.down{
    		border-bottom-color: $grey;
+	}
+	a.down:hover{
+   		border-bottom-color: black;
 	}
 	.toggle{
 		width: 100%;
