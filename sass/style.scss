@@ -802,14 +802,14 @@ a.thumbnail{
 		margin: 2px 2px 2px 0;
 	}
 	a.trigger:hover{
-		background-color: transparent!important;
+		background-color: $yellow;
 	}
 	a.trigger{
 		height: 0;
    		width: 0;
    		border: 8px solid transparent;
    		float: left;
-   		margin: 5px 10px 0px 5px;
+   		margin: 5px 10px 10px 5px;
 	}
 	a.up{
 		border-top-color: $grey;
