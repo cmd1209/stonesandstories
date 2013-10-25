@@ -60,12 +60,11 @@ $(function(){
 
 
 $(function(){
+    var stage = $('#stage');
         if(window.location.hash) {
-      var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
-      alert (hash);
-      // hash found
+      stage.css({"padding-top":"550px"});
   } else {
-      // No hash found
+      stage.css({"padding-top":"0px"});
   }
 
 });
