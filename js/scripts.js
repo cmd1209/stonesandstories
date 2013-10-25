@@ -38,28 +38,29 @@ $(function() {
     });
 });
 
-$(function(){
-        var stickynavtop = $('.navigation').offset().top;
-        var stickylogo = $('.stickylogo');
-        var searchform = $('.wmenu').find('.search'); 
-        var stage = $('#stage');         
-        $(window).scroll(function(){
-                if( $(window).scrollTop() > stickynavtop ) {
-                        $('.navigation').css({position: 'fixed', top: '0px'});
-                        stickylogo.slideDown(200);
-                        searchform.css({top: '7px', right: '7px'});
-                        stage.css({"padding-top":"110px"});
-                } else {
-                        $('.navigation').css({position: 'static', top: '0px'});
-                        stickylogo.css({display: 'none'});
-                        searchform.css({top: '-35px', right: '0px'});
-                        stage.css({"padding-top":"0px"});
-                }
-        });
-});
+// $(function(){
+//         var stickynavtop = $('.navigation').offset().top;
+//         var stickylogo = $('.stickylogo');
+//         var searchform = $('.wmenu').find('.search'); 
+//         var stage = $('#stage');         
+//         $(window).scroll(function(){
+//                 if( $(window).scrollTop() > stickynavtop ) {
+//                         $('.navigation').css({position: 'fixed', top: '0px'});
+//                         stickylogo.slideDown(200);
+//                         searchform.css({top: '7px', right: '7px'});
+//                         stage.css({"padding-top":"110px"});
+//                 } else {
+//                         $('.navigation').css({position: 'static', top: '0px'});
+//                         stickylogo.css({display: 'none'});
+//                         searchform.css({top: '-35px', right: '0px'});
+//                         stage.css({"padding-top":"0px"});
+//                 }
+//         });
+// });
 
 
 $(function(){
+    var stage = $('#stage'); 
     if(window.location.hash) {
       stage.css({"padding-top":"550px"});
   } else {
