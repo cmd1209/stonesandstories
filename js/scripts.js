@@ -29,8 +29,10 @@ $(function() {
     var closepanel = $('.factbox').children('.toggle').hide();
     $('.trigger').click(function(){ 
       closepanel.slideUp();
+      $('.factbox').css('background-color','white');
       $('.trigger').removeClass("down").addClass("up");
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
+      $(this).closest('.factbox').css('background-color','grey');
       $(this).removeClass( "up" ).addClass( "down" );
       return false;
     });
