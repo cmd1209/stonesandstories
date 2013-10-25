@@ -54,7 +54,7 @@ $(function(){
                             if(window.location.hash) {
                                 stage.css({"padding-top":"550px"});
                             } else {
-                            stage.css({"padding-top":"0px"});
+                            stage.css({"padding-top":"110px"});
                         }
                     });
                 } else {
@@ -62,6 +62,13 @@ $(function(){
                         stickylogo.css({display: 'none'});
                         searchform.css({top: '-35px', right: '0px'});
                         stage.css({"padding-top":"0px"});
+                        $(function(){
+                            if(window.location.hash) {
+                                stage.css({"padding-top":"550px"});
+                            } else {
+                            stage.css({"padding-top":"110px"});
+                        }
+                    });
                 }
         });
 });
