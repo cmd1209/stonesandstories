@@ -29,9 +29,9 @@ $(function() {
     var closepanel = $('.factbox').children('.toggle').hide();
     $('.trigger').click(function(){ 
       closepanel.slideUp();
-      $('.trigger').removeClass("up").addClass("down");
+      $('.trigger').removeClass("down").addClass("up");
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).removeClass( "down" ).addClass( "up" );
+      $(this).removeClass( "up" ).addClass( "down" );
       return false;
     });
 });
