@@ -48,27 +48,20 @@ $(function(){
                         $('.navigation').css({position: 'fixed', top: '0px'});
                         stickylogo.slideDown(200);
                         searchform.css({top: '7px', right: '7px'});
-                        stage.css({"padding-top":"110px"});
-                        
-                        $(function(){
-                            if(window.location.hash) {
+                        if(window.location.hash) {
                                 stage.css({"padding-top":"550px"});
                             } else {
                             stage.css({"padding-top":"110px"});
                         }
-                    });
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
                         stickylogo.css({display: 'none'});
                         searchform.css({top: '-35px', right: '0px'});
-                        stage.css({"padding-top":"0px"});
-                        $(function(){
-                            if(window.location.hash) {
+                        if(window.location.hash) {
                                 stage.css({"padding-top":"550px"});
                             } else {
-                            stage.css({"padding-top":"110px"});
+                            stage.css({"padding-top":"0px"});
                         }
-                    });
                 }
         });
 });
