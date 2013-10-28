@@ -60,5 +60,5 @@ $(function(){
 
 
 $(document).ready(function () {
-  location.hash && $(location.hash + '.toggle').collapse('show');
+  location.hash && $(location.hash).find('.toggle').collapse('show');
 });

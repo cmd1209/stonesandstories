@@ -14,7 +14,7 @@
             <div class="col col50" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
-                <?php endif; ?><a  href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php endif; ?><a name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -27,7 +27,7 @@
             <div class="col col20">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
-              <div class="toggle" name="<?php the_title(); ?>">
+              <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
