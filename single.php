@@ -9,7 +9,7 @@
                 <h2><?php the_title(); ?></h2>
                 <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
-                    <a href="<?php echo home_url(); ?>/facts-and-figures/#<?php the_title(); ?>">facts & figures</a>
+                    <li class="post-categories"><a href="<?php echo home_url(); ?>/facts-and-figures/#<?php the_title(); ?>">facts & figures</a></li>
                   <?php endif; ?>
               <?php the_content(); ?>
 
