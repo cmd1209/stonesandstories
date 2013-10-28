@@ -60,5 +60,5 @@ $(function(){
 
 
 $(document).ready(function () {
-  location.hash && $(location.hash + '.blabla').css('background-color','#e1e1e1');
+  location.hash && $(location.hash + '.test').hide();
 });
