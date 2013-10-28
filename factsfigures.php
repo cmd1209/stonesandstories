@@ -10,7 +10,7 @@
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Architecture</h2>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox" name="<?php the_title(); ?>">
+          <div class="factbox" id="<?php the_title(); ?>">
             <div class="col col50" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
@@ -42,7 +42,7 @@
           <?php query_posts( array( 'category__in' => array(11), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Ausstellungsdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox" name="<?php the_title(); ?>">
+          <div class="factbox" id="<?php the_title(); ?>">
             <div class="col col50" style="padding-right: 20px;">
                               <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
@@ -74,7 +74,7 @@
           <?php query_posts( array( 'category__in' => array(12), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Grafikdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox" name="<?php the_title(); ?>">
+          <div class="factbox" id="<?php the_title(); ?>">
             <div class="col col50" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
