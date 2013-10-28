@@ -59,6 +59,6 @@ $(function(){
 });
 
 
-$(document).ready(function () {
-  location.hash && $(location.hash + '.factbox').hide();
+$(function() {
+      $('.factbox').factbox({active: location.hash.substring(1)});
 });
