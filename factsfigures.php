@@ -14,7 +14,8 @@
             <div class="col col50" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
-                <?php endif; ?><a class="test" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php endif; ?>
+                <a class="name" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -45,7 +46,7 @@
             <div class="col col50" style="padding-right: 20px;">
                               <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
-                <?php endif; ?><a class="test" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php endif; ?><a class="name" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -78,7 +79,7 @@
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
-              <?php endif; ?><a class="test" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a class="name" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
