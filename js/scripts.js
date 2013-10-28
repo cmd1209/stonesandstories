@@ -60,5 +60,6 @@ $(function(){
 
 
 $(function() {
-      $('.factbox').factbox({active: location.hash.substring(1)});
+    var hash = window.location.hash;
+    $(".factbox").toggle("activate", hash);
 });
