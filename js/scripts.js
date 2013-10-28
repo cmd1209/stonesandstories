@@ -60,6 +60,6 @@ $(function(){
 
 
 $(function() {
-    var hash = window.location.hash;
-    $(".factbox",hash).css('background-color','#e1e1e1');
+    var hash = $(this).attr('href').substr(test.indexOf('#')+1);
+    alert(hash);
 });
