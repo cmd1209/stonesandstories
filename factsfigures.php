@@ -10,12 +10,12 @@
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Architecture</h2>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox">
+          <div class="factbox" name="<?php the_title(); ?>">
             <div class="col col50" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
-                <a class="test" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -42,11 +42,11 @@
           <?php query_posts( array( 'category__in' => array(11), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Ausstellungsdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox">
+          <div class="factbox" name="<?php the_title(); ?>">
             <div class="col col50" style="padding-right: 20px;">
                               <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
-                <?php endif; ?><a class="test" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php endif; ?><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -74,12 +74,12 @@
           <?php query_posts( array( 'category__in' => array(12), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Grafikdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox">
+          <div class="factbox" name="<?php the_title(); ?>">
             <div class="col col50" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
-              <a class="test" name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
