@@ -71,7 +71,10 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox">
             <div class="col col50" style="padding-right: 20px;">
-              <a class="trigger up" href="#"></a><a name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php if( get_field('factsfigures') ): ?>
+                    <a class="trigger up" href="#"></a>
+                <?php endif; ?>
+              <a name="<?php the_title(); ?>" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col10">
               <?php the_date('Y', '<p>', '</p>'); ?>
