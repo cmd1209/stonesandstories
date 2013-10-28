@@ -60,6 +60,6 @@ $(function(){
 
 
 $(function() {
-var hash = url.substring(url.indexOf('#')+1);
+var hash = window.location.hash.substr(1);
 alert(hash);
 });
