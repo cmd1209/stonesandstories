@@ -60,6 +60,6 @@ $(function(){
 
 
 $(document).ready(function () {
-    var p=window.location.hash;
+    var p=window.location.hash + '.test';
         alert(p)
 });
