@@ -60,6 +60,6 @@ $(function(){
 
 
 $(document).ready(function () {
-    var hash = window.location.hash;
-    $('a'+hash).css('background-color','#e1e1e1');
+    var p=window.location.hash;
+        alert(p)
 });
