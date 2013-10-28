@@ -61,5 +61,5 @@ $(function(){
 
 $(document).ready(function () {
   var yoyo = location.hash && $(location.hash + '.test');
-  alert(yoyo);
+  yoyo.css('background-color','#e1e1e1');
 });
