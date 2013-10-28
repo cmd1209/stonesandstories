@@ -60,5 +60,5 @@ $(function(){
 
 
 $(document).ready(function () {
-    $(location.hash).parents('.factbox').find('.toggle').collapse('show');
+    $(location.hash).css('background-color','#e1e1e1');
 });
