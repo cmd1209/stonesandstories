@@ -60,5 +60,5 @@ $(function(){
 
 
 $(document).ready(function () {
-  location.hash && $(location.hash + '.test').hide();
+    $(location.hash).parents('.factbox').find('.toggle').collapse('show');
 });
