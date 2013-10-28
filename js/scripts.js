@@ -61,5 +61,5 @@ $(function(){
 
 $(function() {
     var hash = window.location.hash;
-    $(".factbox").toggle("activate", hash);
+    $(".factbox",hash).css('background-color','#e1e1e1');
 });
