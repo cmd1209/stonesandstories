@@ -30,7 +30,7 @@
       <?php endif; ?>
       <?php wp_reset_query(); ?>  
 
-      <div class="archives col col50">
+      <div class="archives col col100">
         <h2>Archives</h2>
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 3, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php while (have_posts()) : the_post(); ?>
