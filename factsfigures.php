@@ -1,5 +1,10 @@
 <?php /* Template Name: factsfigures */ get_header("static"); ?>
-
+<script type="text/javascript">
+    $(function(){
+      var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+      alert (hash);
+});
+</script>
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
     <div class="col maincontent">
