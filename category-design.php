@@ -17,8 +17,6 @@
                     			<h3><?php the_field('subheadline'); ?></h3>
                  			 <?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-							<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-							<?php the_category(); ?>  
 						</div>
 
 					<?php endif; endwhile; else: ?>
@@ -35,8 +33,6 @@
                     		<h3><?php the_field('subheadline'); ?></h3>
                   		<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-						<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-						<?php the_category(); ?>  
 					</div>
 
 				<?php endif; endwhile; else: ?>
