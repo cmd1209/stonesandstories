@@ -61,5 +61,5 @@ $(function(){
 $(document).ready(function(){
  var hash = window.location.hash;
  var thash = hash.substring(hash.lastIndexOf('#'), hash.length);
-alert(thash);
+alert("thash");
 });
