@@ -41,7 +41,6 @@ $(function() {
 $(function() {
     $('.facts').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).closest('.factbox').css('background-color','#e1e1e1');
       return false;
     });
 });
