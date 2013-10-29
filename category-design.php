@@ -5,7 +5,7 @@
 
 	<div class="col maincontent">
 		<div class="col col100">
-			<div class="module">
+			<div class="module" style="background-color:#ecece6;">
 				<h1><span><?php single_cat_title(); ?></span> Projekte</h1>
 				<div class="col col50">
 
