@@ -59,7 +59,7 @@ $(function(){
 });
 
 $(document).ready(function(){
- var hash = window.location.hash;
- var thash = hash.substring(hash.lastIndexOf('#'), hash.length);
-alert("thash");
+var hashValue = location.hash;
+location.hash = hashValue;
+alert(hashValue);
 });
