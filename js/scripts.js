@@ -38,6 +38,19 @@ $(function() {
     });
 });
 
+$(function() {
+    var closepanel = $('.factbox').children('.toggle').hide();
+    $('.facts').click(function(){ 
+      closepanel.slideUp();
+      $('.factbox').css('background-color','white');
+      $('.facts').removeClass("down").addClass("up");
+      $(this).closest('.factbox').children('.toggle').slideToggle("fast");
+      $(this).closest('.factbox').css('background-color','#e1e1e1');
+      $(this).removeClass( "up" ).addClass( "down" );
+      return false;
+    });
+});
+
 $(function(){
         var stickynavtop = $('.navigation').offset().top;
         var stickylogo = $('.stickylogo');

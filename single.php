@@ -9,24 +9,15 @@
                 <h2><?php the_title(); ?></h2>
                 <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
+                    
+
                     <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col50" style="padding-right: 20px;">
-                <?php if( get_field('factsfigures') ): ?>
-                    <a class="trigger up" href="#"></a>
+                      <?php if( get_field('factsfigures') ): ?>
+                    <a class="post-categories facts" href="#">Facts & Figures</a>
                 <?php endif; ?>
                 <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
-            </div>
-            <div class="col col10">
-              <?php the_date('Y', '<p>', '</p>'); ?>
-            </div>
-            <div class="col col20" style="min-height: 1px;">
-               <?php if( get_field('location') ): ?>
-                    <?php the_field('location'); ?>
-                <?php endif; ?>
-            </div>
-            <div class="col col20">
-              <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
-            </div>
+
+          
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
