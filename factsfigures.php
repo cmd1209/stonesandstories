@@ -1,8 +1,8 @@
 <?php /* Template Name: factsfigures */ get_header("static"); ?>
 <script type="text/javascript">
     $(function(){
-      var hash = window.location;
-      alert (hash);
+      var pathname = window.location.pathname;
+      alert (pathname);
 });
 </script>
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
