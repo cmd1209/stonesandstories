@@ -59,6 +59,6 @@ $(function(){
 });
 
 $(document).ready(function(){
-var hash = document.URL.substr(document.URL.indexOf('#')+1) 
+var hash = document.URL.substr(document.URL.indexOf('#')-1) 
 alert(hash);
 });
