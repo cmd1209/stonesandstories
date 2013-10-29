@@ -57,8 +57,3 @@ $(function(){
                 }
         });
 });
-
-$(function(){
-var hash = window.location.hash.substring( 1 );
-alert(hash);
-});
