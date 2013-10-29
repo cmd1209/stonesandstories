@@ -13,11 +13,9 @@
 
                     <div class="factbox" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
-                    <a class="post-categories facts" href="#">Facts & Figures</a>
+                    <li class="post-categories facts"><a href="#">Facts & Figures</a></li>
                 <?php endif; ?>
-                <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
-
-          
+         
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
