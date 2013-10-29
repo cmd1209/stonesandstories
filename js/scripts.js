@@ -58,8 +58,10 @@ $(function(){
         });
 });
 
-
-$(function() {
-var hash = window.location.hash.substr(1);
-alert(hash);
+$(document).ready(function(){
+ $('.toggle').accordion({ collapsible: true, animated: 'slide', autoHeight: false, navigation: true });
+ // open content that matches the hash
+ var hash = window.location.hash;
+ var thash = hash.substring(hash.lastIndexOf('#'), hash.length);
+ $('.factbox').find('a[href*='+ thash + ']').closest('div').trigger('click');
 });
