@@ -59,7 +59,6 @@ $(function(){
 });
 
 $(document).ready(function(){
-var url = "http://andreas-heller.de/2013/facts-and-figures/#Forum Johanneum";
-var hash = url.substring(url.indexOf('#')); // '#foo'
+var hash = document.URL.substr(document.URL.indexOf('#')+1) 
 alert(hash);
 });
