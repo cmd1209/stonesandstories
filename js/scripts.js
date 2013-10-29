@@ -59,6 +59,15 @@ $(function(){
 });
 
 $(document).ready(function(){
-var hash = document.URL.substr(document.URL.indexOf('#')-1) 
-alert(hash);
+            var path = window.location.pathname;
+            alert("window.location.pathname : " + path);
+          
+            var href = window.location.href;
+            alert("window.location.href : " + href);
+          
+            var hash = window.location.hash;
+            alert("window.location.hash : " + hash);
+
+                var URL = $(location).attr('href');
+                alert("Current URL Using JQuery : " + URL);
 });
