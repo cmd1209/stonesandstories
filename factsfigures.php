@@ -10,13 +10,13 @@
             <h2>Architecture</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col40" style="padding-right: 20px;">
+            <div class="col col45" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
                 <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
-            <div class="col col10">
+            <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
             <div class="col col20" style="min-height: 1px;">
@@ -42,12 +42,12 @@
             <h2>Ausstellungsdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col40" style="padding-right: 20px;">
+            <div class="col col45" style="padding-right: 20px;">
                               <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
-            <div class="col col10">
+            <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
             <div class="col col20" style="min-height: 1px;">
@@ -74,13 +74,13 @@
             <h2>Grafikdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col40" style="padding-right: 20px;">
+            <div class="col col45" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
-            <div class="col col10">
+            <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
             <div class="col col20" style="min-height: 1px;">
