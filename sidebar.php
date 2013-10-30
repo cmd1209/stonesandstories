@@ -20,4 +20,10 @@
 	    					</a>
 	    				</figure>
 
+	    				<figure>
+							<a class="thumbnail" href="http://www.waelderhaus.de/architektier/" target="blank">
+	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/architechtier.jpg" alt="" >
+	    					</a>
+	    				</figure>
+
 <!-- /sidebar -->
