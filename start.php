@@ -34,7 +34,7 @@
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-               <div class="heroimage H300 shift"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
+               <div class="heroimage H300 shift"><a class="thumbnail" style="height:120%; width:auto;" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="textwrap yellow col60">
                   <h2><?php the_title(); ?></h2>
                   <?php if( get_field('subheadline') ): ?>
