@@ -25,7 +25,7 @@
               <?php the_content(); ?>
 
                  <?php if( get_field('custom-links') ): ?>
-                    <li class="post-categories"><?php the_field('custom-links'); ?></li>
+                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
                   <?php endif; ?>             
             </div>
           </div>
