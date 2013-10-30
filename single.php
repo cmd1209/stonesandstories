@@ -24,7 +24,9 @@
                   <?php endif; ?>
               <?php the_content(); ?>
 
-                <?php the_category(); ?>              
+                 <?php if( get_field('custom-links') ): ?>
+                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
+                  <?php endif; ?>            
             </div>
           </div>
         </div>
