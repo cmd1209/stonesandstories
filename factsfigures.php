@@ -10,7 +10,7 @@
             <h2>Architecture</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col50" style="padding-right: 20px;">
+            <div class="col col40" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
@@ -24,7 +24,7 @@
                     <?php the_field('location'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col col20">
+            <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
               <div class="toggle">
@@ -42,7 +42,7 @@
             <h2>Ausstellungsdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col50" style="padding-right: 20px;">
+            <div class="col col40" style="padding-right: 20px;">
                               <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
@@ -55,7 +55,7 @@
                     <?php the_field('location'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col col20">
+            <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
               <div class="toggle">
@@ -74,7 +74,7 @@
             <h2>Grafikdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col50" style="padding-right: 20px;">
+            <div class="col col40" style="padding-right: 20px;">
                 <?php if( get_field('factsfigures') ): ?>
                     <a class="trigger up" href="#"></a>
                 <?php endif; ?>
@@ -88,7 +88,7 @@
                     <?php the_field('location'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col col20">
+            <div class="col col30">
               <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
             </div>
               <div class="toggle">
