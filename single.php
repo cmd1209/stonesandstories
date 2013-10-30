@@ -10,7 +10,6 @@
                 <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
                     
-
                     <div class="factbox" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
                     <li class="post-categories facts"><a href="#">Facts & Figures</a></li>
