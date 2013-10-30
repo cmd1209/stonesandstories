@@ -10,7 +10,7 @@
 
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
 
-						<div class="textwrap underline">
+						<div class="textwrap ">
 
 							<li>
 	<a href="<?php the_permalink(); ?>" class="biglink thumbnail">
@@ -33,7 +33,7 @@
 			<div class="col col50">
 				<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) !== 0) : $wp_query->next_post(); else : the_post(); ?>
 
-					<div class="underline textwrap">
+					<div class="textwrap">
 		
 
 						<li>
