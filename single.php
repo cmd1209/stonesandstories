@@ -9,6 +9,9 @@
                 <h2><?php the_title(); ?></h2>
                 <?php if( get_field('subheadline') ): ?>
                     <h3><?php the_field('subheadline'); ?></h3>
+                     <?php if( get_field('custom-links') ): ?>
+                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
+                  <?php endif; ?>
                     
                     <div class="factbox" style="margin-bottom: 30px;" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
@@ -24,9 +27,7 @@
                   <?php endif; ?>
               <?php the_content(); ?>
 
-                 <?php if( get_field('custom-links') ): ?>
-                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
-                  <?php endif; ?>            
+                <?php the_category(); ?>              
             </div>
           </div>
         </div>
