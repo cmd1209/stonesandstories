@@ -1013,7 +1013,8 @@ a.triangle{
 		margin: 0!important;
 	}
 }
-a.triangle:hover{
+a.triangle:hover, a.triangle:visited{
+	color: black;
 	padding: 10px 10px 10px 70px;
 	background-color: $yellow;
 	-webkit-transition: all 0.2s;
