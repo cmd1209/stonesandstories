@@ -4,7 +4,7 @@
 	<section role="main">
 
         <div class="col col100">
-          <div class="module" style="background-color:black;padding-top:20px;">
+          <div class="module" style="background-color:black;padding-top:10px;">
 
           <div class="col col50">
 

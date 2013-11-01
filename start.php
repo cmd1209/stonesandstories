@@ -1,7 +1,7 @@
 <?php /* Template Name: Start */ get_header(); ?>
 
   <section role="main">
-    <div class="col startcontent">
+    <div class="col startcontent" style="min-height:1200px;">
 
         <div class="col col100 H400 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
