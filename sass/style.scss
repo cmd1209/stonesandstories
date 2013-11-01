@@ -1013,7 +1013,7 @@ a.triangle{
 		margin: 0!important;
 	}
 }
-a.triangle:hover, a.triangle:visited{
+a.triangle:hover,{
 	color: black;
 	padding: 10px 10px 10px 70px;
 	background-color: $yellow;
@@ -1023,6 +1023,9 @@ a.triangle:hover, a.triangle:visited{
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
+ a.triangle:visited{
+	color: black;
+ }
 
 
 .post-categories{
