@@ -27,7 +27,7 @@ $(function() {
 
 $(function() {
     var closepanel = $('.factbox').children('.toggle').hide();
-    $('#factstoggle').click(function(){ 
+    $('.trigger').click(function(){ 
       $('.factbox').css('background-color','white');
       $('.trigger').removeClass("down").addClass("up");
       closepanel.slideUp();
@@ -39,7 +39,7 @@ $(function() {
 });
 
 $(function() {
-    $('#factstoggle').click(function(){ 
+    $('.factstoggle').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
