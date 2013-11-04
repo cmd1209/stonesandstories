@@ -475,7 +475,7 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 }
 
 function excerpt($limit) {
-      $excerpt = explode(' ', get_the_excerpt(), $limit);
+      $excerpt = explode(' ', get_the_excerpt('exclude_tags=img'), $limit);
       if (count($excerpt)>=$limit) {
         array_pop($excerpt);
         $excerpt = implode(" ",$excerpt).'...';
