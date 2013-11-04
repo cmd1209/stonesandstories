@@ -12,8 +12,10 @@
                     
                     <div class="factbox" style="margin-bottom: 30px;" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
-                    <li style="margin-left: -5px;" class="post-categories facts"><a href="#">Facts & Figures</a></li><?php if( get_field('custom-links') ): ?>
-                    <?php the_field('custom-links'); ?>
+                    <li style="margin-left: -5px;" class="post-categories facts"><a href="#">Facts & Figures</a></li>
+                    <?php if( get_field('custom-links') ): ?>
+                    <ul class="post-categories">
+                    <?php the_field('custom-links'); ?></ul>
                   <?php endif; ?>          
                 <?php endif; ?>
          
