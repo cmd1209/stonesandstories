@@ -14,12 +14,12 @@
             <?php if( get_field('subheadline') ): ?>
               <h2><?php the_field('subheadline'); ?></h2>
             <?php endif; ?>
-            <div class="col col50" style="padding-right: 5px;">
+            <div class="col col40" style="padding-right: 15px;">
               <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
                 <a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
               <?php endif; ?>  
             </div>
-            <div class="col col50">
+            <div class="col col60">
               <?php echo excerpt(35); ?>
               <a href="<?php echo get_permalink(); ?>"> mehr...</a>
               <?php the_category(); ?>  
