@@ -4,7 +4,7 @@
     <div class="col maincontent">
       <div class="col col100">
         <div class="module">
-        
+        <h1><span><?php the_title(); ?></span></h1>
             <div class="textwrap">
           <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' ) ); ?>
             <h2>Architecture</h2>
