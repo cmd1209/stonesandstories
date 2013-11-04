@@ -5,8 +5,8 @@
       
       <div class="col col100">
         <div class="module">
-          <div class="textwrap">
           <h1><span><?php the_title(); ?></span></h1>
+          <div class="textwrap">
             <?php the_content(); ?>
              <?php if( get_field('custom-links') ): ?>
                     <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
