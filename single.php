@@ -15,13 +15,13 @@
                     <ul style="margin-left: -5px;" class="post-categories facts">
                       <li><a href="#">Facts & Figures</a></li>
                       <?php if( get_field('custom-links') ): ?>
-                        <li class="post-categories"><?php the_field('custom-links'); ?></li>
+                        <li><?php the_field('custom-links'); ?></li>
                     </ul>
 
                     
                   <?php endif; ?>          
                 <?php endif; ?>
-                
+
          
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
