@@ -482,7 +482,7 @@ function excerpt($limit) {
       } else {
         $excerpt = implode(" ",$excerpt);
       } 
-      $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
+      $excerpt = preg_replace('`<img[^>]+\>/i`','',$excerpt);
       return $excerpt;
     }
 
