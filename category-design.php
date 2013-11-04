@@ -27,7 +27,7 @@
 									endif;
 									endif;
 									?></a>
-									<?php echo excerpt(35); ?>
+									<?php echo excerpt(35 'exclude_tags=img'); ?>
 									<a href="<?php echo get_permalink(); ?>"> mehr...</a>
 									<?php the_category(); ?>  
 						</div>
@@ -56,7 +56,7 @@
 									endif;
 									endif;
 									?></a>
-									<?php echo excerpt(35); ?>
+									<?php echo excerpt(35 'exclude_tags=img'); ?>
 									<a href="<?php echo get_permalink(); ?>"> mehr...</a>
 									<?php the_category(); ?>  
 					</div>
