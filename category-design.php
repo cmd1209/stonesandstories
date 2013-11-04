@@ -16,7 +16,17 @@
 							<?php if( get_field('subheadline') ): ?>
                     			<h3><?php the_field('subheadline'); ?></h3>
                  			 <?php endif; ?>
-							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>">
+								<?php
+								if (class_exists('MultiPostThumbnails')) :
+									if ( MultiPostThumbnails::has_post_thumbnail( get_post_type(), 'secondary-image', NULL, 'secondary-image') ) :
+										MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image', NULL, 'secondary-image');
+									else : ?>
+									<?php the_post_thumbnail('large'); ?>
+									<?php
+									endif;
+									endif;
+									?></a>
 						</div>
 
 					<?php endif; endwhile; else: ?>
@@ -32,7 +42,17 @@
 						<?php if( get_field('subheadline') ): ?>
                     		<h3><?php the_field('subheadline'); ?></h3>
                   		<?php endif; ?>
-						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
+						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>">
+								<?php
+								if (class_exists('MultiPostThumbnails')) :
+									if ( MultiPostThumbnails::has_post_thumbnail( get_post_type(), 'secondary-image', NULL, 'secondary-image') ) :
+										MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image', NULL, 'secondary-image');
+									else : ?>
+									<?php the_post_thumbnail('large'); ?>
+									<?php
+									endif;
+									endif;
+									?></a>
 					</div>
 
 				<?php endif; endwhile; else: ?>
