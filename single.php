@@ -12,7 +12,9 @@
                     
                     <div class="factbox" style="margin-bottom: 30px;" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
-                    <li style="margin-left: -5px;" class="post-categories facts"><a href="#">Facts & Figures</a></li>
+                    <li style="margin-left: -5px;" class="post-categories facts"><a href="#">Facts & Figures</a></li><?php if( get_field('custom-links') ): ?>
+                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
+                  <?php endif; ?>          
                 <?php endif; ?>
          
               <div class="toggle">
@@ -22,11 +24,7 @@
               </div>     
           </div>
                   <?php endif; ?>
-              <?php the_content(); ?>
-
-                 <?php if( get_field('custom-links') ): ?>
-                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
-                  <?php endif; ?>             
+              <?php the_content(); ?>   
             </div>
           </div>
         </div>
