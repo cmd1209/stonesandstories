@@ -13,14 +13,11 @@
                     <div class="factbox" style="margin-bottom: 30px;" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
                     <ul class="post-categories facts">
-                      <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li>
-                      <li><a id="factstoggle" href="#">Facts & Figures</a></li>
+                      <li><a id="factstoggle" href="#">Facts & Figures</a></li>      <?php endif; ?>
+                      <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
                     </ul>
-                    
-                  <?php endif; ?>          
-                <?php endif; ?>
-
-         
+                   
+        
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
