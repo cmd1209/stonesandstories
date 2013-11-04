@@ -12,7 +12,7 @@
                     
                     <div class="factbox" style="margin-bottom: 30px;" id="<?php the_title(); ?>">
                       <?php if( get_field('factsfigures') ): ?>
-                    <ul style="margin-left: -5px;" class="post-categories">
+                    <ul style="margin-left: -5px;" class="post-categories facts">
                       <li><a id="factstoggle" href="#">Facts & Figures</a>
                       <?php if( get_field('custom-links') ): ?>
                       <?php the_field('custom-links'); ?></li>
