@@ -39,7 +39,7 @@ $(function() {
 });
 
 $(function() {
-    $('.facts').click(function(){ 
+    $('#factstoggle').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       return false;
     });
