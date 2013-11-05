@@ -18,7 +18,7 @@
                     </ul>
                    
         
-              <div class="toggle">
+              <div class="toggle" style="padding-left:0;">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
