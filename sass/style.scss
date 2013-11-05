@@ -539,6 +539,10 @@ section{
 .col50{
 	width: 50%;
 }
+.col50:last-child{
+	background-color:red;
+}
+
 .col45{
 	float: left;
 	width: 45%;
