@@ -15,8 +15,7 @@
                     <ul class="post-categories facts" style="padding-left:0;">
                       <li><a id="factstoggle" href="#">Facts & Figures</a></li>      <?php endif; ?>
                       <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
-                    </ul>
-                   
+                    </ul>    
         
               <div class="toggle" style="padding-left:0;">
                <?php if( get_field('factsfigures') ): ?>
