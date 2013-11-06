@@ -1063,7 +1063,7 @@ a.triangle:hover,{
 .categorysingle{
 	p{
 		width: 75%;
-		@media screen and (min-width:480px){
+		@media screen and (max-width:480px){
 			width: 100%;
 		};
 	}
