@@ -19,7 +19,7 @@
                 <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             </div>
             <div class="col col5">
-              <?php the_date('Y', '<p>', '</p>'); ?>
+              <p>Aktuell</p>
             </div>
             <div class="col col20" style="min-height: 1px;">
                <?php if( get_field('location') ): ?>
