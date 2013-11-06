@@ -1183,6 +1183,9 @@ figcaption{
 	padding: 10px !important;
 	display: block;
 	margin: 0 0 40px 0;
+	@media screen and (max-width:1023px){
+			width: 100%;
+		};
 }
 
 figure.alignright{
