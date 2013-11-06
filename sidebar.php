@@ -6,7 +6,6 @@
 	    						<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/Probebühne3.jpg" alt="" >
 	    					</a>
 	    				</figure>
-		
 
 	    				<figure>
 	    					<a class="thumbnail" href="http://www.dah-bremerhaven.de/australien.php" target="blank">
