@@ -1,5 +1,4 @@
 <!-- sidebar -->
-
 			<h2><span style="text-transform: uppercase; letter-spacing:0.2em; font-size: 150%;">Side</span>notes</h2>
 	    				<figure>
 	    					<a class="thumbnail" href="http://www.humboldt-forum.de/humboldt-lab-dahlem/" target="blank">

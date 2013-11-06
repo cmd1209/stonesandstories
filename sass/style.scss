@@ -1063,6 +1063,9 @@ a.triangle:hover,{
 .categorysingle{
 	p{
 		width: 75%;
+		@media screen and (min-width:480px){
+			width: 100%;
+		};
 	}
 	.post-categories{
 		position: relative;
