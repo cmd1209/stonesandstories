@@ -181,8 +181,9 @@ input:focus {
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
-	-moz-transform: perspective( 125px ) rotateY( -10deg );
-	-webkit-transform: perspective( 125px ) rotateY( -10deg );
+	margin: 0 0 0 -675px;
+	-moz-transform: perspective( 100px ) rotateY( -5deg );
+	-webkit-transform: perspective( 100px ) rotateY( -5deg );
 }
 
 .navigation, .navigation-static{
