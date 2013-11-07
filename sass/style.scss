@@ -155,6 +155,11 @@ input:focus {
 	top:28px;
 	left: 50%;
 	margin: 0 0 0 -625px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 	-moz-transform: perspective( 125px ) rotateY( 10deg );
 	-webkit-transform: perspective( 125px ) rotateY( 10deg );
 		-webkit-box-shadow: 10px 0 20px -5px black;
@@ -171,8 +176,13 @@ input:focus {
 	}
 }
 .atmosphere:hover{
-	-moz-transform: perspective( 0px ) rotateY( 0deg );
-	-webkit-transform: perspective( 0px ) rotateY( 0deg );
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	-moz-transform: perspective( 125px ) rotateY( -10deg );
+	-webkit-transform: perspective( 125px ) rotateY( -10deg );
 }
 
 .navigation, .navigation-static{
