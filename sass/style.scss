@@ -184,6 +184,7 @@ input:focus {
 	-moz-transform: perspective( 125px ) rotateY( 8deg );
 	-webkit-transform: perspective( 125px ) rotateY( 8deg );
 	opacity: 0.75;
+	filter:alpha(opacity=75); /* For IE8 and earlier */
 }
 
 .navigation, .navigation-static{
