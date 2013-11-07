@@ -155,11 +155,11 @@ input:focus {
 	top:28px;
 	left: 50%;
 	margin: 0 0 0 -625px;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
 	-moz-transform: perspective( 125px ) rotateY( 10deg );
 	-webkit-transform: perspective( 125px ) rotateY( 10deg );
 		-webkit-box-shadow: 10px 0 20px -5px black;
@@ -176,14 +176,14 @@ input:focus {
 	}
 }
 .atmosphere:hover{
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-	margin: 0 0 0 -675px;
-	-moz-transform: perspective( 100px ) rotateY( -5deg );
-	-webkit-transform: perspective( 100px ) rotateY( -5deg );
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	margin: 0 0 0 -650px;
+	-moz-transform: perspective( 125px ) rotateY( -8deg );
+	-webkit-transform: perspective( 125px ) rotateY( -8deg );
 }
 
 .navigation, .navigation-static{
