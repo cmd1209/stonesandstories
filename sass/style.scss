@@ -183,6 +183,7 @@ input:focus {
 	transition: all 0.7s ease;
 	-moz-transform: perspective( 125px ) rotateY( 8deg );
 	-webkit-transform: perspective( 125px ) rotateY( 8deg );
+	opacity: 0.75;
 }
 
 .navigation, .navigation-static{
