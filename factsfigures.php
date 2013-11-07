@@ -56,7 +56,11 @@
                   <?php else: ?>
                     <a class="blanktrigger" href="#"></a>
                 <?php endif; ?>
-                <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php if($post->post_content != "") : ?>
+                  <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php else: ?>
+                  <a href="#"><?php the_title(); ?></a>
+                <?php endif; ?>
             </div>
             <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
@@ -91,7 +95,11 @@
                   <?php else: ?>
                     <a class="blanktrigger" href="#"></a>
                 <?php endif; ?>
-                <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php if($post->post_content != "") : ?>
+                  <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                <?php else: ?>
+                  <a href="#"><?php the_title(); ?></a>
+                <?php endif; ?>
             </div>
             <div class="col col5">
               <?php the_date('Y', '<p>', '</p>'); ?>
