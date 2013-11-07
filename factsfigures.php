@@ -7,7 +7,7 @@
         <h1><span><?php the_title(); ?></span></h1>
 
           <div class="textwrap">
-          <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
+          <?php query_posts( array( 'category__in' => array(60), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
             <h2>Architecture</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
@@ -41,7 +41,7 @@
           </div>   
 
           <div class="textwrap">
-          <?php query_posts( array( 'category__in' => array(11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
+          <?php query_posts( array( 'category__in' => array(11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
             <h2>Ausstellungsdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
@@ -76,7 +76,7 @@
 
 
           <div class="textwrap">
-          <?php query_posts( array( 'category__in' => array(12), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
+          <?php query_posts( array( 'category__in' => array(12), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
             <h2>Grafikdesign</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
