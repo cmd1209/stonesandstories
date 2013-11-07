@@ -170,6 +170,10 @@ input:focus {
 		height: 100%;
 	}
 }
+.atmosphere:hover{
+	-moz-transform: perspective( 0px ) rotateY( 0deg );
+	-webkit-transform: perspective( 0px ) rotateY( 0deg );
+}
 
 .navigation, .navigation-static{
 	width: 100%;
