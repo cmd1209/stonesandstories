@@ -11,8 +11,8 @@
                     <h3><?php the_field('subheadline'); ?></h3>
                     
                     <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
-                      <?php if( get_field('factsfigures') ): ?>
                     <ul class="post-categories facts" style="padding-left:0;">
+                      <?php if( get_field('factsfigures') ): ?>
                       <li><a id="factstoggle" href="#">Facts & Figures</a></li>      <?php endif; ?>
                       <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
                     </ul>    

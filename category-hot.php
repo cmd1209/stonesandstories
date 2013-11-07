@@ -27,7 +27,7 @@
           </div>
 
         <?php endwhile; else: ?>
-      <?php endif; ?>
+      <?php endif; ?>   
       <?php wp_reset_query(); ?>  
 
       <div class="archives col col100">
