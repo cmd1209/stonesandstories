@@ -215,11 +215,12 @@ input:focus {
 		padding: 4px;
 		margin: 0 2%;
 		text-align: center;
-		font: 300 1.7em/1em "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		display: inline-block;
 		color: white;
-		text-transform: lowercase;
-		transition: all 0.2s;  
+		text-transform: uppercase;
+		transition: all 0.2s;
+		letter-spacing: 0.2em;  
 	}
 	a:hover{
 		color: $yellow;
