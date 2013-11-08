@@ -38,10 +38,6 @@
         <div class="navigation">
 
           <div class="bmenu wrapper" role="navigation">
-            <?php get_template_part('searchform'); ?>
-<div class="stickylogo">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-                </div>
               <?php wp_nav_menu( array('menu' => 'White' )); ?>
           </div>
         </div>
