@@ -1,4 +1,4 @@
-<?php /* Template Name: factsfigures */ get_header("static"); ?>
+<?php /* Template Name: factsfigures */ get_header(); ?>
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
     <div class="col maincontent">
