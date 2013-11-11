@@ -264,9 +264,9 @@ input:focus {
 	}
 }
 
-.masthead form{
+.bmenu form{
   position: absolute;
-  bottom: 2px;
+  top: -20px;
   right: 0;
 
   @media only screen and (max-width:1023px) {
