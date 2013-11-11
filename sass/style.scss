@@ -199,46 +199,6 @@ input:focus {
 
 
 .bmenu{
-	background-color: black;
-	width: 100%;
-	overflow: hidden;
-	color: white;
-	margin: 5px auto 5px auto;
-	ul{
-		text-align: center;
-		margin-left: -40px;
-	}
-	li{
-		list-style: none;
-		display: inline;
-	}
-
-	a{	
-		padding: 4px;
-		margin: 0 1%;
-		text-align: center;
-		font-size: 1em;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		display: inline-block;
-		color: white;
-		text-transform: uppercase;
-		transition: all 0.2s;
-		letter-spacing: 0.2em;  
-	}
-	a:hover{
-		color: $yellow;
-		transition: all 0.2s;  
-	}
-}
-	// #menu-item-132 > a{
-	// 	-webkit-transform:rotate(-10deg);
-	// 	-moz-transform:rotate(-10deg);
-	// 	-o-transform:rotate(-10deg);
-	// 	-ms-transform:rotate(-10deg);
-	// 	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-0.15);
-	// }
-
-.wmenu{
 	margin: 5px auto 5px auto;
 	background-color: black;
 	width: 100%;
@@ -285,7 +245,7 @@ input:focus {
 		font-weight: 400;
 		margin: 0 1%;
 		text-align: center;
-		font-size: 1em;
+		font-size: 1.25em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		display: inline-block;
 		color: white;
