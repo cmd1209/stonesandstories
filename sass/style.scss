@@ -218,7 +218,7 @@ input:focus {
 			left: 50%;
 			height: auto;
 			z-index: 20;
-			background-color: rgba(0,0,0,0.93);
+			background-color: rgba(0,0,0,0.9);
 			padding: 10px 0 0 0;
 			margin: 0 0 0 calc(-50% - 16px);				
 			li{	
@@ -226,7 +226,7 @@ input:focus {
 				display: block;
 				z-index: 25;	
 				cursor: pointer;
-				padding: 4px 4px 4px 0px;
+				padding: 3px 3px 3px 0px;
 				margin: 0 0 2px 0;			
 				a{	
 					display: block;
@@ -256,6 +256,9 @@ input:focus {
 	}
 	li:hover{
 		background-color: $grey;
+		a{
+			color: black;
+		}
 	}
 }
 
