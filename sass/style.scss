@@ -234,6 +234,11 @@ input:focus {
 					width: 100%;
 					letter-spacing: 0.2em;
 				}
+			}
+			li:hover{
+				a{
+					color: black;
+				}
 			}	
 		}
 	}
@@ -256,9 +261,6 @@ input:focus {
 	}
 	li:hover{
 		background-color: $grey;
-		a{
-			color: black;
-		}
 	}
 }
 
