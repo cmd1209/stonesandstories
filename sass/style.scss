@@ -25,7 +25,7 @@ html {
 	font-size:75%;
 }
 body {
-	font: 0.95em/1.65 "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font: 0.9em/1.7 "OpenSansLight", Arial, "Lucida Grande", sans-serif;
 }
 
 /* clear */
@@ -85,14 +85,20 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 
 
 h1, h2, h3{
-	font-family: "OpenSansLight", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	line-height: 1em;
 }
 
+h1{
+	font-family: "OpenSansSemibold", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-transform: uppercase;
+}
+
 h2{
+	font-family: "OpenSansLight", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin: 10px 0 15px 0;
 }
+
 h3{
 	margin: 0 0 15px 0;
 }
