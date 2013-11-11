@@ -197,6 +197,7 @@ input:focus {
 	position: relative;
 }
 
+
 .bmenu{
 	background-color: black;
 	width: 100%;
@@ -216,6 +217,8 @@ input:focus {
 			white-space: nowrap;
 			text-align: center;
 			position: absolute;
+			left: 50%;
+			height: auto;
 			z-index: 20;
 			background-color: rgba(0,0,0,0.93);
 			padding: 10px 0 0 0;
@@ -242,7 +245,6 @@ input:focus {
 		margin: 0 1%;
 		text-align: center;
 		font-size: 1.25em;
-		line-height: 1em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		display: inline-block;
 		color: white;
@@ -256,9 +258,6 @@ input:focus {
 	}
 	li:hover{
 		background-color: $grey;
-		a{
-			color: black;
-		}
 	}
 }
 
