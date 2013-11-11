@@ -85,13 +85,12 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 
 
 h1, h2, h3{
-	font-family: "FanwoodRegular","Times New Roman",Georgia,Serif;
+	font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	line-height: 1em;
 }
 
 h2{
-	font-family: "LinuxBiolinumOBold","Times New Roman",Georgia,Serif;
 	margin: 10px 0 15px 0;
 }
 h3{
@@ -105,7 +104,7 @@ input:focus {
 	color: black;
 	outline:0;
 	border:1px solid #e2f000;
-	font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+	font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .outline{
 	border: 1px solid $grey;
@@ -317,7 +316,7 @@ input:focus {
     outline: 0px;
     color: white;
     border: 1px solid $grey;
-    font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+    font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   	background-color: $lightgrey;
   	position: relative;
 }
@@ -705,7 +704,6 @@ a.thumbnail{
 		text-transform: lowercase; 
 		color: $darkgrey;
 		letter-spacing: 0em;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-weight: 300;
 		padding: 10px 10px 10px 0;
 		display: block;
@@ -729,7 +727,7 @@ a.thumbnail{
 	a{
 		color: black;
 		text-decoration: none !important;
-		font-family: "LinuxBiolinumOBold","Times New Roman",Georgia,Serif;
+		font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	}
 	a img { margin: -6px 0; }
 	.textwrap{
