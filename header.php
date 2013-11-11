@@ -38,7 +38,7 @@
         <div class="navigation">
 
           <div class="wmenu wrapper" role="navigation">
-              <?php wp_nav_menu( array('menu' => 'White' )); ?>
+              <?php wp_nav_menu( array('menu' => 'Black' )); ?>
           </div>
         </div>
       <div class="wrapper" id="stage">
