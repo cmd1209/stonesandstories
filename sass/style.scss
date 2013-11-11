@@ -25,7 +25,7 @@ html {
 	font-size:75%;
 }
 body {
-	font: 0.95em/1.4 "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font: 0.95em/1.65 "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 /* clear */
@@ -85,9 +85,7 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 
 
 h1, h2, h3{
-	font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300;
-	line-height: 1em;
+	font-family: "OpenSansLight", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h2{
@@ -104,7 +102,7 @@ input:focus {
 	color: black;
 	outline:0;
 	border:1px solid #e2f000;
-	font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "OpenSansLight", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .outline{
 	border: 1px solid $grey;
@@ -1035,8 +1033,7 @@ a.triangle{
 	h3{
 		text-align: right;
 		text-transform: uppercase;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		font-weight: 300;
+		font-family: "OpenSansSemibold", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-size: 0.75em;
 		margin: 0!important;
 	}
@@ -1062,7 +1059,7 @@ a.triangle:hover,{
 		margin: 2px;
 	}
 	a{
-		font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+		font-family: "OpenSansSemibold", Helvetica, Arial, "Lucida Grande", sans-serif;
 		background-color: $lightgrey;
 		font-size: 0.85em;
 		font-weight: 300;
