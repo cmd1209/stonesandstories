@@ -29,6 +29,7 @@ body {
 	 font-style: normal;
 	 font-weight: 400;
 	 font-size: 0.95em;
+	 line-height: 1.5em;
 }
 
 /* clear */
@@ -98,7 +99,8 @@ h1{
 }
 
 h2{
-	font-family: "OpenSansSemibold", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-transform: uppercase;
 	margin: 10px 0 15px 0;
 }
 
@@ -113,7 +115,9 @@ input:focus {
 	color: black;
 	outline:0;
 	border:1px solid #e2f000;
-	font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-family: "Source Sans Pro";
+	 font-style: normal;
+	 font-weight: 400;
 }
 .outline{
 	border: 1px solid $grey;
@@ -289,7 +293,9 @@ input:focus {
     outline: 0px;
     color: white;
     border: 1px solid $grey;
-    font-family: "OpenSansLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-family: "Source Sans Pro";
+	 font-style: normal;
+	 font-weight: 400;
   	background-color: $lightgrey;
   	position: relative;
 }
@@ -462,7 +468,8 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: "Source Sans Pro";
+	 	font-style: normal;
 		font-weight: 600;
 		text-transform: uppercase;
 		color: $darkgrey;
@@ -1010,9 +1017,9 @@ a.triangle{
 	h3{
 		text-align: right;
 		text-transform: uppercase;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-		font-weight: 300;
-		font-size: 0.75em;
+		font-family: "Source Sans Pro";
+	 	font-style: normal;
+	 	font-weight: 400;
 		margin: 0!important;
 	}
 }
@@ -1037,10 +1044,11 @@ a.triangle:hover,{
 		margin: 2px;
 	}
 	a{
-		font-family: "LinuxBiolinumORegular","Times New Roman",Georgia,Serif;
+		font-family: "Source Sans Pro";
+	 	font-style: normal;
+	 	font-weight: 400;
 		background-color: $lightgrey;
 		font-size: 0.85em;
-		font-weight: 300;
 		padding: 5px;
 	}
 	a:hover{
