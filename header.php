@@ -39,9 +39,12 @@
 
           <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
+              <?php get_template_part('searchform'); ?>
           </div>
         </div>
       <div class="wrapper" id="stage">
   
       
-
+<!-- -                <div class="stickylogo">
+-                  <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+-                </div> -->
