@@ -29,7 +29,7 @@ body {
 	 font-style: normal;
 	 font-weight: 400;
 	 font-size: 0.95em;
-	 line-height: 1.5em;
+	 line-height: 1.6em;
 }
 
 /* clear */
@@ -696,6 +696,9 @@ a.thumbnail{
 			color: white; 
 			background-color: black;
 		}
+	}
+	p{
+		color: $darkgrey;
 	}
 	img{
 		width: 100%;
