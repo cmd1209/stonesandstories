@@ -198,11 +198,12 @@ input:focus {
 }
 
 .bmenu{
-	background-color: black;
 	width: 100%;
 	ul{
+		background-color: black;
 		text-align: center;
-		margin-left: -40px;
+		margin:0 0 0 -40px;
+		padding: 0;
 	}
 	li{	
 		padding: 5px;
