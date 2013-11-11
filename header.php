@@ -7,6 +7,8 @@
     <!-- dns prefetch -->
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     
+    <link href="//fonts.googleapis.com/css?family=Source+Sans Pro:200italic,200,300italic,300,400italic,400,600italic,600,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+
     <!-- meta -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
