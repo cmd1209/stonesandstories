@@ -106,8 +106,8 @@ p{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	 font-style: normal;
 	 font-weight: 300;
-	 font-size: 0.95em;
-	 line-height: 2em;
+	 font-size: 0.90em;
+	 line-height: 1.75em;
 }
 
 input:focus {
@@ -207,7 +207,7 @@ input:focus {
 		text-align: center;
 	}
 	li{	
-		padding: 5px;
+		padding: 8px 5px 5px 5px;
 		list-style: none;
 		display: inline;
 		position: relative;
@@ -233,7 +233,7 @@ input:focus {
 				margin: 0 0 2px 0;			
 				a{	
 					display: block;
-					font-size: 0.9em !important;
+					font-size: 0.85em !important;
 					width: 100%;
 					letter-spacing: 0.2em;
 				}
