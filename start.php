@@ -3,7 +3,7 @@
   <section role="main">
     <div class="col startcontent" style="min-height:1100px;">
 
-        <div class="col col100 H500 S">
+        <div class="col col100 H400 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <div class="col30">
@@ -22,7 +22,7 @@
                 </div>              
             </div>
             <div class="col70">
-              <div class="heroimage H500">
+              <div class="heroimage H400">
                 <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>  
             </div>
