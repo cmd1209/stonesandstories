@@ -25,9 +25,9 @@ html {
 	font-size:75%;
 }
 body {
-	 font-family: "Source+Sans Pro";
+	 font-family: "OpenSansLight";
 	 font-style: normal;
-	 font-weight: 400;
+	 font-weight: 300;
 	 font-size: 0.95em;
 	 line-height: 1.6em;
 }
@@ -108,14 +108,11 @@ h3{
 	margin: 0 0 15px 0;
 }
 
-p{
-}
-
 input:focus {
 	color: black;
 	outline:0;
 	border:1px solid #e2f000;
-	 font-family: "Source Sans Pro";
+	 font-family: "OpenSansRegular";
 	 font-style: normal;
 	 font-weight: 400;
 }
@@ -293,9 +290,9 @@ input:focus {
     outline: 0px;
     color: white;
     border: 1px solid $grey;
-	 font-family: "Source+Sans Pro";
+	 font-family: "OpenSansLight";
 	 font-style: normal;
-	 font-weight: 400;
+	 font-weight: 300;
   	background-color: $lightgrey;
   	position: relative;
 }
@@ -468,9 +465,9 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "Noto+Sans";
+		font-family: "OpenSansRegular";
 	 	font-style: normal;
-		font-weight: 700;
+		font-weight: 600;
 		text-transform: uppercase;
 		color: $darkgrey;
 		font-size: 1em;
@@ -701,13 +698,16 @@ a.thumbnail{
 		width: 100%;
 		height: auto;
 	}
+	p{
+		margin: 0 0 40px 0;
+	}
 	a:hover{
 		background-color: $yellow;
 	}
 	a{
 		color: black;
 		text-decoration: none !important;
-		font-family: "Source Sans Pro";
+		font-family: "OpenSansRegular";
 		font-style: normal;
 		font-weight: 600;
 	}
