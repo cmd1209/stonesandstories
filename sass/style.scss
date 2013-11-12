@@ -754,6 +754,7 @@ a.thumbnail{
 		float: left;
 		font-size: 1.25em;
 		font-weight: 300;
+		margin: 0 5px 0 0;
 		}
 		h3{
 		color: $darkgrey;
@@ -761,7 +762,6 @@ a.thumbnail{
 		span{
 		color: $darkgrey;
 		text-transform: lowercase;
-		margin: 0 0 0 5px;
 		font-size: 0.9em;
 		letter-spacing: 0em;
 		font-weight: 300;

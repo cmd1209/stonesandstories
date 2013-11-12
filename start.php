@@ -41,7 +41,7 @@
                 
               <div class="col60 yellow">
               <div class="moduleheader">
-                <h2><?php the_title(); ?>
+                <h2>Bühnenbild für<br>Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
