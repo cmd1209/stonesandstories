@@ -32,7 +32,7 @@ $(function() {
       $('.trigger').removeClass("down").addClass("up");
       closepanel.slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).closest('.factbox').css('background-color','#e1e1e1');
+      $(this).closest('.factbox').css('background-color','black');
       $(this).removeClass( "up" ).addClass( "down" );
       return false;
     });
