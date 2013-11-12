@@ -1136,16 +1136,16 @@ a img.aligncenter {
 
 .tablepress .odd td {
 	// background-color: #e6e6e6!important;
-	background-color: black;
+	background-color: black!important;
 	border-bottom: 1px solid $darkgrey;
 }
 .tablepress .even td {
 	// background-color: #e1e1e1!important;
-	background-color: black;
+	background-color: black!important;
 }
 .tablepress .row-hover tr:hover td {
 	// background-color: #dcdcdc!important;
-	background-color: black;
+	background-color: black!important;
 }
 .wp-caption, figure{
 	background:#FFF;
