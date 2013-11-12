@@ -25,9 +25,9 @@ html {
 	font-size:75%;
 }
 body {
-	 font-family: "OpenSansLight";
+	 font-family: "OpenSansRegular";
 	 font-style: normal;
-	 font-weight: 300;
+	 font-weight: 400;
 	 font-size: 0.95em;
 	 line-height: 1.6em;
 }
@@ -707,9 +707,9 @@ a.thumbnail{
 	a{
 		color: black;
 		text-decoration: none !important;
-		font-family: "OpenSansRegular";
+		font-family: "OpenSansBold";
 		font-style: normal;
-		font-weight: 600;
+		font-weight: 300;
 	}
 	a img { margin: -6px 0; }
 	.textwrap{
