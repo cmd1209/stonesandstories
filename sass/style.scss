@@ -751,6 +751,7 @@ a.thumbnail{
 		text-transform: uppercase;
 		color: white;
 		float: left;
+		font-size: 1em;
 		}
 		h3{
 		color: $darkgrey;
@@ -759,7 +760,8 @@ a.thumbnail{
 		text-transform: lowercase;
 		color: $darkgrey;
 		margin: 0 0 0 5px;
-		font-size: 1em;
+		font-size: 0.85em;
+		letter-spacing: 0em;
 		}
 
 }
