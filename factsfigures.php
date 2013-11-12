@@ -18,9 +18,9 @@
                     <a class="blanktrigger" href="#"></a>
                 <?php endif; ?>
                 <?php if($post->post_content != "") : ?>
-                  <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                  <a class="title" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
                 <?php else: ?>
-                  <a href="#"><?php the_title(); ?></a>
+                  <a class="title" href="#"><?php the_title(); ?></a>
                 <?php endif; ?>
                 
             </div>
