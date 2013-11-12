@@ -25,11 +25,6 @@ html {
 	font-size:75%;
 }
 body {
-	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	 font-style: normal;
-	 font-weight: 300;
-	 font-size: 0.95em;
-	 line-height: 1.6em;
 }
 
 /* clear */
@@ -91,15 +86,14 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 h1, h2, h3{
 	font-weight: 300;
 	line-height: 1em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h1{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-transform: uppercase;
 }
 
 h2{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-transform: uppercase;
 	margin: 10px 0 15px 0;
 }
@@ -108,13 +102,18 @@ h3{
 	margin: 0 0 15px 0;
 }
 
+p{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-style: normal;
+	 font-weight: 300;
+	 font-size: 0.95em;
+	 line-height: 2em;
+}
+
 input:focus {
 	color: black;
 	outline:0;
 	border:1px solid #e2f000;
-	 font-family: "OpenSansRegular";
-	 font-style: normal;
-	 font-weight: 400;
 }
 .outline{
 	border: 1px solid $grey;
