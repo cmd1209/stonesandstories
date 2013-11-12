@@ -37,7 +37,7 @@
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <div class="col60">
+              <div class="col100" style="z-index:3;">
               <div class="moduleheader">
                 <h2>Bühnenbild für<br>Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
