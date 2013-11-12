@@ -39,7 +39,7 @@
               <?php while (have_posts()) : the_post(); ?>
                <div class="heroimage H300 shift2"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
                 
-              <div class="col60">
+              <div class="col60 yellow">
               <div class="moduleheader">
                 <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
