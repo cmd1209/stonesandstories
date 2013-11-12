@@ -25,7 +25,7 @@ html {
 	font-size:75%;
 }
 body {
-	 font-family: "ABeeZee";
+	 font-family: "Noto+Sans";
 	 font-style: normal;
 	 font-weight: 300;
 	 font-size: 0.95em;
@@ -293,7 +293,7 @@ input:focus {
     outline: 0px;
     color: white;
     border: 1px solid $grey;
-	 font-family: "Source Sans Pro";
+	 font-family: "Noto+Sans";
 	 font-style: normal;
 	 font-weight: 400;
   	background-color: $lightgrey;
@@ -468,9 +468,9 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "Source Sans Pro";
+		font-family: "Noto+Sans";
 	 	font-style: normal;
-		font-weight: 600;
+		font-weight: 700;
 		text-transform: uppercase;
 		color: $darkgrey;
 		font-size: 1em;
@@ -1017,7 +1017,7 @@ a.triangle{
 	h3{
 		text-align: right;
 		text-transform: uppercase;
-		font-family: "Source Sans Pro";
+		font-family: "Noto+Sans";
 	 	font-style: normal;
 	 	font-weight: 400;
 		margin: 0!important;
@@ -1044,7 +1044,7 @@ a.triangle:hover,{
 		margin: 2px;
 	}
 	a{
-		font-family: "Source Sans Pro";
+		font-family: "Noto+Sans";
 	 	font-style: normal;
 	 	font-weight: 400;
 		background-color: $lightgrey;
