@@ -34,7 +34,7 @@ $(function() {
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       $(this).closest('.factbox').css('background-color','black');
       $(this).removeClass( "up" ).addClass( "down" );
-      $(this).closest("a").css('color','white');
+      $(this).find("a").css('color','white');
       return false;
     });
 });
