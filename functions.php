@@ -500,6 +500,12 @@ function excerpt($limit) {
       return $content;
     }
 
+    function excerpt_read_more_link($output) {
+ global $post;
+ return $output . '<a href="'. get_permalink($post->ID) . '"> Read More...</a>';
+}
+add_filter('the_excerpt', 'excerpt_read_more_link');
+
 /**
  * Swap P Tags for Figure Tags on Images
  */
