@@ -9,10 +9,13 @@
             <div class="col30">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
+               <div class="moduleheader">
+                <h2><?php the_title(); ?></h2>
+                <?php if( get_field('subheadline') ): ?>
+                <h3><?php the_field('subheadline'); ?></h3>
+              </div>
+
                 <div class="textwrap">
-                  <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
                   <?php endif; ?>
                   <?php echo excerpt(200); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>

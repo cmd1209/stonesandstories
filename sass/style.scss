@@ -677,6 +677,12 @@ a.thumbnail{
 	height: 100%;
 	overflow: hidden;
 	padding: 0 0 20px 0;
+	.moduleheader{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 	.underline{
 		margin: 0 0 40px 0;
 		border-bottom: 1px solid $grey;
