@@ -6,13 +6,13 @@
         <div class="col col100 H500 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
-            <div class="col30" style="position: relative;">
+            <div class="col30">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                <div class="moduleheader">
-                <h2><?php the_title(); ?></h2>
+                <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
-                <h3><?php the_field('subheadline'); ?></h3>
+                <span><?php the_field('subheadline'); ?></span></h2>
               </div>
 
                 <div class="textwrap">
