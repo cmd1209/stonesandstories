@@ -478,7 +478,7 @@ function excerpt($limit) {
       $excerpt = explode(' ', get_the_excerpt(), $limit);
       if (count($excerpt)>=$limit) {
         array_pop($excerpt);
-        $excerpt = implode(" ",$excerpt).'...';
+        $excerpt = implode(" ",$excerpt).'<a href="'. get_permalink($post->ID) . '"> Read More...</a>';
       } else {
         $excerpt = implode(" ",$excerpt);
       } 
@@ -500,11 +500,6 @@ function excerpt($limit) {
       return $content;
     }
 
-    function excerpt_read_more_link($output) {
- global $post;
- return $output . '<a href="'. get_permalink($post->ID) . '"> Read More...</a>';
-}
-add_filter('the_excerpt', 'excerpt_read_more_link');
 
 /**
  * Swap P Tags for Figure Tags on Images
