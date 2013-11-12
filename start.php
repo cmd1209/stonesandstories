@@ -17,7 +17,7 @@
               </div>
 
                 <div class="textwrap">
-                  <p><?php echo excerpt(400); ?></p>
+                  <p><?php echo excerpt(450); ?></p>
 
                 </div>              
             </div>
