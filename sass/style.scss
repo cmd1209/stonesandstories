@@ -752,17 +752,18 @@ a.thumbnail{
 		text-transform: uppercase;
 		color: white;
 		float: left;
-		font-size: 1.2em;
+		font-size: 1.3em;
+		font-weight: 300;
 		}
 		h3{
 		color: $darkgrey;
 		}
 		span{
 		text-transform: lowercase;
-		color: $darkgrey;
 		margin: 0 0 0 5px;
-		font-size: 0.95em;
+		font-size: 1em;
 		letter-spacing: 0em;
+		font-weight: 400;
 		}
 
 }
