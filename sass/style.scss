@@ -556,7 +556,7 @@ section{
 	height: 600px;
 }
 .H500{
-	height: auto;
+	height: 500px;
 }
 .H450{
 	height: 450px;
@@ -575,7 +575,7 @@ section{
 }
 
 .H100, .H200, .H300, .H400, .H500{
-		@media only screen and (max-width:1023px) {
+		@media only screen and (max-width:1279px) {
 		height: auto;
 	}
 }
