@@ -202,6 +202,7 @@ input:focus {
 
 .bmenu{
 	width: 100%;
+	padding: 3px 0 1px 0;
 	ul{
 		background-color: black;
 		text-align: center;
@@ -250,7 +251,7 @@ input:focus {
 		font-weight: 400;
 		margin: 0 1%;
 		text-align: center;
-		font-size: 1.25em;
+		font-size: 1.20em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		display: inline-block;
 		color: white;
@@ -464,7 +465,7 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "OpenSansRegular";
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	 	font-style: normal;
 		font-weight: 600;
 		text-transform: uppercase;
@@ -706,9 +707,9 @@ a.thumbnail{
 	a{
 		color: black;
 		text-decoration: none !important;
-		font-family: "OpenSansBold";
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-style: normal;
-		font-weight: 300;
+		font-weight: 600;
 	}
 	a img { margin: -6px 0; }
 	.textwrap{
@@ -1043,7 +1044,7 @@ a.triangle:hover,{
 		margin: 2px;
 	}
 	a{
-		font-family: "Source+Sans Pro";
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	 	font-style: normal;
 	 	font-weight: 400;
 		background-color: $lightgrey;
