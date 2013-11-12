@@ -47,7 +47,7 @@
                   <?php endif; ?>
               </div>
                   <div class="textwrap">
-                    <?php echo excerpt(10); ?>
+                    <p><?php echo excerpt(20); ?></p>
                   </div>
               </div>
             <?php endwhile; ?>
@@ -81,7 +81,7 @@
                   <?php endif; ?>
               </div>
                   <div class="textwrap">
-                  <?php echo excerpt(10); ?>
+                  <p><?php echo excerpt(10); ?></p>
                 </div>
             <?php endwhile; ?>
           </div>
