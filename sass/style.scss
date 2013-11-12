@@ -666,26 +666,7 @@ a.thumbnail{
 	height: 100%;
 	overflow: hidden;
 	padding: 0 0 20px 0;
-	.moduleheader{
-		width: 100%;
-		background-color: black;
 
-		h2{
-		text-transform: uppercase;
-		color: white;
-		float: left;
-		}
-		h3{
-		color: $darkgrey;
-		}
-		span{
-		text-transform: lowercase;
-		color: $darkgrey;
-		margin: 0 0 0 5px;
-		font-size: 1em;
-		}
-
-	}
 	.underline{
 		margin: 0 0 40px 0;
 		border-bottom: 1px solid $grey;
@@ -759,6 +740,27 @@ a.thumbnail{
 		margin: -10px 10px 0 10px;
 		float: right;
 	}
+}
+
+.moduleheader{
+		width: 100%;
+		background-color: black;
+
+		h2{
+		text-transform: uppercase;
+		color: white;
+		float: left;
+		}
+		h3{
+		color: $darkgrey;
+		}
+		span{
+		text-transform: lowercase;
+		color: $darkgrey;
+		margin: 0 0 0 5px;
+		font-size: 1em;
+		}
+
 }
 
 #overlay{
