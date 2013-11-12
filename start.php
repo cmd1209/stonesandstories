@@ -17,7 +17,7 @@
               </div>
 
                 <div class="textwrap">
-                  <?php echo excerpt(200); ?>
+                  <?php echo excerpt(250); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
             </div>
