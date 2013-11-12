@@ -96,17 +96,6 @@ p{
 	 font-size: 0.90em;
 	 line-height: 1.75em;
 }
-.startcontent{
-	h2{
-		text-transform: uppercase;
-		background-color: black;
-		color: white;
-	}
-	h3{
-		color: $darkgrey;
-	}
-
-}
 
 input:focus {
 	color: black;
@@ -682,6 +671,17 @@ a.thumbnail{
 		position: absolute;
 		top: 0;
 		left: 0;
+		background-color: black;
+
+	h2{
+		text-transform: uppercase;
+		color: white;
+		float: left;
+	}
+	h3{
+		color: $darkgrey;
+	}
+
 	}
 	.underline{
 		margin: 0 0 40px 0;
