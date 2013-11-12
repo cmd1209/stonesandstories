@@ -25,11 +25,11 @@
                 
             </div>
             <div class="col col5">
-              <?php the_date('Y', '<p>', '</p>'); ?>
+              <?php the_date('Y', '<p class="date">', '</p>'); ?>
             </div>
             <div class="col col20" style="min-height: 1px;">
                <?php if( get_field('location') ): ?>
-                    <?php the_field('location'); ?>
+                    <p class="location"><?php the_field('location'); ?></p>
                 <?php endif; ?>
             </div>
             <div class="col col30">
