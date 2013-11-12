@@ -190,7 +190,7 @@ input:focus {
 .bmenu{
 	width: 100%;
 	ul{
-		padding: 3px 0 1px 0;
+		padding: 3px 0 3px 0;
 		background-color: black;
 		text-align: center;
 	}
@@ -547,7 +547,7 @@ section{
 	width: 5%;
 }
 
-.col20, .col25, .col33, .col40, .col50, .col60, .col75, .col80, .col10, .col5{
+.col20, .col25, .col30, .col33, .col40, .col50, .col60, .col70, .col75, .col80, .col10, .col5{
 		@media only screen and (max-width:767px) {
 		width: 100%;
 	}
@@ -575,7 +575,7 @@ section{
 }
 
 .H100, .H200, .H300, .H400, .H500{
-		@media only screen and (max-width:767px) {
+		@media only screen and (max-width:1023px) {
 		height: auto;
 	}
 }
