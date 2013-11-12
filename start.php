@@ -13,10 +13,10 @@
                 <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
+                  <?php endif; ?>
               </div>
 
                 <div class="textwrap">
-                  <?php endif; ?>
                   <?php echo excerpt(200); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>              
@@ -39,10 +39,12 @@
               <?php while (have_posts()) : the_post(); ?>
                <div class="heroimage H300 shift2"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="textwrap yellow col60">
-                  <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
+                <div class="moduleheader">
+                <h2><?php the_title(); ?>
+                <?php if( get_field('subheadline') ): ?>
+               <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
+              </div>
                   <?php echo excerpt(20); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
               </div>
@@ -71,10 +73,12 @@
               <?php while (have_posts()) : the_post(); ?>
               <div class="heroimage"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
                   <div class="textwrap">
-                  <h2><?php the_title(); ?></h2>
-                  <?php if( get_field('subheadline') ): ?>
-                    <h3><?php the_field('subheadline'); ?></h3>
+                  <div class="moduleheader">
+                <h2><?php the_title(); ?>
+                <?php if( get_field('subheadline') ): ?>
+               <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
+              </div>
                   <?php echo excerpt(55); ?>
                   <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
