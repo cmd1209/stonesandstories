@@ -34,9 +34,9 @@ $(function() {
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       $(this).closest('.factbox').css('background-color','black');
       $(this).removeClass( "up" ).addClass( "down" );
-      $(this).find('.title').css({"color":"white"});
-      $(this).find('.location').css({"color":"white"});
-      $(this).find('.date').css({"color":"white"});
+      $(this).closest('.factbox').find('.title').css({"color":"white"});
+      $(this).closest('.factbox').find('.location').css({"color":"white"});
+      $(this).closest('.factbox').find('.date').css({"color":"white"});
       return false;
     });
 });
