@@ -746,12 +746,13 @@ a.thumbnail{
 		width: 100%;
 		background-color: black;
 		overflow: hidden;
+		padding: 0 5px 5px 5px;
 
 		h2{
 		text-transform: uppercase;
 		color: white;
 		float: left;
-		font-size: 1em;
+		font-size: 1.2em;
 		}
 		h3{
 		color: $darkgrey;
@@ -760,7 +761,7 @@ a.thumbnail{
 		text-transform: lowercase;
 		color: $darkgrey;
 		margin: 0 0 0 5px;
-		font-size: 0.85em;
+		font-size: 0.95em;
 		letter-spacing: 0em;
 		}
 
