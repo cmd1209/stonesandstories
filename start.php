@@ -48,7 +48,6 @@
               </div>
                   <div class="textwrap">
                     <?php echo excerpt(20); ?>
-                    <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                   </div>
               </div>
             <?php endwhile; ?>
@@ -83,7 +82,6 @@
               </div>
                   <div class="textwrap">
                   <?php echo excerpt(55); ?>
-                  <a href="<?php echo get_permalink(); ?>"> mehr...</a>
                 </div>
             <?php endwhile; ?>
           </div>
