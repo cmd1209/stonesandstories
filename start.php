@@ -49,7 +49,7 @@
                   </div>
               </div>
             <?php endwhile; ?>
-               <div class="heroimage H300 shift2">
+               <div class="yellow heroimage H300 shift2">
                 <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
                </div> 
           </div>
