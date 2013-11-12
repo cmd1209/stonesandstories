@@ -32,11 +32,8 @@ $(function() {
       $('.trigger').removeClass("down").addClass("up");
       closepanel.slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).closest('.factbox').css('background-color','black');
+      $(this).closest('.factbox').css('background-color','#e1e1e1');
       $(this).removeClass( "up" ).addClass( "down" );
-      $(this).closest('.factbox').find('.title').css({"color":"white"});
-      $(this).closest('.factbox').find('.location').css({"color":"white"});
-      $(this).closest('.factbox').find('.date').css({"color":"white"});
       return false;
     });
 });

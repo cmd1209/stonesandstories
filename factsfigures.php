@@ -18,18 +18,18 @@
                     <a class="blanktrigger" href="#"></a>
                 <?php endif; ?>
                 <?php if($post->post_content != "") : ?>
-                  <a class="title" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                  <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
                 <?php else: ?>
-                  <a class="title" href="#"><?php the_title(); ?></a>
+                  <a href="#"><?php the_title(); ?></a>
                 <?php endif; ?>
                 
             </div>
             <div class="col col5">
-              <?php the_date('Y', '<p class="date">', '</p>'); ?>
+              <?php the_date('Y', '<p>', '</p>'); ?>
             </div>
             <div class="col col20" style="min-height: 1px;">
                <?php if( get_field('location') ): ?>
-                    <p class="location"><?php the_field('location'); ?></p>
+                    <?php the_field('location'); ?>
                 <?php endif; ?>
             </div>
             <div class="col col30">
