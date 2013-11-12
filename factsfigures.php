@@ -11,7 +11,7 @@
             <h2>Architecture</h2>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div class="col col100" style="height:50px;"><div class="col col45" style="padding-right: 20px;">
+            <div style="width:100%;overflow:hidden;"><div class="col col45" style="padding-right: 20px;">
                             <?php if( get_field('factsfigures') ): ?>
                                 <a class="trigger up" href="#"></a>
                               <?php else: ?>
