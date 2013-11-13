@@ -20,8 +20,7 @@
 </div> 
                  			 <?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-							<?php echo excerpt(35); ?>
-							<a href="<?php echo get_permalink(); ?>"> mehr...</a>
+							<?php echo excerpt(40); ?>
 							<?php the_category(); ?>  
 						</div>
 
@@ -42,8 +41,7 @@
 </div> 
                   		<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-						<?php echo excerpt(35); ?>
-						<a href="<?php echo get_permalink(); ?>"> mehr...</a>
+						<?php echo excerpt(40); ?>
 						<?php the_category(); ?>  
 					</div>
 
