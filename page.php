@@ -5,7 +5,12 @@
       
       <div class="col col100">
         <div class="module">
-          <h1><span><?php the_title(); ?></span></h1>
+          <div class="moduleheader">
+                <h2><?php the_title(); ?>
+                <?php if( get_field('subheadline') ): ?>
+               <span><?php the_field('subheadline'); ?></span></h2>
+                  <?php endif; ?>
+              </div>
           <div class="textwrap">
             <?php the_content(); ?>
              <?php if( get_field('custom-links') ): ?>
