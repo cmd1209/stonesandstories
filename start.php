@@ -46,7 +46,7 @@
                     <?php echo excerpt(40); ?>
                   </div>
               </div>
-               <div class="heroimage shift2 yellow"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
+               
             <?php endwhile; ?>
           </div>
         </div>
