@@ -44,14 +44,14 @@ $(function() {
 });
 
 $(function(){
-        var stickynavtop = $('.bmenu').offset().top;
+        var stickynavtop = $('.navigation').offset().top;
         var stage = $('#stage');         
         $(window).scroll(function(){
                 if( $(window).scrollTop() > stickynavtop ) {
-                        $('.bmenu').css({position: 'fixed', top: '0px'});
+                        $('.navigation').css({position: 'fixed', top: '0px'});
                         stage.css({"padding-top":"60px"});
                 } else {
-                        $('.bmenu').css({position: 'static', top: '0px'});
+                        $('.navigation').css({position: 'static', top: '0px'});
                         stage.css({"padding-top":"0px"});
                 }
         });

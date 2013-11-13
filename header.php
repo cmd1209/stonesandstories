@@ -36,8 +36,10 @@
           </div>
         </div>
 
-        <div class="bmenu wrapper" role="navigation">
+        <div class="navigation">
+          <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
               <?php get_template_part('searchform'); ?>
           </div>
+        </div>
       <div class="wrapper" id="stage">
