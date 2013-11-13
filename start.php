@@ -37,7 +37,7 @@
               <?php while (have_posts()) : the_post(); ?>
                <div class="heroimage shift2"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="moduleheader">
-                <h2>Bühnenbild für<br>Das St. Pauli-Theater   <!-- manually added -->
+                <h2>Bühnenbild für Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
