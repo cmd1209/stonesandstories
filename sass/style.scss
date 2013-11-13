@@ -744,7 +744,7 @@ a.thumbnail{
 }
 
 .moduleheader{
-		background-color: rgba(0,0,0,0.85)
+		background-color: rgba(0,0,0,0.85);
 		h2{
 		text-transform: uppercase;
 		color: white;
@@ -769,6 +769,7 @@ a.thumbnail{
 .modulecontent{
 	position: absolute;
 	z-index: 5;
+	background-color: white;
 }
 
 
