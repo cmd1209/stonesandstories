@@ -1102,9 +1102,16 @@ a.triangle:hover,{
 
 .categorysingle{
 	p{
-		width: 75%;
+		width: 100%;
+		-webkit-webkit-column-count: 2;
+		-moz-webkit-column-count: 2;
+		-ms-webkit-column-count: 2;
+		-o-webkit-column-count: 2;
 		@media screen and (max-width:1023px){
-			width: 100%;
+		-webkit-webkit-column-count: 1;
+		-moz-webkit-column-count: 1;
+		-ms-webkit-column-count: 1;
+		-o-webkit-column-count: 1;;
 		};
 	}
 	.post-categories{
@@ -1252,6 +1259,7 @@ figure.alignright{
 	line-height:17px;
 	margin:0;
 	text-align: left;
+	color: $darkgrey;
 }
 
 .gallery {
