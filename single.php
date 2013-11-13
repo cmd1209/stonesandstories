@@ -6,8 +6,8 @@
         <div class="col col100">
           <div class="module">
             <div class="textwrap categorysingle">
-                <div>
-                <h2 class="col50" style="padding:5px;background-color:black;color:white;margin:-10px 0 0 -20px;text-transform:uppercase;"><?php the_title(); ?>
+                <div class="singletitle">
+                <h2 class="col60"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
               </div>   

@@ -783,6 +783,34 @@ a.thumbnail{
 		}
 
 }
+.singletitle{
+		width: 60%;
+		background-color: black;
+		overflow: hidden;
+		padding: 5px;
+		margin: -10px 0 0 -10px;
+
+		h2{
+		text-transform: uppercase;
+		color: white;
+		float: left;
+		font-size: 1.25em;
+		font-weight: 300;
+		margin-left: 5px;
+		line-height: 1.2em;
+		}
+		h3{
+		color: $darkgrey;
+		}
+		span{
+		color: $darkgrey;
+		text-transform: lowercase;
+		font-size: 0.9em;
+		letter-spacing: 0em;
+		font-weight: 300;
+		}
+
+}
 
 #overlay{
 	z-index: 30;
