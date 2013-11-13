@@ -743,10 +743,8 @@ a.thumbnail{
 }
 
 .moduleheader{
-		width: 100%;
-		background-color: black;
-		overflow: hidden;
-		padding: 0 5px 5px 10px;
+		background-color: rgba(0,0,0,0.85);
+		padding: 5px 5px 5px 10px;
 
 		h2{
 		text-transform: uppercase;
