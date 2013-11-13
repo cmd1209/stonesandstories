@@ -30,12 +30,12 @@
      
         <div class="col col50 L">
           
-        <div class="col col100 S H300" style="background-image: url(<?php echo get_the_post_thumbnail($large->ID, 'large');?>);">
+        <div class="col col100 S H300">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <div class="col60" style="z-index:10;">
+              <div class="col100" style="z-index:10; background-image: url(<?php echo get_the_post_thumbnail($large->ID, 'large');?>);">
               <div class="moduleheader">
                 <h2>Bühnenbild für<br>Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
@@ -46,7 +46,7 @@
                     <?php echo excerpt(32); ?>
                   </div>
               </div>
-
+<!--                <div class="heroimage shift2 yellow"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>  -->
             <?php endwhile; ?>
           </div>
         </div>
