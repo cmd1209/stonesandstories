@@ -3,30 +3,44 @@
   <section role="main">
     <div class="col startcontent" style="min-height:1100px;">
 
+<<<<<<< HEAD
+        <div class="col col100 H500 S">
+          <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
+          <div class="module">
+               <div class="moduleheader col50">
+=======
       <div class="col col100 H500 S">
         <div class="module">
           <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
           <?php while (have_posts()) : the_post(); ?>
-            <div class="modulecontent" style="width:40%;">
-              <div class="moduleheader">
+            <div class="modulecontent">
+              <div class="moduleheader" style="width:50%;">
+>>>>>>> parent of c6db5fd... asdfads
                 <h2><?php the_title(); ?>
-                  <?php if( get_field('subheadline') ): ?>
-                    <span><?php the_field('subheadline'); ?></span></h2>
+                <?php if( get_field('subheadline') ): ?>
+               <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
-                </div>
-                <div class="textwrap" >
-                  <?php echo excerpt(80); ?>
-                </div>  
               </div>
+            <div class="col30">
+             <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+              <?php while (have_posts()) : the_post(); ?>
+
+                <div class="textwrap" style="padding-top:60px;">
+                  <?php echo excerpt(80); ?>
+
+                </div>              
+            </div>
+            <div class="col70">
               <div class="heroimage H500">
                 <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
-              </div> 
+              </div>  
             </div>
-            <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
-          <?php endwhile; ?>
+            <?php endwhile; ?>
+          </div>
         </div>
      
-        <div class="col col50 L">  
+        <div class="col col50 L">
+          
         <div class="col col100 S H300">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
           <div class="module">

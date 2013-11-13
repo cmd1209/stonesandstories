@@ -399,7 +399,7 @@
 			"file": "start.php",
 			"settings":
 			{
-				"buffer_size": 4272,
+				"buffer_size": 4226,
 				"line_ending": "Unix"
 			}
 		},
@@ -447,7 +447,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 21521,
+				"buffer_size": 21556,
 				"line_ending": "Unix"
 			}
 		},
@@ -949,15 +949,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4272,
+						"buffer_size": 4226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4045,
-								4045
+								497,
+								497
 							]
 						],
 						"settings":
@@ -967,7 +967,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 444.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1131,15 +1131,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21521,
+						"buffer_size": 21556,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15053,
-								15053
+								12548,
+								12548
 							]
 						],
 						"settings":
@@ -1150,7 +1150,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 16430.0,
+						"translation.y": 12893.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1179,7 +1179,7 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,

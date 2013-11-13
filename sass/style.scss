@@ -659,7 +659,6 @@ a.thumbnail{
 	background-color: white!important;
 }
 
-
 .module{
 	position: relative;
 	border: 1px solid $grey;
@@ -745,6 +744,8 @@ a.thumbnail{
 
 .moduleheader{
 		background-color: rgba(0,0,0,0.85);
+		padding: 5px 5px 5px 10px;
+
 		h2{
 		text-transform: uppercase;
 		color: white;
@@ -765,13 +766,6 @@ a.thumbnail{
 		}
 
 }
-
-.modulecontent{
-	position: absolute;
-	background-color: white;
-	overflow: hidden;
-}
-
 
 #overlay{
 	z-index: 30;
