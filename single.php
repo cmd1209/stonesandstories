@@ -6,10 +6,11 @@
         <div class="col col100">
           <div class="module">
             <div class="textwrap categorysingle">
-                <div class="moduleheader">
+                <div class="moduleheader" style="position:absolute;width: 50%;">
                 <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
+              </div>   
                   
                     <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
                     <ul class="post-categories facts" style="padding-left:0;">
@@ -22,7 +23,6 @@
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
-                </div>   
               </div>     
           </div>
                   <?php endif; ?>
