@@ -49,7 +49,7 @@
           </div>
         </div>
        
-        <div class="col col100 H300 S">
+        <div class="col col100 H400 S">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik</h3></a>
           <div class="module">
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -63,7 +63,7 @@
         </div>
         
         <div class="col col50 R">
-        <div class="col col100 S H800">
+        <div class="col col100 S H600">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -80,7 +80,29 @@
                 </div>
             <?php endwhile; ?>
           </div>
+
+           <div class="col col100 S H300">
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
+          <div class="module">
+            <?php $ids = array(25); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+              <?php while (have_posts()) : the_post(); ?>
+              <div class=""><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
+                  <div class="moduleheader">
+                <h2><?php the_title(); ?>
+                <?php if( get_field('subheadline') ): ?>
+               <span><?php the_field('subheadline'); ?></span></h2>
+                  <?php endif; ?>
+              </div>
+                  <div class="textwrap">
+                  <?php echo excerpt(20); ?>
+                </div>
+            <?php endwhile; ?>
+          </div>
+
+
         </div>
+
+
   
         </div>
 
