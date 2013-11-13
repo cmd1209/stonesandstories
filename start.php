@@ -30,7 +30,7 @@
      
         <div class="col col50 L">
           
-        <div class="col col100 S H300">
+        <div class="col col100 S H300" style="background-image: url(<?php echo get_the_post_thumbnail($large->ID, 'large');?>);">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
@@ -43,10 +43,10 @@
                   <?php endif; ?>
               </div>
                   <div class="textwrap">
-                    <?php echo excerpt(40); ?>
+                    <?php echo excerpt(32); ?>
                   </div>
               </div>
-               
+
             <?php endwhile; ?>
           </div>
         </div>
