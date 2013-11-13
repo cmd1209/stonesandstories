@@ -43,8 +43,3 @@
           </div>
         </div>
       <div class="wrapper" id="stage">
-  
-      
-<!-- -                <div class="stickylogo">
--                  <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
--                </div> -->
