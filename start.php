@@ -83,7 +83,7 @@
         </div>
 
         <div class="col col100 S H300">
-        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Auss</h3></a>
+        <a class="triangle shadow" href="<?php echo home_url(); ?>/category/ausstellung/"><h3>Auss</h3></a>
           <div class="module">
             <?php $ids = array(71); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
