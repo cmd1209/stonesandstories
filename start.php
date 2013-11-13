@@ -7,8 +7,8 @@
         <div class="module">
           <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
           <?php while (have_posts()) : the_post(); ?>
-            <div class="modulecontent">
-              <div class="moduleheader" style="width:50%;">
+            <div class="modulecontent" style="width:40%;">
+              <div class="moduleheader">
                 <h2><?php the_title(); ?>
                   <?php if( get_field('subheadline') ): ?>
                     <span><?php the_field('subheadline'); ?></span></h2>
