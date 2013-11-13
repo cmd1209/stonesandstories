@@ -586,7 +586,7 @@ section{
 	height: 100px;
 }
 
-.H100, .H200, .H300, .H400, .H500, .H600, .H700, .H800{
+.H100, .H200, .H300, .H400, .H450, .H500, .H600, .H700, .H800{
 		@media only screen and (max-width:1279px) {
 		height: auto;
 	}
@@ -765,7 +765,7 @@ a.thumbnail{
 		color: white;
 		float: left;
 		font-size: 1.25em;
-		font-weight: 300;
+		font-weight: 500;
 		margin-left: 5px;
 		}
 		h3{
@@ -776,7 +776,7 @@ a.thumbnail{
 		text-transform: lowercase;
 		font-size: 0.9em;
 		letter-spacing: 0em;
-		font-weight: 300;
+		font-weight: 500;
 		}
 
 }
