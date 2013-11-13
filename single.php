@@ -6,7 +6,7 @@
         <div class="col col100">
           <div class="module">
             <div class="textwrap categorysingle">
-                <div class="moduleheader">
+                <div>
                 <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
