@@ -6,6 +6,8 @@
         <div class="col col100 H500 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
+             <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+              <?php while (have_posts()) : the_post(); ?>
                <div class="moduleheader" style="width:50%;">
                 <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
@@ -13,8 +15,6 @@
                   <?php endif; ?>
               </div>
             <div class="col30">
-             <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
-              <?php while (have_posts()) : the_post(); ?>
 
                 <div class="textwrap" style="padding-top:60px;">
                   <?php echo excerpt(80); ?>
