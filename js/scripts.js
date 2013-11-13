@@ -52,7 +52,6 @@ $(function(){
                         stage.css({"padding-top":"60px"});
                 } else {
                         $('.navigation').css({position: 'static', top: '0px'});
-                        searchform.css({top: '-35px', right: '0px'});
                         stage.css({"padding-top":"0px"});
                 }
         });
