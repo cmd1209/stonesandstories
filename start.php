@@ -15,10 +15,8 @@
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
               </div>
-
                 <div class="textwrap">
                   <?php echo excerpt(80); ?>
-
                 </div>              
             </div>
             <div class="col70">
