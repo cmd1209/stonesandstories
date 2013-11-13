@@ -54,7 +54,7 @@
           <div class="module">
              <?php $ids = array(1136); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <div class="heroimage H300 shift">
+              <div class="heroimage H400 shift">
                 <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
               </div>
             <?php endwhile; ?>
@@ -80,8 +80,9 @@
                 </div>
             <?php endwhile; ?>
           </div>
+        </div>
 
-           <div class="col col100 S H300">
+        <div class="col col100 S H300">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <?php $ids = array(25); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
