@@ -35,7 +35,7 @@
           <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <div class="col60">
+              <div class="col60" style="z-index:10;">
               <div class="moduleheader">
                 <h2>Bühnenbild für<br>Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
@@ -46,7 +46,7 @@
                     <?php echo excerpt(40); ?>
                   </div>
               </div>
-               <div class="heroimage H300 shift2 yellow"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
+               <div class="heroimage shift2 yellow"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
             <?php endwhile; ?>
           </div>
         </div>
