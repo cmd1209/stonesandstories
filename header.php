@@ -35,11 +35,9 @@
             <a href="<?php echo get_permalink(127); ?>" class="filmbutton"><img src="http://img.youtube.com/vi/KGsHXZjj04Q/mqdefault.jpg" alt=""></a>
           </div>
         </div>
-        <div class="navigation">
 
-          <div class="bmenu wrapper" role="navigation">
+        <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
               <?php get_template_part('searchform'); ?>
           </div>
-        </div>
       <div class="wrapper" id="stage">
