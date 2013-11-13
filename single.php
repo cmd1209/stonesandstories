@@ -7,7 +7,7 @@
           <div class="module">
             <div class="textwrap categorysingle">
                 <div>
-                <h2 class="col50" style="padding:5px;background-color:black;color:white;"><?php the_title(); ?>
+                <h2 class="col50" style="padding:5px;background-color:black;color:white;margin:-10px 0 0 -20px;text-transform:uppercase;"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
               </div>   
