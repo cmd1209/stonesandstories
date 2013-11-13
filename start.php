@@ -30,12 +30,11 @@
      
         <div class="col col50 L">
           
-        <div class="col col100 S H300">
+        <div class="col col100 S H500">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
-          <div class="module" style="z-index:3;">
+          <div class="module">
              <?php $ids = array(751); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
-              <div class="col60" style="z-index:10;">
               <div class="moduleheader">
                 <h2>Bühnenbild für<br>Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
@@ -44,9 +43,8 @@
               </div>
                   <div class="textwrap">
                     <?php echo excerpt(32); ?>
-                  </div>
               </div>
-               <div class="heroimage shift2 yellow" style="z-index:2;"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
+               <div class="heroimage shift2 yellow"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
             <?php endwhile; ?>
           </div>
         </div>
@@ -65,7 +63,7 @@
         </div>
         
         <div class="col col50 R">
-        <div class="col col100 S H600">
+        <div class="col col100 S H800">
         <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <?php $ids = array(69); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>

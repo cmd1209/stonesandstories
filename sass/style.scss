@@ -552,6 +552,12 @@ section{
 		width: 100%;
 	}
 }
+.H800{
+	height: 800px;
+}
+.H700{
+	height: 700px;
+}
 .H600{
 	height: 600px;
 }
@@ -574,7 +580,7 @@ section{
 	height: 100px;
 }
 
-.H100, .H200, .H300, .H400, .H500, .H600{
+.H100, .H200, .H300, .H400, .H500, .H600, .H700, .H800{
 		@media only screen and (max-width:1279px) {
 		height: auto;
 	}
