@@ -461,10 +461,10 @@ section{
 		display: block;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	 	font-style: normal;
-		font-weight: 600;
+		font-weight: 300;
 		text-transform: uppercase;
 		color: $darkgrey;
-		font-size: 1em;
+		font-size: 0.9em;
 		border-left: 1px solid $darkgrey;
 		padding: 0 5px;
 		transition: all 0.2s;  
@@ -767,7 +767,7 @@ a.thumbnail{
 		font-size: 1.25em;
 		font-weight: 300;
 		margin-left: 5px;
-		line-height: 1.25em;
+		line-height: 1.2em;
 		}
 		h3{
 		color: $darkgrey;
