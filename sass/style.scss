@@ -787,9 +787,10 @@ a.thumbnail{
 		h2{
 		text-transform: uppercase;
 		float: left;
-		font-size: 1.25em;
+		font-size: 1.4em;
 		font-weight: 300;
 		margin-left: 5px;
+		border-right: 1px solid $darkestgrey;
 		line-height: 1.2em;
 		}
 		h3{
@@ -798,7 +799,7 @@ a.thumbnail{
 		span{
 		color: $darkestgrey;
 		text-transform: lowercase;
-		font-size: 0.9em;
+		font-size: 1.15em;
 		letter-spacing: 0em;
 		font-weight: 300;
 		}
