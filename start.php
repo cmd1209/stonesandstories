@@ -16,7 +16,7 @@
                   <?php endif; ?>
               </div>
                 <div class="textwrap">
-                  <?php echo excerpt(80); ?>
+                  <?php echo excerpt(70); ?>
                 </div>              
             </div>
             <div class="col70">
