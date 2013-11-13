@@ -1102,18 +1102,17 @@ a.triangle:hover,{
 }
 
 .categorysingle{
-	p{
-		width: 100%;
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		-ms-column-count: 2;
-		-o-column-count: 2;
-		@media screen and (max-width:1023px){
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-ms-column-count: 2;
+	-o-column-count: 2;
+			@media screen and (max-width:1023px){
 		-webkit-webkit-column-count: 1;
 		-moz-webkit-column-count: 1;
 		-ms-webkit-column-count: 1;
-		-o-webkit-column-count: 1;;
-		};
+		-o-webkit-column-count: 1;}
+	p{
+		width: 100%;
 	}
 	.post-categories{
 		position: relative;
