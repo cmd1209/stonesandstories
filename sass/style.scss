@@ -156,6 +156,7 @@ input:focus {
 	transition: all 0.25s ease;
 	-moz-transform: perspective( 125px ) rotateY( 10deg );
 	-webkit-transform: perspective( 125px ) rotateY( 10deg );
+	transform-style: preserve-3d;
 		-webkit-box-shadow: 10px 0 20px -5px black;
 	   -moz-box-shadow: 10px 0 20px -5px black;
 		box-shadow: 10px 0 20px -5px black;
@@ -170,17 +171,17 @@ input:focus {
 		height: 100%;
 	}
 }
-// .atmosphere:hover{
-// 	-webkit-transition: all 0.7s ease;
-// 	-moz-transition: all 0.7s ease;
-// 	-ms-transition: all 0.7s ease;
-// 	-o-transition: all 0.7s ease;
-// 	transition: all 0.7s ease;
-// 	-moz-transform: perspective( 125px ) rotateY( 8deg );
-// 	-webkit-transform: perspective( 125px ) rotateY( 8deg );
-// 	opacity: 0.75;
-// 	filter:alpha(opacity=75); /* For IE8 and earlier */
-// }
+.atmosphere:hover{
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	-moz-transform: perspective( 125px ) rotateY( 8deg );
+	-webkit-transform: perspective( 125px ) rotateY( 8deg );
+	opacity: 0.75;
+	filter:alpha(opacity=75); /* For IE8 and earlier */
+}
 
 .navigation, .navigation-static{
 	width: 100%;
