@@ -154,8 +154,8 @@ input:focus {
 	-ms-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
-	-moz-transform: perspective( 125px ) rotateY( 10deg );
-	-webkit-transform: perspective( 125px ) rotateY( 10deg );
+	-moz-transform: perspective( 125px );
+	-webkit-transform: perspective( 125px );
 	transform-style: preserve-3d;
 		-webkit-box-shadow: 10px 0 20px -5px black;
 	   -moz-box-shadow: 10px 0 20px -5px black;
