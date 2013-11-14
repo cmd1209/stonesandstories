@@ -42,17 +42,3 @@ $(function() {
       return false;
     });
 });
-
-$(function(){
-        var stickynavtop = $('.navigation').offset().top;
-        var stage = $('#stage');         
-        $(window).scroll(function(){
-                if( $(window).scrollTop() > stickynavtop ) {
-                        $('.navigation').css({position: 'fixed', top: '0px'});
-                        stage.css({"padding-top":"50px"});
-                } else {
-                        $('.navigation').css({position: 'static', top: '0px'});
-                        stage.css({"padding-top":"0px"});
-                }
-        });
-});
