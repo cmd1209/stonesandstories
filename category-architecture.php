@@ -13,12 +13,12 @@
 
 						<div class="textwrap underline">
 							<div class="singletitle">
-  <h2><?php the_title(); ?>
-  <?php if( get_field('subheadline') ): ?>
-    <span><?php the_field('subheadline'); ?></span>
-  </h2>
-</div> 
-                 			 <?php endif; ?>
+								<h2><?php the_title(); ?>
+									<?php if( get_field('subheadline') ): ?>
+										<span><?php the_field('subheadline'); ?></span>
+									</h2>
+								</div> 
+							<?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							<?php echo excerpt(40); ?>
 						</div>
@@ -33,12 +33,12 @@
 
 					<div class="underline textwrap">
 						<div class="singletitle">
-  <h2><?php the_title(); ?>
-  <?php if( get_field('subheadline') ): ?>
-    <span><?php the_field('subheadline'); ?></span>
-  </h2>
-</div> 
-                  		<?php endif; ?>
+							<h2><?php the_title(); ?>
+								<?php if( get_field('subheadline') ): ?>
+									<span><?php the_field('subheadline'); ?></span>
+								</h2>
+							</div> 
+						<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 						<?php echo excerpt(40); ?>
 					</div>
