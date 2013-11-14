@@ -85,6 +85,7 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 
 
 h1, h2, h3{
+	-webkit-font-smoothing:antialiased;font-smoothing:antialiased;
 	font-weight: 300;
 	line-height: 1em;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
