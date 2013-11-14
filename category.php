@@ -16,9 +16,9 @@
 								<h2><?php the_title(); ?>
 									<?php if( get_field('subheadline') ): ?>
 										<span><?php the_field('subheadline'); ?></span>
+							<?php endif; ?>
 									</h2>
 								</div>
-							<?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>">
 								<?php
 								if (class_exists('MultiPostThumbnails')) :
@@ -46,9 +46,9 @@
 								<h2><?php the_title(); ?>
 									<?php if( get_field('subheadline') ): ?>
 										<span><?php the_field('subheadline'); ?></span>
+								<?php endif; ?>
 									</h2>
 								</div>
-								<?php endif; ?>
 								<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>">
 									<?php
 									if (class_exists('MultiPostThumbnails')) :
