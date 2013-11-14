@@ -10,6 +10,7 @@
                 <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
+               <?php endif; ?>
               </div>   
                   
                     <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
