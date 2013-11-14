@@ -202,9 +202,6 @@ input:focus {
 		background-color: black;
 		text-align: center;
 	}
-	ul:hover > a{
-		color:$yellow;
-	}
 	li{	
 		padding: 8px 5px 5px 5px;
 		list-style: none;
@@ -261,6 +258,9 @@ input:focus {
 	}
 	li:hover > ul{
 		display: block;
+	}
+	li:hover a{
+		color: $yellow;
 	}
 	a:hover{
 		color: $yellow;
