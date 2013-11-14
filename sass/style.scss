@@ -1346,7 +1346,10 @@ figure.alignright{
 
 .gallery-columns-4{
 	.gallery-item{
-		width: 25%;}
+		width: 25%;
+					@media only screen and (max-width:779px) {
+		width: 50%;
+	}}
 }
 
 .gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption{
