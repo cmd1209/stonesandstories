@@ -142,7 +142,7 @@ input:focus {
 
 
 .atmosphere{
-	z-index: 5;
+	z-index: 29;
 	position: absolute;
 	width: 230px;
 	height: 130px;
@@ -1360,4 +1360,5 @@ figure.alignright{
 
 .pp_overlay{
 	opacity: 90!important;
+	z-index:30;
 }
