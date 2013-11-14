@@ -34,7 +34,7 @@
                             <?php endif; ?>
                         </div>
                         <div class="col col30">
-                          <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
+                          <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>
                 </div>
               </div>
               <div class="toggle">
@@ -74,7 +74,7 @@
                           <?php endif; ?>
                       </div>
                       <div class="col col30">
-                        <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
+                        <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>
                       </div></div>
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
@@ -114,7 +114,7 @@
                             <?php endif; ?>
                         </div>
                         <div class="col col30">
-                          <?php the_tags('<ul class="post-categories"><li>','</li><li>','</li></ul>'); ?>
+                          <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>
                         </div></div>
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
