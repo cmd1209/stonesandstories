@@ -886,15 +886,17 @@ a.thumbnail{
 		cursor: default;
 	}
 	a.up{
-		border-right-color: $grey;
+		border-left-color: $grey;
 	}
 	a.up:hover{
-		border-right-color: black;
+		border-left-color: black;
 	}
 	a.down{
+		margin: 2px 5px 10px 0px;
    		border-bottom-color: $grey;
 	}
 	a.down:hover{
+		margin: 2px 5px 10px 0px;
    		border-bottom-color: black;
 	}
 	.toggle{
