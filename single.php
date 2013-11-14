@@ -28,7 +28,6 @@
             <?php endif; ?>
             <?php the_content(); ?>   
           </div>
-          </div>
         </div>
       </div>
     </div>
