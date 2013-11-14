@@ -202,6 +202,9 @@ input:focus {
 		background-color: black;
 		text-align: center;
 	}
+	ul:hover > a{
+		color:$yellow;
+	}
 	li{	
 		padding: 8px 5px 5px 5px;
 		list-style: none;
@@ -240,6 +243,7 @@ input:focus {
 				}
 			}	
 		}
+
 	}
 	a{	
 		padding: 5px;
