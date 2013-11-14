@@ -29,7 +29,7 @@ $(function() {
     var closepanel = $('.factbox').children('.toggle').hide();
     $('.trigger').click(function(){ 
       $('.trigger').removeClass("down").addClass("up");
-      closepanel.slideUp();
+      closepanel.stop().slideUp();
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       $(this).removeClass( "up" ).addClass( "down" );
       return false;
