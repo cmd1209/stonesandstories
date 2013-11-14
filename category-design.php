@@ -12,7 +12,7 @@
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
 
 						<div class="textwrap " style="margin-bottom:50px;">
-							<div class="singletitle" style="background-color:none;">
+							<div class="singletitle" style="background-color:#ecece6;">
 								<h2><?php the_title(); ?>
 									<?php if( get_field('subheadline') ): ?>
 										<span><?php the_field('subheadline'); ?></span>
