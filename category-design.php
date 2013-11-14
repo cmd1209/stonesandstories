@@ -11,7 +11,7 @@
 
           <?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
 
-            <div class="textwrap " style="margin-bottom:50px;">
+            <div class="textwrap underline " style="margin-bottom:50px;">
               <div class="singletitle" >
                 <h2><?php the_title(); ?>
                   <?php if( get_field('subheadline') ): ?>
@@ -42,7 +42,7 @@
           <div class="col col50">
             <?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) !== 0) : $wp_query->next_post(); else : the_post(); ?>
 
-              <div class=" textwrap" style="margin-bottom:50px;">
+              <div class=" textwrap underline" style="margin-bottom:50px;">
                 <div class="singletitle">
                   <h2><?php the_title(); ?>
                     <?php if( get_field('subheadline') ): ?>
