@@ -7,7 +7,7 @@
       <div class="module">
         <h1><span><?php single_cat_title(); ?></span></h1>
 
-        <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 3, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
+        <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <div class="textwrap col col50 underline">
             <h2 style="font-size: 45px;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
@@ -32,7 +32,7 @@
 
       <div class="archives col col100">
         <h2>Archives</h2>
-        <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 3, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
+        <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php while (have_posts()) : the_post(); ?>
           <li><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?><span><strong><br><?php the_date(); ?></strong></span></a></li>
         <?php endwhile; ?>
