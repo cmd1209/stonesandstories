@@ -153,13 +153,13 @@ input:focus {
 	-ms-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
-	-moz-transform: perspective( 125px ) rotateY( 10deg );
-	-webkit-transform: perspective( 125px ) rotateY( 10deg );
+	-moz-transform: perspective( 125px ) rotateY( 10deg ) rotateZ( 0 );
+	-webkit-transform: perspective( 125px ) rotateY( 10deg ) rotateZ( 0 );
 	transform-style: preserve-3d;
 		-webkit-box-shadow: 10px 0 20px -5px black;
 	   -moz-box-shadow: 10px 0 20px -5px black;
 		box-shadow: 10px 0 20px -5px black;
-	z-index: 26;
+	z-index: 41;
 
 	@media only screen and (max-width:1023px) {
 		display: none;
