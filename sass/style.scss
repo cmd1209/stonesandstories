@@ -170,17 +170,17 @@ input:focus {
 		height: 100%;
 	}
 }
-.atmosphere:hover{
-	-webkit-transition: all 0.7s ease;
-	-moz-transition: all 0.7s ease;
-	-ms-transition: all 0.7s ease;
-	-o-transition: all 0.7s ease;
-	transition: all 0.7s ease;
-	-moz-transform: perspective( 125px ) rotateY( 8deg );
-	-webkit-transform: perspective( 125px ) rotateY( 8deg );
-	opacity: 0.75;
-	filter:alpha(opacity=75); /* For IE8 and earlier */
-}
+// .atmosphere:hover{
+// 	-webkit-transition: all 0.7s ease;
+// 	-moz-transition: all 0.7s ease;
+// 	-ms-transition: all 0.7s ease;
+// 	-o-transition: all 0.7s ease;
+// 	transition: all 0.7s ease;
+// 	-moz-transform: perspective( 125px ) rotateY( 8deg );
+// 	-webkit-transform: perspective( 125px ) rotateY( 8deg );
+// 	opacity: 0.75;
+// 	filter:alpha(opacity=75); /* For IE8 and earlier */
+// }
 
 .navigation, .navigation-static{
 	width: 100%;
