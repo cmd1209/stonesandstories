@@ -886,10 +886,10 @@ a.thumbnail{
 		cursor: default;
 	}
 	a.up{
-		border-top-color: $grey;
+		border-right-color: $grey;
 	}
 	a.up:hover{
-		border-top-color: black;
+		border-right-color: black;
 	}
 	a.down{
    		border-bottom-color: $grey;
