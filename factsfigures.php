@@ -15,10 +15,10 @@
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
-              <a href="#"><?php the_title(); ?>
+              <a href="#"><?php the_title(); ?></a>
               <?php endif; ?>
               <ul>
-              <li><?php the_date('Y', '<p>', '</p>'); ?></li>
+              <li><?php the_date('Y'); ?></li>
               <li><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></li>
               </ul>
           </div>
