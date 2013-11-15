@@ -31,7 +31,7 @@
 
               </div>
               <div class="col100">
-                <ul class="post-categories"><li><?php if( get_field('factsfigures') ): ?><a href="#" class="trigger">facts & figures</a><?php endif; ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
+                <ul class="post-categories" style="overflow:hidden;"><li><?php if( get_field('factsfigures') ): ?><a href="#" class="trigger">facts & figures</a><?php endif; ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
               </div>     
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
