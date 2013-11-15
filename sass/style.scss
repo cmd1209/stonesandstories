@@ -859,9 +859,12 @@ a.thumbnail{
 		font-size:1.15em;
 		float: left;
 		margin-right: 10px;
+		padding-right: 10px;
+		border: 1px solid $darkgrey;
 	}
 	li{
 		float: left;
+		margin: 5px 0px 0 10px; 
 	}
 }
 
