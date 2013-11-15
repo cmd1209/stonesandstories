@@ -35,13 +35,13 @@
                         </div>
 
               </div>
-              <div class="col col100">
-                <ul class="post-categories"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
-              </div>
-              <div class="toggle">
+              <div class="toggle" style="width:75%;float:left;">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
+              </div>
+              <div class="col col25">
+                <ul class="post-categories"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
               </div>     
           </div>
           <?php endwhile; ?>
