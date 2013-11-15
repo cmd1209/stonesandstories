@@ -13,15 +13,15 @@
             <div style="width:100%;overflow:hidden;">
 
             <?php if($post->post_content != "") : ?>
-              <a style="text-transform:uppercase;font-weight:300;font-size:1.25em;float:left;margin-right:10px;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <a style="text-transform:uppercase;font-weight:300;font-size:1.15em;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
             <?php else: ?>
-              <a style="text-transform:uppercase;font-weight:300;font-size:1.25em;float:left;margin-right:10px;" href="#"><?php the_title(); ?></a>
+              <a style="text-transform:uppercase;font-weight:300;font-size:1.15em;" href="#"><?php the_title(); ?></a>
             <?php endif; ?>
 
-            <?php the_date('Y', '<p style="float:left;margin-right:10px;">', '</p>'); ?>
+<div style="position:absolute:top:0;right:0;">            <?php the_date('Y', '<p>', '</p>'); ?>
             <?php if( get_field('location') ): ?>
               <?php the_field('location'); ?>
-            <?php endif; ?>
+            <?php endif; ?></div>
 
               </div>
               <div class="col100">
