@@ -13,11 +13,16 @@
           
           <div style="width:100%;overflow:hidden;" class="factsheader">
             <?php if($post->post_content != "") : ?>
-              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?><span><?php the_date('Y', '<p', '</p>'); ?><span><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></span></span></a>
-            <?php else: ?>
-              <a href="#"><?php the_title(); ?><span><?php the_date('Y', '<p', '</p>'); ?><span><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></span></span></a>
-            <?php endif; ?>
+              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+              <?php else: ?>
+              <a href="#"><?php the_title(); ?>
+              <?php endif; ?>
+              <ul>
+              <li><?php the_date('Y', '<p', '</p>'); ?></li>
+              <li><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></li>
+              </ul>
           </div>
+
           <div class="col100">
                 <ul class="post-categories" style="overflow:hidden;margin-bottom:0px;"><li><?php if( get_field('factsfigures') ): ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?><?php endif; ?><a href="#" class="trigger">facts & figures</a><?php endif; ?></li></ul>
               </div>     

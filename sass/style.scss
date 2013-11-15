@@ -853,16 +853,17 @@ a.thumbnail{
 }
 
 .factsheader{
+	a{
 		text-transform:uppercase;
-		font-weight:300;
+	 	font-weight:300;
 		font-size:1.15em;
-		span{
-			font-size: 0.9em;
-			text-transform: normal;
-			color:$darkgrey;
-			margin-left: 10px;
-		}
+		float: left;
+		margin-right: 10px;
 	}
+	li{
+		float: left;
+	}
+}
 
 .factbox{
 	font-size: 0.85em;
