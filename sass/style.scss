@@ -543,6 +543,10 @@ section{
 	float: left;
 	width: 40%;
 }
+.col35{
+	float: left;
+	width: 35%;
+}
 .col30{
 	float: left;
 	width: 30%;
@@ -560,7 +564,7 @@ section{
 	width: 5%;
 }
 
-.col20, .col25, .col30, .col33, .col40, .col50, .col60, .col70, .col75, .col80, .col10, .col5{
+.col20, .col25, .col30, .col33, .col35, .col40, .col50, .col60, .col70, .col75, .col80, .col10, .col5{
 		@media only screen and (max-width:767px) {
 		width: 100%;
 	}

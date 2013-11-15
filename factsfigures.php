@@ -11,7 +11,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
             <div style="width:100%;overflow:hidden;">
-            <div class="col col80" style="padding-right: 20px;">
+            <div class="col col60" style="padding-right: 20px;">
                             <?php if($post->post_content != "") : ?>
                               <a style="text-transform:uppercase;font-weight:300;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
                             <?php else: ?>
@@ -20,10 +20,10 @@
                             
                         </div>
 
-                        <div class="col col10">
+                        <div class="col col5">
                           <?php the_date('Y', '<p>', '</p>'); ?>
                         </div>
-                        <div class="col col10" style="min-height: 1px;">
+                        <div class="col col35" style="min-height: 1px;">
                            <?php if( get_field('location') ): ?>
                                 <?php the_field('location'); ?>
                             <?php endif; ?>
@@ -31,7 +31,7 @@
 
               </div>
               <div class="col100">
-                <ul class="post-categories" style="overflow:hidden;"><li><?php if( get_field('factsfigures') ): ?><a href="#" class="trigger">facts & figures</a><?php endif; ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
+                <ul class="post-categories" style="overflow:hidden;"><li><?php if( get_field('factsfigures') ): ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?><?php endif; ?><a href="#" class="trigger">facts & figures</a><?php endif; ?></li></ul>
               </div>     
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
