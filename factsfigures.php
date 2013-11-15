@@ -11,7 +11,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
             <div style="width:100%;overflow:hidden;">
-            <div class="col col70" style="padding-right: 20px;">
+            <div class="col col60" style="padding-right: 20px;">
                             <?php if( get_field('factsfigures') ): ?>
                                 <a class="trigger up" href="#"></a>
                               <?php else: ?>
@@ -24,21 +24,24 @@
                             <?php endif; ?>
                             
                         </div>
+
                         <div class="col col10">
                           <?php the_date('Y', '<p>', '</p>'); ?>
                         </div>
-                        <div class="col col20" style="min-height: 1px;">
+                        <div class="col col30" style="min-height: 1px;">
                            <?php if( get_field('location') ): ?>
                                 <?php the_field('location'); ?>
                             <?php endif; ?>
                         </div>
 
               </div>
+              <div class="col col100">
+                <ul class="post-categories"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
+              </div>
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
-                <div class="col100"> <ul class="post-categories"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul></div>
               </div>     
           </div>
           <?php endwhile; ?>
