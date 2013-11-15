@@ -35,14 +35,14 @@
                         </div>
 
               </div>
+              <div class="col100">
+                <ul class="post-categories"><li style="float:left;"><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
+              </div>     
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
               </div>
-              <div class="col100">
-                <ul class="post-categories" style="text-align:left;"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
-              </div>     
           </div>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>  
