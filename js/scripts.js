@@ -25,6 +25,12 @@ $(function() {
 	});
 });
 
+$(function() {
+    $('.trigger').click(function(){ 
+      $(this).closest('.factbox').children('.toggle').slideToggle("fast");
+      return false;
+    });
+});
 
 $(function() {
     $('#factstoggle').click(function(){ 
