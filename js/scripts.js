@@ -25,16 +25,6 @@ $(function() {
 	});
 });
 
-$(function() {
-    var closepanel = $('.factbox').children('.toggle').hide();
-    $('.trigger').click(function(){ 
-      $('.trigger').removeClass("down").addClass("up");
-      closepanel.slideUp();
-      $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).removeClass( "up" ).addClass( "down" );
-      return false;
-    });
-});
 
 $(function() {
     $('#factstoggle').click(function(){ 
