@@ -18,14 +18,16 @@
               <a style="text-transform:uppercase;font-weight:300;font-size:1.15em;" href="#"><?php the_title(); ?></a>
             <?php endif; ?>
 
-<div style="position:absolute;top:0;right:0;">            <?php the_date('Y', '<p>', '</p>'); ?>
+            <div style="position:absolute;top:0;right:0;">
+              <?php the_date('Y', '<p style="float:right;margin:10px;">', '</p>'); ?>
             <?php if( get_field('location') ): ?>
               <?php the_field('location'); ?>
-            <?php endif; ?></div>
+            <?php endif; ?>
+            </div>
 
               </div>
               <div class="col100">
-                <ul class="post-categories" style="overflow:hidden;"><li><?php if( get_field('factsfigures') ): ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?><?php endif; ?><a href="#" class="trigger">facts & figures</a><?php endif; ?></li></ul>
+                <ul class="post-categories" style="overflow:hidden;margin-bottom:0px;"><li><?php if( get_field('factsfigures') ): ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?><?php endif; ?><a href="#" class="trigger">facts & figures</a><?php endif; ?></li></ul>
               </div>     
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
