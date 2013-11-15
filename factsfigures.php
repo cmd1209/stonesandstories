@@ -11,14 +11,14 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
             <div style="width:100%;overflow:hidden;">
-            <div class="col col60" style="padding-right: 20px;">
+            <div class="col col80" style="padding-right: 20px;">
                             <?php if( get_field('factsfigures') ): ?>
                                 <a class="trigger up" href="#"></a>
                               <?php else: ?>
                                 <a class="blanktrigger" href="#"></a>
                             <?php endif; ?>
                             <?php if($post->post_content != "") : ?>
-                              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                              <a style="text-transform:uppercase:font-weight:300;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
                             <?php else: ?>
                               <a href="#"><?php the_title(); ?></a>
                             <?php endif; ?>
@@ -28,7 +28,7 @@
                         <div class="col col10">
                           <?php the_date('Y', '<p>', '</p>'); ?>
                         </div>
-                        <div class="col col30" style="min-height: 1px;">
+                        <div class="col col10" style="min-height: 1px;">
                            <?php if( get_field('location') ): ?>
                                 <?php the_field('location'); ?>
                             <?php endif; ?>
