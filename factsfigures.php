@@ -12,11 +12,7 @@
           <div class="factbox" id="<?php the_title(); ?>">
             <div style="width:100%;overflow:hidden;">
             <div class="col col80" style="padding-right: 20px;">
-                            <?php if( get_field('factsfigures') ): ?>
-                                <a class="trigger up" href="#"></a>
-                              <?php else: ?>
-                                <a class="blanktrigger" href="#"></a>
-                            <?php endif; ?>
+
                             <?php if($post->post_content != "") : ?>
                               <a style="text-transform:uppercase;font-weight:300;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
                             <?php else: ?>
@@ -36,7 +32,7 @@
 
               </div>
               <div class="col100">
-                <ul class="post-categories"><li style="float:left;"><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
+                <ul class="post-categories"><li><a href="#" class="trigger">facts & figures</a></li><li style="float:left;"><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
               </div>     
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
