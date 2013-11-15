@@ -22,16 +22,7 @@
           </div>
 
           <div class="col100">
-                <ul class="post-categories" style="overflow:hidden;margin-bottom:0px;">
-                  <li>
-                  <?php if( get_field('factsfigures') ): ?>
-                  <?php if( get_field('custom-links') ): ?>
-                    <?php the_field('custom-links'); ?>
-                  <?php endif; ?>
-                  <a href="#" class="trigger">facts & figures</a>
-                  <?php endif; ?>
-                  </li>
-                </ul>
+                <ul class="post-categories" style="overflow:hidden;margin-bottom:0px;"><li><?php if( get_field('factsfigures') ): ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?><?php endif; ?><a href="#" class="trigger">facts & figures</a><?php endif; ?></li></ul>
               </div>     
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
