@@ -10,16 +10,15 @@
           <?php query_posts( array( 'category__in' => array(60,12,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
-            <div style="width:100%;overflow:hidden;">
-
+          
+          <div style="width:100%;overflow:hidden;" class="factsheader">
             <?php if($post->post_content != "") : ?>
-              <a style="text-transform:uppercase;font-weight:300;font-size:1.15em;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?><span><?php the_date('Y', '<p', '</p>'); ?><span><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></span></span></a>
+              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?><span><?php the_date('Y', '<p', '</p>'); ?><span><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></span></span></a>
             <?php else: ?>
-              <a style="text-transform:uppercase;font-weight:300;font-size:1.15em;" href="#"><?php the_title(); ?><span><?php the_date('Y', '<p', '</p>'); ?><span><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></span></span></a>
+              <a href="#"><?php the_title(); ?><span><?php the_date('Y', '<p', '</p>'); ?><span><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></span></span></a>
             <?php endif; ?>
-
-              </div>
-              <div class="col100">
+          </div>
+          <div class="col100">
                 <ul class="post-categories" style="overflow:hidden;margin-bottom:0px;"><li><?php if( get_field('factsfigures') ): ?><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?><?php endif; ?><a href="#" class="trigger">facts & figures</a><?php endif; ?></li></ul>
               </div>     
               <div class="toggle">

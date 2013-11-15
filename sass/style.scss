@@ -868,6 +868,19 @@ a.thumbnail{
 		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
+	
+	.factsheader{
+		text-transform:uppercase;
+		font-weight:300;
+		font-size:1.15em;
+		span{
+			font-size: 0.9em;
+			text-transform: normal;
+			color:$darkgrey;
+			margin-left: 10px;
+		}
+	}
+
 	// a.trigger{
 	// 	height: 2px;
  //   		width: 0;
