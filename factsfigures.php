@@ -18,7 +18,7 @@
               <a style="text-transform:uppercase;font-weight:300;font-size:1.15em;" href="#"><?php the_title(); ?></a>
             <?php endif; ?>
 
-<div style="position:absolute:top:0;right:0;">            <?php the_date('Y', '<p>', '</p>'); ?>
+<div style="position:absolute;top:0;right:0;">            <?php the_date('Y', '<p>', '</p>'); ?>
             <?php if( get_field('location') ): ?>
               <?php the_field('location'); ?>
             <?php endif; ?></div>
