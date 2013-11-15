@@ -35,7 +35,7 @@
                         </div>
 
               </div>
-              <div class="toggle">
+              <div class="toggle" style="background-color:black;">
                <div class="col col75">
                <?php if( get_field('factsfigures') ): ?>
                                    <?php the_field('factsfigures'); ?>
