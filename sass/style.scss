@@ -874,6 +874,9 @@ a.thumbnail{
 	overflow: hidden;
 	border-bottom: 1px solid $grey;
 	position: relative;
+	-webkit-box-shadow: 0px 5px 20px $darkestgrey;
+	-moz-box-shadow: 0px 5px 20px $darkestgrey;
+	box-shadow: 0px 5px 20px $darkestgrey;
 	p{
 		margin: 0;
 	}
