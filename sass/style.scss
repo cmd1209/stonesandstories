@@ -862,6 +862,7 @@ a.thumbnail{
 		margin-right: 10px;
 		padding-right: 10px;
 		border-right: 1px solid $darkgrey;
+		display: block;
 	}
 	li{
 		padding: 2px 0px 5px 10px; 
@@ -874,9 +875,9 @@ a.thumbnail{
 	overflow: hidden;
 	border-bottom: 1px solid $grey;
 	position: relative;
-	-webkit-box-shadow: 0px 5px 20px $darkestgrey;
-	-moz-box-shadow: 0px 5px 20px $darkestgrey;
-	box-shadow: 0px 5px 20px $darkestgrey;
+	-webkit-box-shadow: 0px 5px 5px $darkestgrey;
+	-moz-box-shadow: 0px 5px 5px $darkestgrey;
+	box-shadow: 0px 5px 5px $darkestgrey;
 	p{
 		margin: 0;
 	}
