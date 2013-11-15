@@ -18,7 +18,7 @@
               <a href="#"><?php the_title(); ?>
               <?php endif; ?>
               <ul>
-              <li><?php the_date('Y', '<p', '</p>'); ?></li>
+              <li><?php the_date('Y', '<p>', '</p>'); ?></li>
               <li><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></li>
               </ul>
           </div>
