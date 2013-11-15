@@ -17,10 +17,8 @@
               <?php else: ?>
               <a href="#"><?php the_title(); ?></a>
               <?php endif; ?>
-              <ul>
               <li><?php the_date('Y'); ?></li>
               <li><?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?></li>
-              </ul>
           </div>
 
           <div class="col100">
