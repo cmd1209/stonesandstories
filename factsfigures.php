@@ -39,11 +39,13 @@
                <div class="col col75">
                <?php if( get_field('factsfigures') ): ?>
                                    <?php the_field('factsfigures'); ?>
-                               <?php endif; ?></div>
-              </div>
-              <div class="col col25">
+                               <?php endif; ?>
+                </div>
+                <div class="col col25">
                 <ul class="post-categories"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
-              </div>     
+              </div> 
+              </div>
+                  
           </div>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>  
