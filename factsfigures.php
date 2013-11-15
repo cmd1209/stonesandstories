@@ -40,8 +40,8 @@
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
               </div>
-              <div class="col100" style="background-color: rgb(70,70,70);overflow:hidden;">
-                <ul class="post-categories"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
+              <div class="col100">
+                <ul class="post-categories" style="text-align:left;"><li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?></ul>
               </div>     
           </div>
           <?php endwhile; ?>
