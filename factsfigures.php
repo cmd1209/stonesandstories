@@ -11,23 +11,17 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
             <div style="width:100%;overflow:hidden;">
-            <div class="col col60" style="padding-right: 20px;">
-                            <?php if($post->post_content != "") : ?>
-                              <a style="text-transform:uppercase;font-weight:300;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
-                            <?php else: ?>
-                              <a href="#"><?php the_title(); ?></a>
-                            <?php endif; ?>
-                            
-                        </div>
 
-                        <div class="col col5">
-                          <?php the_date('Y', '<p>', '</p>'); ?>
-                        </div>
-                        <div class="col col35" style="min-height: 1px;">
-                           <?php if( get_field('location') ): ?>
-                                <?php the_field('location'); ?>
-                            <?php endif; ?>
-                        </div>
+            <?php if($post->post_content != "") : ?>
+              <a style="text-transform:uppercase;font-weight:300;font-size:1.25em;" href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+            <?php else: ?>
+              <a href="#"><?php the_title(); ?></a>
+            <?php endif; ?>
+
+            <?php the_date('Y', '<p>', '</p>'); ?>
+            <?php if( get_field('location') ): ?>
+              <?php the_field('location'); ?>
+            <?php endif; ?>
 
               </div>
               <div class="col100">
