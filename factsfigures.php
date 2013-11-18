@@ -11,7 +11,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
-          <div class="col col2">
+          <div class="col col1">
             <a href="#" class="trigger"></a>
           </div>
           <div class="col col60">
@@ -29,7 +29,7 @@
               <?php the_field('location'); ?>
             <?php endif; ?>
           </div>
-          <div class="col col28">
+          <div class="col col29">
             <?php if( get_field('divisions') ): ?>
                   <?php the_field('divisions'); ?>
             <?php endif; ?>
