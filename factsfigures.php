@@ -8,9 +8,8 @@
 
           <div class="textwrap">
           <?php query_posts( array( 'category__in' => array(60,12,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
-          <?php while (have_posts()) : the_post(); ?>
-          
-          <div class="factbox" id="<?php the_title(); ?>">
+<?php while (have_posts()) : the_post(); ?>
+<div class="factbox" id="<?php the_title(); ?>">
   <div class="factsheader">
     <div class="col60">
       <?php if($post->post_content != "") : ?>
@@ -23,7 +22,9 @@
       <?php the_date('Y'); ?>
     </div>
     <div class="col5">
-      <?php if( get_field('location') ): ?><?php the_field('location'); ?><?php endif; ?>
+      <?php if( get_field('location') ): ?>
+        <?php the_field('location'); ?>
+      <?php endif; ?>
     </div>
     <div class="col30">
       <?php if( get_field('divisions') ): ?>
@@ -36,8 +37,9 @@
     <?php endif; ?>   
   </div>
 </div>
-          <?php endwhile; ?>
-          <?php wp_reset_query(); ?>  
+<?php endwhile; ?>
+<?php wp_reset_query(); ?> 
+          </div>   
 
 
     </div>
