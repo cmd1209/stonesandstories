@@ -160,13 +160,12 @@ input:focus {
 	z-index: 25;
 }
 
-
 .atmosphere{
 	position: absolute;
 	width: 269px;
 	height: 189px;
 	top:5px;
-	left:-20px;
+	left:-25px;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
 	-ms-transition: all 0.25s ease;
@@ -174,7 +173,7 @@ input:focus {
 	transition: all 0.25s ease;
 	z-index: 41;
 
-	@media only screen and (max-width:1023px) {
+	@media only screen and (max-width:1139px) {
 		display: none;
 	}
 }
