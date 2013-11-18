@@ -172,7 +172,7 @@ input:focus {
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 	z-index: 41;
-	@media (max-width:1139px) and (min-width:1024px) {
+	@media only screen and (min-width:1024px) and (max-width:1139px) {
 		width: 220px;
 		height: auto;
 	}
