@@ -28,7 +28,7 @@ $(function() {
 $(function() {
     $('.trigger').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).toggleclass("active");
+      $(this).toggleClass("active");
       return false;
     });
 });
