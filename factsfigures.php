@@ -55,7 +55,7 @@
 
           <div class="col100">
             <h2>Projekte</h2>
-          <?php query_posts( array( 'category__in' => array(60,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
+          <?php query_posts( array( 'category__in' => array(60,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'exclude '=> array(73) ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
