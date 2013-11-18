@@ -18,7 +18,7 @@
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
-              <a href="#"><?php the_title(); ?></a>
+              <a href="#" class="title"><?php the_title(); ?></a>
               <?php endif; ?>
           </div>
           <div class="col col5">
@@ -30,8 +30,8 @@
             <?php endif; ?>
           </div>
           <div class="col col28">
-            <?php if( get_field('divisions') ): ?>
-                  <?php the_field('divisions'); ?>
+            <?php if( get_field('divsions') ): ?>
+                  <?php the_field('divsions'); ?>
             <?php endif; ?>
           </div>
           </div>
