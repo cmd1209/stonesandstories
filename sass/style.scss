@@ -172,12 +172,12 @@ input:focus {
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 	z-index: 41;
+	@media only screen and (max-width:1023px) {
+		display: none;
+	}
 	@media only screen and (min-width:1024px) and (max-width:1139px) {
 		width: 220px;
 		height: auto;
-	}
-	@media only screen and (max-width:1023px) {
-		display: none;
 	}
 }
 .atmosphere:hover{
