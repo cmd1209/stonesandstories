@@ -867,9 +867,6 @@ a.thumbnail{
 		border-right: 1px solid $darkgrey;
 		display: block;
 	}
-	li{
-		padding: 2px 0px 5px 10px; 
-	}
 }
 
 .factbox{
@@ -888,42 +885,41 @@ a.thumbnail{
 		margin: 2px 2px 2px 0;
 	}
 
-
-	// a.trigger{
-	// 	height: 2px;
- //   		width: 0;
- //   		border: 6px solid transparent;
- //   		float: left;
- //   		margin: 4px 5px 10px 0px;
-	// }
-	// a.trigger:hover{
-	// 	background-color: transparent!important;
-	// }
-	// a.blanktrigger{
-	// 	height: 2px;
- //   		width: 0;
- //   		border: 6px solid transparent;
- //   		float: left;
- //   		margin: 4px 5px 10px 0px;
-	// }
-	// a.blanktrigger:hover{
-	// 	background-color: white;
-	// 	cursor: default;
-	// }
-	// a.up{
-	// 	border-left-color: $grey;
-	// }
-	// a.up:hover{
-	// 	border-left-color: black;
-	// }
-	// a.down{
-	// 	margin: 2px 5px 10px 0px;
- //   		border-bottom-color: $grey;
-	// }
-	// a.down:hover{
-	// 	margin: 2px 5px 10px 0px;
- //   		border-bottom-color: black;
-	// }
+	a.trigger{
+		height: 2px;
+   		width: 0;
+   		border: 6px solid transparent;
+   		float: left;
+   		margin: 4px 5px 10px 0px;
+	}
+	a.trigger:hover{
+		background-color: transparent!important;
+	}
+	a.blanktrigger{
+		height: 2px;
+   		width: 0;
+   		border: 6px solid transparent;
+   		float: left;
+   		margin: 4px 5px 10px 0px;
+	}
+	a.blanktrigger:hover{
+		background-color: white;
+		cursor: default;
+	}
+	a.up{
+		border-left-color: $grey;
+	}
+	a.up:hover{
+		border-left-color: black;
+	}
+	a.down{
+		margin: 2px 5px 10px 0px;
+   		border-bottom-color: $grey;
+	}
+	a.down:hover{
+		margin: 2px 5px 10px 0px;
+   		border-bottom-color: black;
+	}
 	.toggle{
 		width: 100%;
 		padding: 5px 5px 5px 20px;
@@ -937,9 +933,6 @@ a.thumbnail{
 		}
 	}
 }
-// .factbox:hover{
-// 	background-color: #f9f9f9; 
-// }
 
 .archives{
 	background-color: $lightgrey;

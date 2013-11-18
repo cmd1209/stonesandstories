@@ -11,22 +11,25 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
-          <div class="col60">
+          <div class="col col5">
+            <a href="#" class="trigger"></a>
+          </div>
+          <div class="col col60">
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
               <a href="#"><?php the_title(); ?></a>
               <?php endif; ?>
           </div>
-          <div class="col5">
+          <div class="col col5">
             <?php the_date('Y'); ?>
           </div>
-          <div class="col5">
+          <div class="col col5">
             <?php if( get_field('location') ): ?>
               <?php the_field('location'); ?>
             <?php endif; ?>
           </div>
-          <div class="col30">
+          <div class="col col25">
             <?php if( get_field('divisions') ): ?>
                   <?php the_field('divisions'); ?>
             <?php endif; ?>
