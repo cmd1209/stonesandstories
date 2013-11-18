@@ -22,18 +22,20 @@
               <?php endif; ?>
           </div>
           <div class="col col5">
-            <?php the_date('Y'); ?>
+            <p><?php the_date('Y'); ?></p>
           </div>
           <div class="col col10">
             <?php if( get_field('location') ): ?>
-              <?php the_field('location'); ?>
+              <p><?php the_field('location'); ?></p>
             <?php endif; ?>
           </div>
           <div class="col col28">
             <ul class="post-categories">
+              <li>
             <?php if( get_field('divsions') ): ?>
                   <?php the_field('divsions'); ?>
             <?php endif; ?>
+              </li>
             </ul>
           </div>
           </div>

@@ -871,6 +871,13 @@ a.thumbnail{
 .factsheader{
 	overflow: hidden;
 	a{
+	 	font-weight:600;
+		font-size:1.10em;
+		float: left;
+		display: block;
+		white-space: nobreak;
+	}
+	p{
 	 	font-weight:300;
 		font-size:1.10em;
 		float: left;
