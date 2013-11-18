@@ -167,13 +167,16 @@ input:focus {
 	top:5px;
 	left:-25px;
 	z-index: 41;
+	img{
+		width: 100%;
+		@media only screen and (min-width:1024px) and (max-width:1139px) {
+		width: 75%;
+	}
+	}
 	@media only screen and (max-width:1023px) {
 		display: none;
 	}
-	@media only screen and (min-width:1024px) and (max-width:1139px) {
-		width: 220px;
-		height: auto;
-	}
+
 }
 .atmosphere:hover{
 	opacity: 0.75;
