@@ -885,26 +885,14 @@ a.thumbnail{
 	}
 
 	a.trigger{
-		background-color: $darkgrey;
 		height: 2px;
    		width: 0;
    		border: 6px solid transparent;
-   		float: left;
    		margin: 4px 5px 10px 0px;
+   		border-left-color: $grey;
 	}
 	a.trigger:hover{
 		background-color: transparent!important;
-	}
-	a.blanktrigger{
-		height: 2px;
-   		width: 0;
-   		border: 6px solid transparent;
-   		float: left;
-   		margin: 4px 5px 10px 0px;
-	}
-	a.blanktrigger:hover{
-		background-color: white;
-		cursor: default;
 	}
 	a.up{
 		border-left-color: $grey;
