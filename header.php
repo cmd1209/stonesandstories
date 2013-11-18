@@ -26,19 +26,22 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
-
-        <div class="masthead wrapper">
+    <div class="wrapper">
+        <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
-          <div class="atmosphere wrapper">
+          <div class="atmosphere">
             <a href="<?php echo get_permalink(127); ?>" class="filmbutton"><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/videobutton.png" alt="youtube"></a>
           </div>
         </div>
-        <div class="navigation wrapper">
+        <div class="navigation">
           <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
               <?php get_template_part('searchform'); ?>
           </div>
         </div>
+    </div>
+
+
       <div class="wrapper" id="stage">
