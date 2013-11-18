@@ -146,9 +146,8 @@ input:focus {
 	position: absolute;
 	width: 269px;
 	height: 189px;
-	top:23px;
-	left: 50%;
-	margin: 0 0 0 -625px;
+	top:5px;
+	left:0px;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
 	-ms-transition: all 0.25s ease;
@@ -171,8 +170,6 @@ input:focus {
 	-ms-transition: all 0.7s ease;
 	-o-transition: all 0.7s ease;
 	transition: all 0.7s ease;
-	-moz-transform: perspective( 50px ) rotateY( 5deg );
-	-webkit-transform: perspective( 50px ) rotateY( 5deg );
 	opacity: 0.75;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
 }
