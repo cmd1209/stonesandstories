@@ -856,7 +856,7 @@ a.thumbnail{
 }
 
 .factsheader{
-	padding: 10px 0 0 0;
+	overflow: hidden;
 	a{
 		text-transform:uppercase;
 	 	font-weight:300;
@@ -864,7 +864,6 @@ a.thumbnail{
 		float: left;
 		margin-right: 10px;
 		padding-right: 10px;
-		border-right: 1px solid $darkgrey;
 		display: block;
 	}
 }
