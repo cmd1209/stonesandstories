@@ -917,6 +917,10 @@ a.thumbnail{
 		border-left-color: transparent;
 		border-top-color: black;
 	}
+	a.active:hover{
+		border-left-color: transparent;
+		border-top-color: $grey;
+	}
 
 	.toggle{
 		width: 100%;
