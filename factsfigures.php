@@ -16,7 +16,7 @@
           <div class="col col2">
             <a href="#" class="trigger"></a>
           </div>
-          <div class="col col55">
+          <div class="col col50">
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
@@ -26,7 +26,7 @@
           <div class="col col5">
             <p>Aktuell</p>
           </div>
-          <div class="col col10">
+          <div class="col col15">
             <?php if( get_field('location') ): ?>
               <p><?php the_field('location'); ?></p>
             <?php endif; ?>
@@ -62,7 +62,7 @@
           <div class="col col2">
             <a href="#" class="trigger"></a>
           </div>
-          <div class="col col55">
+          <div class="col col50">
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
@@ -72,7 +72,7 @@
           <div class="col col5">
             <p><?php the_date('Y'); ?></p>
           </div>
-          <div class="col col10">
+          <div class="col col15">
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col col28">
