@@ -79,7 +79,7 @@
             <ul class="post-categories">
               <li>
             <?php if( get_field('divsions') ): ?>
-                  <?php the_field('divsions','order' => 'DESC'); ?>
+                  <?php the_field( array('divsions', 'order' => 'DESC')); ?>
             <?php endif; ?>
               </li>
             </ul>
