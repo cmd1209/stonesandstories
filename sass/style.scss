@@ -913,6 +913,10 @@ a.thumbnail{
 		border-left-color: black;
 		background-color: transparent!important;
 	}
+	a.active{
+		border-left-color: transparent;
+		border-top-color: black;
+	}
 
 	.toggle{
 		width: 100%;
