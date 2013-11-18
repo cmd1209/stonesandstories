@@ -166,11 +166,6 @@ input:focus {
 	height: 189px;
 	top:5px;
 	left:-25px;
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	-o-transition: all 0.25s ease;
-	transition: all 0.25s ease;
 	z-index: 41;
 	@media only screen and (max-width:1023px) {
 		display: none;
@@ -181,11 +176,6 @@ input:focus {
 	}
 }
 .atmosphere:hover{
-	-webkit-transition: all 0.7s ease;
-	-moz-transition: all 0.7s ease;
-	-ms-transition: all 0.7s ease;
-	-o-transition: all 0.7s ease;
-	transition: all 0.7s ease;
 	opacity: 0.75;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
 }
