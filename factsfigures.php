@@ -16,7 +16,7 @@
           <div class="col col2">
             <a href="#" class="trigger"></a>
           </div>
-          <div class="col col50">
+          <div class="col col50" style="padding-right:10px;">
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
@@ -62,7 +62,7 @@
           <div class="col col2">
             <a href="#" class="trigger"></a>
           </div>
-          <div class="col col50">
+          <div class="col col50" style="padding-right:10px;">
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
