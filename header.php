@@ -35,7 +35,6 @@
             <a href="<?php echo get_permalink(127); ?>" class="filmbutton"><img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2013/11/videobutton.png" alt="youtube"></a>
           </div>
         </div>
-
         <div class="navigation">
           <div class="bmenu wrapper" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
