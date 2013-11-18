@@ -28,6 +28,7 @@ $(function() {
 $(function() {
     $('.trigger').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
+      $(this).css('border-bottom-color','black')
       return false;
     });
 });

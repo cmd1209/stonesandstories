@@ -910,22 +910,10 @@ a.thumbnail{
    		border-left-color: $grey;
 	}
 	a.trigger:hover{
+		border-left-color: black;
 		background-color: transparent!important;
 	}
-	a.up{
-		border-left-color: $grey;
-	}
-	a.up:hover{
-		border-left-color: black;
-	}
-	a.down{
-		margin: 2px 5px 10px 0px;
-   		border-bottom-color: $grey;
-	}
-	a.down:hover{
-		margin: 2px 5px 10px 0px;
-   		border-bottom-color: black;
-	}
+
 	.toggle{
 		width: 100%;
 		padding: 5px 5px 5px 20px;
@@ -1085,7 +1073,7 @@ a.triangle{
 		font-size: 0.65em;
 	}
 }
-a.triangle:hover,{
+a.triangle:hover{
 	color: black;
 	padding: 10px 10px 10px 70px;
 	background-color: $yellow;
