@@ -73,9 +73,7 @@
             <p><?php the_date('Y'); ?></p>
           </div>
           <div class="col col10">
-            <?php if( get_field('location') ): ?>
               <p><?php the_field('location'); ?></p>
-            <?php endif; ?>
           </div>
           <div class="col col28">
             <ul class="post-categories">
