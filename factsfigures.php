@@ -8,9 +8,9 @@
 
           <div class="textwrap">
           <?php query_posts( array( 'category__in' => array(60,12,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
-<?php while (have_posts()) : the_post(); ?>
-<div class="factbox" id="<?php the_title(); ?>">
-  <div class="factsheader">
+          <?php while (have_posts()) : the_post(); ?>
+          
+          <div class="factsheader">
     <div class="col60">
       <?php if($post->post_content != "") : ?>
         <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
@@ -30,16 +30,16 @@
       <?php if( get_field('divisions') ): ?>
         <?php the_field('divisions'); ?>
     </div>
-  </div>
-  <div class="toggle">
-    <?php if( get_field('factsfigures') ): ?>
-      <?php the_field('factsfigures'); ?>
-    <?php endif; ?>   
-  </div>
-</div>
-<?php endwhile; ?>
+  </div>     
+              <div class="toggle">
+               <?php if( get_field('factsfigures') ): ?>
+                    <?php the_field('factsfigures'); ?>
+                <?php endif; ?>
+              </div>
+          </div>
+          <?php endwhile; ?>
+          <?php wp_reset_query(); ?>  
           </div>   
-<?php wp_reset_query(); ?> 
 
 
     </div>
