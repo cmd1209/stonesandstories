@@ -19,13 +19,13 @@
 	</a>
 </figure>
 
-<figure>
+<figure class="option">
 	<a class="thumbnail" href="http://www.waelderhaus.de/architektier/" target="blank">
 		<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/architechtier.jpg" alt="" >
 	</a>
 </figure>
 
-<figure>
+<figure class="option">
 	<a class="thumbnail" href="http://www.humboldt-forum.de/humboldt-lab-dahlem/" target="blank">
 		<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/Probebühne3.jpg" alt="" >
 	</a>

@@ -56,3 +56,13 @@ $(function(){
                 }
         });
 });
+
+
+$(window).bind('resize',function () {
+
+    if ($("body").height() > $(window).height()) {
+        jQuery(".option").fadeIn(200);
+    } else {
+        jQuery(".option").hide(100);
+    }
+});
