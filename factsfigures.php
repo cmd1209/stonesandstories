@@ -56,7 +56,7 @@
           <?php wp_reset_query(); ?>  
           </div> 
 
-          <?php query_posts( array( 'category__in' => array(60,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73))); ?>
+          <?php query_posts( array( 'category__in' => array(60,11), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73,751))); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
