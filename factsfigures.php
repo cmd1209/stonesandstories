@@ -92,7 +92,7 @@
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>  
           </div> 
-          </div>   
+
 
 
     </div>
