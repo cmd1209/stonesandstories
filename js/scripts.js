@@ -57,10 +57,18 @@ $(function(){
         });
 });
 
-// $(function(){
-//     if ($(".maincontent").height() < 250) {
-//         $(".option1").fadeIn(200);
-//     } else {
-//         $(".option1").hide(100);
-//     }
-// });
+$(function(){
+    if ($(".maincontent").height() < 850) {
+        $(".option1").fadeIn(200);
+    } else {
+        $(".option1").hide(100);
+    }
+});
+
+$(function(){
+    if ($(".maincontent").height() < 1025) {
+        $(".option2").fadeIn(200);
+    } else {
+        $(".option2").hide(100);
+    }
+});
