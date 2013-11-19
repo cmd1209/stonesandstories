@@ -65,15 +65,6 @@ $(function(){
     }
 });
 
-
- $(window).resize(function(){
-    if ($(".maincontent").height() > 1200) {
-        $(".option2").fadeIn(200);
-    } else {
-        $(".option2").hide(100);
-    }
- });
-
  $(function(){
     if ($(".maincontent").height() > 1600) {
         $(".option1").fadeIn(200);
@@ -81,12 +72,3 @@ $(function(){
         $(".option1").hide(100);
     }
 });
-
-
- $(window).resize(function(){
-    if ($(".maincontent").height() > 1600) {
-        $(".option1").fadeIn(200);
-    } else {
-        $(".option1").hide(100);
-    }
- });
