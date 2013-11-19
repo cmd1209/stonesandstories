@@ -24,7 +24,7 @@
             <?php if($post->post_content != "") : ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
               <?php else: ?>
-              <p><?php the_title(); ?></p>
+              <p class="title"><?php the_title(); ?></p>
               <?php endif; ?>
           </div>
           <div class="col col5">
