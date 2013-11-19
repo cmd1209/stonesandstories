@@ -60,10 +60,10 @@ $(function(){
 $(function(){
 $(window).bind('resize',function () {
 
-    if ($("body").height() > $(window).height()) {
-        jQuery(".option").fadeIn(200);
+    if ($("body").height() > 250) {
+        $(".option").fadeIn(200);
     } else {
-        jQuery(".option").hide(100);
+        $(".option").hide(100);
     }
 });
 });
