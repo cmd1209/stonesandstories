@@ -56,3 +56,9 @@ $(function(){
                 }
         });
 });
+
+$(function(){
+  if ($('.maincontent').height() > 1500) {
+    $('.option2').hide();
+  }
+});
