@@ -58,12 +58,9 @@ $(function(){
 });
 
 $(function(){
-$(window).bind('resize',function () {
-
     if ($(".maincontent").height() < 250) {
         $(".option").fadeIn(200);
     } else {
         $(".option").hide(100);
     }
-});
 });
