@@ -14,7 +14,11 @@
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
           <div class="col col2">
-            <a href="#" class="trigger"></a>
+            <?php if($post->post_content != "") : ?>
+              <a href="#" class="trigger"></a>
+              <?php else: ?>
+              
+              <?php endif; ?>
           </div>
           <div class="col col50" style="padding-right:10px;">
             <?php if($post->post_content != "") : ?>
