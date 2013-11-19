@@ -17,7 +17,7 @@
             <?php if($post->post_content != "") : ?>
               <a href="#" class="trigger"></a>
               <?php else: ?>
-              
+              <a href="#"></a>
               <?php endif; ?>
           </div>
           <div class="col col50" style="padding-right:10px;">
