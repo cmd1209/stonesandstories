@@ -416,6 +416,7 @@ section{
 	height: 100%;
 	border-left: 10px solid white;
 	background-color: black;
+	overflow: scroll;
 	a:hover{
 		opacity: 0.85;
 		filter:alpha(opacity=85); /* For IE8 and earlier */
