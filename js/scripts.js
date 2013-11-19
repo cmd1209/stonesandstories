@@ -58,7 +58,7 @@ $(function(){
 });
 
 $(function(){
-  if ($('.maincontent').height() > 1500) {
+  if ($('.maincontent').height() > 1000) {
     $('.option2').hide();
   }
 });
