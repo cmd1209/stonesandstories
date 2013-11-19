@@ -10,7 +10,7 @@
         <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <div class="textwrap col col50 underline">
-            <h2 style="font-size: 35px;text-transform:uppercase;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+            <h2 style="font-size: 30px;text-transform:uppercase;font-weight:300;"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
             <?php if( get_field('subheadline') ): ?>
               <h2><?php the_field('subheadline'); ?></h2>
             <?php endif; ?>
@@ -32,8 +32,8 @@
         <h2>Archives</h2>
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php while (have_posts()) : the_post(); ?>
-          <div class="col col60"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></div>
-          <div class="col col40"><?php the_date(); ?></div>
+          <li><div class="col col60"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></div>
+                    <div class="col col40"><?php the_date(); ?></div></li>
         <?php endwhile; ?>
         <?php wp_reset_query(); ?>  
       </div>
