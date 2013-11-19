@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
-    <div class="col maincontent">
+    <div class="col maincontent"main>
       
       <div class="col col100">
         <div class="module">
