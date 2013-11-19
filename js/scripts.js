@@ -58,7 +58,7 @@ $(function(){
 });
 
 $(function(){
-    if ($(".maincontent").height() < 1055) {
+    if ($(".maincontent").height() > 1055) {
         $(".option2").fadeIn(200);
     } else {
         $(".option2").hide(100);
@@ -66,9 +66,9 @@ $(function(){
 });
 
  $(function(){
-    if ($(".maincontent").height() < 1400) {
-        $(".option1").fadeIn(200);
+    if ($(".maincontent").height() > 1400) {
+        $(".option1").hide(200);
     } else {
-        $(".option1").hide(100);
+        $(".option1").fadeIn(100);
     }
 });
