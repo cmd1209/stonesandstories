@@ -58,8 +58,7 @@ $(function(){
 });
 
 $(function(){
-  if ($('.maincontent').height() > 1000) {
+  if ($('.maincontent').height() > 1320) {
     $('.option1').show();
-  };
-  alert($('.maincontent').height());
+  }
 });
