@@ -58,7 +58,7 @@ $(function(){
 });
 
 $(function(){
-    if ($(".maincontent").height() < 450) {
+    if ($(".maincontent").height() < 1151) {
         $(".option1").fadeIn(200);
     } else {
         $(".option1").hide(100);
@@ -66,7 +66,7 @@ $(function(){
 });
 
 $(function(){
-    if ($(".maincontent").height() < 650) {
+    if ($(".maincontent").height() < 1260) {
         $(".option2").fadeIn(200);
     } else {
         $(".option2").hide(100);
