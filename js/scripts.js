@@ -57,7 +57,7 @@ $(function(){
         });
 });
 
-
+$(function(){
 $(window).bind('resize',function () {
 
     if ($("body").height() > $(window).height()) {
@@ -65,4 +65,5 @@ $(window).bind('resize',function () {
     } else {
         jQuery(".option").hide(100);
     }
+});
 });
