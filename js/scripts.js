@@ -60,7 +60,7 @@ $(function(){
 $(function(){
 $(window).bind('resize',function () {
 
-    if ($("body").height() > 250) {
+    if ($(".maincontent").height() < 250) {
         $(".option").fadeIn(200);
     } else {
         $(".option").hide(100);
