@@ -340,6 +340,7 @@ section{
 .maincontent{
 	width: 85%;
 	padding: 0 5px 15px 0;
+	overflow: hidden;
 	@media only screen and (max-width:1023px) {
 		width: 100%;
 		padding: 0;

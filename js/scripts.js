@@ -60,5 +60,6 @@ $(function(){
 $(function(){
   if ($('.maincontent').height() > 1000) {
     $('.option1').show();
-  }
+  };
+  alert($('.maincontent').height());
 });
