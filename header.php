@@ -36,7 +36,7 @@
           </div>
         </div>
     </div>
-        <div class="navigation">
+        <div class="navigation wrapper">
           <div class="bmenu" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
               <?php get_template_part('searchform'); ?>
