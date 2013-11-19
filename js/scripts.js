@@ -58,7 +58,7 @@ $(function(){
 });
 
 $(function(){
-    if ($(".maincontent").height() < 1150) {
+    if ($(".maincontent").height() > 1150) {
         $(".option1").fadeIn(200);
     } else {
         $(".option1").hide(100);
@@ -67,7 +67,7 @@ $(function(){
 
 
  $(window).resize(function(){
-    if ($(".maincontent").height() < 1150) {
+    if ($(".maincontent").height() > 1150) {
         $(".option1").fadeIn(200);
     } else {
         $(".option1").hide(100);
