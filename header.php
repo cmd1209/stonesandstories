@@ -35,11 +35,11 @@
             <a href="<?php echo get_permalink(127); ?>" class="filmbutton"><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/videobutton.png" alt="youtube"></a>
           </div>
         </div>
-    </div>
         <div class="navigation">
-          <div class="bmenu wrapper" role="navigation">
+          <div class="bmenu" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
               <?php get_template_part('searchform'); ?>
           </div>
         </div>
+    </div>
 <div class="wrapper" id="stage">
