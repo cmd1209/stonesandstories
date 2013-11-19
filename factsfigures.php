@@ -61,8 +61,8 @@
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
           <div class="col col2">
-            <?php if($post->post_content != "") : ?>
-              <a href="#" class="trigger"></a>
+              <?php if( get_field('factsfigures') ): ?>
+                  <a href="#" class="trigger"></a>
               <?php else: ?>
               <a href="#"></a>
               <?php endif; ?>
