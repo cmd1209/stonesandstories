@@ -57,10 +57,10 @@ $(function(){
         });
 });
 
-$(function(){
-    if ($(".maincontent").height() < 250) {
-        $(".option").fadeIn(200);
-    } else {
-        $(".option").hide(100);
-    }
-});
+// $(function(){
+//     if ($(".maincontent").height() < 250) {
+//         $(".option1").fadeIn(200);
+//     } else {
+//         $(".option1").hide(100);
+//     }
+// });
