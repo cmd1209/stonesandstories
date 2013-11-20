@@ -10,12 +10,12 @@
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                <div class="moduleheader">
-                <h2><?php the_title(); ?>
+                <h2 style="padding-top:10px;"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
               </div>
-                <div class="textwrap">
+                <div class="textwrap" style="padding-top:0;">
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
