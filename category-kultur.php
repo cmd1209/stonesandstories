@@ -18,8 +18,6 @@
 										<span><?php the_field('subheadline'); ?></span>
 									</h2>
 								</div> 
-							<?php if( get_field('subheadline') ): ?>
-                    			<h3><?php the_field('subheadline'); ?></h3>
                  			 <?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							<?php echo excerpt(35); ?>
@@ -40,8 +38,6 @@
 										<span><?php the_field('subheadline'); ?></span>
 									</h2>
 								</div> 
-						<?php if( get_field('subheadline') ): ?>
-                    		<h3><?php the_field('subheadline'); ?></h3>
                   		<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 						<?php echo excerpt(35); ?>
