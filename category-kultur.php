@@ -6,7 +6,7 @@
 	<div class="col maincontent">
 		<div class="col col100">
 			<div class="module">
-				<h1><span><?php single_cat_title(); ?></span> Projekte</h1>
+				<h1><?php single_cat_title(); ?></h1>
 				<div class="col col50">
 
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
@@ -18,8 +18,6 @@
                  			 <?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							<?php echo excerpt(35); ?>
-							<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-							<?php the_category(); ?>  
 						</div>
 
 					<?php endif; endwhile; else: ?>
@@ -37,8 +35,6 @@
                   		<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 						<?php echo excerpt(35); ?>
-						<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-						<?php the_category(); ?>  
 					</div>
 
 				<?php endif; endwhile; else: ?>
