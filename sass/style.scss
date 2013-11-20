@@ -86,15 +86,15 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 
 h1, h2, h3{
 	-webkit-font-smoothing:antialiased;font-smoothing:antialiased;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1em;
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-family: "Arimo", Arial, sans-serif;
 }
 
 p{
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-family: "Arimo", Arial, sans-serif;
 	 font-style: normal;
-	 font-weight: 300;
+	 font-weight: 400;
 	 font-size: 0.85em;
 	 line-height: 1.75em;
 }
@@ -294,9 +294,9 @@ input:focus {
     outline: 0px;
     color: white;
     border: 1px solid $grey;
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-family: "Arimo", Arial, sans-serif;
 	 font-style: normal;
-	 font-weight: 300;
+	 font-weight: 400;
   	background-color: $lightgrey;
   	position: relative;
 }
@@ -419,7 +419,7 @@ section{
 	}
 	h2{
 		position: relative;
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		font-family: "Arimo", Arial, sans-serif;
 		text-align: center!important;
 		color: white;
 		font-size: 1.25em;
@@ -464,7 +464,7 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		font-family: "Arimo", Arial, sans-serif;
 	 	font-style: normal;
 		font-weight: 600;
 		text-transform: uppercase;
@@ -712,7 +712,7 @@ a.thumbnail{
 
 		color: $darkgrey;
 		letter-spacing: 0em;
-		font-weight: 300;
+		font-weight: 400;
 		padding: 10px 10px 10px 0;
 		display: block;
 		border-bottom: 1px solid $grey;
@@ -738,7 +738,7 @@ a.thumbnail{
 	a{
 		color: black;
 		text-decoration: none !important;
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		font-family: "Arimo", Arial, sans-serif;
 		font-style: normal;
 		font-weight: 600;
 	}
@@ -790,7 +790,7 @@ a.thumbnail{
 		color: black;
 		float: left;
 		font-size: 1.25em;
-		font-weight: 300;
+		font-weight: 400;
 		margin-left: 5px;
 		line-height: 1.2em;
 		}
@@ -802,7 +802,7 @@ a.thumbnail{
 		text-transform: none;
 		font-size: 0.9em;
 		letter-spacing: 0em;
-		font-weight: 300;
+		font-weight: 400;
 		}
 
 }
@@ -811,7 +811,7 @@ a.thumbnail{
 		text-transform: uppercase;
 		float: left;
 		font-size: 1.4em;
-		font-weight: 300;
+		font-weight: 400;
 		margin-right: 5px;
 		line-height: 1.2em;
 		}
@@ -825,7 +825,7 @@ a.thumbnail{
 		text-transform: none;
 		font-size: 0.9em;
 		letter-spacing: 0em;
-		font-weight: 300;
+		font-weight: 400;
 		}
 
 }
@@ -963,12 +963,12 @@ nav.pps-slider-nav{
 	top:0;
 	right:15px;
 	font-size: 0.85em;
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-	font-weight: 300;
+	font-family: "Arimo", Arial, sans-serif;
+	font-weight: 400;
 	a{	
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		font-family: "Arimo", Arial, sans-serif;
 		font-size: 0.85em;
-		font-weight: 300;
+		font-weight: 400;
 		background-color: $lightgrey;
 		padding: 3px;
 	}
@@ -1076,9 +1076,9 @@ a.triangle{
 	h3{
 		text-align: right;
 		text-transform: uppercase;
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		font-family: "Arimo", Arial, sans-serif;
 	 	font-style: normal;
-	 	font-weight: 300;
+	 	font-weight: 400;
 		margin: 0!important;
 		font-size: 0.65em;
 	}
@@ -1105,9 +1105,9 @@ a.triangle:hover{
 	}
 	a{	
 		float: left;
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		font-family: "Arimo", Arial, sans-serif;
 	 	font-style: normal;
-	 	font-weight: 300;
+	 	font-weight: 400;
 		background-color: $lightgrey;
 		font-size: 0.85em;
 		padding: 5px;
@@ -1139,7 +1139,7 @@ a.triangle:hover{
 	}
 	a{	
 		font-size: 1em;
-		font-weight: 300;
+		font-weight: 400;
 		background-color: $grey;
 		padding: 5px;
 	}
@@ -1189,7 +1189,7 @@ a img.aligncenter {
 
 .tablepress{
 	color: $darkgrey!important;
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	font-family: "Arimo", Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600!important;
 	line-height: 1.45em;
@@ -1253,8 +1253,8 @@ figure{
 	}
 }
 .ppt, .pp_description{
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-	font-weight: 300;
+	font-family: "Arimo", Arial, sans-serif;
+	font-weight: 400;
 	font-size: 0.9em;
 }
 figcaption{
@@ -1265,8 +1265,8 @@ figcaption{
 	padding: 10px !important;
 	display: block;
 	margin: 0 0 40px 0;
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-	font-weight: 300;
+	font-family: "Arimo", Arial, sans-serif;
+	font-weight: 400;
 	@media screen and (max-width:1023px){
 			width: 100%;
 		};
@@ -1279,8 +1279,8 @@ figure.alignright{
 }
 
 .wp-caption .wp-caption-text, .gallery-caption {
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-	font-weight: 300;
+	font-family: "Arimo", Arial, sans-serif;
+	font-weight: 400;
 	font-size:11px;
 	line-height:17px;
 	margin:0;
