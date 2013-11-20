@@ -1,5 +1,5 @@
 <!-- sidebar -->
-<h2><span style="text-transform: uppercase; letter-spacing:0.2em; font-size: 150%;">Side</span>notes</h2>
+<h2><span style="text-transform: uppercase; letter-spacing:0.2em;">Side</span>notes</h2>
 
 <figure>
 	<a class="thumbnail" href="http://www.junius-verlag.de/buecher/architektur-hamburg-jahrbuch-2013" target="blank">
