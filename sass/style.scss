@@ -789,7 +789,8 @@ a.thumbnail{
 		color: $darkgrey;
 		}
 		span{
-		color: $darkgrey;
+		color: $darkestgrey;
+		background-color: $yellow;
 		text-transform: none;
 		font-size: 0.9em;
 		letter-spacing: 0em;
@@ -807,10 +808,12 @@ a.thumbnail{
 		line-height: 1.2em;
 		}
 		h3{
-		color: $darkgrey;
+		color: $darkestgrey;
+		background-color: $yellow;
 		}
 		span{
-		color: $darkgrey;
+		color: $darkestgrey;
+		background-color: $yellow;
 		text-transform: none;
 		font-size: 0.9em;
 		letter-spacing: 0em;
