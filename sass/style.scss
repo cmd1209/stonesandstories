@@ -702,14 +702,9 @@ a.thumbnail{
 		font-weight: 400;
 		padding:10px;
 		display: block;
-		border-bottom: 1px solid $grey;
 		font-size: 1.25em;
-		span{
-			text-transform: uppercase;
-			letter-spacing: 0.1em;
-			color: white; 
-			background-color: black;
-		}
+		background-color: black;
+		color: white; 
 	}
 	img{
 		width: 100%;
