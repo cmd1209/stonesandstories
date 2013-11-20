@@ -31,9 +31,9 @@
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
-          <div class="atmosphere">
+<!--           <div class="atmosphere">
             <a href="<?php echo get_permalink(127); ?>" class="filmbutton"><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/videobutton.png" alt="youtube"></a>
-          </div>
+          </div> -->
         </div>
         <div class="navigation">
           <div class="bmenu" role="navigation">
