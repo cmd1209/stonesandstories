@@ -249,12 +249,11 @@ input:focus {
 		margin: 0 1%;
 		text-align: center;
 		font-size: 1.20em;
-		font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+		font-family: arial, sans-serif; font-weight:300; font-stretch:normal;
 		display: inline-block;
 		color: white;
 		text-transform: uppercase;
 		transition: all 0.2s;
-		letter-spacing: 0.2em;
 		-webkit-font-smoothing:antialiased;
 		font-smoothing:antialiased;
 		text-rendering:optimizeLegibility;
