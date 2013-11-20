@@ -1250,9 +1250,11 @@ figure{
 	}
 }
 .ppt, .pp_description{
+	p{
 	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 	font-weight: 300;
 	font-size: 0.9em;
+	}
 }
 figcaption{
 	position: relative;
