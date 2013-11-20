@@ -5,7 +5,7 @@
 
 	<div class="col maincontent">
 		<div class="col col100">
-			<div class="module">
+			<div class="module" style="padding-top:0;">
 				<h1><?php single_cat_title(); ?></h1>
 				<div class="col col50">
 
