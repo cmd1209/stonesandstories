@@ -37,12 +37,12 @@
               <?php while (have_posts()) : the_post(); ?>
                <div class="H300 shift2" style="overflow:hidden;"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="moduleheader">
-                <h2>Bühnenbild für Das St. Pauli-Theater   <!-- manually added -->
+                <h2 style="padding-top:10px;">Bühnenbild für Das St. Pauli-Theater   <!-- manually added -->
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
               </div>
-                  <div class="textwrap">
+                  <div class="textwrap" style="padding-top:0;">
                     <?php echo excerpt(32); ?>
               </div>
             <?php endwhile; ?>
@@ -70,12 +70,12 @@
               <?php while (have_posts()) : the_post(); ?>
               <div class=""><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div>
                   <div class="moduleheader">
-                <h2><?php the_title(); ?>
+                <h2 style="padding-top:10px;"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
               </div>
-                  <div class="textwrap">
+                  <div class="textwrap" style="padding-top:0;">
                   <?php echo excerpt(60); ?>
                 </div>
             <?php endwhile; ?>
