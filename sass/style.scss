@@ -28,6 +28,8 @@ html {
 body {
 	font-family: "Arimo", Arial, sans-serif;
 	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
 }
 
 /* clear */
@@ -87,16 +89,10 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image{
 
 
 h1, h2, h3{
-	-webkit-font-smoothing:antialiased;font-smoothing:antialiased;
-	font-weight: 400;
 	line-height: 1em;
-	font-family: "Arimo", Arial, sans-serif;
 }
 
 p{
-	font-family: "Arimo", Arial, sans-serif;
-	 font-style: normal;
-	 font-weight: 400;
 	 font-size: 0.85em;
 	 line-height: 1.75em;
 }
@@ -251,10 +247,7 @@ input:focus {
 		margin: 0 1%;
 		text-align: center;
 		font-size: 1.20em;
-		font-family: "Arimo", Arial, sans-serif;
 		letter-spacing: 0.2em;
-		font-style: 400;
-		font-weight: 400;
 		display: inline-block;
 		color: white;
 		text-transform: uppercase;
@@ -296,9 +289,6 @@ input:focus {
     outline: 0px;
     color: white;
     border: 1px solid $grey;
-	font-family: "Arimo", Arial, sans-serif;
-	 font-style: normal;
-	 font-weight: 400;
   	background-color: $lightgrey;
   	position: relative;
 }
@@ -317,7 +307,6 @@ input:focus {
     height: 22px;
     font-size: 1em;
     width: 22px;
-    font-family: 'fontello', Arial, Helvetica, sans-serif;
     color: black;
   }
 .search-submit:hover{
@@ -421,7 +410,6 @@ section{
 	}
 	h2{
 		position: relative;
-		font-family: "Arimo", Arial, sans-serif;
 		text-align: center!important;
 		color: white;
 		font-size: 1.25em;
@@ -466,9 +454,7 @@ section{
 	}
 	a{	
 		display: block;
-		font-family: "Arimo", Arial, sans-serif;
-	 	font-style: normal;
-		font-weight: 600;
+		font-weight: 700;
 		text-transform: uppercase;
 		color: $darkgrey;
 		font-size: 0.9em;
@@ -740,9 +726,7 @@ a.thumbnail{
 	a{
 		color: black;
 		text-decoration: none !important;
-		font-family: "Arimo", Arial, sans-serif;
-		font-style: normal;
-		font-weight: 600;
+		font-weight: 700;
 	}
 	a img { margin: -6px 0; }
 	.textwrap{
@@ -965,12 +949,8 @@ nav.pps-slider-nav{
 	top:0;
 	right:15px;
 	font-size: 0.85em;
-	font-family: "Arimo", Arial, sans-serif;
-	font-weight: 400;
 	a{	
-		font-family: "Arimo", Arial, sans-serif;
 		font-size: 0.85em;
-		font-weight: 400;
 		background-color: $lightgrey;
 		padding: 3px;
 	}
@@ -1078,9 +1058,6 @@ a.triangle{
 	h3{
 		text-align: right;
 		text-transform: uppercase;
-		font-family: "Arimo", Arial, sans-serif;
-	 	font-style: normal;
-	 	font-weight: 400;
 		margin: 0!important;
 		font-size: 0.65em;
 	}
@@ -1107,9 +1084,6 @@ a.triangle:hover{
 	}
 	a{	
 		float: left;
-		font-family: "Arimo", Arial, sans-serif;
-	 	font-style: normal;
-	 	font-weight: 400;
 		background-color: $lightgrey;
 		font-size: 0.85em;
 		padding: 5px;
@@ -1191,9 +1165,6 @@ a img.aligncenter {
 
 .tablepress{
 	color: $darkgrey!important;
-	font-family: "Arimo", Arial, sans-serif;
-	font-style: normal;
-	font-weight: 600!important;
 	line-height: 1.45em;
 }
 
@@ -1255,8 +1226,7 @@ figure{
 	}
 }
 .ppt, .pp_description{
-	font-family: "Arimo", Arial, sans-serif;
-	font-weight: 400;
+
 	font-size: 0.9em;
 }
 figcaption{
@@ -1267,8 +1237,7 @@ figcaption{
 	padding: 10px !important;
 	display: block;
 	margin: 0 0 40px 0;
-	font-family: "Arimo", Arial, sans-serif;
-	font-weight: 400;
+
 	@media screen and (max-width:1023px){
 			width: 100%;
 		};
@@ -1281,8 +1250,6 @@ figure.alignright{
 }
 
 .wp-caption .wp-caption-text, .gallery-caption {
-	font-family: "Arimo", Arial, sans-serif;
-	font-weight: 400;
 	font-size:11px;
 	line-height:17px;
 	margin:0;
