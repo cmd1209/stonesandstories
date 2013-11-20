@@ -36,6 +36,7 @@ $(function() {
 $(function() {
     $('#factstoggle').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
+      $(this).toggleClass("open");
       return false;
     });
 });
