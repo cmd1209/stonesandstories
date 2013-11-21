@@ -700,6 +700,7 @@ a.thumbnail{
 	}
 	h1{
 		color: $darkgrey;
+		float: left;
 		display: block;
 		height: 32px;
 		font-weight: 400;
@@ -717,6 +718,11 @@ a.thumbnail{
 			color: $darkgrey;
 			padding-left: 10px;
 		}
+	h1:after{
+		content: "";
+		width: 100%;
+		overflow: hidden;
+	}
 	}
 	img{
 		width: 100%;
