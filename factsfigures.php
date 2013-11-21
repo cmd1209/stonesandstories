@@ -19,14 +19,10 @@
               <?php endif; ?>
           </div>
           <div class="col col50" style="padding-right:10px;">
-            <?php if($post->post_content != "") : ?>
-              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
-              <?php else: ?>
               <p class="title"><?php the_title(); ?></p>
-              <?php endif; ?>
           </div>
           <div class="col col5">
-            <p>Aktuell</p>
+            <p style="float:right;">Aktuell</p>
           </div>
           <div class="col col15">
             <?php if( get_field('location') ): ?>
@@ -54,7 +50,7 @@
           <?php wp_reset_query(); ?>  
           </div> 
 
-          <?php query_posts( array( 'category__in' => array(60,11,42), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73))); ?>
+          <?php query_posts( array( 'category__in' => array(60,11,42), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73,2141,225,1605,1637))); ?>
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
@@ -66,14 +62,10 @@
               <?php endif; ?>
           </div>
           <div class="col col50" style="padding-right:10px;">
-            <?php if($post->post_content != "") : ?>
-              <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
-              <?php else: ?>
               <p class="title"><?php the_title(); ?></p>
-              <?php endif; ?>
           </div>
           <div class="col col5">
-            <p><?php the_date('Y'); ?></p>
+            <p style="float:right;"><?php the_date('Y'); ?></p>
           </div>
           <div class="col col15">
               <p><?php the_field('location'); ?></p>
