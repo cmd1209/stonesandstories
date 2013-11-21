@@ -27,11 +27,13 @@ if ( $parent->have_posts() ) : ?>
     <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
         <div class="col col50" id="post-<?php the_ID(); ?>">
-        <h2><?php the_title(); ?></h2>
+        <div class="module">
+          <h1><span><?php the_title(); ?></span></h1>
         <div class="textwrap" id="<?php echo $page->post_name; ?>">
             <?php echo excerpt(150); ?>
             <a href="<?php echo get_permalink(); ?>"> mehr...</a>
-            </div>
+        </div>
+        </div>
 
         </div>
 

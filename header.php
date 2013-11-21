@@ -27,7 +27,7 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
-    <div class="wrapper"> <!-- hey baby yo yo yo -->
+    <div class="wrapper">
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
