@@ -275,7 +275,7 @@ input:focus {
 .footer form{
   position: relative;
   margin: 0 0 0 20px;
-  width: 100%;
+  width: 75%;
   background-color: $darkestgrey;
   color: $grey;
 }
@@ -472,6 +472,37 @@ section{
 		border-left: 10px solid $yellow;
 		transition: all 0.4s;  
 	}
+.search-input{
+	width: 100%;
+    height: 22px;
+    outline: 0px;
+    color: white;
+    border: 1px solid $darkestgrey;
+  	background-color: $darkestgrey;
+  	position: relative;
+  	font-family: "Arimo", Arial, sans-serif;
+}
+
+::-webkit-input-placeholder{
+  color: $darkgrey;
+}
+
+.search-submit{
+	background-color: $darkgrey;
+    text-align: center;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border: none;
+    height: 22px;
+    font-family: "fontello", Arial, sans-serif;
+    font-size: 1em;
+    width: 22px;
+    color: white;
+  }
+.search-submit:hover{
+	color: $darkgrey;
+}
 }
 
 .links{
