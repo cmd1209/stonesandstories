@@ -24,10 +24,8 @@
           <div class="col col5">
             <p style="float:right;">Aktuell</p>
           </div>
-          <div class="col col15">
-            <?php if( get_field('location') ): ?>
+          <div class="col col15" style="padding-right:8px;">
               <p><?php the_field('location'); ?></p>
-            <?php endif; ?>
           </div>
           <div class="col col28">
             <ul class="post-categories">
@@ -67,7 +65,7 @@
           <div class="col col5">
             <p style="float:right;"><?php the_date('Y'); ?></p>
           </div>
-          <div class="col col15">
+          <div class="col col15" style="padding-right:8px;">
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col col28">
