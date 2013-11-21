@@ -719,9 +719,11 @@ a.thumbnail{
 			padding-left: 10px;
 		}
 	h1:after{
-		content: "";
-		width: 100%;
-		overflow: hidden;
+		content: "."; 
+   		visibility: hidden; 
+   		display: block; 
+   		height: 0; 
+   		clear: both;
 	}
 	}
 	img{
