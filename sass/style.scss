@@ -700,6 +700,7 @@ a.thumbnail{
 	}
 	h1{
 		color: $darkgrey;
+		display: inline-block;
 		height: 32px;
 		font-weight: 400;
 		padding:10px;
@@ -707,7 +708,6 @@ a.thumbnail{
 		background-color: black;
 		color: white;
 		margin-top: 0;
-		float:left;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		line-height: 0.8em;
