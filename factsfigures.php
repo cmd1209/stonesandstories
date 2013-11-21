@@ -24,7 +24,7 @@
           <div class="col col5">
             <p style="float:right;">Aktuell</p>
           </div>
-          <div class="col col15" style="padding-left:8px;">
+          <div class="col col15" style="padding-left:10px;">
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col col28">
@@ -65,7 +65,7 @@
           <div class="col col5">
             <p style="float:right;"><?php the_date('Y'); ?></p>
           </div>
-          <div class="col col15" style="padding-left:8px;">
+          <div class="col col15" style="padding-left:10px;">
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col col28">
