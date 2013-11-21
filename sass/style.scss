@@ -275,7 +275,9 @@ input:focus {
 .footer form{
   position: relative;
   margin: 0 0 0 20px;
-  width: 225px;
+  width: 100%;
+  background-color: $darkestgrey;
+  color: $grey;
 }
 
 .search-input{
