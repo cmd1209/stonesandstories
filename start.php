@@ -37,7 +37,7 @@
               <?php while (have_posts()) : the_post(); ?>
                <div class="H300 shift2" style="overflow:hidden;"><a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a></div> 
               <div class="moduleheader">
-                <h2 style="padding-top:10px;">
+                <h2 style="padding-top:10px;"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
                <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
