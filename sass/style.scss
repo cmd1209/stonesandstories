@@ -720,9 +720,11 @@ a.thumbnail{
 		}
 	h1:after{
 		content: "."; 
-   		visibility: hidden; 
+   		// visibility: hidden; 
    		display: block; 
-   		height: 0; 
+   		height: 3px;
+   		background-color: green;
+   		width: 100%; 
    		clear: both;
 	}
 	}
