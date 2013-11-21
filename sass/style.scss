@@ -718,14 +718,6 @@ a.thumbnail{
 			color: $darkgrey;
 			padding-left: 10px;
 		}
-	h1:after{
-		content: "."; 
-   		// visibility: hidden; 
-   		display: block; 
-   		height: 3px;
-   		background-color: green;
-   		width: 100%; 
-	}
 	}
 	img{
 		width: 100%;

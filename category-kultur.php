@@ -6,7 +6,7 @@
 	<div class="col maincontent">
 		<div class="col col100">
 			<div class="module">
-				<h1><?php single_cat_title(); ?></h1>
+				<div style="width:100%;><h1><?php single_cat_title(); ?></h1></div>
 				<div class="col col50">
 
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
