@@ -4,9 +4,8 @@
     <div class="col maincontent">
       <div class="col col100">
         <div class="module">
-        <h1><strong><?php single_cat_title(); ?></strong></h1>
+        <h1><strong><?php the_title(); ?></strong></h1>
           <div class="textwrap">
-
           <div class="col100">
           <?php query_posts( array( 'category__in' => array(88), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
