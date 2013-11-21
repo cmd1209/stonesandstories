@@ -1,7 +1,6 @@
 /*
 	Theme Name: Stones & Stories
 */
-
 @import "typo.scss";
 $yellow: #e2f000;
 $yellow-darker: darken( $yellow, 20% );
@@ -1351,12 +1350,10 @@ figure.alignright{
     position: relative;
 
 }
-
 .gallery-columns-2{
 	.gallery-item{
 		width: 50%;}
 }
-
 .gallery-columns-2 dl:nth-child(1), .gallery-columns-2 dl:nth-child(3){
 	padding: 0 10px 0 0;
 }
