@@ -2,7 +2,8 @@
 	Theme Name: Stones & Stories
 */
 @import "typo.scss";
-$yellow: #e2f000;
+$yellow: rgb(50,150,80);
+// $yellow: #e2f000;
 $yellow-darker: darken( $yellow, 20% );
 $grey: #CCC8C4;
 $lightgrey: #ecece6;
