@@ -6,7 +6,7 @@
 	<div class="col maincontent">
 		<div class="col col100">
 			<div class="module">
-				<div style="width:100%;overflow:hidden:">
+				<div style="width:100%;overflow:hidden:height:32px;background-color:red;clear:both;">
 					<h1><?php single_cat_title(); ?></h1>
 				</div>
 				<div class="col col50">
