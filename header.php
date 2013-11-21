@@ -15,8 +15,8 @@
     <meta name="description" content="<?php bloginfo('description'); ?>">
 
     <!-- icons -->
-    <link href="<?php echo home_url(); ?>/favicon.ico" type="image/x-icon">
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+    <link rel="shortcut icon" href="<?php echo home_url(); ?>/favicon.ico" type="image/x-icon" />
       
     <!-- css + javascript -->
     <?php wp_head(); ?>
