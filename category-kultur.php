@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-
-<!-- section -->
 <section role="main">
 
 	<div class="col maincontent">
@@ -56,9 +54,6 @@
 </div>
 
 </section>
-<!-- /section -->
-
-
 <?php get_footer(); ?>
 
 
