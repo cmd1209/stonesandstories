@@ -37,7 +37,6 @@
             </ul>
           </div>
           </div>
-   
               <div class="toggle">
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
