@@ -704,14 +704,18 @@ a.thumbnail{
 		display: block;
 		height: 32px;
 		font-weight: 400;
-		padding:10px;
+		
 		font-size: 1.20em;
-		background-color: black;
+		background-color: white;
 		color: white;
 		margin-top: 0;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		line-height: 0.8em;
+		pre{
+			background-color: black;
+			padding:10px;
+		}
 		span{
 			font-size: 0.95em;
 			text-transform: none;
