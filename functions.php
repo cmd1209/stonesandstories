@@ -516,6 +516,8 @@ function html5_insert_image($html, $id, $caption, $title, $align, $url) {
 }
 add_filter( 'image_send_to_editor', 'html5_insert_image', 10, 9 );
 
+add_theme_support('html5', array('search-form'));
+
 //////////////////////////////////////// Gallery
 add_filter('gallery_style',
     create_function(
