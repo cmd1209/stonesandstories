@@ -635,9 +635,11 @@ section{
 
 .tab2{
 	width: 2%;
+	overflow:hidden;
 }
 .tab5{
 	width: 5%;
+	overflow:hidden;
 	p{
 		text-align: right!important;
 		@media only screen and (max-width:767px) {
@@ -647,6 +649,7 @@ section{
 }
 .tab15{
 	width: 15%;
+	overflow:hidden;
 	padding-left:10px;
 		@media only screen and (max-width:767px) {
 		width: 45%;
@@ -655,12 +658,14 @@ section{
 }
 .tab28{
 	width: 28%;
+	overflow:hidden;
 	@media only screen and (max-width:767px) {
 		width: 45%;
 	}
 }
 .tab50{
 	width: 50%;
+	overflow:hidden;
 	padding-right:10px;
 	@media only screen and (max-width:767px) {
 		width: 98%;
