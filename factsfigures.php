@@ -19,13 +19,13 @@
               <?php endif; ?>
           </div>
           <div class="col tab50">
-              <h4 class="title"><?php the_title(); ?></h4>
+              <p class="title"><?php the_title(); ?></p>
           </div>
           <div class="col tab5">
             <h4>Aktuell</h4>
           </div>
           <div class="col tab15">
-              <h4><?php the_field('location'); ?></h4>
+              <p><?php the_field('location'); ?></p>
           </div>
           <div class="col tab28">
             <ul class="post-categories">
@@ -59,13 +59,13 @@
               <?php endif; ?>
           </div>
           <div class="col tab50">
-              <h4 class="title"><?php the_title(); ?></h4>
+              <p class="title"><?php the_title(); ?></p>
           </div>
           <div class="col tab5">
             <h4><?php the_date('Y'); ?></h4>
           </div>
           <div class="col tab15">
-              <h4><?php the_field('location'); ?></h4>
+              <p><?php the_field('location'); ?></p>
           </div>
           <div class="col tab28">
             <ul class="post-categories">
