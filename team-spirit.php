@@ -31,11 +31,10 @@ if ( $parent->have_posts() ) : ?>
                   <?php endif; ?>
     </h2>
   </div>
-  <div class="textwrap" id="<?php echo $page->post_name; ?>">
-            <?php echo the_content(); ?>
-        </div>
-
-        </div>
+<div class="toggle" style="padding-left:0;">
+<?php echo the_content(); ?>
+</div>   
+</div>
 
     <?php endwhile; ?>
 
@@ -57,4 +56,4 @@ if ( $parent->have_posts() ) : ?>
   </section>
   <?php endwhile; ?>
   <?php endif; ?>
-<?php get_footer(); ?>
+<?php get_footer(); ?>  
