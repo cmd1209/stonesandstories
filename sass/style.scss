@@ -1119,8 +1119,7 @@ a.triangle:hover{
 	color: black;
  }
 
-.post-placeholder{
-	a{
+a.post-placeholder{
 		float: left;
 		border-left: 1px solid $lightgrey;
 		background-color: $lightgrey;
@@ -1128,7 +1127,7 @@ a.triangle:hover{
 		padding: 5px;
 		font-weight: 400;
 		font-style: normal;
-	}
+
 }
 
 .post-categories{
