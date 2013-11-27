@@ -1119,26 +1119,6 @@ a.triangle:hover{
 	color: black;
  }
 
-a.post-placeholder{
-		float: left;
-		border-left: 1px solid $lightgrey;
-		background-color: $lightgrey;
-		font-size: 0.85em;
-		padding: 5px;
-		font-weight: 400;
-		font-style: normal;
-
-}
-a.post-placeholder:hover{
-		float: left;
-		border-left: 1px solid $lightgrey;
-		background-color: $lightgrey;
-		font-size: 0.85em;
-		padding: 5px;
-		font-weight: 400;
-		font-style: normal;
-
-}
 
 .post-categories{
 	li{
@@ -1200,6 +1180,27 @@ a.post-placeholder:hover{
 		background-color: $yellow;
 	}
 }
+
+a.post-placeholder{
+		float: left;
+		border-left: 1px solid $lightgrey;
+		background-color: $lightgrey;
+		font-size: 0.85em;
+		padding: 5px;
+		font-weight: 400;
+		font-style: normal;
+
+}
+a.post-placeholder:hover{
+		float: left;
+		border-left: 1px solid $lightgrey;
+		background-color: $lightgrey;
+		font-size: 0.85em;
+		padding: 5px;
+		font-weight: 400;
+		font-style: normal;
+}
+
    
 .alignnone {
 	margin:5px 20px 20px 0;
