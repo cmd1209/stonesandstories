@@ -6,10 +6,7 @@
         <div class="module">
           <div class="textwrap">
             <?php the_content(); ?>
-          </div>
-        </div>
-      </div>
-      <div class="col col100">
+             <div class="col col100">
 <?php
 
 $args = array(
@@ -41,6 +38,10 @@ if ( $parent->have_posts() ) : ?>
 
 
       </div>
+          </div>
+        </div>
+      </div>
+     
 
 
 
