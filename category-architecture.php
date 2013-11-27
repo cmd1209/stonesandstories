@@ -46,7 +46,7 @@
 			<?php endif; ?>
 		</div>
 	</div>
-</div>
+
 
 </div>
 <div class="sidebar">
