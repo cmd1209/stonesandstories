@@ -26,8 +26,7 @@ if ( $parent->have_posts() ) : ?>
         <div class="col col50" id="post-<?php the_ID(); ?>">
           <h1><span><?php the_title(); ?></span></h1>
         <div class="textwrap" id="<?php echo $page->post_name; ?>">
-            <?php echo excerpt(150); ?>
-            <a href="<?php echo get_permalink(); ?>"> mehr...</a>
+            <?php echo the_content(); ?>
         </div>
 
         </div>
