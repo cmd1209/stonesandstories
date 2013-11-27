@@ -68,13 +68,11 @@
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col col28">
-            <ul class="post-categories">
-              <li>
+              <li class="post-categories">
             <?php if( get_field('divsions') ): ?>
                   <?php the_field('divsions'); ?>
             <?php endif; ?>
               </li>
-            </ul>
           </div>
           </div>
    
