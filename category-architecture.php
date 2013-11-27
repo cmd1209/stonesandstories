@@ -8,7 +8,9 @@
 			<div class="module">
 				<h1><strong><?php single_cat_title(); ?></strong></h1>
 				<div class="col col50">
+
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
+						
 						<div class="textwrap">
 							<div class="singletitle">
 								<h2><?php the_title(); ?>
@@ -46,7 +48,7 @@
 			<?php endif; ?>
 		</div>
 	</div>
-
+</div>
 
 </div>
 <div class="sidebar">
