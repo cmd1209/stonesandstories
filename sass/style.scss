@@ -644,9 +644,15 @@ section{
 }
 .tab28{
 	width: 28%;
+	@media only screen and (max-width:767px) {
+		width: 80%;
+	}
 }
 .tab50{
 	width: 50%;
+	@media only screen and (max-width:767px) {
+		width: 98%;
+	}
 }
 
 
