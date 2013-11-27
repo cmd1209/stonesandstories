@@ -18,13 +18,13 @@
               <a href="#"></a>
               <?php endif; ?>
           </div>
-          <div class="col tab50" style="padding-right:10px;">
+          <div class="col tab50">
               <p class="title"><?php the_title(); ?></p>
           </div>
           <div class="col tab5">
             <p style="float:right;">Aktuell</p>
           </div>
-          <div class="col tab15" style="padding-left:10px;">
+          <div class="col tab15">
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col tab28">
@@ -58,13 +58,13 @@
               <a href="#"></a>
               <?php endif; ?>
           </div>
-          <div class="col tab50" style="padding-right:10px;">
+          <div class="col tab50">
               <p class="title"><?php the_title(); ?></p>
           </div>
           <div class="col tab5">
             <p style="float:right;"><?php the_date('Y'); ?></p>
           </div>
-          <div class="col tab15" style="padding-left:10px;">
+          <div class="col tab15">
               <p><?php the_field('location'); ?></p>
           </div>
           <div class="col tab28">

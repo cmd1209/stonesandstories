@@ -641,6 +641,7 @@ section{
 }
 .tab15{
 	width: 15%;
+	padding-left:10px;
 		@media only screen and (max-width:767px) {
 		width: 45%;
 	}
@@ -653,8 +654,10 @@ section{
 }
 .tab50{
 	width: 50%;
+	padding-right:10px;
 	@media only screen and (max-width:767px) {
 		width: 98%;
+		padding-right:0;
 	}
 }
 
