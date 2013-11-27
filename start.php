@@ -21,7 +21,8 @@
             </div>
             <div class="col70">
               <div class="heroimage H450">
-                <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
+                <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo home_url(); ?>wp-content/uploads/2013/11/EHM-Wand.jpg</a>
+<!--                 <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a> -->
               </div>  
             </div>
             <?php endwhile; ?>
