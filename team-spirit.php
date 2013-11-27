@@ -23,15 +23,15 @@ if ( $parent->have_posts() ) : ?>
 
     <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 
-        <div class="col col100" id="post-<?php the_ID(); ?>">
-  <div class="singletitle" >
+<div class="col col100" id="post-<?php the_ID(); ?>">
+  <div class="singletitle" style="float:none;">
     <h2><?php the_title(); ?>
                   <?php if( get_field('subheadline') ): ?>
                     <span><?php the_field('subheadline'); ?></span>
                   <?php endif; ?>
     </h2>
   </div>
-        <div class="textwrap" id="<?php echo $page->post_name; ?>">
+  <div class="textwrap" id="<?php echo $page->post_name; ?>">
             <?php echo the_content(); ?>
         </div>
 
