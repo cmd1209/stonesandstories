@@ -51,23 +51,23 @@
           <?php while (have_posts()) : the_post(); ?>
           <div class="factbox" id="<?php the_title(); ?>">
           <div class="factsheader">
-          <div class="col col2">
+          <div class="col tab2">
               <?php if( get_field('factsfigures') ): ?>
                   <a href="#" class="trigger"></a>
               <?php else: ?>
               <a href="#"></a>
               <?php endif; ?>
           </div>
-          <div class="col col50" style="padding-right:10px;">
+          <div class="col tab50" style="padding-right:10px;">
               <p class="title"><?php the_title(); ?></p>
           </div>
-          <div class="col col5">
+          <div class="col tab5">
             <p style="float:right;"><?php the_date('Y'); ?></p>
           </div>
-          <div class="col col15" style="padding-left:10px;">
+          <div class="col tab15" style="padding-left:10px;">
               <p><?php the_field('location'); ?></p>
           </div>
-          <div class="col col28">
+          <div class="col tab28">
             <ul class="post-categories">
               <li>
             <?php if( get_field('divsions') ): ?>
