@@ -635,10 +635,12 @@ section{
 
 .tab2{
 	width: 2%;
-	clear:left;
 }
 .tab5{
 	width: 5%;
+	@media only screen and (max-width:767px) {
+		width: 10%;
+	}
 	p{
 		text-align: right!important;
 		@media only screen and (max-width:767px) {
@@ -650,7 +652,7 @@ section{
 	width: 15%;
 	padding-left:10px;
 		@media only screen and (max-width:767px) {
-		width: 45%;
+		width: 40%;
 		padding-left:0;
 	}
 }
