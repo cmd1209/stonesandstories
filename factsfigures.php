@@ -22,7 +22,7 @@
               <p class="title"><?php the_title(); ?></p>
           </div>
           <div class="col tab5">
-            <h3>Aktuell</h3>
+            <h4>Aktuell</h4>
           </div>
           <div class="col tab15">
               <p><?php the_field('location'); ?></p>
@@ -62,7 +62,7 @@
               <p class="title"><?php the_title(); ?></p>
           </div>
           <div class="col tab5">
-            <h3><?php the_date('Y'); ?></h3>
+            <h4><?php the_date('Y'); ?></h4>
           </div>
           <div class="col tab15">
               <p><?php the_field('location'); ?></p>
