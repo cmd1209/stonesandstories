@@ -25,7 +25,7 @@ if ( $parent->have_posts() ) : ?>
 
 <div class="col col100 factbox" id="post-<?php the_ID(); ?>">
   <div class="singletitle" >
-    <h2 style="float:none;"><?php the_title(); ?>
+    <h2 style="float:none;" class="trigger"><?php the_title(); ?>
                   <?php if( get_field('subheadline') ): ?>
                     <span><?php the_field('subheadline'); ?></span>
                   <?php endif; ?>
