@@ -635,40 +635,23 @@ section{
 
 .tab2{
 	width: 2%;
-}
+	}
 .tab5{
 	width: 5%;
-	@media only screen and (max-width:767px) {
-		width: 10%;
-	}
 	p{
 		text-align: right!important;
-		@media only screen and (max-width:767px) {
-		text-align: left!important;
-		}
 	}
 }
 .tab15{
 	width: 15%;
 	padding-left:10px;
-		@media only screen and (max-width:767px) {
-		width: 40%;
-		padding-left:0;
-	}
 }
 .tab28{
 	width: 28%;
-	@media only screen and (max-width:767px) {
-		width: 45%;
-	}
 }
 .tab50{
 	width: 50%;
 	padding-right:10px;
-	@media only screen and (max-width:767px) {
-		width: 98%;
-		padding-right:0;
-	}
 }
 
 
