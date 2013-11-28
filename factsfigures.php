@@ -36,12 +36,10 @@
                 </ul>
               </td>
             </tr>
-            <tr>
-              <td class="toggle">
+            <tr class="toggle">
                 <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
-              </td>
             </tr>
           </table>
 
