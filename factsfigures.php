@@ -29,7 +29,7 @@
               <td class="tab15">
                 <p><?php the_field('location'); ?></p>
               </td>
-              <td class="tab28">
+              <td>
                 <ul class="post-categories">
                   <?php if( get_field('divsions') ): ?>
                     <?php the_field('divsions'); ?>
@@ -71,7 +71,7 @@
               <td class="tab15">
                 <p><?php the_field('location'); ?></p>
               </td>
-              <td class="tab28">
+              <td>
                 <ul class="post-categories">
                   <?php if( get_field('divsions') ): ?>
                     <?php the_field('divsions'); ?>
@@ -85,7 +85,7 @@
                <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
-              </div>
+          </div>
           </div>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>  
