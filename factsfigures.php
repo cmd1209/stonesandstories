@@ -12,7 +12,7 @@
           
           <table class="factbox">
           <tbody>
-            <tr class="factsheader">
+            <tr class="factsheader col100">
               <td class="tab2">
                 <?php if($post->post_content != "") : ?>
                   <a href="#" class="trigger"></a>
