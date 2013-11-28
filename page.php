@@ -9,7 +9,7 @@
           <div class="textwrap">
             <?php the_content(); ?>
             <div class="col col100">
-             <ul class="post-categories facts">
+             <ul class="post-categories">
                   <?php if( get_field('custom-links') ): ?>
                     <li> <?php the_field('custom-links'); ?></li>
                   <?php endif; ?>   
