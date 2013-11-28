@@ -759,7 +759,11 @@ a.thumbnail{
 		text-transform: uppercase;
 		letter-spacing: 0.2em;
 		line-height: 0.92em;
+		height: 32px;
+		margin-top: -1px; 
 		strong{
+			height: 32px;
+			margin-top: -1px; 
 			line-height:  0.92em;
 			padding:7px 10px;
 			background-color: black;
