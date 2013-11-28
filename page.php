@@ -5,7 +5,7 @@
       
       <div class="col col100">
         <div class="module">
-          <h1><span><?php the_title(); ?></span></h1>
+          <h1><strong><?php single_cat_title(); ?></strong></h1>
           <div class="textwrap">
             <?php the_content(); ?>
             <div class="col col100">
