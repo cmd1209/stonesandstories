@@ -39,6 +39,11 @@
             </tr>
           </tbody>
           </table>
+          <div class="toggle col100">
+               <?php if( get_field('factsfigures') ): ?>
+                    <?php the_field('factsfigures'); ?>
+                <?php endif; ?>
+              </div>
           </div>
           <?php endwhile; ?>
           <?php wp_reset_query(); ?>  
