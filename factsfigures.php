@@ -9,7 +9,7 @@
           <div class="col100">
           <?php query_posts( array( 'category__in' => array(88), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox" id="<?php the_title(); ?>">
+          <div class="factbox">
           <div class="factsheader">
           <div class="col tab2">
             <?php if($post->post_content != "") : ?>
@@ -49,7 +49,7 @@
 
           <?php query_posts( array( 'category__in' => array(60,11,42,95), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73,2141,225,1605,1637,1844))); ?>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="factbox" id="<?php the_title(); ?>">
+          <div class="factbox">
           <div class="factsheader">
           <div class="col tab2">
               <?php if( get_field('factsfigures') ): ?>
