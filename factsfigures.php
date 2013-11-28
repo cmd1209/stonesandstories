@@ -29,7 +29,7 @@
               <td class="tab15">
                 <p><?php the_field('location'); ?></p>
               </td>
-              <td>
+              <td class="tab28">
                 <ul class="post-categories">
                   <?php if( get_field('divsions') ): ?>
                     <?php the_field('divsions'); ?>
@@ -71,7 +71,7 @@
               <td class="tab15">
                 <p><?php the_field('location'); ?></p>
               </td>
-              <td>
+              <td class="tab28">
                 <ul class="post-categories">
                   <?php if( get_field('divsions') ): ?>
                     <?php the_field('divsions'); ?>
