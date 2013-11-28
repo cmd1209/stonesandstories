@@ -9,7 +9,7 @@
           <div class="col100">
           <?php query_posts( array( 'category__in' => array(88), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
-          
+          <div class="col100">
           <table class="factbox">
           <tbody>
             <tr class="factsheader col100">
@@ -37,17 +37,17 @@
                 </ul>
               </td>
             </tr>
-              <div class="toggle col100">
-                <?php if( get_field('factsfigures') ): ?>
-                  <?php the_field('factsfigures'); ?>
-                <?php endif; ?>
-              </div>
           </tbody>
           </table>
-
-          <?php endwhile; ?>
-          <?php wp_reset_query(); ?>  
-
+          <div class="toggle col100">
+            <?php if( get_field('factsfigures') ): ?>
+              <?php the_field('factsfigures'); ?>
+            <?php endif; ?>
+          </div>
+            <?php endwhile; ?>
+            <?php wp_reset_query(); ?>  
+          </div>
+    </div>
     </div>
     </div>
     </div>
