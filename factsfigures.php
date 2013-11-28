@@ -11,6 +11,7 @@
           <?php while (have_posts()) : the_post(); ?>
           
           <table class="factbox">
+          <tbody>
             <tr class="factsheader">
               <td class="tab2">
                 <?php if($post->post_content != "") : ?>
@@ -36,13 +37,12 @@
                 </ul>
               </td>
             </tr>
-            <tr class="toggle">
-              <td class="col100">
+            <tr class="toggle col100">
                 <?php if( get_field('factsfigures') ): ?>
                     <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
-              </td>
             </tr>
+          </tbody>
           </table>
 
           <?php endwhile; ?>
