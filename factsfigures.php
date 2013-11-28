@@ -14,7 +14,7 @@
           <tbody>
             <tr class="factsheader col100">
               <td class="tab2">
-                <?php if($post->post_content != "") : ?>
+                <?php if( get_field('factsfigures') ): ?>
                   <a href="#" class="trigger"></a>
                 <?php else: ?>
                   <a href="#" class="blank"></a>
@@ -56,7 +56,7 @@
           <tbody>
             <tr class="factsheader col100">
               <td class="tab2">
-                <?php if($post->post_content != "") : ?>
+                <?php if( get_field('factsfigures') ): ?>
                   <a href="#" class="trigger"></a>
                 <?php else: ?>
                   <a href="#" class="blank"></a>
