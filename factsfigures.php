@@ -13,14 +13,12 @@
                     <table>
           <tbody>
             <tr class="factsheader col100">
-              <td class="tab2">
+              <td class="tab50">
                 <?php if($post->post_content != "") : ?>
                   <a href="#" class="trigger"></a>
                 <?php else: ?>
-                  <a href="#"></a>
+                  <a href="#" class="blank"></a>
                 <?php endif; ?>
-              </td>
-              <td class="tab50">
                 <p class="title"><?php the_title(); ?></p>
               </td>
               <td class="tab5">
@@ -55,14 +53,12 @@
                     <table>
           <tbody>
             <tr class="factsheader col100">
-              <td class="tab2">
+              <td class="tab50">
                 <?php if($post->post_content != "") : ?>
                   <a href="#" class="trigger"></a>
                 <?php else: ?>
-                  <a href="#"></a>
+                  <a href="#" class="blank"></a>
                 <?php endif; ?>
-              </td>
-              <td class="tab50">
                 <p class="title"><?php the_title(); ?></p>
               </td>
               <td class="tab5">

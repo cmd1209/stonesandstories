@@ -943,7 +943,14 @@ a.thumbnail{
 		line-height: calc(1.4em + 5px);
 		margin: 2px 2px 2px 0;
 	}
-
+	a.blank{
+		height: 2px;
+   		width: 0;
+   		border: 6px solid transparent;
+   		margin: 8px 5px 10px 5px;
+   		border-left-color: white;
+   		cursor: default;
+	}
 	a.trigger{
 		height: 2px;
    		width: 0;
