@@ -44,9 +44,9 @@
               <?php the_field('factsfigures'); ?>
             <?php endif; ?>
           </div>
+          </div>
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>  
-          </div>
     </div>
     </div>
     </div>
