@@ -26,7 +26,6 @@ $(function() {
 });
 
 $(function() {
-  $('tr.toggle').toggleClass("open");
     $('.trigger').click(function(){ 
       $(this).closest('table.factbox').children('tr.toggle').slideToggle("fast");
       $(this).toggleClass("active");
