@@ -8,9 +8,13 @@
           <h1><span><?php the_title(); ?></span></h1>
           <div class="textwrap">
             <?php the_content(); ?>
+            <div class="col col100">
              <?php if( get_field('custom-links') ): ?>
-                    <div class="col col100 post-categories"><?php the_field('custom-links'); ?></div>
-                  <?php endif; ?>
+              <ul class="post-categories">
+                <?php the_field('custom-links'); ?>
+              </ul>
+            </div>
+            <?php endif; ?>
           </div>
         </div>
       </div>
