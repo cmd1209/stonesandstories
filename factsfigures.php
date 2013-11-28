@@ -9,8 +9,8 @@
           <div class="col100">
           <?php query_posts( array( 'category__in' => array(88), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' ) ); ?>
           <?php while (have_posts()) : the_post(); ?>
-          <div class="col100">
-          <table class="factbox">
+          <div class="factbox">
+                    <table class="factbox">
           <tbody>
             <tr class="factsheader col100">
               <td class="tab2">
@@ -39,16 +39,54 @@
             </tr>
           </tbody>
           </table>
-          <div class="toggle col100">
-            <?php if( get_field('factsfigures') ): ?>
-              <?php the_field('factsfigures'); ?>
+          </div>
+          <?php endwhile; ?>
+          <?php wp_reset_query(); ?>  
+          </div> 
+
+          <?php query_posts( array( 'category__in' => array(60,11,42,95), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73,2141,225,1605,1637,1844))); ?>
+          <?php while (have_posts()) : the_post(); ?>
+          <div class="factbox">
+          <div class="factsheader">
+          <div class="col tab2">
+              <?php if( get_field('factsfigures') ): ?>
+                  <a href="#" class="trigger"></a>
+              <?php else: ?>
+              <a href="#"></a>
+              <?php endif; ?>
+          </div>
+          <div class="col tab50">
+              <p class="title"><?php the_title(); ?></p>
+          </div>
+          <div class="col tab5">
+            <p><?php the_date('Y'); ?></p>
+          </div>
+          <div class="col tab15">
+              <p><?php the_field('location'); ?></p>
+          </div>
+          <div class="col tab28">
+            <ul class="post-categories">
+              <li>
+            <?php if( get_field('divsions') ): ?>
+                  <?php the_field('divsions'); ?>
             <?php endif; ?>
+              </li>
+            </ul>
           </div>
           </div>
-            <?php endwhile; ?>
-            <?php wp_reset_query(); ?>  
-    </div>
-    </div>
+   
+              <div class="toggle">
+               <?php if( get_field('factsfigures') ): ?>
+                    <?php the_field('factsfigures'); ?>
+                <?php endif; ?>
+              </div>
+          </div>
+          <?php endwhile; ?>
+          <?php wp_reset_query(); ?>  
+          </div> 
+
+
+
     </div>
     </div>
     </div>
