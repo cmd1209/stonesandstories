@@ -15,7 +15,6 @@
                   <?php endif; ?>   
                 </ul> 
             </div>
-            <?php endif; ?>
           </div>
         </div>
       </div>
