@@ -1,7 +1,7 @@
 <?php /* Template Name: profile+potenzial */ get_header(); ?>
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
-    <div class="col maincontent"main>
+    <div class="col megacontent"main>
 
       <div class="col col100">
         <div class="module">
@@ -24,9 +24,9 @@
             <div class="mega"><?php the_content(); ?></div>
 
           <div class="potenzial" style="background-color:black;color:white;">
-          <?php if( get_field('potenzial') ): ?>
-            <?php the_field('potenzial'); ?>
-          <?php endif; ?>
+            <?php if( get_field('potenzial') ): ?>
+              <?php the_field('potenzial'); ?>
+            <?php endif; ?>
           </div>     
           </div>
         </div>
