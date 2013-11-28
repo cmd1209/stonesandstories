@@ -648,9 +648,6 @@ section{
 }
 .tab28{
 	width: 28%;
-		@media only screen and (max-width:767px) {
-		width: 100%;
-	}
 }
 .tab50{
 	width: 50%;
@@ -956,6 +953,9 @@ a.thumbnail{
    		margin: 8px 5px 10px 5px;
    		border-left-color: white;
    		cursor: default;
+	}
+	a.blank:hover{
+		background-color: white!important;
 	}
 	a.trigger{
 		height: 2px;
