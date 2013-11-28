@@ -752,7 +752,6 @@ a.thumbnail{
 	h1{
 		color: $darkgrey;
 		display: block;
-		height: 32px;
 		font-weight: 400;
 		font-size: 0.95em;
 		background-color: white;
@@ -761,9 +760,10 @@ a.thumbnail{
 		text-transform: uppercase;
 		letter-spacing: 0.2em;
 		margin: 0;
+		line-height: 1em;
 		strong{
+			line-height: 1em;
 			padding:7px 10px;
-			height: 32px;
 			background-color: black;
 			font-weight: 400;
 			font-style: normal;
