@@ -23,7 +23,7 @@
 
             <?php the_content(); ?>
 
-          <div class="potenzial" style="position:absolute;width:33%; background-color:black;color:white;">
+          <div class="potenzial" style="width:33%; background-color:black;color:white;">
           <?php if( get_field('potenzial') ): ?>
             <?php the_field('potenzial'); ?>
           <?php endif; ?>
