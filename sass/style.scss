@@ -1152,12 +1152,13 @@ a.triangle:hover{
 
 
 .post-categories{
+	display: block;
 	li{
-		float: right;
+		display: inline;
 		margin: 2px 0px 0px 2px;
 	}
 	a{	
-		float: right;
+		display: inline-block;
 		border-left: 1px solid $lightgrey;
 		background-color: $lightgrey;
 		font-size: 0.85em;
