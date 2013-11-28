@@ -38,9 +38,11 @@
               </td>
             </tr>
             <tr class="toggle col100">
+              <td class="toggle col100">
                 <?php if( get_field('factsfigures') ): ?>
-                    <?php the_field('factsfigures'); ?>
+                  <?php the_field('factsfigures'); ?>
                 <?php endif; ?>
+              </td>
             </tr>
           </tbody>
           </table>
