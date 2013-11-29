@@ -30,7 +30,7 @@
                 <p><?php the_field('location'); ?></p>
               </td>
               <td class="tab28">
-                <ul class="post-categories">
+                <ul class="post-categories facts">
                   <?php if( get_field('divsions') ): ?>
                     <?php the_field('divsions'); ?>
                   <?php endif; ?>
