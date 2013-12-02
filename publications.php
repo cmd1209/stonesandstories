@@ -4,27 +4,27 @@
     <div class="col maincontent"main>
       <div class="col col100">
         <div class="module">
-          <div class="textwrap singletitle">
+          <div class="textwrap moduleheader">
             <div class="col col33">
-            <h2><span>Books</span></h2>
+            <h2>Books</h2>
               <?php if( get_field('books') ): ?>
                 <?php the_field('books'); ?>
               <?php endif; ?>              
             </div>
             <div class="col col33">
-            <h2><span>Zeitschriften</span></h2>
+            <h2>Zeitschriften</h2>
               <?php if( get_field('zeitschriften') ): ?>
                 <?php the_field('zeitschriften'); ?>
               <?php endif; ?>
             </div>
             <div class="col col33">
-            <h2><span>Ausstellungskataloge</span></h2>
+            <h2>Ausstellungskataloge</h2>
               <?php if( get_field('ausstellungskataloge') ): ?>
                 <?php the_field('ausstellungskataloge'); ?>
               <?php endif; ?>
             </div>
             <div class="col col100" style="padding:10px;background-color:black;color:white">
-            <h2><span>Awards</span></h2>
+            <h2>Awards</h2>
               <?php if( get_field('awards') ): ?>
                 <?php the_field('awards'); ?>
               <?php endif; ?>
