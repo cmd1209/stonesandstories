@@ -21,7 +21,8 @@
 
             <div class="mega"><?php the_content(); ?></div>
 
-          <div class="potenzial" style="background-color:black;color:white;">
+          <div class="potenzial" style="background-color:black;color:white;width: 50%;">
+            <h2>Potenzial</h2>
             <?php if( get_field('potenzial') ): ?>
               <?php the_field('potenzial'); ?>
             <?php endif; ?>
