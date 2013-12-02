@@ -4,7 +4,7 @@
     <div class="col maincontent"main>
       <div class="col col100">
         <div class="module">
-          <div class="textwrap">
+          <div class="textwrap singletitle">
             <div class="col col33">
             <h2>Books</h2>
               <?php if( get_field('books') ): ?>
@@ -23,7 +23,7 @@
                 <?php the_field('ausstellungskataloge'); ?>
               <?php endif; ?>
             </div>
-            <div class="col col100">
+            <div class="col col100" style="padding:10px;background-color:black;color:white">
             <h2>Awards</h2>
               <?php if( get_field('awards') ): ?>
                 <?php the_field('awards'); ?>
