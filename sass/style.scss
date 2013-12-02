@@ -1172,8 +1172,15 @@ a.triangle:hover{
  }
 
 .potenzial{
+	p{
+		width: 100%;
+	}
 	a{
 		background-color: $yellow;
+	}
+	a:hover{
+		background-color: white;
+		color: black;
 	}
 }
 
