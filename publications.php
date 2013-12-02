@@ -4,27 +4,38 @@
     <div class="col maincontent"main>
       <div class="col col100">
         <div class="module">
-          <div class="textwrap awards">
+          <div class="textwrap categorysingle">
+            <div class="singletitle">
+              <h2><?php the_title(); ?>
+                <?php if( get_field('subheadline') ): ?>
+                 <span><?php the_field('subheadline'); ?></span></h2>
+                <?php endif; ?>
+               </div>   
+               <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
+                <ul class="post-categories facts" style="padding-left:0; overflow:hidden;">
+                  <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
+                </ul>        
+              </div>
             <div class="col col33">
-            <h2>Books</h2>
+            <h3>Books</h3>
               <?php if( get_field('books') ): ?>
                 <?php the_field('books'); ?>
               <?php endif; ?>              
             </div>
             <div class="col col33">
-            <h2>Zeitschriften</h2>
+            <h3>Zeitschriften</h3>
               <?php if( get_field('zeitschriften') ): ?>
                 <?php the_field('zeitschriften'); ?>
               <?php endif; ?>
             </div>
             <div class="col col33">
-            <h2>Ausstellungskataloge</h2>
+            <h3>Ausstellungskataloge</h3>
               <?php if( get_field('ausstellungskataloge') ): ?>
                 <?php the_field('ausstellungskataloge'); ?>
               <?php endif; ?>
             </div>
             <div class="col col100" style="padding:10px;background-color:black;color:white">
-            <h2>Awards</h2>
+            <h3>Awards</h3>
               <?php if( get_field('awards') ): ?>
                 <?php the_field('awards'); ?>
               <?php endif; ?>
