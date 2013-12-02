@@ -5,7 +5,7 @@
 <div class="col col100">
 <div class="module">
 <div class="textwrap">
-  <?php $ids = array(162); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+  <?php $ids = array(162); query_posts(); ?>
   <?php while (have_posts()) : the_post(); ?>
   <?php the_content(); ?>
   <?php endwhile; ?>
