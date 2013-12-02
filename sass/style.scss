@@ -1224,6 +1224,9 @@ a.triangle:hover{
 		transition: all 0.2s;
 	}
 }
+#menu-spirit.current-menu-item{
+	background-color: $yellow!important;
+}
 
 .facts{
 	li{
