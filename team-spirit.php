@@ -7,7 +7,7 @@
 <div class="textwrap">
   <?php $ids = array(162); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
   <?php while (have_posts()) : the_post(); ?>
-  <?php echo the_content(); ?>
+  <?php the_content(); ?>
   <?php endwhile; ?>
 </div>
 </div>
