@@ -15,7 +15,7 @@
                   <?php wp_nav_menu( array('menu' => 'spirit' )); ?>
               </div>
             <div class="mega"><?php the_content(); ?></div>
-          <div class="potenzial" style="background-color:black;color:white;width: 50%;padding:10px;">
+          <div class="potenzial" style="background-color:black;color:white;width: 80%;padding:10px;">
             <h2 style="text-transform: uppercase;letter-spacing:0.2em;">Potenzial</h2>
             <?php if( get_field('potenzial') ): ?>
               <?php the_field('potenzial'); ?>
