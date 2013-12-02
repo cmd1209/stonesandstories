@@ -4,7 +4,7 @@
     <div class="col maincontent"main>
       <div class="col col100">
         <div class="module">
-          <div class="textwrap moduleheader">
+          <div class="textwrap awards">
             <div class="col col33">
             <h2>Books</h2>
               <?php if( get_field('books') ): ?>
