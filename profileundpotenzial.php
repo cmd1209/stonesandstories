@@ -2,7 +2,6 @@
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
     <div class="col maincontent" role="main">
-
       <div class="col col100">
         <div class="module">
           <div class="textwrap categorysingle">
@@ -12,15 +11,12 @@
                  <span><?php the_field('subheadline'); ?></span></h2>
                 <?php endif; ?>
                </div>   
-
                <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
                 <ul class="post-categories facts" style="padding-left:0; overflow:hidden;">
-                    <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
-                  </ul>        
+                  <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
+                </ul>        
               </div>
-
             <div class="mega"><?php the_content(); ?></div>
-
           <div class="potenzial" style="background-color:black;color:white;width: 50%;padding:10px;">
             <h2 style="text-transform: uppercase;letter-spacing:0.2em;">Potenzial</h2>
             <?php if( get_field('potenzial') ): ?>
