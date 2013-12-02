@@ -1225,7 +1225,9 @@ a.triangle:hover{
 	}
 }
 #menu-spirit.current-menu-item{
-	background-color: $yellow!important;
+	a{
+		background-color: $yellow!important;
+	}
 }
 
 .facts{
