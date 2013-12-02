@@ -12,9 +12,7 @@
                 <?php endif; ?>
                </div>   
                <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
-                <ul class="post-categories facts" style="padding-left:0; overflow:hidden;">
-                  <li><?php if( get_field('custom-links') ): ?> <?php the_field('custom-links'); ?></li><?php endif; ?>   
-                </ul>        
+                <?php wp_nav_menu( array('menu' => 'spirit' )); ?>        
               </div>
             <div class="col col33">
             <h3>Books</h3>
