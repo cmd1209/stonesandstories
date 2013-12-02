@@ -12,9 +12,7 @@
                 <?php endif; ?>
                </div>   
                <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
-                <ul class="post-categories facts" style="padding-left:0; overflow:hidden;">
                   <?php wp_nav_menu( array('menu' => 'spirit' )); ?>
-                </ul>        
               </div>
             <div class="mega"><?php the_content(); ?></div>
           <div class="potenzial" style="background-color:black;color:white;width: 50%;padding:10px;">
