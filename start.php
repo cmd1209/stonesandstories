@@ -19,7 +19,8 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col70 stretch">
+            <div class="col70">
+              <figure><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></figure>
             </div>
             <?php endwhile; ?>
           </div>
