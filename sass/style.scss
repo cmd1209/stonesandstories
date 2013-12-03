@@ -102,14 +102,38 @@ input:focus {
 
 .mobilenav {
   transition: width 0.3s ease;
-  width: 80%;
+  width: 60%;
   z-index: 100;
-  background-color: black; 	
+  background-color: rgba(0,0,0,0.85); 	
   overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
+  	ul{
+  		text-align: center;
+
+  	}
+  			li{	
+				width: 100%;
+				display: block;
+				z-index: 25;	
+				cursor: pointer;
+				padding: 3px 3px 3px 0px;
+				margin: 0 0 2px 0;			
+				a{	
+					color: white!important;
+					display: block;
+					font-size: 0.85em !important;
+					width: 100%;
+					letter-spacing: 0.2em;
+				}
+			}
+			li:hover{
+				a{
+					color: $yellow!important;
+				}
+			}	
 }
 
 .mobilenavtrigger{
