@@ -14,7 +14,7 @@
                <div class="factbox" style="margin-bottom: 30px;padding-left:0;" id="<?php the_title(); ?>">
                   <?php wp_nav_menu( array('menu' => 'spirit' )); ?>
               </div>
-            <div class="mega"><?php the_content(); ?></div>
+            <div class="mega" style="width:100!important;"><?php the_content(); ?></div>
           <div class="potenzial" style="background-color:black;color:white;width: 80%;padding:10px;">
             <h2 style="text-transform: uppercase;letter-spacing:0.2em;">Potenzial</h2>
             <?php if( get_field('potenzial') ): ?>
