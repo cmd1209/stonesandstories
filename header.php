@@ -27,7 +27,7 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
-      <a class="mobilenavtrigger" href="#">Menu</a>
+      <a class="mobilenavtrigger" href="#">&#9776;</a>
     <nav id="mobilenav" class="mobilenav">
     <div class="mastheadmobile wrapper">
       <a href="<?php echo home_url(); ?>">
