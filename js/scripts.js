@@ -26,6 +26,13 @@ $(function() {
 });
 
 $(function() {
+    $('.mobilenavtrigger').click(function(){ 
+      $('.mobilenav').slideToggle("fast");
+      return false;
+    });
+});
+
+$(function() {
     $('.trigger').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
       $(this).toggleClass("active");

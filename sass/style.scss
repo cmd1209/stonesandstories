@@ -108,8 +108,9 @@ input:focus {
   overflow: hidden;
   position: fixed;
   top: 0;
-  left: -999px;
+  left: -20px;
   height: 100%;
+  display: none;
   	ul{
   		text-align: center;
 
@@ -127,6 +128,8 @@ input:focus {
 					font-size: 1.5em !important;
 					width: 100%;
 					letter-spacing: 0.2em;
+					text-transform: uppercase;
+					line-height: 2em;
 				}
 			}
 			li:hover{
@@ -140,9 +143,11 @@ input:focus {
 	position: absolute;
 	top: 20px;
 	left: 0;
-	padding: 10px;
-	color: white;
-	background-color: black;
+	a{
+		padding: 10px;
+		color: white;
+		background-color: black!important;
+	}
 	@media only screen and (min-width:768px) {
 		display: none
 	}
