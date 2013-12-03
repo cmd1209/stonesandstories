@@ -9,7 +9,7 @@
         <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-          <div class="textwrap singletitle col col40">
+          <div class="textwrap singletitle col col50">
             <h2><?php the_title(); ?><br><span><?php the_field('subheadline'); ?></span></h2>
             
             <div class="col col40">
