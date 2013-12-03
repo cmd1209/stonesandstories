@@ -188,6 +188,23 @@ a.mobilenavtrigger{
 	padding: 10px 0 0 0;
 	margin: 0 0 20px 0;
 	@media only screen and (max-width:779px) {
+		display: none;
+	}
+	img{
+		height: 93%;
+	}
+}
+.mastheadmobile{
+	display: none;
+	width: 100%;
+	height: 130px;
+	position: relative;
+	text-align: center;
+	background-color: black;
+	padding: 10px 0 0 0;
+	margin: 0 0 20px 0;
+	@media only screen and (max-width:779px) {
+		display: block;
 		height: 70px;
 	}
 	img{
