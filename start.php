@@ -20,7 +20,7 @@
                 </div>              
             </div>
             <div class="col70">
-              <div class="heroimage" style="height:100%;overflow:hidden;">
+              <div>
                 <a class="thumbnail" href="<?php echo get_permalink(); ?>"><img style="height:100%;" src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></a>
               </div>  
             </div>
