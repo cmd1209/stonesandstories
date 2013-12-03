@@ -3,7 +3,7 @@
   <section role="main">
     <div class="col maincontent" style="padding: 0 5px 0 0;">
 
-        <div class="col col100 S">
+        <div class="col col100 H450 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <div class="col30">
