@@ -25,8 +25,8 @@
 								</a>
 									<?php echo excerpt(35); ?>
 								</div>
-						<?php endif; ?>
-					<?php endwhile; ?>
+						<?php endwhile; ?>
+					<?php endif; ?>
 					</div>
 					</div>
 				</div>
