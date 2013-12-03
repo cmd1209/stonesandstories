@@ -19,7 +19,7 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col70" style="background: url(<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg) no-repeat center center fixed; ">
+            <div class="col70" style="background: url(http://www.andreas-heller.de/2013/wp-content/uploads/2013/11/EHM-Wand.jpg) no-repeat center center fixed; ">
               
             </div>
             <?php endwhile; ?>
