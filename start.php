@@ -19,7 +19,7 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col col70" style="background-color:red; overflow:hidden;height:100%;">
+            <div class="col col70" style="background-color:red; overflow:hidden;height:100%;display:block;">
             fff
 <!--               <figure><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" style="height: 100%; width:auto;" alt=""></figure> -->
             </div>
