@@ -6,7 +6,7 @@
         <div class="col col100 H450 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
-            <div class="col col30">
+            <div class="col30">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
                <div class="moduleheader">
@@ -19,9 +19,8 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col col70" style="background-color:red; overflow:hidden;height:100%;display:block;">
-            fff
-<!--               <figure><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" style="height: 100%; width:auto;" alt=""></figure> -->
+            <div class="col70">
+              <figure><img src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></figure>
             </div>
             <?php endwhile; ?>
           </div>
