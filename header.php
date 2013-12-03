@@ -27,10 +27,10 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
+      <a class="mobilenavtrigger" href="#">Menu</a>
     <nav id="mobilenav" class="mobilenav">
       <?php wp_nav_menu( array('menu' => 'mobile' )); ?>
     </nav>
-      <a class="mobilenavtrigger" href="#">Menu</a>
     <div class="wrapper">
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">

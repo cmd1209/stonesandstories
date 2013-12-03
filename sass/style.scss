@@ -139,7 +139,11 @@ input:focus {
 }
 
 a.mobilenavtrigger{
-	width: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
 	padding: 10px;
 	color: white;
 	background-color: black!important;
