@@ -30,14 +30,13 @@
       <a class="mobilenavtrigger" href="#">Menu</a>
     <nav id="mobilenav" class="mobilenav">
       <?php wp_nav_menu( array('menu' => 'mobile' )); ?>
-    </nav>
-    <div class="wrapper">
-    <div class="mastheadmobile">
+    <div class="mastheadmobile wrapper">
       <a href="<?php echo home_url(); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo-neg.svg" alt="Logo" class="logo-img">
       </a> 
     </div>
-    
+    </nav>
+    <div class="wrapper">
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
