@@ -107,7 +107,7 @@ input:focus {
   background-color: rgba(0,0,0,0.85); 	
   overflow: hidden;
   position: fixed;
-  top: 0;
+  top: 70px;
   height: 100%;
   display: none;
   	ul{
@@ -142,7 +142,6 @@ a.mobilenavtrigger{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
 	padding: 10px;
 	color: white;
 	background-color: black!important;
@@ -202,7 +201,7 @@ a.mobilenavtrigger{
 	text-align: center;
 	background-color: black;
 	padding: 10px 0 0 0;
-	margin: 0 0 20px 0;
+	margin: 0;
 	@media only screen and (max-width:779px) {
 		display: block;
 		height: 70px;
