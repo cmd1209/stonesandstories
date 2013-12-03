@@ -29,7 +29,7 @@
   <body <?php body_class(); ?>>
     <nav id="mobilenav" class="mobilenav">
       <a href="#">Nav Links</a>
-      <!-- more -->
+
     </nav>
     <div class="wrapper">
       <a href="#mobilenav">Menu</a>

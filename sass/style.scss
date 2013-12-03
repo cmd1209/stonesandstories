@@ -102,7 +102,6 @@ input:focus {
 
 .mobilenav {
   transition: width 0.3s ease;
-  /* Collapsed */
   width: 0;
   background-color: black; 	
   overflow: hidden;
@@ -112,20 +111,12 @@ input:focus {
   height: 100%;
 }
 
-#mobilenav:target {
-	width: 20%; 
-}
-#mobilenav:target + .wrapper {
-	width: 80%;
-}
-
 .wrapper {
 	max-width: 1280px;
 	margin:0 auto;
 	position:relative;
 		@media only screen and (max-width:767px) {
 		width: 100%;
-  		float: right;
 	}
 	@media only screen and (min-width:768px) {
 		width: 768px;
