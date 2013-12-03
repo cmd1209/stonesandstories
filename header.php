@@ -29,6 +29,7 @@
   <body <?php body_class(); ?>>
     <div class="wrapper">
     <div class="mobilenav">
+    <p>sdakfj</p>
       
     </div>
     <div class="content">
