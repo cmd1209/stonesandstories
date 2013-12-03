@@ -144,6 +144,9 @@ input:focus {
 	background-color: white;
 	padding: 10px 0 0 0;
 	margin: 0 0 20px 0;
+	@media only screen and (max-width:779px) {
+		height: 70px;
+	}
 	img{
 		height: 93%;
 		@media only screen and (max-width:779px) {
