@@ -19,7 +19,7 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col70" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg);">
+            <div class="col70" style="background:url(<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg);">
               
             </div>
             <?php endwhile; ?>
