@@ -102,13 +102,12 @@ input:focus {
 
 .mobilenav {
   transition: width 0.6s ease;
-  width: 60%;
+  width: 100%;
   z-index: 100;
   background-color: rgba(0,0,0,0.85); 	
   overflow: hidden;
   position: fixed;
   top: 0;
-  left: -20px;
   height: 100%;
   display: none;
   	ul{
@@ -139,16 +138,12 @@ input:focus {
 			}	
 }
 
-.mobilenavtrigger{
-	position: absolute;
+a.mobilenavtrigger{
+	width: 50%;
+	padding: 10px;
+	color: white;
+	background-color: black!important;
 	z-index: 101;
-	top: 20px;
-	left: 0;
-	a{
-		padding: 10px;
-		color: white;
-		background-color: black!important;
-	}
 	@media only screen and (min-width:768px) {
 		display: none
 	}
