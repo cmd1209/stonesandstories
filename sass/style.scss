@@ -104,9 +104,10 @@ input:focus {
 	.mobilenav{
 		width: 60%;
 		background-color: black;
+		overflow: hidden;
 	}
 	.content{
-		width: 40%;
+		
 	}
 
 	max-width: 1280px;
