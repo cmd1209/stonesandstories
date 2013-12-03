@@ -101,14 +101,14 @@ input:focus {
 }
 
 .mobilenav {
-  transition: width 0.3s ease;
+  transition: width 0.6s ease;
   width: 60%;
   z-index: 100;
   background-color: rgba(0,0,0,0.85); 	
   overflow: hidden;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -999;
   height: 100%;
   	ul{
   		text-align: center;
@@ -124,7 +124,7 @@ input:focus {
 				a{	
 					color: white!important;
 					display: block;
-					font-size: 0.85em !important;
+					font-size: 1.5em !important;
 					width: 100%;
 					letter-spacing: 0.2em;
 				}
