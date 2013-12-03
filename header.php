@@ -42,5 +42,3 @@
               <?php get_template_part('searchform'); ?>
           </div>
         </div>
-    </div>
-<div class="wrapper" id="stage">
