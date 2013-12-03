@@ -32,7 +32,7 @@
 
     </nav>
     <div class="wrapper">
-      <a href="#mobilenav">Menu</a>
+      <a class="mobilenavtrigger" href="#mobilenav">Menu</a>
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
