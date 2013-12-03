@@ -30,8 +30,8 @@
     <nav id="mobilenav" class="mobilenav">
       <?php wp_nav_menu( array('menu' => 'mobile' )); ?>
     </nav>
+      <a class="mobilenavtrigger" href="#">Menu</a>
     <div class="wrapper">
-      <a class="mobilenavtrigger" href="#mobilenav">Menu</a>
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
