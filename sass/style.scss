@@ -111,31 +111,32 @@ input:focus {
   height: 100%;
   display: none;
   	ul{
+		margin: 0 0 0 -20px;
   		text-align: center;
 
   	}
-  			li{	
-				width: 100%;
-				display: block;
-				z-index: 25;	
-				cursor: pointer;
-				padding: 3px 3px 3px 0px;
-				margin: 0 0 2px 0;			
-				a{	
-					color: white!important;
-					display: block;
-					font-size: 1.5em !important;
-					width: 100%;
-					letter-spacing: 0.2em;
-					text-transform: uppercase;
-					line-height: 2em;
-				}
-			}
-			li:hover{
-				a{
-					color: $yellow!important;
-				}
-			}	
+	li{	
+		width: 100%;
+		display: block;
+		z-index: 25;	
+		cursor: pointer;
+		padding: 3px 3px 3px 0px;
+		margin: 0 0 2px 0;			
+		a{	
+			color: white!important;
+			display: block;
+			font-size: 1.5em !important;
+			width: 100%;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			line-height: 2em;
+		}
+	}
+	li:hover{
+		a{
+			color: $yellow!important;
+		}
+	}	
 }
 
 a.mobilenavtrigger{
