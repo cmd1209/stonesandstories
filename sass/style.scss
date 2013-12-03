@@ -100,14 +100,32 @@ input:focus {
 	background-color: black;
 }
 
+.mobilenav {
+  
+  /* Collapsed */
+  width: 0; 
+
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+#mobilenav:target {
+	width: 20%; 
+}
+#mobilenav:target + .wrapper {
+	width: 80%;
+}
+
 .wrapper {
 	max-width: 1280px;
 	margin:0 auto;
 	position:relative;
 		@media only screen and (max-width:767px) {
-		position: absolute;
-		left: 250px;
-		margin: 0;
+		width: 100%;
+  		float: right;
 	}
 	@media only screen and (min-width:768px) {
 		width: 768px;

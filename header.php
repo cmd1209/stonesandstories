@@ -27,6 +27,10 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
+    <nav id="mobilenav" class="mobilenav">
+      <a href="#">Nav Links</a>
+      <!-- more -->
+    </nav>
     <div class="wrapper">
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
