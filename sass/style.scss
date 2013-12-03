@@ -482,6 +482,12 @@ section{
   	font-family: "Arimo", Arial, sans-serif;
 }
 
+#footerinfo{
+	@media only screen and (min-width:768px) {
+	display:none;
+	}
+}
+
 ::-webkit-input-placeholder{
   color: $darkgrey;
 }

@@ -32,8 +32,6 @@
         </div>
       </div>
     </div>
-    
-
     <div class="sidebar">
       <?php get_sidebar(); ?>
     </div>
