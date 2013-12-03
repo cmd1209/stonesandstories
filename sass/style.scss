@@ -141,6 +141,7 @@ input:focus {
 
 .mobilenavtrigger{
 	position: absolute;
+	z-index: 101;
 	top: 20px;
 	left: 0;
 	a{
