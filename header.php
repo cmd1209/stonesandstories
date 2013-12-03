@@ -28,6 +28,10 @@
   </head>
   <body <?php body_class(); ?>>
     <div class="wrapper">
+    <div class="mobilenav">
+      
+    </div>
+    <div class="content">
         <div class="masthead">
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">

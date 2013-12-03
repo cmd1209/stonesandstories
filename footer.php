@@ -19,6 +19,7 @@
 					<p>&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?></p>
 				</div>
 			</footer>
+		</div>  <!-- end content -->
 		</div> <!-- end wrapper -->
 
 		<?php wp_footer(); ?>

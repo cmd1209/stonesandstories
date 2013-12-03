@@ -101,6 +101,14 @@ input:focus {
 }
 
 .wrapper {
+	.mobilenav{
+		width: 60%;
+		background-color: black;
+	}
+	.content{
+		width: 40%;
+	}
+
 	max-width: 1280px;
 	margin:0 auto;
 	position:relative;
