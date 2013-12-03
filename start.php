@@ -3,7 +3,7 @@
   <section role="main">
     <div class="col maincontent" style="padding: 0 5px 0 0;">
 
-        <div class="col col100 H450 S">
+        <div class="col col100 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
           <div class="module">
             <div class="col30">
@@ -21,7 +21,7 @@
             </div>
             <div class="col70">
               <div>
-                <a class="thumbnail" href="<?php echo get_permalink(); ?>"><img style="height:100%;" src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></a>
+                <a class="thumbnail" href="<?php echo get_permalink(); ?>"><img style="height:100%!important;" src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></a>
               </div>  
             </div>
             <?php endwhile; ?>
