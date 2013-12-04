@@ -601,6 +601,10 @@ section{
 	padding: 20px;
 	height: 40px;
 	position: relative;
+	@media only screen and (max-width:7687px) {
+	padding: 0;
+	height: 0;
+	}
 }
 
 /*------------------------------------*\
