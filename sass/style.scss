@@ -186,7 +186,7 @@ a.mobilenavtrigger{
 	background-color: white;
 	padding: 10px 0 0 0;
 	margin: 0 0 20px 0;
-	@media only screen and (max-width:779px) {
+	@media only screen and (max-width:767px) {
 		height: 70px;
 	}
 	img{
@@ -201,7 +201,7 @@ a.mobilenavtrigger{
 	background-color: black;
 	padding: 10px 0 0 0;
 	margin: 0;
-	@media only screen and (max-width:779px) {
+	@media only screen and (max-width:767px) {
 		height: 70px;
 	}
 	img{
@@ -246,7 +246,7 @@ a.mobilenavtrigger{
 	padding: 0 0 5px 0;
 	background-color:  white;
 	position: relative;
-	@media only screen and (max-width:779px) {
+	@media only screen and (max-width:767px) {
 		display: none;
 	}
 }
