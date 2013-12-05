@@ -1115,6 +1115,9 @@ a.thumbnail{
 		width: 100%;
 		border-bottom: 1px solid white;	
 	}
+	li:last-child{	
+		border-bottom: none;	
+	}
 	a{
 		display: block;
 		padding: 5px;
