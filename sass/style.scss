@@ -106,7 +106,6 @@ input:focus {
   width: 100%;
   z-index: 100;
   background-color: black;
-  padding: 0 0 20px 0;
   height: 0px;
 
   	ul{
@@ -152,7 +151,8 @@ input:focus {
 }
 
 #mobilenav:target{
-	height: 350px;
+	height: auto;
+	padding: 20px 0;
 }
 
 a.mobilenavtrigger{
