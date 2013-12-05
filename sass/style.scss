@@ -157,7 +157,7 @@ input:focus {
 }
 
 a.mobilenavtrigger{
-	transition: width 0.25s ease;
+	transition: all 0.25s ease;
 	font-family: "fontello", Arial, sans-serif;
 	position: fixed;
 	top: 0;
@@ -175,9 +175,9 @@ a.mobilenavtrigger{
 }
 
 a.mobilenavtrigger:hover{
-	transition: width 0.25s ease;
+	transition: all 0.25s ease;
 	background-color: $yellow;
-	padding-left: 20px;
+	color: black;
 }
 
 .wrapper {
