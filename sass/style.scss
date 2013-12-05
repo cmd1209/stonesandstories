@@ -140,9 +140,10 @@ input:focus {
 	}	
 }
 a.mobilenavtrigger{
+	transition: width 0.25s ease;
 	font-family: "fontello", Arial, sans-serif;
 	position: fixed;
-	top: 20px;
+	top: 0;
 	left: 0;
 	width: 40px;
 	text-align: center;
@@ -153,7 +154,11 @@ a.mobilenavtrigger{
 	@media only screen and (min-width:768px) {
 		display: none
 	}
-
+a.mobilenavtrigger:hover{
+	transition: width 0.25s ease;
+	background-color: $yellow;
+	padding-left: 20px;
+}
 }
 .wrapper {
 	max-width: 1280px;
