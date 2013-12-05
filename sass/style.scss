@@ -106,7 +106,7 @@ input:focus {
   width: 100%;
   z-index: 100;
   background-color: black;
-  height: 0px;
+  max-height: 0px;
   overflow: hidden;
 
   	ul{
