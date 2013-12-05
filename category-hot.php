@@ -7,8 +7,8 @@
       <div class="module">
 
 
-<div class="col100">
 <h1><strong><?php single_cat_title(); ?></strong></h1>
+<div class="col100" style="overflow:hidden;">
         <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <div class="textwrap singletitle col col50">
@@ -28,8 +28,7 @@
       <?php wp_reset_query(); ?>
 </div>
 
-<div class="col100">
-<h1><strong><?php single_cat_title(); ?></strong></h1>
+<div class="col100" style="overflow:hidden;">
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 2, 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <div class="textwrap singletitle col col50">
