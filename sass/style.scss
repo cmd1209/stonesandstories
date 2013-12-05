@@ -102,7 +102,7 @@ input:focus {
 
 
 #mobilenav {
-  transition: height 0.6s ease;
+  transition: max-height 0.6s ease;
   width: 100%;
   z-index: 100;
   background-color: black;
@@ -152,7 +152,7 @@ input:focus {
 }
 
 #mobilenav:target{
-	transition: height 0.6s ease;
+	transition: max-height 0.6s ease;
 	max-height: 4500px;
 	padding: 20px 0;
 }
