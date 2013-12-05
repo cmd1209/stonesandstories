@@ -147,14 +147,14 @@ input:focus {
 		img{
 			width: 50%;
 		}
+	}
+	
 }
-  @media only screen and (max-width:769px) {
-		display: none
-	}	
-}
+
 #mobilenav:target{
 	height: 350px;
 }
+
 a.mobilenavtrigger{
 	transition: all 0.25s ease;
 	font-family: "fontello", Arial, sans-serif;
