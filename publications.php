@@ -15,7 +15,7 @@
                 <?php wp_nav_menu( array('menu' => 'spirit' )); ?>        
               </div>
             <div class="col col33">
-            <h3>Books</h3>
+            <h3>Bücher</h3>
               <?php if( get_field('books') ): ?>
                 <?php the_field('books'); ?>
               <?php endif; ?>              
