@@ -28,7 +28,7 @@
       <?php wp_reset_query(); ?>
 </div>
 
-<div class="col100" style="overflow:hidden;">
+<div class="col100" style="overflow:hidden; margin-bottom:30px;">
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 2, 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <div class="textwrap singletitle col col50">
@@ -48,11 +48,7 @@
       <?php wp_reset_query(); ?>
 </div>
 
-
-
-
-
-      <div class="archives col col100">
+<div class="archives col col100">
         <h2>Archives</h2>
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php while (have_posts()) : the_post(); ?>
