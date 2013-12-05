@@ -140,8 +140,12 @@ input:focus {
 }
 a.mobilenavtrigger{
 	font-family: "fontello", Arial, sans-serif;
-	position: relative;
-	margin: 0 auto 5px auto;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	width: 20px;
+	text-align: center;
+	margin: 0 0 0 -10px;
 	padding: 7px;
 	color: white;
 	background-color: black!important;
