@@ -28,7 +28,7 @@ $(function() {
 $(function() {
     $('.mobilenavtrigger').click(function(){ 
       $('.mobilenav').slideToggle("fast");
-      $('.masthead').slideToggle("slow");
+      $('.masthead').slideToggle("fast");
       return false;
     });
 });
