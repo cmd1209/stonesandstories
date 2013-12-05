@@ -51,12 +51,12 @@
 <div class="archives col col100">
         <h2>Archives</h2>
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
-        <?php while (have_posts()) : the_post(); ?>
           <ul>
+        <?php while (have_posts()) : the_post(); ?>
             <li><div class="col col60"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></div>
                    <div class="col col40"><?php the_date(); ?></div></li>
-          </u>
         <?php endwhile; ?>
+          </ul>
         <?php wp_reset_query(); ?>  
       </div>
 
