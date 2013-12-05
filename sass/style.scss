@@ -1107,6 +1107,9 @@ a.thumbnail{
 	background-color: $lightgrey;
 	padding: 10px;
 	margin: 30px 0 10px 0;
+	ul:last-child{
+		border-bottom: none;	
+	}
 	li{	
 		display: block;
 		width: 100%;
