@@ -105,9 +105,10 @@ input:focus {
   width: 100%;
   z-index: 100;
   background-color: black; 	
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
   display: none;
   padding: 0 0 20px 0;
   	ul{
@@ -140,7 +141,7 @@ input:focus {
 }
 a.mobilenavtrigger{
 	font-family: "fontello", Arial, sans-serif;
-	position: absolute;
+	position: fixed;
 	top: 75px;
 	left: 50%;
 	width: 50px;
@@ -196,7 +197,7 @@ a.mobilenavtrigger{
 }
 .mastheadmobile{
 	width: 100%;
-	position: relative;
+	position: fixed;
 	text-align: center;
 	background-color: black;
 	padding: 10px 0 0 0;
