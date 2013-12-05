@@ -201,7 +201,10 @@ a.mobilenavtrigger{
 	background-color: black;
 	padding: 10px 0 0 0;
 	margin: 0;
-	@media only screen and (max-width:767px) {
+	@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 	}
 	img{
 		width: 50%;
