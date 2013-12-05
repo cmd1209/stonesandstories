@@ -27,7 +27,6 @@
     </script>
   </head>
   <body <?php body_class(); ?>>
-  <a class="mobilenavtrigger" href="#mobilenav">&#9776;</a>
   <nav id="mobilenav">
 <!--     <div class="mastheadmobile">
       <a href="<?php echo home_url(); ?>">
@@ -40,6 +39,7 @@
 
     <div class="wrapper">
         <div class="masthead">
+            <a class="mobilenavtrigger" href="#mobilenav">&#9776;</a>
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
