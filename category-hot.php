@@ -21,6 +21,9 @@
               <?php echo excerpt(35); ?>
             </div>
           </div>
+          <div class="col100">
+              
+          </div>
 
         <?php endwhile; else: ?>
       <?php endif; ?>   
