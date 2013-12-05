@@ -34,7 +34,7 @@
       </a> 
     </div> -->
     <?php wp_nav_menu( array('menu' => 'mobile' )); ?>
-    <a class="mobilenavtrigger" style="bottom:0;" href="#">close</a>
+    <a class="mobilenavtrigger" href="#">close</a>
   </nav>
     
 
