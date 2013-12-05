@@ -25,13 +25,13 @@ $(function() {
 	});
 });
 
-$(function() {
-    $('.mobilenavtrigger').click(function(){ 
-      $('.mobilenav').slideToggle("fast");
-      $('.masthead').slideToggle("fast");
-      return false;
-    });
-});
+// $(function() {
+//     $('.mobilenavtrigger').click(function(){ 
+//       $('.mobilenav').slideToggle("fast");
+//       $('.masthead').slideToggle("fast");
+//       return false;
+//     });
+// });
 
 $(function() {
     $('.trigger').click(function(){ 
