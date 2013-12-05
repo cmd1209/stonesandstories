@@ -100,6 +100,7 @@ input:focus {
 	background-color: black;
 }
 
+
 .mobilenav {
   transition: width 0.6s ease;
   width: 100%;
@@ -115,9 +116,9 @@ input:focus {
 		display: none
 	}
   	ul{
+		position: relative;
 		margin: 0 0 0 -30px;
   		text-align: center;
-  		padding-top: 75px;
   	}
 	li{	
 		width: 100%;
@@ -140,8 +141,21 @@ input:focus {
 		a{
 			color: $yellow!important;
 		}
-	}	
+	}
+
+	.mastheadmobile{
+		width: 100%;
+		position: relative;
+		text-align: center;
+		background-color: black;
+		padding: 10px 0 0 0;
+		margin: 0;
+		img{
+			width: 50%;
+		}
+}	
 }
+
 a.mobilenavtrigger{
 	transition: width 0.25s ease;
 	font-family: "fontello", Arial, sans-serif;
@@ -154,15 +168,18 @@ a.mobilenavtrigger{
 	color: white;
 	background-color: $darkestgrey;
 	z-index: 101;
+	
 	@media only screen and (min-width:768px) {
 		display: none
 	}
+}
+
 a.mobilenavtrigger:hover{
 	transition: width 0.25s ease;
 	background-color: $yellow;
 	padding-left: 20px;
 }
-}
+
 .wrapper {
 	max-width: 1280px;
 	margin:0 auto;
@@ -197,22 +214,6 @@ a.mobilenavtrigger:hover{
 	padding: 10px 0 0 0;
 	margin: 0 0 20px 0;
 	@media only screen and (max-width:767px) {
-	}
-	img{
-		width: 50%;
-	}
-}
-.mastheadmobile{
-	width: 100%;
-	position: fixed;
-	text-align: center;
-	background-color: black;
-	padding: 10px 0 0 0;
-	margin: 0;
-	@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
 	}
 	img{
 		width: 50%;
