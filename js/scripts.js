@@ -28,6 +28,7 @@ $(function() {
 $(function() {
     $('.mobilenavtrigger').click(function(){ 
       $('.mobilenav').slideToggle("fast");
+      $('.masthead').slideToggle("slow");
       return false;
     });
 });
