@@ -104,7 +104,7 @@ input:focus {
   transition: width 0.6s ease;
   width: 100%;
   z-index: 100;
-  background-color: rgba(0,0,0,0.85); 	
+  background-color: black; 	
   overflow: hidden;
   position: fixed;
   top: 0px;
@@ -140,10 +140,9 @@ input:focus {
 }
 a.mobilenavtrigger{
 	font-family: "fontello", Arial, sans-serif;
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding: 10px;
+	position: relative;
+	margin: 0 auto 5px auto;
+	padding: 7px;
 	color: white;
 	background-color: black!important;
 	z-index: 101;
