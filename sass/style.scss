@@ -887,8 +887,13 @@ a.thumbnail{
 		background-color:red;
 		overflow:hidden;
 		
+
+
+
 		@media screen and (max-width:767px){
 		width: 100%;
+		position:relative;
+		float: left;
 		};
 	}
 	.responsiveimage{
@@ -896,7 +901,18 @@ a.thumbnail{
 		margin-left:-50%;
 		left:50%;
 		top:0;
-		width:120%;
+		@media only screen and (min-width:768px) {
+		width: 102%;
+		}
+		@media only screen and (min-width:1024px) {
+		width: 105%;
+		}
+		@media only screen and (min-width:1140px) {
+		width: 120%;
+		}
+		@media only screen and (min-width:1280px) {
+		width: 110%;
+		}
 	}
 	p{
 		
