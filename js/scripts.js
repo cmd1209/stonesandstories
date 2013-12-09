@@ -36,6 +36,7 @@ $(function() {
 $(function() {
     $('.trigger').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
+      $('.factbox').css( "background-color", "black" );
       $(this).toggleClass("active");
       return false;
     });
