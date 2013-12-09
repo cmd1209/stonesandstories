@@ -5,7 +5,7 @@
 
         <div class="col col100 H450 S">
           <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
-          <div class="module">
+          <div class="module" style="padding-bottom:0;">
             <div class="col30">
              <?php $ids = array(73); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
               <?php while (have_posts()) : the_post(); ?>
