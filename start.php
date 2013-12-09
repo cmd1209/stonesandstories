@@ -19,9 +19,8 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div style="width:70%;float:left;position:relative;display:block;background-color:red;">
-
-
+            <div style="width:70%;float:left;position:relative;display:block;background-color:red;overflow:hidden;">
+              
             </div>
             <?php endwhile; ?>
           </div>
