@@ -36,7 +36,7 @@ $(function() {
 $(function() {
     $('.trigger').click(function(){ 
       $(this).closest('.factbox').children('.toggle').slideToggle("fast");
-      $(this).closest('.factbox').toggleClass("factboxactive", 200);
+      $(this).closest('.factbox').toggleClass("factboxactive");
       $(this).toggleClass("active");
       return false;
     });
