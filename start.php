@@ -20,7 +20,7 @@
                 </div>              
             </div>
             <div class="col70">
-              <a class="thumbnail" href="<?php echo get_permalink(); ?>"><figure style="width: 100%; height:100%; background-color:red;position:relative;"><img style="position:absolute;left:50%;margin-left:-50%;" height="100%" width="auto"> src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></figure></a>
+              <a class="thumbnail" href="<?php echo get_permalink(); ?>"><figure style="width: 100%; height:100%; background-color:red;position:relative;"><img style="position:absolute;margin-left:-50%;left:50%;" height="100%" width="auto" src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></figure></a>
             </div>
             <?php endwhile; ?>
           </div>
