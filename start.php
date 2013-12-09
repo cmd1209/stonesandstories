@@ -19,8 +19,8 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col70">
-              <a class="thumbnail" href="<?php echo get_permalink(); ?>"><figure style="width: 100%; height:100%; background-color:red;position:relative;"><img style="position:absolute;margin-left:-50%;left:50%;" height="100%" width="auto" src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt=""></figure></a>
+            <div class="col70" style="position:relative;">
+              <img style="position:absolute;margin-left:-50%;left:50%;" height="100%" width="auto" src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt="">
             </div>
             <?php endwhile; ?>
           </div>
