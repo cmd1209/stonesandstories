@@ -19,7 +19,8 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div style="width:70%;float:left;position:relative;display:block;background-color:red;overflow:hidden;">
+            <div style="width:70%;float:left;position:relative;height:100%;background-color:red;overflow:hidden;">
+              p
               
             </div>
             <?php endwhile; ?>
