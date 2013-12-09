@@ -30,7 +30,7 @@
                   endif;
                   endif;
                   ?></a>
-                  <?php echo excerpt(35); ?>
+                  <?php echo excerpt(25); ?>
 
                 </div>
 
@@ -61,7 +61,7 @@
                     endif;
                     endif;
                     ?></a>
-                    <?php echo excerpt(35); ?>
+                    <?php echo excerpt(25); ?>
 
                   </div>
 
