@@ -20,7 +20,7 @@
                 </div>              
             </div>
             <div style="width:70%;position:absolute;right:0;top:0;height:100%;background-color:red;overflow:hidden;">
-              <img style="position:absolute;margin-left:-50%;left:50%;"src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt="">
+              <img style="position:absolute;margin-left:-50%;left:50%;height:100%;width:auto;"src="<?php echo home_url(); ?>/wp-content/uploads/2013/11/EHM-Wand.jpg" alt="">
               
             </div>
             <?php endwhile; ?>
