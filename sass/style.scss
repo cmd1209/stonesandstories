@@ -901,6 +901,7 @@ a.thumbnail{
 
 		@media screen and (max-width:767px){
 		width: 100%;
+		height: auto;
 		position:relative;
 		};
 
@@ -910,14 +911,16 @@ a.thumbnail{
 		}
 		@media only screen and (min-width:1024px) {
 		width: 120%;
+		height: auto;
 		}
 		@media only screen and (min-width:1140px) {
 		width: 120%;
-		top: -5%;
+		height: auto;
 		}
 		@media only screen and (min-width:1280px) {
 		top:-10%;
 		width: 110%;
+		height: auto;
 		}
 	}
 	p{
