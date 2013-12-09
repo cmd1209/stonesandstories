@@ -878,6 +878,22 @@ a.thumbnail{
 		width: 100%;
 		height: auto;
 	}
+	.responsivecontainer{
+		width:70%;
+		position:absolute;
+		right:0;
+		top:0;
+		height:100%;
+		background-color:red;
+		overflow:hidden;
+	}
+	.responsiveimage{
+		position:absolute;
+		margin-left:-50%;
+		left:50%;
+		height:100%;
+		width:auto;
+	}
 	p{
 		
 	}
