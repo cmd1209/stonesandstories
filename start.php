@@ -19,7 +19,7 @@
                   <?php echo excerpt(70); ?>
                 </div>              
             </div>
-            <div class="col70" style="position:relative;height:100%;background-color:red;">
+            <div style="width:70%;float:left;position:relative;height:100%;background-color:red;">
 
             </div>
             <?php endwhile; ?>
