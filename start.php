@@ -1,6 +1,6 @@
 <?php /* Template Name: Start */ get_header(); ?>
 
-  <section role="main" style="background-color:pink;">
+  <section role="main">
     <div class="col maincontent" style="padding: 0 5px 0 0;">
 
         <div class="col col100 S">
@@ -12,7 +12,7 @@
                <div class="moduleheader">
                 <h2 style="padding-top:10px;"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
-               <span><?php the_field('subheadline'); ?></span></h2>
+               <span><?php the_field('subheadline'); ?></span>bla bla bla</h2>
                   <?php endif; ?>
               </div>
                 <div class="textwrap" style="padding-top:0;">
