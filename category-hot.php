@@ -6,7 +6,6 @@
     <div class="col col100">
       <div class="module">
 
-
 <h1><strong><?php single_cat_title(); ?></strong></h1>
 <div class="col100" style="overflow:hidden;">
         <?php query_posts( array( 'category__in' => array(31,16), 'posts_per_page' => 2, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
