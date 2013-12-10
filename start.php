@@ -12,7 +12,7 @@
                <div class="moduleheader">
                 <h2 style="padding-top:10px;"><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
-               <span><?php the_field('subheadline'); ?></span>test headline 10:38 a.m.</h2>
+               <span><?php the_field('subheadline'); ?></span></h2>
                   <?php endif; ?>
               </div>
                 <div class="textwrap" style="padding-top:0;">
