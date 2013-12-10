@@ -1,6 +1,6 @@
 <?php /* Template Name: Start */ get_header(); ?>
 
-  <section role="main">
+  <section role="main" style="background-color:pink;">
     <div class="col maincontent" style="padding: 0 5px 0 0;">
 
         <div class="col col100 S">
