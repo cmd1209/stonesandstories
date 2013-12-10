@@ -14,12 +14,12 @@
           <div class="textwrap singletitle col col50">
             <h2><?php the_title(); ?><br><span><?php the_field('subheadline'); ?></span></h2>
             
-            <div class="col col40">
+            <div class="col100">
               <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
                 <a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
               <?php endif; ?>  
             </div>
-            <div class="col col60" style="padding-left:10px;">
+            <div class="col100">
               <?php echo excerpt(35); ?>
             </div>
           </div>
@@ -34,12 +34,12 @@
           <div class="textwrap singletitle col col50">
             <h2><?php the_title(); ?><br><span><?php the_field('subheadline'); ?></span></h2>
             
-            <div class="col col40">
+            <div class="col100">
               <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
                 <a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
               <?php endif; ?>  
             </div>
-            <div class="col col60" style="padding-left:10px;">
+            <div class="col100" >
               <?php echo excerpt(35); ?>
             </div>
           </div>
