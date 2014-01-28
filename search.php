@@ -6,7 +6,7 @@
 <div class="col maincontent">
 		<div class="col col100" style="min-height:800px;">
 			<div class="module">
-				<h1><strong><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
+				<h1><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
 				<div class="col col50">
 
 					<?php if (have_posts()) : while(have_posts()) : $i++; if(($i % 2) == 0) : $wp_query->next_post(); else : the_post(); ?>
@@ -43,8 +43,8 @@
 									</h2>
 								</div>
 								<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>">
-										<?php the_post_thumbnail('large'); ?>
-</a>
+								<?php the_post_thumbnail('large'); ?>
+								</a>
 										<?php echo excerpt(35); ?>
 									</div>
 

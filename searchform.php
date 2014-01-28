@@ -1,6 +1,9 @@
 <!-- search -->
-<form class="search" method="get" action="<?php echo home_url(); ?>" role="search">
-	<input class="search-input" type="search" name="s" placeholder=" suchen">
-	<button class="search-submit" type="submit" role="button">&#x1f50d;</button>
+<div id="sb-search" class="sb-search">
+<form method="get" action="<?php echo home_url(); ?>" role="search">
+<input class="sb-search-input" placeholder="suchen ..." type="text" value="" name="s" id="search">
+<input class="sb-search-submit" type="submit" value="">
+<span class="sb-icon-search">&#x1f50d;</span>
 </form>
+</div>
 <!-- /search -->

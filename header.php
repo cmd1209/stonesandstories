@@ -16,7 +16,7 @@
     <!-- icons -->
     <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
     <link rel="shortcut icon" href="<?php echo home_url(); ?>/favicon.ico" type="image/x-icon" />
-      
+
     <!-- css + javascript -->
     <?php wp_head(); ?>
     <script>
@@ -28,15 +28,9 @@
   </head>
   <body <?php body_class(); ?>>
   <nav id="mobilenav">
-<!--     <div class="mastheadmobile">
-      <a href="<?php echo home_url(); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-neg.svg" alt="Logo" class="logo-img">
-      </a> 
-    </div> -->
     <?php wp_nav_menu( array('menu' => 'mobile' )); ?>
     <a class="mobilenavtrigger" href="#">close</a>
   </nav>
-    
 
     <div class="wrapper">
         <div class="masthead">
@@ -44,10 +38,10 @@
             <a href="<?php echo home_url(); ?>">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
             </a> 
+              <?php get_template_part('searchform'); ?>
         </div>
         <div class="navigation">
           <div class="bmenu" role="navigation">
               <?php wp_nav_menu( array('menu' => 'Black' )); ?>
-              <?php get_template_part('searchform'); ?>
           </div>
         </div>

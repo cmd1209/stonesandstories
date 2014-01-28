@@ -212,8 +212,7 @@ a.mobilenavtrigger:hover{
 	position: relative;
 	text-align: center;
 	background-color: white;
-	padding: 10px 0 0 0;
-	margin: 0 0 20px 0;
+	padding: 10px 0 15px 0;
 	@media only screen and (max-width:767px) {
 	}
 	img{
@@ -340,51 +339,116 @@ a.mobilenavtrigger:hover{
 	}
 }
 
-.bmenu form{
-  position: absolute;
-  top: -35px;
-  right: 0;
-
-  @media only screen and (max-width:1023px) {
-		margin: -500px 0 0 0;
-	}
-}
-.footer form{
-  position: relative;
-  margin: 0 0 0 20px;
-  width: 70%;
-}
-.search-input{
-	width: 225px;
-    height: 22px;
-    outline: 0px;
-    color: white;
-    border: 1px solid $grey;
-  	background-color: $lightgrey;
-  	position: relative;
-  	font-family: "Arimo", Arial, sans-serif;
+.sb-search {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0%;
+	min-width: 30px;
+	height: 30px;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
 }
 
-::-webkit-input-placeholder{
-  color: black;
+.sb-search-input {
+	padding-left: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: $lightgrey;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	z-index: 10;
+	font-family: "Arimo", Arial, sans-serif;
+	font-size: 1em;
+	color: black;
+}
+.sb-search-input:focus{
+	border: 0px;
+	outline: none;
 }
 
-.search-submit{
-	background-color: $lightgrey;
-    text-align: center;
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    border: none;
-    height: 22px;
-    font-family: "fontello", Arial, sans-serif;
-    font-size: 1em;
-    width: 22px;
-    color: black;
-  }
-.search-submit:hover{
-	color: $darkgrey;
+.sb-search-input::-webkit-input-placeholder {
+	color: black;
 }
+
+.sb-search-input:-moz-placeholder {
+	color: black;
+}
+
+.sb-search-input::-moz-placeholder {
+	color: black;
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: black;
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	margin: 0;
+	color: white;
+	background: $darkgrey;
+	z-index: 90;
+	font-size: 18px;
+	font-family: "fontello", Arial, sans-serif;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 250px;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background: black;
+	color: white;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
 
 section{
 	width: 100%;
@@ -1131,7 +1195,7 @@ a.thumbnail{
 	}
 	a.active{
 		border-left-color: transparent;
-		border-top-color: black;
+		border-top-color: white;
 	}
 	a.active:hover{
 		border-left-color: transparent;
@@ -1182,24 +1246,23 @@ a.thumbnail{
 }
 
 nav.pps-slider-nav{
-	width: 100%;
-	margin: 0 0 0 0;
-	text-align: right;
 	position: absolute;
-	top:0;
-	right:15px;
+	width:100%;
+	top: 58px;
+	right: 12px;
+	text-align: right;
 	font-size: 0.85em;
 	a{	
 		font-size: 0.85em;
 		background-color: $lightgrey;
-		padding: 3px;
+		padding: 7px;
+		font-weight: 300;
+		font-variant: normal;
 	}
 	a:hover{
 		background-color: $yellow;
 	}
 }
-
-
 /*------------------------------------*\
     Frontpage Image Container Stuff
 \*------------------------------------*/
@@ -1304,8 +1367,12 @@ a.triangle{
 		text-transform: uppercase;
 		margin: 0!important;
 		font-size: 0.65em;
+		color:black;
 	}
 }
+ a.triangle:visited, a.triangle:active, a:focus{
+	color: black;
+ }
 a.triangle:hover{
 	color: black;
 	padding: 10px 10px 10px 70px;
@@ -1316,9 +1383,6 @@ a.triangle:hover{
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
- a.triangle:visited{
-	color: black;
- }
 
 .potenzial{
 	p{
@@ -1561,7 +1625,6 @@ figure.alignright{
 	line-height:17px;
 	margin:0;
 	text-align: left;
-	color: $darkestgrey;
 }
 
 .gallery {
