@@ -436,6 +436,14 @@
 			}
 		},
 		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1866,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sidebar.php",
 			"settings":
 			{
@@ -484,10 +492,10 @@
 			}
 		},
 		{
-			"file": "header.php",
+			"file": "searchform.php",
 			"settings":
 			{
-				"buffer_size": 1866,
+				"buffer_size": 356,
 				"line_ending": "Unix"
 			}
 		},
@@ -586,35 +594,40 @@
 	},
 	"file_history":
 	[
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/footer.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header-static.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-hot.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/languages/HTML5Blank.pot",
+		"/Users/chad/Dropbox/Work/DAH-Wordpress/themes/DAH-HTML5/js/classie.js",
+		"/Users/chad/Dropbox/Work/DAH-Wordpress/themes/DAH-HTML5/js/uisearch.js",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/searchform.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
 		"/Users/chad/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/single.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/profileundpotenzial.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/pagination.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/fonts/OpenSans-Italic-webfont.svg",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-backdrop.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/fonts/LinBiolinum_R-webfont.svg",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-architecture.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/team-spirit.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/typo.scss",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/page.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/factsfigures.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/.gitignore",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/404.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/archive.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/author.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-grafik.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-hot.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-kultur.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/CHANGELOG.md",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/comments.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/factsfigures-bk.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/footer.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header-static.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/index.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/LICENSE.md",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/publications.php",
@@ -624,7 +637,6 @@
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/img/backgroundforms.svg",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/search.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/js/uisearch.js",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/searchform.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/js/search.js",
 		"/Users/chad/Desktop/category-architecture.php",
 		"/Users/chad/Desktop/custom.css",
@@ -634,7 +646,6 @@
 		"/Users/chad/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/backup/start-16102013.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafik.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafikfooter.php",
@@ -710,10 +721,7 @@
 		"/Users/chad/Downloads/colour-schemes-master/FreshCut.tmTheme",
 		"/Users/chad/Downloads/colour-schemes-master/EarthsongLight.tmTheme",
 		"/Users/chad/Downloads/colour-schemes-master/Earthsong.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/Darkside.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/CarbonightBlue.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/Carbonight.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/BoxUK.tmTheme"
+		"/Users/chad/Downloads/colour-schemes-master/Darkside.tmTheme"
 	],
 	"find":
 	{
@@ -902,8 +910,8 @@
 						"selection":
 						[
 							[
-								693,
-								693
+								873,
+								873
 							]
 						],
 						"settings":
@@ -917,11 +925,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "sidebar.php",
 					"semi_transient": false,
 					"settings":
@@ -946,11 +984,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "imprint.php",
 					"semi_transient": false,
 					"settings":
@@ -976,11 +1014,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "category-architecture.php",
 					"semi_transient": false,
 					"settings":
@@ -1005,11 +1043,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "category.php",
 					"semi_transient": false,
 					"settings":
@@ -1027,6 +1065,7 @@
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1034,11 +1073,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "category-design.php",
 					"semi_transient": false,
 					"settings":
@@ -1064,11 +1103,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "factsfigures.php",
 					"semi_transient": false,
 					"settings":
@@ -1091,44 +1130,43 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "header.php",
+					"buffer": 8,
+					"file": "searchform.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1866,
+						"buffer_size": 356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1312,
-								1312
+								356,
+								356
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "category-kultur.php",
 					"semi_transient": false,
 					"settings":
@@ -1155,7 +1193,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1165,7 +1203,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "sass/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -1177,8 +1215,8 @@
 						"selection":
 						[
 							[
-								5364,
-								5364
+								7020,
+								7045
 							]
 						],
 						"settings":
@@ -1189,14 +1227,14 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 474.0,
+						"translation.y": 7233.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "sass/print.scss",
 					"semi_transient": false,
 					"settings":
@@ -1221,11 +1259,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "sass/typo.scss",
 					"semi_transient": false,
 					"settings":
@@ -1252,11 +1290,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -1282,7 +1320,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1342,6 +1380,30 @@
 		"selected_items":
 		[
 			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"h",
+				"header.php"
+			],
+			[
+				"cl",
+				"js/classie.js"
+			],
+			[
+				"sea",
+				"js/uisearch.js"
+			],
+			[
 				"sid",
 				"sidebar.php"
 			],
@@ -1366,16 +1428,8 @@
 				"factsfigures.php"
 			],
 			[
-				"fu",
-				"functions.php"
-			],
-			[
 				"ui",
 				"js/uisearch.js"
-			],
-			[
-				"sea",
-				"searchform.php"
 			],
 			[
 				"",
@@ -1418,10 +1472,6 @@
 				"category-architecture.php"
 			],
 			[
-				"hea",
-				"header.php"
-			],
-			[
 				"star",
 				"start.php"
 			],
@@ -1458,16 +1508,8 @@
 				"factsfigures.php"
 			],
 			[
-				"h",
-				"header.php"
-			],
-			[
 				"vid",
 				"video.php"
-			],
-			[
-				"foo",
-				"footer.php"
 			],
 			[
 				"start",
