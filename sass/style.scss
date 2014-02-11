@@ -534,11 +534,7 @@ section{
 }
 .sidebar {
 	float: left;
-	position: absolute;
 	line-height: 0;
-	top: 0;
-	bottom: 0;
-	right: 0;
 	width: 15%;
 	padding: 0 5px 5px 5px;
 	height: 100%;
@@ -895,10 +891,37 @@ section{
 	background-color: black;
 	color: white;
 }
-
 a.thumbnail{
 	display: block;
 	background-color: white!important;
+}
+a.sidelink{
+	color:white;
+}
+a.sidelinke:visited{
+	color:white;
+	}
+a.sidelink:hover{
+	color:black!important;
+	background-color:$yellow!important;
+	h3{
+		background-color: $yellow;
+	}	
+}
+.sideroller:hover > figure{
+	margin-left:100%;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.sideroller > figure{
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 .module{

@@ -74,7 +74,7 @@
                   <?php endif; ?>
               </div>
                   <div class="textwrap" style="padding-top:0;">
-                  <?php echo excerpt(40); ?>
+                  <?php echo excerpt(30); ?>
                 </div>
             <?php endwhile; ?>
           </div>

@@ -13,21 +13,38 @@
 	</a>
 </figure>
 
-<figure>
+<figure class="option2">
 	<a class="thumbnail" href="http://www.dah-bremerhaven.de/australien.php" target="blank">
 		<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/09/australian-poster.jpg" alt="" >
 	</a>
 </figure>
 
-<figure class="option2">
+<figure class="option1">
 	<a class="thumbnail" href="http://andreas-heller.de/wp-content/uploads/2013/12/www.waelderhaus.dearchitektier.de_.jpg" target="blank">
 		<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/architechtier.jpg" alt="" >
 	</a>
 </figure>
 
-<figure class="option1">
-	<a class="thumbnail" href="http://www.humboldt-forum.de/humboldt-lab-dahlem/" target="blank">
-		<img src="<?php echo home_url(); ?>/wp-content/uploads/2013/10/Probebühne3.jpg" alt="" >
+<h2 style="margin-top:25px;"><span style="text-transform: uppercase; letter-spacing:0.2em;">Our Tips</span></h2>
+
+
+	<?php query_posts( array( 'category__in' => array(103), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
+	<?php while (have_posts()) : the_post(); ?>
+<div class="sideroller" style="position:relative;overflow:hidden;">
+<figure style="z-index:20; position: absolute;height: 100%; background-color:black;" class="funclass">
+	<a href="<?php the_field('custom-links'); ?>" title="<?php the_title(); ?>" >
+		<?php the_post_thumbnail('large'); ?>
 	</a>
 </figure>
+	<div class="sidetext" style="background-color:black;color:white; width:95%;">
+		<a class="sidelink" href="<?php the_field('custom-links');?> "><h3><?php the_title(); ?></h3></a>
+		<p><?php the_field('location'); ?><br>
+    	<?php if( get_field('subheadline') ): ?>
+			<p><?php the_field('subheadline'); ?><br>
+		<?php endif; ?>
+		<a class="sidelink" href="<?php the_field('custom-links'); ?>" style="color:white;">mehr lesen …</a></p>
+	</div>
+</div>
+	<?php endwhile; ?>
+	<?php wp_reset_query(); ?>  
 <!-- /sidebar -->
