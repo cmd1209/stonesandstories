@@ -20,7 +20,7 @@
                 </div>              
             </div>
             <div class="responsivecontainer">
-              <img class="responsiveimage" src="<?php echo home_url(); ?>/wp-content/uploads/2013/08/waelderhaus-aussen02.jpg" alt=""> 
+              <a class="thumbnail" href="<?php echo get_permalink(); ?>"><img class="responsiveimage" src="<?php echo home_url(); ?>/wp-content/uploads/2013/08/waelderhaus-aussen02.jpg" alt=""></a>     
             </div>
             <?php endwhile; ?>
           </div>
