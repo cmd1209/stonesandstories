@@ -431,7 +431,7 @@
 			"file": "start.php",
 			"settings":
 			{
-				"buffer_size": 5237,
+				"buffer_size": 5307,
 				"line_ending": "Unix"
 			}
 		},
@@ -447,7 +447,7 @@
 			"file": "sidebar.php",
 			"settings":
 			{
-				"buffer_size": 1350,
+				"buffer_size": 2307,
 				"line_ending": "Unix"
 			}
 		},
@@ -492,6 +492,14 @@
 			}
 		},
 		{
+			"file": "single.php",
+			"settings":
+			{
+				"buffer_size": 1518,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "searchform.php",
 			"settings":
 			{
@@ -508,18 +516,18 @@
 			}
 		},
 		{
-			"file": "sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 26754,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "sass/print.scss",
 			"settings":
 			{
 				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 27242,
 				"line_ending": "Unix"
 			}
 		},
@@ -594,29 +602,38 @@
 	},
 	"file_history":
 	[
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header-static.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/stones&stories.sublime-project",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/backup/start-16102013.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/spirit.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/team-spirit.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/single.php",
+		"/Users/chad/Dropbox/Work/DAH_Wordpress/themes/DAH-HTML5/sass/style.scss",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/typo.scss",
+		"/Users/chad/Dropbox/Work/DAH_Wordpress/themes/DAH-HTML5/style.css",
+		"/Users/chad/Dropbox/Work/DAH_Wordpress/themes/DAH-HTML5/start.php",
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/footer.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header-static.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-hot.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/languages/HTML5Blank.pot",
 		"/Users/chad/Dropbox/Work/DAH-Wordpress/themes/DAH-HTML5/js/classie.js",
 		"/Users/chad/Dropbox/Work/DAH-Wordpress/themes/DAH-HTML5/js/uisearch.js",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/searchform.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/style.scss",
 		"/Users/chad/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/single.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/profileundpotenzial.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/pagination.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/fonts/OpenSans-Italic-webfont.svg",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-backdrop.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/fonts/LinBiolinum_R-webfont.svg",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-architecture.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/template-demo.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/team-spirit.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sass/typo.scss",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/page.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/factsfigures.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/.gitignore",
@@ -631,9 +648,6 @@
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/index.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/LICENSE.md",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/publications.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/spirit.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/stones&stories.sublime-project",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/img/backgroundforms.svg",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/search.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/js/uisearch.js",
@@ -644,8 +658,6 @@
 		"/Users/chad/Desktop/newsletter.html",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-design.php",
 		"/Users/chad/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/backup/start-16102013.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafik.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/start-bk.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/grafikfooter.php",
@@ -653,7 +665,6 @@
 		"/Users/chad/Desktop/stonesandstories/sass/style.scss",
 		"/Users/chad/Library/Caches/Cleanup At Startup/Transmit/E9156EF3-1D73-49C5-BEE3-07BAEC0F5A43/swipebox.css",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/loop.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/style.css",
 		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/header.php",
 		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/sass/style.scss",
 		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/diaspora.php",
@@ -718,10 +729,7 @@
 		"/Users/chad/Downloads/colour-schemes-master/Gloom.tmTheme",
 		"/Users/chad/Downloads/colour-schemes-master/Github.tmTheme",
 		"/Users/chad/Downloads/colour-schemes-master/Frontier.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/FreshCut.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/EarthsongLight.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/Earthsong.tmTheme",
-		"/Users/chad/Downloads/colour-schemes-master/Darkside.tmTheme"
+		"/Users/chad/Downloads/colour-schemes-master/FreshCut.tmTheme"
 	],
 	"find":
 	{
@@ -894,7 +902,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -903,29 +911,30 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5237,
+						"buffer_size": 5307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1285,
-								1285
+								755,
+								755
 							]
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 187.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -955,7 +964,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -964,19 +973,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1350,
+						"buffer_size": 2307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								240
+								1248,
+								1248
 							]
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -984,7 +994,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1014,7 +1024,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1030,8 +1040,8 @@
 						"selection":
 						[
 							[
-								819,
-								819
+								1354,
+								1232
 							]
 						],
 						"settings":
@@ -1043,7 +1053,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1059,8 +1069,8 @@
 						"selection":
 						[
 							[
-								0,
-								2602
+								1170,
+								1144
 							]
 						],
 						"settings":
@@ -1070,10 +1080,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -1100,10 +1110,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -1119,8 +1129,8 @@
 						"selection":
 						[
 							[
-								2088,
-								2088
+								1227,
+								1189
 							]
 						],
 						"settings":
@@ -1138,6 +1148,37 @@
 				},
 				{
 					"buffer": 8,
+					"file": "single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1318,
+								1293
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "searchform.php",
 					"semi_transient": false,
 					"settings":
@@ -1162,11 +1203,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "category-kultur.php",
 					"semi_transient": false,
 					"settings":
@@ -1178,8 +1219,8 @@
 						"selection":
 						[
 							[
-								126,
-								126
+								1482,
+								1456
 							]
 						],
 						"settings":
@@ -1193,44 +1234,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 10,
-					"file": "sass/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26754,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7020,
-								7045
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7233.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -1264,6 +1268,36 @@
 				},
 				{
 					"buffer": 12,
+					"file": "sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7380,
+								7380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "sass/typo.scss",
 					"semi_transient": false,
 					"settings":
@@ -1287,14 +1321,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 30.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -1320,7 +1354,43 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 15,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 12,
+					"file": "sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1354,7 +1424,7 @@
 		"cols":
 		[
 			0.0,
-			0.646356201172,
+			0.675592041016,
 			1.0
 		],
 		"rows":
@@ -1371,7 +1441,7 @@
 	"project": "stones&stories.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1379,6 +1449,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sid",
+				"sidebar.php"
+			],
+			[
+				"st",
+				"sass/style.scss"
+			],
+			[
+				"sing",
+				"single.php"
+			],
 			[
 				"foo",
 				"footer.php"
@@ -1402,10 +1484,6 @@
 			[
 				"sea",
 				"js/uisearch.js"
-			],
-			[
-				"sid",
-				"sidebar.php"
 			],
 			[
 				"sta",
@@ -1486,10 +1564,6 @@
 			[
 				"vi",
 				"video.php"
-			],
-			[
-				"st",
-				"start.php"
 			],
 			[
 				"tea",

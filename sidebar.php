@@ -25,24 +25,24 @@
 	</a>
 </figure>
 
-<h2 style="margin-top:25px;"><span style="text-transform: uppercase; letter-spacing:0.2em;">Our Tips</span></h2>
+<h2 style="margin-top:25px;text-transform: uppercase; letter-spacing:0.2em; background-color: #e2f000;color:black;width:100%;">Our Tips</h2>
 
 
 	<?php query_posts( array( 'category__in' => array(103), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
 	<?php while (have_posts()) : the_post(); ?>
 <div class="sideroller" style="position:relative;overflow:hidden;">
 <figure style="z-index:20; position: absolute;height: 100%; background-color:black;" class="funclass">
-	<a href="<?php the_field('custom-links'); ?>" title="<?php the_title(); ?>" >
+	<a href="<?php the_field('custom-links'); ?>" target="blank" title="<?php the_title(); ?>" >
 		<?php the_post_thumbnail('large'); ?>
 	</a>
 </figure>
 	<div class="sidetext" style="background-color:black;color:white; width:95%;">
-		<a class="sidelink" href="<?php the_field('custom-links');?> "><h3><?php the_title(); ?></h3></a>
+		<a class="sidelink" href="<?php the_field('custom-links');?> " target="blank"><h3><?php the_title(); ?></h3></a>
 		<p><?php the_field('location'); ?><br>
     	<?php if( get_field('subheadline') ): ?>
 			<p><?php the_field('subheadline'); ?><br>
 		<?php endif; ?>
-		<a class="sidelink" href="<?php the_field('custom-links'); ?>" style="color:white;">mehr lesen …</a></p>
+		<a class="sidelink" href="<?php the_field('custom-links'); ?>" target="blank" style="color:white;">mehr lesen …</a></p>
 	</div>
 </div>
 	<?php endwhile; ?>
