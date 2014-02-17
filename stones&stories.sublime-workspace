@@ -431,7 +431,7 @@
 			"file": "start.php",
 			"settings":
 			{
-				"buffer_size": 5307,
+				"buffer_size": 5441,
 				"line_ending": "Unix"
 			}
 		},
@@ -602,6 +602,7 @@
 	},
 	"file_history":
 	[
+		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/sidebar.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header-static.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/stones&stories.sublime-project",
@@ -618,7 +619,6 @@
 		"/Users/chad/Dropbox/Work/DAH_Wordpress/themes/DAH-HTML5/start.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/tag.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/footer.php",
-		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/functions.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/header.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/category-hot.php",
 		"/Users/chad/Dropbox/Work/SAH2013/themes/stonesandstories/languages/HTML5Blank.pot",
@@ -902,7 +902,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -911,15 +911,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5307,
+						"buffer_size": 5441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								755,
-								755
+								3235,
+								3235
 							]
 						],
 						"settings":
@@ -934,7 +934,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -980,8 +980,8 @@
 						"selection":
 						[
 							[
-								1248,
-								1248
+								621,
+								621
 							]
 						],
 						"settings":
@@ -994,7 +994,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1376,8 +1376,8 @@
 						"selection":
 						[
 							[
-								65,
-								72
+								7250,
+								7251
 							]
 						],
 						"settings":
@@ -1387,10 +1387,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7784.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1450,6 +1450,10 @@
 		"selected_items":
 		[
 			[
+				"fu",
+				"functions.php"
+			],
+			[
 				"sid",
 				"sidebar.php"
 			],
@@ -1468,10 +1472,6 @@
 			[
 				"hea",
 				"header.php"
-			],
-			[
-				"fu",
-				"functions.php"
 			],
 			[
 				"h",
