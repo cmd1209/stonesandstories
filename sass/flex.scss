@@ -1,0 +1,29 @@
+
+/*------------------------------------*\
+    Flexbox
+\*------------------------------------*/
+.gridrow{
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.row{
+	flex-direction: row;
+}
+.column{
+	flex-direction: column;
+}
+.item{
+	flex: 1;
+}
+.stuff{
+	flex-basis: 85%;
+}
+.aside{
+	flex-basis: 15%;
+}
+
