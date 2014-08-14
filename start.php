@@ -1,6 +1,6 @@
 <?php /* Template Name: Start */ get_header(); ?>
 <section role="main">
-  <div class="col maincontent" style="padding: 0 5px 0 0;">
+  <div class="flex85">
 
 <div class="col col100">
 
@@ -48,9 +48,9 @@
 
 
             <div class="col col100 S">
-              <a class="triangle shadow" href="<?php echo home_url(); ?>/category/architecture/"><h3>Arch</h3></a>
+              <a class="triangle shadow" href="<?php echo home_url(); ?>/category/hot/"><h3>Hot</h3></a>
               <div class="module">
-                <?php $ids = array(2819); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+                <?php $ids = array(3050); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
                 <?php while (have_posts()) : the_post(); ?>
                   <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>
                   <div class="moduleheader">
@@ -93,7 +93,7 @@
               <div class="col col100 S">
                 <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik</h3></a>
                 <div class="module">
-                 <?php $ids = array(2754); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
+                 <?php $ids = array(3039); query_posts(array('orderby' => 'rand', 'post_type' => 'post', 'post__in' => $ids, 'showposts' => 1) ); ?>
                  <?php while (have_posts()) : the_post(); ?>
                   <div class="heroimage H600">
                     <a class="thumbnail" href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($large->ID, 'large');?></a>

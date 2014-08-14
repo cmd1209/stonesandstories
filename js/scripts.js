@@ -54,3 +54,12 @@ $(function(){
     $('.option2').show();
   }
 });
+
+$(function() {
+  var mobiletrigger = $('.mobilenavtrigger');
+  var mobilenav = $('#mobilenav');
+    mobiletrigger.click(function(){ 
+      mobilenav.slideToggle();
+      return false;
+    });
+});

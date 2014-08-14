@@ -192,27 +192,24 @@ function add_slug_to_body_class($classes)
 // If Dynamic Sidebar Exists
 if (function_exists('register_sidebar'))
 {
-    // Define Sidebar Widget Area 1
-    register_sidebar(array(
-        'name' => __('Widget Area 1', 'html5blank'),
-        'description' => __('Description for this widget-area...', 'html5blank'),
-        'id' => 'widget-area-1',
-        'before_widget' => '<div id="%1$s" class="%2$s">',
-        'after_widget' => '</div>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
-    ));
-
-    // Define Sidebar Widget Area 2
-    register_sidebar(array(
-        'name' => __('Widget Area 2', 'html5blank'),
-        'description' => __('Description for this widget-area...', 'html5blank'),
-        'id' => 'widget-area-2',
-        'before_widget' => '<div id="%1$s" class="%2$s">',
-        'after_widget' => '</div>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
-    ));
+    register_sidebar( array(
+        'name' => __( 'Main Sidebar', 'stone' ),
+        'id' => 'side',
+        'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'stone' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    register_sidebar( array(
+        'name' => __( 'Our Tips', 'stone' ),
+        'id' => 'tips',
+        'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'stone' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
 }
 
 // Remove wp_head() injected Recent Comment styles
@@ -526,6 +523,7 @@ add_filter('gallery_style',
 
 //////////////////////////////////////// Remove default gallery styling
 add_filter( 'use_default_gallery_style', '__return_false' );
+
 
 
 ?>

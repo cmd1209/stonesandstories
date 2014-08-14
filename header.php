@@ -29,7 +29,6 @@
   <body <?php body_class(); ?>>
   <nav id="mobilenav">
     <?php wp_nav_menu( array('menu' => 'mobile' )); ?>
-    <a class="mobilenavtrigger" href="#">close</a>
   </nav>
 
     <div class="wrapper">
