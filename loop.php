@@ -30,7 +30,7 @@
 		
 
 	<div class="textwrap">
-		<?php echo excerpt(70); ?>
+		<p><?php echo excerpt(70); ?></p>
 	</div>
 	
 <?php endif ?>

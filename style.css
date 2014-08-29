@@ -36,7 +36,7 @@ a:hover > img.wp-post-image, a:hover > img.attachment-secondary-image { backgrou
 
 h1, h2, h3 { line-height: 1em; }
 
-p { font-size: 0.85em; line-height: 1.75em; }
+p, .read-more { font-size: 0.85em; line-height: 1.75em; }
 
 input:focus { color: black; outline: 0; border: 1px solid #e2f000; }
 
@@ -520,7 +520,13 @@ figure.alignright { width: auto; float: right; margin: 5px 0 20px 20px; }
 .gallery-columns-4 .gallery-item { width: 25%; }
 @media only screen and (max-width: 779px) { .gallery-columns-4 .gallery-item { width: 50%; } }
 
-.gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption { position: relative; display: block; }
+.gallery-columns-4 dl:nth-child(1), .gallery-columns-4 dl:nth-child(5), .gallery-columns-4 dl:nth-child(9) { padding: 0 10px 0 0; }
+
+.gallery-columns-4 dl:nth-child(2), .gallery-columns-4 dl:nth-child(3), .gallery-columns-4 dl:nth-child(6), .gallery-columns-4 dl:nth-child(7), .gallery-columns-4 dl:nth-child(10), .gallery-columns-4 dl:nth-child(11) { padding: 0 5px 0 5px; }
+
+.gallery-columns-4 dl:nth-child(4), .gallery-columns-4 dl:nth-child(8), .gallery-columns-4 dl:nth-child(12) { padding: 0 0 0 10px; }
+
+.gallery-columns-4 .gallery-caption, .gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption { position: relative; display: block; }
 
 /*------------------------------------*\ PRINT
 \*------------------------------------*/

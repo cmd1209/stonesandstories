@@ -1,6 +1,6 @@
 // Theme Name: Stones & Stories
 
-@import "typo.scss";  
+@import "typo.scss";
 $yellow: #e2f000;
 $yellow-darker: darken( $yellow, 20% );
 $grey: #CCC8C4;
@@ -81,7 +81,7 @@ h1, h2, h3{
 	line-height: 1em;
 }
 
-p{
+p, .read-more{
 	 font-size: 0.85em;
 	 line-height: 1.75em;
 }
@@ -112,14 +112,14 @@ input:focus {
 		margin: 0 0 0 -30px;
 		text-align: center;
 	}
-	li{	
+	li{
 		width: 100%;
 		display: block;
-		z-index: 25;	
+		z-index: 25;
 		cursor: pointer;
 		padding: 3px 3px 3px 0px;
-		margin: 0 0 2px 0;			
-		a{	
+		margin: 0 0 2px 0;
+		a{
 			color: white!important;
 			display: block;
 			font-size: 1.3em !important;
@@ -145,7 +145,7 @@ input:focus {
 			width: 50%;
 		}
 	}
-	
+
 }
 
 a.mobilenavtrigger{
@@ -160,7 +160,7 @@ a.mobilenavtrigger{
 	color: white;
 	background-color: $darkestgrey;
 	z-index: 101;
-	
+
 	@media only screen and (min-width:768px) {
 		display: none
 	}
@@ -265,7 +265,7 @@ a.mobilenavtrigger:hover{
 		background-color: black;
 		text-align: center;
 	}
-	li{	
+	li{
 		padding: 8px 5px 5px 5px;
 		list-style: none;
 		display: inline;
@@ -281,15 +281,15 @@ a.mobilenavtrigger:hover{
 			z-index: 20;
 			background-color: rgba(0,0,0,0.85);
 			padding: 10px 0 10px 0;
-			margin: 0 0 0 -120px;				
-			li{	
+			margin: 0 0 0 -120px;
+			li{
 				width: 100%;
 				display: block;
-				z-index: 25;	
+				z-index: 25;
 				cursor: pointer;
 				padding: 3px 3px 3px 0px;
-				margin: 0 0 2px 0;			
-				a{	
+				margin: 0 0 2px 0;
+				a{
 					color: white!important;
 					display: block;
 					font-size: 0.85em !important;
@@ -301,11 +301,11 @@ a.mobilenavtrigger:hover{
 				a{
 					color: $yellow!important;
 				}
-			}	
+			}
 		}
 
 	}
-	a{	
+	a{
 		padding: 5px;
 		margin: 0 1%;
 		text-align: center;
@@ -529,7 +529,7 @@ section{
 	width: 80%;
 	position: absolute;
 	text-align: center;
-	margin: s 0 0 -25%; 
+	margin: s 0 0 -25%;
 	top: 140px;
 	height: 500px;
 	left: 50%;
@@ -625,12 +625,12 @@ section{
 		padding: 0;
 		margin: 0;
 	}
-	li{	
+	li{
 		margin: 0;
 		list-style: none;
 		padding: 5px 10px;
 	}
-	a{	
+	a{
 		display: block;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -638,12 +638,12 @@ section{
 		font-size: 0.9em;
 		border-left: 1px solid $darkgrey;
 		padding: 0 5px;
-		transition: all 0.2s;  
+		transition: all 0.2s;
 	}
 	a:hover{
 		color: $yellow;
 		border-left: 10px solid $yellow;
-		transition: all 0.4s;  
+		transition: all 0.4s;
 	}
 .search-input{
 	width: 100%;
@@ -856,7 +856,7 @@ section{
 	-webkit-column-gap: 10px;
 	-moz-column-gap: 10px;
 	column-gap: 10px;
-	
+
 	a{
 		display: block;
 		margin: 0 0 20px 0;
@@ -877,7 +877,7 @@ section{
 	-webkit-column-gap: 20px;
 	-moz-column-gap: 20px;
 	column-gap: 20px;
-	
+
 	@media only screen and (max-width:767px) {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
@@ -900,7 +900,7 @@ section{
 	img{
 		width: 100%;
 		height: auto;
-	}		
+	}
 }
 
 .S{
@@ -949,7 +949,7 @@ a.sidelink:hover{
 	background-color:$yellow!important;
 	h3{
 		background-color: $yellow;
-	}	
+	}
 }
 .sideroller:hover > figure{
 	margin-left:100%;
@@ -982,7 +982,7 @@ article{
 		margin-bottom: 0;
 	}
 	.textwrap{
-		padding-top: 0; 
+		padding-top: 0;
 	}
 }
 
@@ -1008,10 +1008,10 @@ article{
 		text-transform: uppercase;
 		letter-spacing: 0.2em;
 		height: 32px;
-		margin-top: 8px; 
+		margin-top: 8px;
 		strong{
 			height: 32px;
-			margin-top:8px; 
+			margin-top:8px;
 			padding:7px 10px;
 			background-color: black;
 			font-weight: 400;
@@ -1071,7 +1071,7 @@ article{
 		}
 	}
 	p{
-		
+
 	}
 	a:hover{
 		background-color: $yellow;
@@ -1093,11 +1093,11 @@ article{
 	}
 	.nobreak{
 		padding: 0 0 20px 0;
-		border-bottom: 1px solid $grey; 
+		border-bottom: 1px solid $grey;
 		margin: 0 0 20px 0;
 		ul{
 			float: right;
-		} 
+		}
 	}
 	.nobreak img{
 		width: 100%;
@@ -1312,13 +1312,13 @@ article{
 	background-color: $lightgrey;
 	padding: 10px;
 	margin: 30px 0 10px 0;
-	li{	
+	li{
 		display: block;
 		width: 100%;
-		border-bottom: 1px solid white;	
+		border-bottom: 1px solid white;
 	}
-	li:last-child{	
-		border-bottom: none;	
+	li:last-child{
+		border-bottom: none;
 	}
 	a{
 		display: block;
@@ -1336,7 +1336,7 @@ nav.pps-slider-nav{
 	right: 12px;
 	text-align: right;
 	font-size: 0.85em;
-	a{	
+	a{
 		font-size: 0.85em;
 		background-color: $lightgrey;
 		padding: 7px;
@@ -1360,12 +1360,12 @@ nav.pps-slider-nav{
 }
 .shift{
 	img{
-		margin-top: -25%!important; 
+		margin-top: -25%!important;
 	}
 }
 .shift2{
 	img{
-		margin-top: -12.5%!important; 
+		margin-top: -12.5%!important;
 	}
 }
 
@@ -1423,7 +1423,7 @@ nav.pps-slider-nav{
 	color:black;
 	text-shadow:none;
 }
-   
+
 /*------------------------------------*\
     WORDPRESS CORE
 \*------------------------------------*/
@@ -1486,7 +1486,7 @@ a.triangle:hover{
 		float: right;
 		margin: 2px 0px 0px 2px;
 	}
-	a{	
+	a{
 		border-left: 1px solid $lightgrey;
 		background-color: $lightgrey;
 		font-size: 0.85em;
@@ -1528,7 +1528,7 @@ a.triangle:hover{
 	p{
 		width: 85%;
 		margin-bottom: 20px;
-		margin-top: 0px; 
+		margin-top: 0px;
 		@media screen and (max-width:1023px){
 		width: 100%;
 		};
@@ -1540,12 +1540,12 @@ a.triangle:hover{
 }
 
 .year-categories{
-	margin: -5px 0 20px 0 ; 
+	margin: -5px 0 20px 0 ;
 	li{
 		list-style: none;
 		display: inline;
 	}
-	a{	
+	a{
 		font-size: 1em;
 		font-weight: 400;
 		background-color: $grey;
@@ -1578,7 +1578,7 @@ a.post-placeholder:hover{
 		cursor: default;
 }
 
-   
+
 .alignnone {
 	margin:5px 20px 20px 0;
 }
@@ -1777,7 +1777,19 @@ figure.alignright{
 	}}
 }
 
-.gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption{
+.gallery-columns-4 dl:nth-child(1), .gallery-columns-4 dl:nth-child(5), .gallery-columns-4 dl:nth-child(9){
+	padding: 0 10px 0 0;
+}
+.gallery-columns-4 dl:nth-child(2), .gallery-columns-4 dl:nth-child(3), .gallery-columns-4 dl:nth-child(6), .gallery-columns-4 dl:nth-child(7), .gallery-columns-4 dl:nth-child(10), .gallery-columns-4 dl:nth-child(11){
+	padding: 0 5px 0 5px;
+}
+.gallery-columns-4 dl:nth-child(4), .gallery-columns-4 dl:nth-child(8), .gallery-columns-4 dl:nth-child(12){
+	padding: 0 0 0 10px;
+}
+
+
+
+.gallery-columns-4 .gallery-caption, .gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption{
 	position: relative;
 	display: block;
 }
