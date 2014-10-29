@@ -1,11 +1,11 @@
 <?php /* Template Name: Start2 */ get_header(); ?>
 <section role="main">
-  <div class="flex85">
 
-<div class="col col100">
+
+<div class="col maincontent">
  <?php the_content(); ?>
 </div>
-</div>
+
 
 <div class="sidebar">
   <?php get_sidebar(); ?>

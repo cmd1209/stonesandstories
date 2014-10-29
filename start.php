@@ -1,6 +1,5 @@
 <?php /* Template Name: Start */ get_header(); ?>
 <section role="main">
-  <div class="flex85">
 
 <div class="col col100">
 
@@ -62,7 +61,7 @@
                    <div class="textwrap">
                     <?php echo excerpt(30); ?>
                   </div>
-                <?php endwhile; ?>        
+                <?php endwhile; ?>
               </div>
             </div>
           </div>  <!-- end column 100 -->
@@ -85,10 +84,10 @@
                     <?php echo excerpt(30); ?>
                   </div>
                 <?php endwhile; ?>
-              </div>                
+              </div>
               </div>
             </div>
-  
+
               <div class="col col50 R">
               <div class="col col100 S">
                 <a class="triangle shadow" href="<?php echo home_url(); ?>/category/grafik/"><h3>Grafik</h3></a>
@@ -100,16 +99,14 @@
                   </div>
                 <?php endwhile; ?>
               </div>
-                     
+
               </div>
             </div>
       </div>
 
-  
+
 </div>
 
-
-          </div>
 
           <div class="sidebar">
             <?php get_sidebar(); ?>

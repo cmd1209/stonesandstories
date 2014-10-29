@@ -46,10 +46,10 @@
               </div>
           </div>
           <?php endwhile; ?>
-          <?php wp_reset_query(); ?>  
-          </div> 
+          <?php wp_reset_query(); ?>
+          </div>
 
-          <?php query_posts( array( 'category__in' => array(60,11,42,95), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73,2141,225,1605,1637,1844,2476,1815,2666,1849))); ?>
+          <?php query_posts( array( 'category__in' => array(60,11,42,95), 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'DESC', 'post__not_in' => array(73,225,1605,1637,1844,2476,1815,2666,1849))); ?>
           <?php while (have_posts()) : the_post(); ?>
 <div class="factbox">
                     <table>
@@ -88,8 +88,8 @@
                 <?php endif; ?>
           </div>
           <?php endwhile; ?>
-          <?php wp_reset_query(); ?>  
-          </div> 
+          <?php wp_reset_query(); ?>
+          </div>
 
 
 

@@ -447,14 +447,14 @@ section{
 	font-size: 1.25em;
 	position: relative;
 	padding: 0 0 0 0;
-	display: -webkit-box;
-  	display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-	-webkit-flex-flow: row wrap;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
+	// display: -webkit-box;
+	// display: -moz-box;
+ //  display: -ms-flexbox;
+ //  display: -webkit-flex;
+ //  display: flex;
+	// -webkit-flex-flow: row wrap;
+ //  justify-content: space-between;
+ //  -webkit-justify-content: space-between;
 }
 
 .testdiv{
@@ -545,16 +545,16 @@ section{
 	left: 0;
 }
 .sidebar {
-	-webkit-box-flex: 1.5;
-  -moz-box-flex:  1.5;
-  -webkit-flex:  1.5;
-  -ms-flex:  1.5;
-  flex:  1.5;
-	// float: left;
+	// -webkit-box-flex: 1.5;
+ //  -moz-box-flex:  1.5;
+ //  -webkit-flex:  1.5;
+ //  -ms-flex:  1.5;
+ //  flex:  1.5;
+	float: left;
 	line-height: 0;
-	// width: 15%;
+	width: 15%;
 	padding: 0 5px 5px 5px;
-	// border-left: 10px solid white;
+	border-left: 10px solid white;
 	background-color: black;
 	a:hover{
 		opacity: 0.85;
@@ -1775,6 +1775,16 @@ figure.alignright{
 					@media only screen and (max-width:779px) {
 		width: 50%;
 	}}
+}
+
+.gallery-columns-8{
+	.gallery-item{
+		width: 12.5%;
+		margin: 0!important;
+		dd{
+			padding:0!important;
+		}
+	}
 }
 
 .gallery-columns-4 dl:nth-child(1), .gallery-columns-4 dl:nth-child(5), .gallery-columns-4 dl:nth-child(9){
