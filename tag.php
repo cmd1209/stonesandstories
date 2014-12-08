@@ -1,9 +1,9 @@
 <?php get_header(); ?>
-	
+
 <!-- section -->
 <section role="main">
 
-	<div class="col maincontent">
+	<div class="maincontent">
 		<div class="col col100">
 			<div class="module">
 				<h1><span><?php single_cat_title(); ?></span> Projekte</h1>
@@ -29,7 +29,7 @@
 									?></a>
 									<?php echo excerpt(35); ?>
 									<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-									<?php the_category(); ?>  
+									<?php the_category(); ?>
 								</div>
 
 							<?php endif; endwhile; else: ?>
@@ -58,7 +58,7 @@
 										?></a>
 										<?php echo excerpt(35); ?>
 										<a href="<?php echo get_permalink(); ?>"> mehr...</a>
-										<?php the_category(); ?>  
+										<?php the_category(); ?>
 									</div>
 
 								<?php endif; endwhile; else: ?>
@@ -75,7 +75,7 @@
 
 		</section>
 		<!-- /section -->
-	
+
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

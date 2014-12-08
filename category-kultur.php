@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section role="main">
-	<div class="col maincontent">
+	<div class="maincontent">
 		<div class="col col100">
 			<div class="module">
 				<h1><strong><?php single_cat_title(); ?></strong></h1>
@@ -12,7 +12,7 @@
 									<?php if( get_field('subheadline') ): ?>
 										<span><?php the_field('subheadline'); ?></span>
 									</h2>
-								</div> 
+								</div>
 							<?php endif; ?>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							<?php echo excerpt(35); ?>
@@ -30,7 +30,7 @@
 								<?php if( get_field('subheadline') ): ?>
 									<span><?php the_field('subheadline'); ?></span>
 								</h2>
-							</div> 
+							</div>
 						<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
 						<?php echo excerpt(35); ?>
@@ -46,3 +46,5 @@
 	<?php get_sidebar(); ?>
 </div>
 </section>
+<!-- /section -->
+<?php get_footer(); ?>

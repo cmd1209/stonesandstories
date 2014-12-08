@@ -460,7 +460,6 @@ section{
 .testdiv{
 	width: 100%;
 }
-
 .megacontent{
 	width: 100%;
 	padding: 0 5px 15px 0;
@@ -478,8 +477,10 @@ section{
 }
 
 .maincontent{
+	vertical-align: top;
+	display: table-cell;
 	width: 85%;
-	padding: 0 5px 15px 0;
+	padding: 0 0 15px 0;
 	overflow: hidden;
 	@media only screen and (max-width:1023px) {
 		width: 100%;
@@ -550,12 +551,12 @@ section{
  //  -webkit-flex:  1.5;
  //  -ms-flex:  1.5;
  //  flex:  1.5;
-	float: left;
+ 	vertical-align: top;
 	line-height: 0;
-	width: 15%;
 	padding: 0 5px 5px 5px;
-	border-left: 10px solid white;
+	border-left: 15px solid white;
 	background-color: black;
+	display: table-cell;
 	a:hover{
 		opacity: 0.85;
 		filter:alpha(opacity=85); /* For IE8 and earlier */

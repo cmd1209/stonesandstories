@@ -3,7 +3,7 @@
 <!-- section -->
 <section role="main">
 
-  <div class="col maincontent">
+  <div class="maincontent">
     <div class="col col100">
       <div class="module">
         <h1><strong><?php single_cat_title(); ?></strong></h1>

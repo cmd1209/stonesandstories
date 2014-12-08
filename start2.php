@@ -2,7 +2,7 @@
 <section role="main">
 
 
-<div class="col maincontent">
+<div class="maincontent">
  <?php the_content(); ?>
 </div>
 

@@ -1,9 +1,9 @@
 <?php get_header(); ?>
-	
+
 	<!-- section -->
 	<section role="main">
 
-<div class="col maincontent">
+<div class="maincontent">
 		<div class="col col100" style="min-height:800px;">
 			<div class="module">
 				<h1><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
@@ -20,7 +20,7 @@
 									</h2>
 								</div>
 							<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>">
-								
+
 									<?php the_post_thumbnail('large'); ?>
 </a>
 									<?php echo excerpt(35); ?>
@@ -59,7 +59,7 @@
     <div class="sidebar">
       <?php get_sidebar(); ?>
     </div>
-	
+
 	</section>
 	<!-- /section -->
 

@@ -1,7 +1,7 @@
 <?php /* Template Name: imprint */ get_header(); ?>
   <?php if (have_posts()): while (have_posts()) : the_post(); ?>
   <section role="main">
-    <div class="col maincontent" role="main">
+    <div class="maincontent" role="main">
       <div class="col col100">
         <div class="module">
                 <h1><strong><?php the_title(); ?></strong></h1>
@@ -26,7 +26,7 @@
 
            <div class="col100">
                          <?php the_content(); ?>
-           </div>    
+           </div>
 
         </div>
         </div>
