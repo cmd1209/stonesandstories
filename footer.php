@@ -3,16 +3,18 @@
 			<footer class="footer" role="contentinfo">
 				<div id="footerinfo">
 				<div class="col col40">
-				           				<a href="<?php echo home_url(); ?>" style="border: none; width: 75%; margin: 0 0 40px 12px;">
-				              				<img src="<?php echo get_template_directory_uri(); ?>/img/logo-neg.svg" alt="Logo" class="logo-img">
-				            			</a>
-
-								</div>
-								<div class="col col60">
-									<div class="links">
-										<?php wp_nav_menu( array('menu' => 'Footer' )); ?>
-									</div>
-								</div>
+					<a href="<?php echo home_url(); ?>" style="border: none; width: 75%; margin: 0 0 40px 12px;">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/logo-neg.svg" alt="Logo" class="logo-img">
+					</a>
+                    <a href="http://www.deutscher-werkbund.de/dwbnord.html" target="blank" style="margin:40px 0 0 10px;border:none;">
+                        <img src="/wp-content/uploads/2015/01/werkbundnord.png" alt="werk-nord" width="110px" height="auto">
+                    </a>
+                </div>
+                <div class="col col60">
+				    <div class="links">
+				        <?php wp_nav_menu( array('menu' => 'Footer' )); ?>
+				    </div>
+				</div>
 				</div>
 					<p class="clear"></p>
 				<div class="copyright">
@@ -22,7 +24,7 @@
 		</div> <!-- end wrapper -->
 
 		<?php wp_footer(); ?>
-		
+
 		<!-- analytics -->
 <script type="text/javascript">
 

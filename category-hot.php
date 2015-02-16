@@ -46,14 +46,23 @@
       <?php wp_reset_query(); ?>
 </div>
 <div class="archives col col100">
-        <h2>Archives</h2>
+        <h2><a href="#" class="archtrigger">Archives</a></h2>
+        <div class="archstuff">
         <?php query_posts( array( 'category__in' => array(31,16), 'offset' => 4, 'orderby' => 'date', 'order' => 'DSC' ) ); ?>
         <?php while (have_posts()) : the_post(); ?>
-            <li><div class="col col60"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></div>
-                   <div class="col col40"><?php the_date(); ?></div></li>
+            <li>
+              <div class="col col60">
+                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+              </div>
+              <div class="col col40">
+                <?php the_date(); ?>
+              </div>
+            </li>
         <?php endwhile; ?>
         <?php wp_reset_query(); ?>
-      </div>
+        </div>
+
+        </div>
 
     </div>
   </div>

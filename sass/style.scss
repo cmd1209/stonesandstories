@@ -1149,17 +1149,18 @@ article{
 		h2{
 		text-transform: uppercase;
 		float: left;
-		font-size: 1.4em;
+		font-size: 1.25em;
 		font-weight: 400;
 		margin-right: 10px;
-		line-height: 1.2em;
+		line-height: 1.15em;
+		color: $darkestgrey;
 		}
 		h3{
 		color: $darkgrey;
 		}
 		span{
 		text-transform: none;
-		font-size: 0.9em;
+		font-size: 0.85em;
 		letter-spacing: 0em;
 		font-weight: 400;
 		}
@@ -1799,7 +1800,6 @@ figure.alignright{
 }
 
 
-
 .gallery-columns-4 .gallery-caption, .gallery-columns-3 .gallery-caption, .gallery-columns-2 .gallery-caption, .gallery-columns-1 .gallery-caption{
 	position: relative;
 	display: block;
@@ -1815,4 +1815,8 @@ figure.alignright{
 	opacity: 90!important;
 	bottom: 0;
 	right: 0;
+}
+
+.archstuff{
+	display: none;
 }
