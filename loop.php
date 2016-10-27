@@ -29,9 +29,10 @@
 <?php else: ?>
 		<!-- post title -->
 		<div class="moduleheader">
-              <h2><?php the_title(); ?></h2>
+              <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
-                 <h4><?php the_field('subheadline'); ?></h4>
+                 <span><?php the_field('subheadline'); ?></span>
+							</h2>
                <?php endif; ?>
              </div>
 		<!-- /post title -->

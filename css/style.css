@@ -54,7 +54,8 @@ html {
 
 body {
   font-family: "Arimo", Arial, sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  background-color: #CCC8C4; }
 
 /* clear */
 .clear:before,
@@ -242,7 +243,7 @@ a.mobilenavtrigger:hover {
 .navigation, .navigation-static {
   width: 100%;
   z-index: 40;
-  padding: 0 0 5px 0;
+  padding: 0;
   background-color: white;
   position: relative; }
   @media only screen and (max-width: 767px) {
@@ -250,7 +251,7 @@ a.mobilenavtrigger:hover {
       display: none; } }
 
 .menu {
-  margin: 0 0 10px 0; }
+  margin: 0; }
 
 .bmenu {
   width: 100%;
@@ -417,7 +418,8 @@ section {
   overflow: hidden;
   font-size: 1.25em;
   position: relative;
-  padding: 0 0 0 0; }
+  padding: 0 0 0 0;
+  background-color: black; }
 
 .testdiv {
   width: 100%; }
@@ -884,7 +886,6 @@ article {
 
 .module, article {
   position: relative;
-  border: 1px solid #CCC8C4;
   background-color: white;
   height: 100%;
   overflow: hidden;
@@ -1018,7 +1019,7 @@ article {
   font-weight: 400;
   margin-right: 10px;
   line-height: 1.15em;
-  color: #B2AEAA; }
+  color: #4d4d4d; }
 .singletitle h3 {
   color: #B2AEAA; }
 .singletitle span {
@@ -1600,3 +1601,6 @@ figure.alignright {
   opacity: 90 !important;
   bottom: 0;
   right: 0; }
+
+.archstuff {
+  display: none; }
