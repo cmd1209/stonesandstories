@@ -29,18 +29,17 @@
 <?php else: ?>
 		<!-- post title -->
 		<div class="moduleheader">
-              <h2><?php the_title(); ?>
+              <h2><?php the_title(); ?></h2>
                 <?php if( get_field('subheadline') ): ?>
-                 <span><?php the_field('subheadline'); ?></span></h2>
+                 <h4><?php the_field('subheadline'); ?></h4>
                <?php endif; ?>
              </div>
 		<!-- /post title -->
 
 
-	<div class="textwrap">
+	<!-- <div class="textwrap">
 		<p><?php echo excerpt(70); ?> <a class="view-article" href="<?php echo get_permalink(); ?>">mehr…</a></p>
-
-	</div>
+	</div> -->
 
 <?php endif ?>
 
