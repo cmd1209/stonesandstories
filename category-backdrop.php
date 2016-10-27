@@ -30,7 +30,9 @@
 									endif;
 									endif;
 									?></a>
-									<?php echo excerpt(35); ?>
+									<p>
+										<?php echo excerpt(35); ?>
+									</p>
 								</div>
 
 							<?php endif; endwhile; else: ?>
@@ -60,7 +62,9 @@
 										endif;
 										endif;
 										?></a>
-										<?php echo excerpt(35); ?>
+										<p>
+											<?php echo excerpt(35); ?>
+										</p>
 									</div>
 
 								<?php endif; endwhile; else: ?>

@@ -17,7 +17,9 @@
 							</div>
 						<?php endif; ?>
 						<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-						<?php echo excerpt(25); ?>
+						<p>
+							<?php echo excerpt(25); ?>
+						</p>
 					</div>
 				<?php  endif; $i++; ?>
 			<?php endwhile; endif; ?>
@@ -34,7 +36,9 @@
 					</div>
 				<?php endif; ?>
 				<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-				<?php echo excerpt(25); ?>
+				<p>
+					<?php echo excerpt(25); ?>
+				</p>
 			</div>
 		<?php  endif; $i++; ?>
 	<?php endwhile; endif; ?>
@@ -51,7 +55,9 @@
 			</div>
 		<?php endif; ?>
 		<a href="<?php the_permalink(); ?>" class="thumbnail" title="<?php the_title(); ?>"><?php the_post_thumbnail('large'); ?></a>
-		<?php echo excerpt(25); ?>
+		<p>
+			<?php echo excerpt(25); ?>
+		</p>
 	</div>
 <?php  endif; $i++; ?>
 <?php endwhile; endif; ?>

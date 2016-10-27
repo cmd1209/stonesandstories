@@ -27,7 +27,9 @@
   <?php endif; endif;
 ?>
 </a>
-            <?php echo excerpt(25); ?>
+<p>
+  <?php echo excerpt(25); ?>
+</p>
           </div>
         <?php  endif; $i++; ?>
       <?php endwhile; endif; ?>
@@ -52,7 +54,9 @@
   <?php endif; endif;
 ?>
 </a>
-        <?php echo excerpt(25); ?>
+<p>
+  <?php echo excerpt(25); ?>
+</p>
       </div>
     <?php  endif; $i++; ?>
   <?php endwhile; endif; ?>
@@ -77,7 +81,9 @@
   <?php endif; endif;
 ?>
 </a>
-    <?php echo excerpt(25); ?>
+<p>
+  <?php echo excerpt(25); ?>
+</p>
   </div>
 <?php  endif; $i++; ?>
 <?php endwhile; endif; ?>
