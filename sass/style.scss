@@ -1,5 +1,4 @@
 // Theme Name: Stones & Stories
-
 @import "typo.scss";
 $yellow: #e2f000;
 $yellow-darker: darken( $yellow, 20% );
@@ -25,6 +24,7 @@ html {
 body {
 	font-family: "Arimo", Arial, sans-serif;
 	font-size: 1em;
+	background-color: $grey;
 }
 /* clear */
 .clear:before,
@@ -245,7 +245,7 @@ a.mobilenavtrigger:hover{
 .navigation, .navigation-static{
 	width: 100%;
 	z-index: 40;
-	padding: 0 0 5px 0;
+	padding: 0;
 	background-color:  white;
 	position: relative;
 	@media only screen and (max-width:767px) {
@@ -254,7 +254,7 @@ a.mobilenavtrigger:hover{
 }
 
 .menu{
-	margin: 0 0 10px 0;
+	margin: 0;
 }
 
 .bmenu{
@@ -493,6 +493,10 @@ section{
 	background-color: black;
 	width: 100%;
 	min-height: 600px;
+}
+
+.panel-grid-cell{
+	// padding: 0!important;
 }
 
 .grafiklinks{
@@ -989,7 +993,7 @@ article{
 
 .module, article{
 	position: relative;
-	border: 1px solid $grey;
+	// border: 1px solid $grey;
 	background-color: white;
 	height: 100%;
 	overflow: hidden;
