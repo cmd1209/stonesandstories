@@ -993,24 +993,25 @@ article {
 
 .moduleheader {
   width: 100%;
-  background-color: white;
+  background-color: black;
   overflow: hidden;
   padding: 0 5px 5px 5px; }
   .moduleheader h2 {
     text-transform: uppercase;
-    color: black;
-    float: left;
+    color: white;
     font-size: 1.20em;
     font-weight: 400;
     line-height: 1.2em;
     padding-left: 5px; }
   .moduleheader h3 {
-    color: #B2AEAA; }
+    color: white; }
   .moduleheader span {
+    display: block;
     text-transform: none;
     font-size: 0.9em;
     letter-spacing: 0em;
-    font-weight: 400; }
+    font-weight: 400;
+    color: white; }
 
 .singletitle h2 {
   text-transform: uppercase;
@@ -1604,3 +1605,6 @@ figure.alignright {
 
 .archstuff {
   display: none; }
+
+#pl-3191 img {
+  height: auto !important; }
