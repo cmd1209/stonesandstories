@@ -39,7 +39,6 @@
 
 	<div class="textwrap">
 		<p><?php echo excerpt(70); ?> <a class="view-article" href="<?php echo get_permalink(); ?>">mehr…</a></p>
-
 	</div>
 
 <?php endif ?>
