@@ -1,12 +1,12 @@
 // Theme Name: Stones & Stories
-
 @import "typo.scss";
 $yellow: #e2f000;
 $yellow-darker: darken( $yellow, 20% );
 $grey: #CCC8C4;
 $lightgrey: #ecece6;
-$darkgrey: #B2AEAA;
+$darkgrey: #9e9b98;
 $darkestgrey: #4d4d4d;
+$almostblack: #262626;
 /* global box-sizing */
 *,
 *:after,
@@ -25,6 +25,7 @@ html {
 body {
 	font-family: "Arimo", Arial, sans-serif;
 	font-size: 1em;
+	background-color: $darkgrey;
 }
 /* clear */
 .clear:before,
@@ -180,6 +181,9 @@ a.mobilenavtrigger:hover{
 	max-width: 1280px;
 	margin:0 auto;
 	position:relative;
+	-moz-box-shadow:    0 5px 75px 10px black;
+  -webkit-box-shadow: 0 5px 75px 10px black;
+  box-shadow:         0 5px 75px 10px black;
 		@media only screen and (max-width:767px) {
 		width: 100%;
 		padding:0;
@@ -249,7 +253,7 @@ a.mobilenavtrigger:hover{
 .navigation, .navigation-static{
 	width: 100%;
 	z-index: 40;
-	padding: 0 0 5px 0;
+	padding: 0;
 	background-color:  white;
 	position: relative;
 	@media only screen and (max-width:767px) {
@@ -258,7 +262,7 @@ a.mobilenavtrigger:hover{
 }
 
 .menu{
-	margin: 0 0 10px 0;
+	margin: 0;
 }
 
 .bmenu{
@@ -451,6 +455,7 @@ section{
 	font-size: 1.25em;
 	position: relative;
 	padding: 0 0 0 0;
+	background-color: black;
 	// display: -webkit-box;
 	// display: -moz-box;
  //  display: -ms-flexbox;
@@ -497,6 +502,9 @@ section{
 	background-color: black;
 	width: 100%;
 	min-height: 600px;
+}
+.panel-grid-cell{
+	// padding: 0!important;
 }
 
 .grafiklinks{
@@ -557,9 +565,8 @@ section{
  //  flex:  1.5;
  	vertical-align: top;
 	line-height: 0;
-	padding: 0 5px 5px 5px;
-	border-left: 15px solid white;
-	background-color: black;
+	padding: 0 0.5em;
+	background-color: $almostblack;
 	display: table-cell;
 	a:hover{
 		opacity: 0.85;
@@ -585,9 +592,10 @@ section{
 		color: $yellow;
 	}
 	p{
-		color: $yellow;
-		font-size: 0.75em;
+		color: $lightgrey;
+		font-size: 0.8em;
 		font-weight: 400;
+		margin: 0 0 2em 0;
 	}
 	img{
 		width: 100%;
@@ -993,12 +1001,11 @@ article{
 
 .module, article{
 	position: relative;
-	border: 1px solid $grey;
+	// border: 1px solid $grey;
 	background-color: white;
 	height: 100%;
 	overflow: hidden;
-	padding: 0 0 5px 0;
-
+	padding: 0;
 	.underline{
 		margin: 0 0 40px 0;
 		border-bottom: 1px solid $grey;
@@ -1125,20 +1132,25 @@ article{
 
 .moduleheader{
 		width: 100%;
-		background-color: white;
+		background-color: black;
 		overflow: hidden;
 		padding: 0 5px 5px 5px;
 		h2{
 		text-transform: uppercase;
+<<<<<<< HEAD
 		color: black;
 		// float: left;
+=======
+		color: white;
+>>>>>>> 2016-redesign
 		font-size: 1.20em;
 		font-weight: 400;
 		line-height: 1.2em;
 		padding-left: 5px;
+		margin-top: 0;
 		}
 		h3{
-		color: $darkgrey;
+		color: white;
 		}
 		span{
 		display: block;
@@ -1146,6 +1158,7 @@ article{
 		font-size: 0.9em;
 		letter-spacing: 0em;
 		font-weight: 400;
+		color: white;
 		}
 
 }
@@ -1824,3 +1837,11 @@ figure.alignright{
 .archstuff{
 	display: none;
 }
+<<<<<<< HEAD
+=======
+#pl-3191{
+	img{
+		height: auto!important;
+	}
+}
+>>>>>>> 2016-redesign

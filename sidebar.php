@@ -1,5 +1,5 @@
 <!-- sidebar -->
-<h2><span style="text-transform: uppercase; letter-spacing:0.2em;">Side</span></h2>
+<!-- <h2><span style="text-transform: uppercase; letter-spacing:0.2em;">Side</span></h2> -->
 <?php if ( is_active_sidebar( 'side' ) ) : ?>
 	<div id="secondary" class="widget-area" role="complementary">
 	<?php dynamic_sidebar( 'side' ); ?>

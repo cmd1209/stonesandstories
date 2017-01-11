@@ -2,9 +2,9 @@
 
 	<!-- article -->
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-	<?php $category = get_the_category();
+	<!-- <?php $category = get_the_category();
 	if($category[0]){ echo '<a class="triangle shadow" href="'.get_category_link($category[0]->term_id ).'">'.$category[0]->cat_name.'</a>'; }
-?>
+?> -->
 
 
 		<!-- post thumbnail -->
@@ -31,15 +31,20 @@
 		<div class="moduleheader">
               <h2><?php the_title(); ?>
                 <?php if( get_field('subheadline') ): ?>
-                 <span><?php the_field('subheadline'); ?></span></h2>
+                 <span><?php the_field('subheadline'); ?></span>
+							</h2>
                <?php endif; ?>
              </div>
 		<!-- /post title -->
 
 
-	<div class="textwrap">
+	<!-- <div class="textwrap">
 		<p><?php echo excerpt(70); ?> <a class="view-article" href="<?php echo get_permalink(); ?>">mehr…</a></p>
+<<<<<<< HEAD
 	</div>
+=======
+	</div> -->
+>>>>>>> 2016-redesign
 
 <?php endif ?>
 
