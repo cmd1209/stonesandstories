@@ -2,12 +2,10 @@
 
 <!-- section -->
 <section role="main">
-
 	<div class="maincontent">
 		<div class="col col100">
 			<div class="module">
 				<h1><strong><?php single_cat_title(); ?></strong></h1>
-
 				<div class="col col33">
 					<?php $i = 0; if ( have_posts()): while (have_posts()) : the_post();  if ($i % 3 == 0): ?>
 					<div class="textwrap ">

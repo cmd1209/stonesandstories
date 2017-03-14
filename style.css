@@ -181,10 +181,7 @@ a.mobilenavtrigger:hover {
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
-  position: relative;
-  -moz-box-shadow: 0 5px 75px 10px black;
-  -webkit-box-shadow: 0 5px 75px 10px black;
-  box-shadow: 0 5px 75px 10px black; }
+  position: relative; }
   @media only screen and (max-width: 767px) {
     .wrapper {
       width: 100%;
@@ -552,7 +549,7 @@ section {
       height: auto; }
   @media only screen and (max-width: 1023px) {
     .sidebar {
-      display: none; } }
+      display: block; } }
   .sidebar .option1 {
     display: none; }
 

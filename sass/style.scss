@@ -177,9 +177,9 @@ a.mobilenavtrigger:hover{
 	max-width: 1280px;
 	margin:0 auto;
 	position:relative;
-	-moz-box-shadow:    0 5px 75px 10px black;
-  -webkit-box-shadow: 0 5px 75px 10px black;
-  box-shadow:         0 5px 75px 10px black;
+	// -moz-box-shadow:    0 5px 25px -5px black;
+  // -webkit-box-shadow: 0 5px 25px -5px black;
+  // box-shadow:         0 5px 25px -5px black;
 		@media only screen and (max-width:767px) {
 		width: 100%;
 		padding:0;
@@ -610,7 +610,7 @@ section{
 		}
 	}
 		@media only screen and (max-width:1023px) {
-		display: none;
+		display: block;
 	}
 	.option1{
 		display: none;
