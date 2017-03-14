@@ -40,7 +40,11 @@
 
 	<!-- <div class="textwrap">
 		<p><?php echo excerpt(70); ?> <a class="view-article" href="<?php echo get_permalink(); ?>">mehr…</a></p>
+<<<<<<< HEAD
+	</div>
+=======
 	</div> -->
+>>>>>>> 2016-redesign
 
 <?php endif ?>
 

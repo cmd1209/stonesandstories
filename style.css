@@ -119,6 +119,9 @@ input:focus {
 .black {
   background-color: black; }
 
+#pl-3191 img {
+  height: auto; }
+
 #mobilenav {
   transition: max-height 0.6s;
   width: 100%;
@@ -998,7 +1001,11 @@ article {
   padding: 0 5px 5px 5px; }
   .moduleheader h2 {
     text-transform: uppercase;
+<<<<<<< HEAD
+    color: black;
+=======
     color: white;
+>>>>>>> 2016-redesign
     font-size: 1.20em;
     font-weight: 400;
     line-height: 1.2em;

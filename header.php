@@ -7,8 +7,12 @@
     <!-- dns prefetch -->
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Arimo:400italic,400,700italic,700" rel="stylesheet" type="text/css">
+<<<<<<< HEAD
+    <script src="https://use.fontawesome.com/75215c3005.js"></script>
+=======
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
     <!-- <script src="https://use.fontawesome.com/75215c3005.js"></script> -->
+>>>>>>> 2016-redesign
 
     <!-- meta -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
